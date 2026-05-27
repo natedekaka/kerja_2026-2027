@@ -603,8 +603,8 @@ def build_sidebar_html(depth=0):
     pfx = "../" * depth
     html = []
     html.append('<div class="sidebar-header">')
-    html.append('  <h1>\U0001f4cb Administrasi Guru</h1>')
-    html.append('  <p>Informatika \u2014 SMA N 6 Cimahi<br>2026/2027</p>')
+    html.append('  <h1>\U0001f4cb MGMP Informatika</h1>')
+    html.append('  <p>Musyawarah Guru Mata Pelajaran<br>SMA N 6 Cimahi &middot; 2026/2027</p>')
     html.append('</div>')
     html.append('<nav class="sidebar-nav">')
 
@@ -679,9 +679,9 @@ def generate_index():
 
     content.append('<div class="hero">')
     content.append('  <div class="hero-icon">\U0001f4da</div>')
-    content.append('  <h1>Administrasi Guru Informatika</h1>')
+    content.append('  <h1>MGMP Informatika</h1>')
     content.append('  <p>SMA Negeri 6 Cimahi \u2014 Tahun Pelajaran 2026/2027</p>')
-    content.append('  <div class="sub">Daniarsyah, S.Kom. &middot; NIP. 198004052022211004 &middot; Gol. IX</div>')
+    content.append('  <div class="sub">Musyawarah Guru Mata Pelajaran Informatika</div>')
     content.append('</div>')
 
     content.append('<div class="stats-row">')
@@ -724,21 +724,24 @@ def generate_index():
     content.append('</div>')
 
     content.append('<div class="identity-section">')
-    content.append('  <h2>\U0001f464 Identitas Guru</h2>')
+    content.append('  <h2>\U0001f3eb MGMP Informatika SMA Negeri 6 Cimahi</h2>')
     content.append('  <div class="identity-grid">')
-    content.append('    <span class="label">Nama</span><span class="value"><strong>Daniarsyah, S.Kom.</strong></span>')
+    content.append('    <span class="label">Ketua MGMP</span><span class="value"><strong>Daniarsyah, S.Kom.</strong></span>')
     content.append('    <span class="label">NIP</span><span class="value">198004052022211004</span>')
     content.append('    <span class="label">Pangkat / Gol.</span><span class="value">IX</span>')
     content.append('    <span class="label">Sekolah</span><span class="value">SMA Negeri 6 Cimahi</span>')
-    content.append('    <span class="label">Mata Pelajaran</span><span class="value">Informatika</span>')
+    content.append('    <span class="label">Tahun Pelajaran</span><span class="value">2026/2027</span>')
     content.append('  </div>')
+    content.append('  <p style="margin-top:1rem;font-size:0.82rem;color:var(--text-muted);border-top:1px solid var(--border);padding-top:0.75rem;">')
+    content.append('    Dokumen administrasi ini dikelola oleh MGMP Informatika SMA Negeri 6 Cimahi dan diperuntukkan bagi seluruh guru Informatika di lingkungan sekolah.')
+    content.append('  </p>')
     content.append('</div>')
 
     content.append('<footer class="site-footer">')
     content.append('  <div class="footer-inner">')
     content.append('    <div class="footer-brand">')
-    content.append('      <h3>SMA Negeri 6 Cimahi</h3>')
-    content.append('      <p>Administrasi Guru Informatika 2026/2027</p>')
+    content.append('      <h3>MGMP Informatika</h3>')
+    content.append('      <p>SMA Negeri 6 Cimahi &middot; 2026/2027</p>')
     content.append('    </div>')
     content.append('    <div class="footer-links">')
     content.append('      <a href="https://github.com/natedekaka" class="brand" target="_blank" rel="noopener">\U0001f3a8 natedekaka</a>')
