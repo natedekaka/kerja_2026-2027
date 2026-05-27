@@ -18,22 +18,33 @@ GRADE_DIRS = [
 MD = markdown.Markdown(extensions=["extra", "toc", "nl2br", "sane_lists", "smarty"])
 
 CSS = """/* ============================================
-   Administrasi Guru Informatika — SMA N 6 Cimahi
+   ADMINISTRASI GURU INFORMATIKA
+   Theme: Portal Pemerintah (Rumah Pendidikan)
+   SMA Negeri 6 Cimahi — 2026/2027
    ============================================ */
 
 :root {
-  --primary: #1e40af;      --primary-light: #3b82f6;
-  --secondary: #0f172a;     --accent: #f59e0b;
-  --bg: #f1f5f9;            --card: #ffffff;
-  --border: #e2e8f0;        --text: #1e293b;
-  --text-muted: #64748b;    --sidebar-bg: #0f172a;
-  --radius: 12px;           --shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --primary: #003D7A;
+  --primary-dark: #002B56;
+  --primary-light: #1A56DB;
+  --accent: #F59E0B;
+  --accent-light: #FEF3C7;
+  --bg: #FFFFFF;
+  --bg-section: #F0F4F8;
+  --card: #FFFFFF;
+  --border: #E2E8F0;
+  --text: #1E293B;
+  --text-muted: #64748B;
+  --sidebar-bg: #002B56;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.7;
@@ -41,8 +52,9 @@ body {
   min-height: 100vh;
 }
 
+/* ═══ SIDEBAR ═══ */
 .sidebar {
-  width: 270px;
+  width: 260px;
   background: var(--sidebar-bg);
   color: #fff;
   position: fixed;
@@ -53,24 +65,32 @@ body {
   flex-shrink: 0;
 }
 .sidebar-header {
-  padding: 1.75rem 1.25rem 1.25rem;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 1.5rem 1.25rem;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.sidebar-header .logo-icon {
+  width: 42px; height: 42px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
 }
 .sidebar-header h1 {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: #fff;
-  letter-spacing: -0.01em;
+  line-height: 1.3;
 }
 .sidebar-header p {
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   color: rgba(255,255,255,0.45);
-  margin-top: 0.3rem;
+  margin-top: 0.2rem;
   line-height: 1.4;
 }
 .sidebar-nav { padding: 0.5rem 0; }
 .sidebar-nav a {
-  display: block;
+  display: flex; align-items: center; gap: 0.5rem;
   padding: 0.5rem 1.25rem;
   color: rgba(255,255,255,0.6);
   text-decoration: none;
@@ -84,78 +104,91 @@ body {
   border-left-color: var(--accent);
 }
 .sidebar-nav .nav-section {
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: rgba(255,255,255,0.3);
   padding: 1rem 1.25rem 0.25rem;
   font-weight: 600;
 }
-.sidebar-nav .nav-sub a { padding-left: 2.5rem; font-size: 0.78rem; }
+.sidebar-nav .nav-sub a { padding-left: 2.75rem; font-size: 0.78rem; }
 
-.content {
-  margin-left: 270px;
-  flex: 1;
-  padding: 2.5rem 3rem;
-  max-width: 1000px;
+/* ═══ CONTENT ═══ */
+.content { margin-left: 260px; flex: 1; padding: 0; max-width: 100%; }
+
+.content-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem 3rem;
 }
 
+/* ═══ BREADCRUMB ═══ */
+.breadcrumb-wrap {
+  background: var(--bg-section);
+  border-bottom: 1px solid var(--border);
+  padding: 0.6rem 2.5rem;
+}
 .breadcrumb {
+  max-width: 960px;
+  margin: 0 auto;
   font-size: 0.78rem;
   color: var(--text-muted);
-  margin-bottom: 1.5rem;
 }
 .breadcrumb a { color: var(--primary-light); text-decoration: none; }
 .breadcrumb a:hover { text-decoration: underline; }
 
+/* ═══ TYPOGRAPHY ═══ */
 .content h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 800;
-  color: var(--secondary);
-  margin: 2rem 0 0.75rem;
+  color: var(--primary);
+  margin: 1.5rem 0 0.75rem;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid var(--primary);
+  border-bottom: 3px solid var(--accent);
 }
-.content h2 { font-size: 1.3rem; font-weight: 700; color: var(--secondary); margin: 2rem 0 0.75rem; }
-.content h3 { font-size: 1.1rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
+.content h2 { font-size: 1.25rem; font-weight: 700; color: var(--primary); margin: 1.75rem 0 0.75rem; }
+.content h3 { font-size: 1.1rem; font-weight: 600; color: var(--text); margin: 1.25rem 0 0.5rem; }
 .content h4 { font-size: 1rem; font-weight: 600; margin: 1rem 0 0.5rem; }
-.content p { margin-bottom: 1rem; }
+.content p { margin-bottom: 1rem; color: var(--text); }
 .content a { color: var(--primary); }
 .content ul, .content ol { margin: 0.5rem 0 1rem 1.5rem; }
 .content li { margin-bottom: 0.3rem; }
 .content hr { border: none; border-top: 2px solid var(--border); margin: 2rem 0; }
+.content strong { color: var(--text); }
 
+/* ═══ TABLES ═══ */
 .content table {
   width: 100%;
   border-collapse: collapse;
   margin: 1rem 0 1.5rem;
-  font-size: 0.88rem;
+  font-size: 0.86rem;
 }
 .content th, .content td {
   border: 1px solid var(--border);
-  padding: 0.6rem 0.75rem;
+  padding: 0.55rem 0.7rem;
   text-align: left;
   vertical-align: top;
 }
 .content th {
-  background: var(--sidebar);
+  background: var(--bg-section);
   font-weight: 700;
-  font-size: 0.82rem;
-  color: var(--secondary);
+  font-size: 0.8rem;
+  color: var(--primary);
 }
-.content tr:nth-child(even) { background: #fafafa; }
-.content tr:hover { background: #eef2ff; }
+.content tr:nth-child(even) { background: #FAFBFC; }
+.content tr:hover { background: #EEF2FF; }
 
+/* ═══ CODE ═══ */
 .content code {
   font-family: 'JetBrains Mono', 'Fira Code', monospace;
   font-size: 0.85em;
-  background: #f1f5f9;
+  background: #F1F5F9;
   padding: 0.15em 0.4em;
   border-radius: 4px;
 }
 .content pre {
-  background: #0f172a;
-  color: #e2e8f0;
+  background: #1E293B;
+  color: #E2E8F0;
   padding: 1.25rem;
   border-radius: var(--radius);
   overflow-x: auto;
@@ -167,35 +200,43 @@ body {
 
 .content blockquote {
   border-left: 4px solid var(--primary-light);
-  background: #eef2ff;
+  background: #F0F4FF;
   padding: 0.75rem 1.25rem;
   margin: 1rem 0;
   border-radius: 0 var(--radius) var(--radius) 0;
 }
 
-@media print { .sidebar { display: none; } .content { margin-left: 0; padding: 1rem; } .breadcrumb { display: none; } }
-@media (max-width: 768px) {
-  body { flex-direction: column; }
-  .sidebar { width: 100%; height: auto; position: relative; max-height: 50vh; }
-  .content { margin-left: 0; padding: 1.25rem; }
-}
-
+/* ═══ HERO (Frontpage) ═══ */
 .hero {
-  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
   color: #fff;
+  padding: 3rem 2.5rem;
+  margin-bottom: 2.5rem;
   border-radius: var(--radius);
-  padding: 2.5rem 2.5rem;
-  margin-bottom: 2rem;
   position: relative;
   overflow: hidden;
 }
-.hero::after {
+.hero::before {
   content: '';
-  position: absolute;
-  top: -50%; right: -20%;
-  width: 400px; height: 400px;
-  background: rgba(255,255,255,0.04);
+  position: absolute; top: -60%; right: -15%;
+  width: 500px; height: 500px;
+  background: rgba(255,255,255,0.03);
   border-radius: 50%;
+}
+.hero::after {
+  content: ''; position: absolute; bottom: -30%; left: -10%;
+  width: 300px; height: 300px;
+  background: rgba(255,255,255,0.02);
+  border-radius: 50%;
+}
+.hero .hero-icon {
+  width: 56px; height: 56px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  position: relative; z-index: 1;
 }
 .hero h1 {
   font-size: 1.8rem;
@@ -204,50 +245,71 @@ body {
   border: none;
   padding: 0;
   margin: 0 0 0.35rem;
+  position: relative; z-index: 1;
 }
 .hero p {
   font-size: 1rem;
   color: rgba(255,255,255,0.85);
   margin: 0;
+  position: relative; z-index: 1;
 }
 .hero .sub {
   font-size: 0.82rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.55);
   margin-top: 0.5rem;
+  position: relative; z-index: 1;
 }
 
-.stats {
+/* ═══ STATS ROW ═══ */
+.stats-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .stat-card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.25rem;
+  padding: 1.25rem 1rem;
   text-align: center;
   box-shadow: var(--shadow);
 }
 .stat-card .num {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 800;
   color: var(--primary);
   line-height: 1.2;
 }
+.stat-card .num.accent { color: var(--accent); }
 .stat-card .label {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
-  margin-top: 0.2rem;
+  margin-top: 0.15rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-.stat-card.accent .num { color: var(--accent); }
 
+/* ═══ SECTION TITLE ═══ */
+.section-title {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 2rem 0 1.25rem;
+}
+.section-title .icon {
+  width: 36px; height: 36px;
+  background: #EEF2FF;
+  border-radius: 10px;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 1rem;
+}
+
+/* ═══ GRADE CARDS (like Ruang cards) ═══ */
 .grade-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
   margin: 1.5rem 0;
 }
@@ -257,51 +319,65 @@ body {
   border-radius: var(--radius);
   padding: 1.5rem;
   box-shadow: var(--shadow);
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition: all 0.2s;
+  cursor: default;
+  position: relative;
 }
 .grade-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-light);
 }
+.grade-card .card-icon {
+  width: 48px; height: 48px;
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.grade-card .card-icon.x { background: #DBEAFE; }
+.grade-card .card-icon.xi { background: #DCFCE7; }
+.grade-card .card-icon.xii { background: #FEF3C7; }
 .grade-card h3 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
-  color: var(--secondary);
-  margin: 0 0 0.25rem;
+  color: var(--text);
+  margin: 0 0 0.15rem;
 }
 .grade-card .badge {
   display: inline-block;
-  background: #dbeafe;
+  background: #EEF2FF;
   color: var(--primary);
-  font-size: 0.7rem;
-  padding: 0.15rem 0.6rem;
+  font-size: 0.68rem;
+  padding: 0.15rem 0.55rem;
   border-radius: 999px;
   font-weight: 600;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.7rem;
 }
 .grade-card .detail {
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
-  margin-bottom: 1rem;
+  margin-bottom: 0.9rem;
   line-height: 1.5;
 }
 .grade-card .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.4rem;
 }
 .grade-card .links a {
   display: inline-flex;
   align-items: center;
-  gap: 0.3rem;
-  padding: 0.35rem 0.75rem;
-  background: var(--bg);
+  gap: 0.25rem;
+  padding: 0.3rem 0.65rem;
+  background: var(--bg-section);
   border: 1px solid var(--border);
   border-radius: 6px;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   color: var(--text);
   text-decoration: none;
   transition: all 0.12s;
+  font-weight: 500;
 }
 .grade-card .links a:hover {
   background: var(--primary);
@@ -309,32 +385,104 @@ body {
   border-color: var(--primary);
 }
 
-.identity-card {
-  background: var(--card);
-  border: 1px solid var(--border);
+/* ═══ IDENTITY CARD ═══ */
+.identity-section {
+  background: var(--bg-section);
   border-radius: var(--radius);
   padding: 1.5rem 2rem;
-  box-shadow: var(--shadow);
-  margin: 1.5rem 0;
+  margin: 2rem 0;
+  border: 1px solid var(--border);
 }
-.identity-card h2 {
-  font-size: 1.1rem;
+.identity-section h2 {
   margin: 0 0 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--border);
 }
-.identity-card table { margin: 0; }
-.identity-card td { border: none; padding: 0.4rem 0.75rem 0.4rem 0; }
-.identity-card td:first-child { color: var(--text-muted); font-weight: 600; width: 130px; }
-
-.footer-note {
-  text-align: center;
-  font-size: 0.78rem;
-  color: var(--text-muted);
-  border-top: 1px solid var(--border);
-  padding-top: 1.5rem;
-  margin-top: 2rem;
+.identity-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.3rem 1.5rem;
+  font-size: 0.88rem;
 }
+.identity-grid .label {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.identity-grid .value { color: var(--text); font-weight: 500; }
+
+/* ═══ FOOTER ═══ */
+.site-footer {
+  background: var(--primary-dark);
+  color: rgba(255,255,255,0.7);
+  padding: 2rem 2.5rem 1.5rem;
+  margin-top: 3rem;
+}
+.site-footer .footer-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.site-footer .footer-brand h3 {
+  color: #fff;
+  font-size: 0.95rem;
+  margin: 0 0 0.2rem;
+}
+.site-footer .footer-brand p {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.5);
+  margin: 0;
+}
+.site-footer .footer-links {
+  display: flex; gap: 1.5rem; flex-wrap: wrap;
+}
+.site-footer .footer-links a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  font-size: 0.78rem;
+  transition: color 0.15s;
+  display: inline-flex; align-items: center; gap: 0.3rem;
+}
+.site-footer .footer-links a:hover { color: var(--accent); }
+.site-footer .footer-links .brand {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: rgba(255,255,255,0.85);
+}
+.site-footer .footer-links .brand:hover { color: var(--accent); }
+.site-footer .footer-bottom {
+  max-width: 960px;
+  margin: 1.25rem auto 0;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  text-align: center;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.4);
+}
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 1024px) {
+  .grade-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+  body { flex-direction: column; }
+  .sidebar { width: 100%; height: auto; position: relative; max-height: 50vh; }
+  .content { margin-left: 0; }
+  .content-inner { padding: 1.25rem; }
+  .breadcrumb-wrap { padding: 0.6rem 1.25rem; }
+  .hero { padding: 2rem 1.5rem; }
+  .grade-grid { grid-template-columns: 1fr; }
+  .stats-row { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+  .site-footer .footer-inner { flex-direction: column; text-align: center; }
+}
+@media (max-width: 480px) {
+  .stats-row { grid-template-columns: 1fr 1fr; }
+}
+@media print { .sidebar { display: none; } .content { margin-left: 0; } .site-footer { display: none; } .breadcrumb-wrap { display: none; } }
 """
 
 
@@ -378,14 +526,15 @@ def build_sidebar_html(depth=0):
 def render_page(content_html, title, breadcrumb_items=None, depth=0):
     sidebar = build_sidebar_html(depth=depth)
 
-    breadcrumb_html = '<nav class="breadcrumb">'
+    bc = ''
     if breadcrumb_items:
+        bc = '<nav class="breadcrumb">'
         for label, link in breadcrumb_items:
             if link:
-                breadcrumb_html += f'<a href="{link}">{label}</a> / '
+                bc += f'<a href="{link}">{label}</a> / '
             else:
-                breadcrumb_html += f'<span>{label}</span>'
-    breadcrumb_html += '</nav>'
+                bc += f'<span>{label}</span>'
+        bc += '</nav>'
 
     pfx = "../" * depth
     css_path = f"{pfx}css/style.css"
@@ -401,8 +550,10 @@ def render_page(content_html, title, breadcrumb_items=None, depth=0):
 <body>
   <aside class="sidebar">{sidebar}</aside>
   <main class="content">
-    {breadcrumb_html}
+    <div class="breadcrumb-wrap">{bc}</div>
+    <div class="content-inner">
     {content_html}
+    </div>
   </main>
 </body>
 </html>"""
@@ -410,12 +561,6 @@ def render_page(content_html, title, breadcrumb_items=None, depth=0):
 
 def generate_index():
     content = []
-
-    content.append('<div class="hero">')
-    content.append('  <h1>Administrasi Guru Informatika</h1>')
-    content.append('  <p>SMA Negeri 6 Cimahi \u2014 Tahun Pelajaran 2026/2027</p>')
-    content.append('  <div class="sub">Daniarsyah, S.Kom. \u00b7 NIP. 198004052022211004 \u00b7 Gol. IX</div>')
-    content.append('</div>')
 
     total_md = 0
     total_lines = 0
@@ -430,34 +575,45 @@ def generate_index():
         total_md += subtotal
         total_lines += sublines
 
-    content.append('<div class="stats">')
+    content.append('<div class="hero">')
+    content.append('  <div class="hero-icon">\U0001f4da</div>')
+    content.append('  <h1>Administrasi Guru Informatika</h1>')
+    content.append('  <p>SMA Negeri 6 Cimahi \u2014 Tahun Pelajaran 2026/2027</p>')
+    content.append('  <div class="sub">Daniarsyah, S.Kom. &middot; NIP. 198004052022211004 &middot; Gol. IX</div>')
+    content.append('</div>')
+
+    content.append('<div class="stats-row">')
     content.append(f'  <div class="stat-card"><div class="num">{total_md}</div><div class="label">Total Dokumen</div></div>')
-    content.append(f'  <div class="stat-card accent"><div class="num">{total_lines:,}</div><div class="label">Baris Konten</div></div>')
+    content.append(f'  <div class="stat-card"><div class="num accent">{total_lines:,}</div><div class="label">Baris Konten</div></div>')
     content.append(f'  <div class="stat-card"><div class="num">3</div><div class="label">Jenjang Kelas</div></div>')
     content.append(f'  <div class="stat-card"><div class="num">2.9 MB</div><div class="label">Ukuran Total</div></div>')
     content.append('</div>')
 
-    content.append('<h2 style="border:none;margin-top:0;">\U0001f4da Pilih Kelas</h2>')
+    content.append('<div class="section-title"><span class="icon">\U0001f4da</span> Jelajahi Kelas</div>')
     content.append('<div class="grade-grid">')
 
     grade_data = [
-        ("Kelas X", "Fase E", "2 JP/minggu", "9 Bab \u00b7 Informatika + Keterampilan Generik",
+        ("Kelas X", "Fase E", "2 JP/minggu", "x", "9 Bab &middot; Informatika &amp; Keterampilan Generik",
          "administrasi_guru_kelas_X"),
-        ("Kelas XI", "Fase F", "5 JP/minggu", "6 Bab \u00b7 Strategi Algoritmik + AI + Data",
+        ("Kelas XI", "Fase F", "5 JP/minggu", "xi", "6 Bab &middot; Strategi Algoritmik + AI + Data",
          "administrasi_guru_kelas_XI"),
-        ("Kelas XII", "Fase F", "5 JP/minggu", "6 Bab \u00b7 IoT + Arduino + Robotics",
+        ("Kelas XII", "Fase F", "5 JP/minggu", "xii", "6 Bab &middot; IoT + Arduino + Robotics",
          "administrasi_guru_kelas_XII"),
     ]
 
-    for name, fase, jp, desc, slug in grade_data:
+    icons = {"x": "\U0001F4CB", "xi": "\U0001F4BB", "xii": "\U0001F916"}
+    names = {"x": "X", "xi": "XI", "xii": "XII"}
+
+    for name, fase, jp, short, desc, slug in grade_data:
         sroot, slines = totals[slug]
         ma_count = len(list((BASE_DIR / slug / "modul_ajar").glob("*.md"))) if (BASE_DIR / slug / "modul_ajar").exists() else 0
         content.append('  <div class="grade-card">')
-        content.append(f'    <h3>{name}</h3>')
-        content.append(f'    <span class="badge">{fase} \u00b7 {jp}</span>')
-        content.append(f'    <div class="detail">{desc}<br><strong>{sroot} file</strong> \u00b7 {slines:,} baris</div>')
+        content.append(f'    <div class="card-icon {short}">{icons[short]}</div>')
+        content.append(f'    <h3>Kelas {names[short]}</h3>')
+        content.append(f'    <span class="badge">{fase} &middot; {jp}</span>')
+        content.append(f'    <div class="detail">{desc}<br><strong>{sroot} file</strong> &middot; {slines:,} baris</div>')
         content.append('    <div class="links">')
-        content.append(f'      <a href="{slug}/index.html">\U0001f4c1 Root</a>')
+        content.append(f'      <a href="{slug}/index.html">\U0001f4c1 Root Dokumen</a>')
         content.append(f'      <a href="{slug}/modul_ajar/index.html">\U0001f4d6 Modul Ajar ({ma_count})</a>')
         content.append(f'      <a href="{slug}/Materi/index.html">\U0001f4da Materi</a>')
         content.append('    </div>')
@@ -465,20 +621,31 @@ def generate_index():
 
     content.append('</div>')
 
-    content.append('<div class="identity-card">')
+    content.append('<div class="identity-section">')
     content.append('  <h2>\U0001f464 Identitas Guru</h2>')
-    content.append('  <table>')
-    content.append('    <tr><td>Nama</td><td><strong>Daniarsyah, S.Kom.</strong></td></tr>')
-    content.append('    <tr><td>NIP</td><td>198004052022211004</td></tr>')
-    content.append('    <tr><td>Pangkat / Gol.</td><td>IX</td></tr>')
-    content.append('    <tr><td>Sekolah</td><td>SMA Negeri 6 Cimahi</td></tr>')
-    content.append('    <tr><td>Mata Pelajaran</td><td>Informatika</td></tr>')
-    content.append('  </table>')
+    content.append('  <div class="identity-grid">')
+    content.append('    <span class="label">Nama</span><span class="value"><strong>Daniarsyah, S.Kom.</strong></span>')
+    content.append('    <span class="label">NIP</span><span class="value">198004052022211004</span>')
+    content.append('    <span class="label">Pangkat / Gol.</span><span class="value">IX</span>')
+    content.append('    <span class="label">Sekolah</span><span class="value">SMA Negeri 6 Cimahi</span>')
+    content.append('    <span class="label">Mata Pelajaran</span><span class="value">Informatika</span>')
+    content.append('  </div>')
     content.append('</div>')
 
-    content.append('<div class="footer-note">')
-    content.append('  Dokumen administrasi pembelajaran Informatika \u2014 siap cetak dan gunakan untuk tahun ajaran 2026/2027.')
-    content.append('</div>')
+    content.append('<footer class="site-footer">')
+    content.append('  <div class="footer-inner">')
+    content.append('    <div class="footer-brand">')
+    content.append('      <h3>SMA Negeri 6 Cimahi</h3>')
+    content.append('      <p>Administrasi Guru Informatika 2026/2027</p>')
+    content.append('    </div>')
+    content.append('    <div class="footer-links">')
+    content.append('      <a href="https://github.com/natedekaka" class="brand" target="_blank" rel="noopener">\U0001f3a8 natedekaka</a>')
+    content.append('    </div>')
+    content.append('  </div>')
+    content.append('  <div class="footer-bottom">')
+    content.append('    &copy; 2026 natedekaka &mdash; developed with \u2764\ufe0f for SMA Negeri 6 Cimahi')
+    content.append('  </div>')
+    content.append('</footer>')
 
     return render_page('\n'.join(content), "Beranda", [("Beranda", None)], depth=0)
 
