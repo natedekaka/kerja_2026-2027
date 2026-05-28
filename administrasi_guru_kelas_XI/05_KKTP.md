@@ -17,7 +17,7 @@ Kriteria ketercapaian TP menggunakan **rubrik deskriptif** dengan 4 tingkat:
 | 2 | Cukup | Peserta didik mampu menerapkan konsep dengan bantuan/arahan guru |
 | 1 | Kurang | Peserta didik belum mampu menerapkan konsep meskipun dengan arahan |
 
-**KKM (Kriteria Ketuntasan Minimal)** : **65** (skala 0–100)  
+**KKM (Kriteria Ketuntasan Minimal)** : **75** (skala 0–100)  
 **Nilai Minimal Tuntas** : Tingkat 3 (Baik)
 
 ---
