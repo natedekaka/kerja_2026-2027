@@ -1,6 +1,6 @@
 # Administrasi Guru Informatika 2026/2027
 
-**SMA Negeri 6 Cimahi — Daniarsyah, S.Kom. (NIP. 198004052022211004)**
+**MGMP Informatika — SMA Negeri 6 Cimahi**
 
 ---
 
@@ -150,15 +150,29 @@ python3 generate_materi_x.py
 
 ---
 
-## 👤 Identitas Guru
+## 🌐 Web (GitHub Pages)
+
+Web statis responsif dengan tema portal pemerintah, bisa diakses di:
+
+```
+https://natedekaka.github.io/kerja_2026-2027/
+```
+
+Fitur: dark mode, search, animasi, back-to-top, mobile hamburger, progress bar, tim MGMP.
+
+---
+
+## 👤 Identitas MGMP
 
 | | |
 |---|---|
-| Nama | **Daniarsyah, S.Kom.** |
-| NIP | 198004052022211004 |
-| Pangkat/Gol | IX |
+| Ketua MGMP | **Raden Hana Amalia, ST.** |
+| Sekretaris | **Daniarsyah, S.Kom.** |
+| Anggota | Lingga Oktaviani, S.Kom. |
+| Anggota | Razzib Zabbal Noor, S.Kom. |
+| Anggota | Edi Kusnadi, M.Pd. |
+| Anggota | Muharima Rasyid Noor, S.St. |
 | Sekolah | SMA Negeri 6 Cimahi |
-| Mata Pelajaran | Informatika |
 | Tahun Pelajaran | 2026/2027 |
 
 ---
@@ -166,9 +180,10 @@ python3 generate_materi_x.py
 ## 🛠 Teknologi
 
 - Markdown (.md) — dokumen utama
-- Python 3 — generator script
-- Git — version control
+- Python 3 — generator script + converter web
+- Git + GitHub — version control
+- GitHub Pages — hosting web statis
 
 ---
 
-*Dokumen ini siap cetak dan digunakan untuk keperluan administrasi pembelajaran di SMA Negeri 6 Cimahi.*
+*Dokumen ini dikelola oleh MGMP Informatika SMA Negeri 6 Cimahi dan diperuntukkan bagi seluruh guru Informatika di lingkungan sekolah.*
