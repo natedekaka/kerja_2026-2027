@@ -1,6 +1,6 @@
 # ⚙️ Bab 2: Strategi Algoritmik dan Pemrograman
 
-> **Semester Ganjil** | **Fase F** | **Kelas XI** | **30 JP**
+> **Semester Ganjil** | **Fase F** | **Kelas XI** | **36 JP**
 
 ---
 
@@ -14,27 +14,283 @@
 
 ## 🎯 Tujuan Pembelajaran
 
-- **A.** Proses Pemrograman & Efisiensi Algoritma
-- **B.** Rekursi: Fungsi yang Memanggil Dirinya Sendiri
-- **C.** Algoritma Greedy: Pilihan Terbaik Saat Ini
-- **D.** Pemrograman Dinamis: Optimasi dengan Subproblem
-- **E.** Array, String, dan Manipulasi Data
-- **F.** Perbandingan Strategi Algoritmik
+- **A.** Dasar Pemrograman Python
+- **B.** Proses Pemrograman & Efisiensi Algoritma
+- **C.** Rekursi: Fungsi yang Memanggil Dirinya Sendiri
+- **D.** Algoritma Greedy: Pilihan Terbaik Saat Ini
+- **E.** Pemrograman Dinamis: Optimasi dengan Subproblem
+- **F.** Array, String, dan Manipulasi Data
+- **G.** Perbandingan Strategi Algoritmik
 
 ## 🗺️ Peta Konsep
 
 ```
                ⚙️ STRATEGI ALGORITMIK DAN PEMROGRAMAN
                      |
-                     ├── A. Proses Pemrograman & Efisiensi Algoritma
-                     ├── B. Rekursi: Fungsi yang Memanggil Dirinya Sendiri
-                     ├── C. Algoritma Greedy: Pilihan Terbaik Saat Ini
-                     ├── D. Pemrograman Dinamis: Optimasi dengan Subproblem
-                     ├── E. Array, String, dan Manipulasi Data
-                     └── F. Perbandingan Strategi Algoritmik
+                     ├── A. Dasar Pemrograman Python
+                     ├── B. Proses Pemrograman & Efisiensi Algoritma
+                     ├── C. Rekursi: Fungsi yang Memanggil Dirinya Sendiri
+                     ├── D. Algoritma Greedy: Pilihan Terbaik Saat Ini
+                     ├── E. Pemrograman Dinamis: Optimasi dengan Subproblem
+                     ├── F. Array, String, dan Manipulasi Data
+                     └── G. Perbandingan Strategi Algoritmik
 ```
 
-## A. Proses Pemrograman & Efisiensi Algoritma
+## A. Dasar Pemrograman Python
+
+### 🐍 Mengenal Python
+
+Python adalah bahasa pemrograman **level tinggi, interpretatif, dan serbaguna**. Python dipilih karena:
+
+| Kelebihan | Penjelasan |
+|-----------|------------|
+| **Mudah dibaca** | Sintaks mirip bahasa Inggris, tidak perlu titik koma atau kurung kurawal |
+| **Serbaguna** | Bisa untuk web, data sains, AI, game, dan otomatisasi |
+| **Komunitas besar** | Banyak pustaka, tutorial, dan forum diskusi |
+| **Edukasi** | Bahasa paling populer untuk belajar pemrograman di sekolah/universitas |
+
+> 🔧 **Persiapan:** Install Python 3 dari [python.org](https://www.python.org/) atau gunakan editor online seperti [Replit](https://replit.com/), [Google Colab](https://colab.research.google.com/), atau VS Code dengan ekstensi Python.
+
+---
+
+### A.1 Variabel, Tipe Data, Input/Output
+
+#### 📦 Variabel
+Variabel adalah **tempat menyimpan data**. Python tidak perlu deklarasi tipe data — cukup tulis nama dan nilainya.
+
+```python
+nama = "Budi"        # String (teks)
+umur = 17            # Integer (bilangan bulat)
+tinggi = 165.5       # Float (bilangan desimal)
+apakah_siswa = True  # Boolean (True/False)
+```
+
+> 💡 **Aturan Penamaan Variabel:** Gunakan huruf, angka, dan underscore. Diawali huruf/underscore. **Case-sensitive** (`nama` ≠ `Nama`).
+
+#### 🔢 Tipe Data Dasar
+| Tipe | Contoh | Keterangan |
+|------|--------|------------|
+| `int` | `17`, `2024`, `-5` | Bilangan bulat |
+| `float` | `3.14`, `2.5` | Bilangan desimal |
+| `str` | `"Halo"`, `'Informatika'` | Teks (pakai `"` atau `'`) |
+| `bool` | `True`, `False` | Nilai kebenaran |
+
+#### ⌨️ Input & Output
+```python
+# Output — menampilkan ke layar
+print("Selamat datang di Python!")
+print("Nama:", nama)
+print(f"Umur saya {umur} tahun")       # f-string (format string)
+
+# Input — membaca dari keyboard
+nama_user = input("Siapa nama kamu? ")
+print(f"Halo, {nama_user}! Senang bertemu!")
+```
+
+> ⚠️ `input()` selalu mengembalikan **string**! Kalau mau angka, konversi dulu: `angka = int(input("Masukkan angka: "))`
+
+#### ✍️ Latihan Singkat A.1
+1. Buat variabel untuk menyimpan nama, kelas, dan nilai favoritmu. Tampilkan dengan `print()`!
+2. Minta pengguna memasukkan dua angka, lalu tampilkan hasil penjumlahan!
+
+---
+
+### A.2 Percabangan (if / elif / else)
+
+#### 🚦 Logika Percabangan
+Program bisa **mengambil keputusan** berdasarkan kondisi:
+
+```python
+nilai = 85
+
+if nilai >= 75:
+    print("Lulus! 🎉")
+else:
+    print("Remedial, semangat! 💪")
+```
+
+#### elif — Banyak Kondisi
+```python
+if nilai >= 90:
+    predikat = "A (Sangat Baik)"
+elif nilai >= 75:
+    predikat = "B (Baik)"
+elif nilai >= 60:
+    predikat = "C (Cukup)"
+else:
+    predikat = "D (Perlu Bimbingan)"
+
+print(f"Predikat: {predikat}")
+```
+
+#### 🔗 Operator Perbandingan & Logika
+| Operator | Arti | Operator Logika | Arti |
+|----------|------|-----------------|------|
+| `==` | Sama dengan | `and` | Keduanya benar |
+| `!=` | Tidak sama | `or` | Salah satu benar |
+| `>` | Lebih besar | `not` | Membalikkan |
+| `<` | Lebih kecil | | |
+| `>=` | Lebih besar/sama | | |
+| `<=` | Lebih kecil/sama | | |
+
+```python
+usia = 17
+lulus = True
+
+if usia >= 16 and lulus:
+    print("Boleh ikut lomba coding!")
+```
+
+#### ✍️ Latihan Singkat A.2
+Buat program yang menerima **nilai ujian** (0-100) dan menampilkan predikat: A (≥90), B (≥75), C (≥60), D (<60).
+
+---
+
+### A.3 Perulangan (for / while)
+
+#### 🔄 Perulangan `for` — Jumlah Iterasi Pasti
+```python
+# Ulang 5 kali
+for i in range(5):
+    print(f"Perulangan ke-{i+1}")
+
+# Iterasi list
+buah = ["apel", "mangga", "pisang"]
+for b in buah:
+    print(f"Saya suka {b}")
+
+# Range dengan awal dan akhir
+for angka in range(1, 11):      # 1 sampai 10
+    print(angka, end=" ")        # Output: 1 2 3 4 5 6 7 8 9 10
+```
+
+#### ♻️ Perulangan `while` — Selama Kondisi Terpenuhi
+```python
+tebak = ""
+while tebak != "python":
+    tebak = input("Tebak kata rahasia: ")
+print("Benar! 🎉")
+```
+
+```python
+# Contoh: Hitung mundur
+hitungan = 5
+while hitungan > 0:
+    print(f"{hitungan}...")
+    hitungan -= 1
+print("Go! 🚀")
+```
+
+#### 🔧 break dan continue
+```python
+for i in range(10):
+    if i == 5:
+        break                # Berhenti saat i = 5
+    if i % 2 == 0:
+        continue             # Skip bilangan genap
+    print(i)                 # Output: 1, 3
+```
+
+> 💡 **Kapan pakai yang mana?** Gunakan `for` kalau sudah tahu berapa kali ulang. Gunakan `while` kalau berulang **selama kondisi tertentu** (misal sampai user mengetik "exit").
+
+#### ✍️ Latihan Singkat A.3
+1. Cetak **tabel perkalian 5** (5×1 sampai 5×10) menggunakan `for`!
+2. Buat program **tebak angka** (1-10) dengan `while` — beri petunjuk "terlalu besar" atau "terlalu kecil"!
+
+---
+
+### A.4 Fungsi (def)
+
+#### 🧩 Mengapa Fungsi?
+Fungsi adalah **blok kode yang bisa dipakai ulang**. Bayangkan fungsi seperti **resep masakan** — kita simpan resepnya, dan panggil kapan pun mau!
+
+```python
+def sapa(nama):
+    """Fungsi untuk menyapa pengguna"""
+    return f"Halo, {nama}! Selamat belajar Python!"
+
+# Panggil fungsi
+print(sapa("Budi"))     # Output: Halo, Budi! Selamat belajar Python!
+print(sapa("Siti"))     # Output: Halo, Siti! Selamat belajar Python!
+```
+
+#### 📥 Parameter dan 📤 Return
+```python
+def luas_persegi(panjang, lebar):
+    """Menghitung luas persegi panjang"""
+    luas = panjang * lebar
+    return luas
+
+# Panggil
+hasil = luas_persegi(5, 3)
+print(f"Luas: {hasil}")     # Output: Luas: 15
+```
+
+#### 🏗️ Fungsi dengan Nilai Default
+```python
+def sapa_siswa(nama, kelas="XI"):
+    return f"{nama} dari kelas {kelas}"
+
+print(sapa_siswa("Budi"))           # Output: Budi dari kelas XI
+print(sapa_siswa("Ani", "XII"))     # Output: Ani dari kelas XII
+```
+
+#### ✍️ Latihan Singkat A.4
+1. Buat fungsi `cek_ganjil_genap(angka)` yang mengembalikan "Ganjil" atau "Genap"!
+2. Buat fungsi `hitung_rata_rata(daftar_nilai)` yang menerima list angka dan mengembalikan rata-rata!
+
+---
+
+### A.5 Studi Kasus Mini: 📊 Kalkulator Nilai
+
+Gabungkan semua konsep di atas dalam satu program!
+
+```python
+def hitung_nilai(uts, uas, tugas):
+    """Menghitung nilai akhir"""
+    return (uts * 0.3) + (uas * 0.4) + (tugas * 0.3)
+
+def predikat(nilai):
+    """Menentukan predikat berdasarkan nilai"""
+    if nilai >= 90:
+        return "A (Sangat Baik)"
+    elif nilai >= 75:
+        return "B (Baik)"
+    elif nilai >= 60:
+        return "C (Cukup)"
+    else:
+        return "D (Perlu Bimbingan)"
+
+# Program utama
+print("=== KALKULATOR NILAI ===")
+nama = input("Nama siswa: ")
+uts = float(input("Nilai UTS: "))
+uas = float(input("Nilai UAS: "))
+tugas = float(input("Nilai Tugas: "))
+
+nilai_akhir = hitung_nilai(uts, uas, tugas)
+print(f"\n{nama} — Nilai Akhir: {nilai_akhir:.1f}")
+print(f"Predikat: {predikat(nilai_akhir)}")
+```
+
+> 🎯 **Output yang diharapkan:** Program menerima input, memproses dengan fungsi, dan menampilkan hasil dengan predikat.
+
+---
+
+### 🔍 Rangkuman A
+| Konsep | Inti |
+|--------|------|
+| Variabel & Tipe Data | Wadah data: `int`, `float`, `str`, `bool` |
+| Input/Output | `input()` untuk baca, `print()` dan f-string untuk tampil |
+| Percabangan | `if/elif/else` — ambil keputusan |
+| Perulangan | `for` (pasti), `while` (kondisi) |
+| Fungsi | `def` — blok kode reusable |
+
+> 🚀 **Selanjutnya:** Setelah menguasai dasar Python, kita siap mempelajari **strategi algoritmik** yang semuanya akan diimplementasikan dalam Python!
+
+---
+
+## B. Proses Pemrograman & Efisiensi Algoritma
 
 ### ⚙️ Proses Pemrograman & Efisiensi Algoritma
 
@@ -84,7 +340,7 @@ Perpustakaan SMA Nusantara memiliki 10.000 buku. Selama ini, siswa mencari buku 
 
 ---
 
-## B. Rekursi: Fungsi yang Memanggil Dirinya Sendiri
+## C. Rekursi: Fungsi yang Memanggil Dirinya Sendiri
 
 ### 🔄 Rekursi: Fungsi yang Memanggil Dirinya Sendiri
 Rekursi adalah teknik di mana sebuah **fungsi memanggil dirinya sendiri** untuk menyelesaikan masalah.
@@ -149,7 +405,7 @@ Dalam pelajaran seni, Dimas mendapat tugas membuat gambar **pohon fractal** meng
 
 ---
 
-## C. Algoritma Greedy: Pilihan Terbaik Saat Ini
+## D. Algoritma Greedy: Pilihan Terbaik Saat Ini
 
 ### 🎯 Algoritma Greedy: Pilihan Terbaik Saat Ini
 Greedy = **rakus** = algoritma yang selalu mengambil pilihan **terbaik pada saat itu juga** (lokal optimal) dengan harapan menghasilkan solusi terbaik secara keseluruhan (global optimal).
@@ -217,7 +473,7 @@ Saat bazar sekolah, Dita memiliki uang Rp25.000 untuk membeli makanan. Berikut h
 
 ---
 
-## D. Pemrograman Dinamis: Optimasi dengan Subproblem
+## E. Pemrograman Dinamis: Optimasi dengan Subproblem
 
 ### 📊 Pemrograman Dinamis: Optimasi dengan Subproblem
 **Dynamic Programming (DP)** adalah teknik menyelesaikan masalah dengan **memecahnya menjadi sub-masalah kecil**, menyimpan hasilnya, dan menggunakan kembali hasil tersebut.
@@ -281,7 +537,7 @@ Seorang siswa bernama Adi ingin menabung untuk mengikuti study tour ke Yogyakart
 
 ---
 
-## E. Array, String, dan Manipulasi Data
+## F. Array, String, dan Manipulasi Data
 
 ### 📦 Array, String, dan Manipulasi Data
 
@@ -346,7 +602,7 @@ Ketua kelas XI IPA 1 ingin membuat aplikasi **presensi kehadiran** sederhana. Se
 
 ---
 
-## F. Perbandingan Strategi Algoritmik
+## G. Perbandingan Strategi Algoritmik
 
 ### ⚖️ Perbandingan Strategi Algoritmik
 
@@ -425,6 +681,7 @@ Buat program Python sederhana yang membandingkan 2 strategi algoritmik (misal: L
 
 ## 📝 Rangkuman
 
+- **Dasar Python:** variabel (`int`, `float`, `str`, `bool`), percabangan (`if/elif/else`), perulangan (`for`/`while`), dan fungsi (`def`) adalah fondasi penting sebelum menerapkan strategi algoritmik.
 - Proses pemrograman terdiri dari 4 tahap: **Analisis → Desain → Implementasi → Pengujian**. Efisiensi algoritma diukur dengan **Big O Notation**.
 - **Rekursi** adalah fungsi yang memanggil dirinya sendiri, terdiri dari base case dan recursive case. Cocok untuk masalah bertingkat seperti pohon dan fractal.
 - **Algoritma Greedy** mengambil pilihan terbaik saat ini (lokal optimal) dengan harapan menghasilkan solusi global optimal — contoh: Coin Change dan Activity Selection.
@@ -508,6 +765,9 @@ Kunjungi [Visualgo.net](https://visualgo.net/) dan pelajari visualisasi dari 3 a
 ---
 ## 📖 Glosarium
 
+- **Python:** Bahasa pemrograman level tinggi, interpretatif, dengan sintaks yang mudah dibaca. Banyak digunakan dalam data science, AI, dan edukasi.
+- **Variabel:** Tempat menyimpan data dalam program. Python menggunakan dynamic typing (tipe ditentukan otomatis dari nilai).
+- **Fungsi (`def`):** Blok kode yang dapat dipanggil berulang kali, bisa menerima parameter dan mengembalikan nilai.
 - **Big O Notation**: Notasi yang mengukur efisiensi algoritma berdasarkan pertumbuhan waktu eksekusi terhadap ukuran input.
 - **Rekursi**: Fungsi yang memanggil dirinya sendiri, terdiri dari base case dan recursive case.
 - **Algoritma Greedy**: Strategi algoritmik yang mengambil pilihan terbaik pada saat ini (lokal optimal).
@@ -526,3 +786,5 @@ Kunjungi [Visualgo.net](https://visualgo.net/) dan pelajari visualisasi dari 3 a
 | YouTube | Apa itu Rekursi? | `youtu.be/search?q=rekursi+algoritma` | Penjelasan rekursi dengan animasi |
 | YouTube | Dynamic Programming untuk Pemula | `youtu.be/search?q=dynamic+programming+pemula` | Konsep DP dengan contoh sederhana |
 | Website | HackerRank | `https://www.hackerrank.com/` | Platform latihan soal algoritma dan coding |
+| Website | W3Schools Python Tutorial | `https://www.w3schools.com/python/` | Tutorial interaktif dasar Python (EN) |
+| Website | Belajar Python — DataCamp | `https://www.datacamp.com/courses/intro-to-python-for-data-science` | Kursus pengantar Python gratis |
