@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XII (Fase F) — Bab_6_Praktik_Lintas_Bidang — MGMP Informatika 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 MGMP Informatika</h1>
+  <p>Musyawarah Guru Mata Pelajaran<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XII (Fase F)</a> / <a href="index.html">Materi</a> / <span>Bab 6 Praktik Lintas Bidang</span></nav></div>
+    <div class="content-inner">
+    <h1 id="bab-6-praktik-lintas-bidang">🔧 Bab 6: Praktik Lintas Bidang</h1>
+<blockquote>
+<p><strong>Semester Genap</strong> | <strong>Fase F</strong> | <strong>Kelas XII</strong> | <strong>40 JP</strong></p>
+</blockquote>
+<hr />
+<hr />
+<h2 id="pemetaan-capaian-pembelajaran">📊 Pemetaan Capaian Pembelajaran</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Elemen CP</th>
+<th>Deskripsi CP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Praktik Lintas Bidang</td>
+<td>Peserta didik mampu merencanakan, mengimplementasikan, menguji, dan mempresentasikan proyek lintas bidang yang mengintegrasikan konsep informatika untuk menyelesaikan masalah nyata.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="tujuan-pembelajaran">🎯 Tujuan Pembelajaran</h2>
+<ul>
+<li><strong>A.</strong> Apa Itu Proyek Lintas Bidang?</li>
+<li><strong>B.</strong> Tahap 1: Identifikasi Masalah</li>
+<li><strong>C.</strong> Tahap 2: Perencanaan Proyek</li>
+<li><strong>D.</strong> Tahap 3: Desain Solusi</li>
+<li><strong>E.</strong> Tahap 4: Implementasi Prototipe</li>
+<li><strong>F.</strong> Tahap 5: Pengujian &amp; Perbaikan</li>
+<li><strong>G.</strong> Tahap 6: Dokumentasi &amp; Laporan</li>
+<li><strong>H.</strong> Tahap 7: Presentasi &amp; Refleksi</li>
+</ul>
+<h2 id="peta-konsep">🗺️ Peta Konsep</h2>
+<pre><code>               🔧 PRAKTIK LINTAS BIDANG
+                     |
+                     ├── A. Apa Itu Proyek Lintas Bidang?
+                     ├── B. Tahap 1: Identifikasi Masalah
+                     ├── C. Tahap 2: Perencanaan Proyek
+                     ├── D. Tahap 3: Desain Solusi
+                     ├── E. Tahap 4: Implementasi Prototipe
+                     ├── F. Tahap 5: Pengujian &amp; Perbaikan
+                     ├── G. Tahap 6: Dokumentasi &amp; Laporan
+                     └── H. Tahap 7: Presentasi &amp; Refleksi
+</code></pre>
+<h2 id="a-apa-itu-proyek-lintas-bidang">A. Apa Itu Proyek Lintas Bidang?</h2>
+<h3 id="apa-itu-proyek-lintas-bidang">🔧 Apa Itu Proyek Lintas Bidang?</h3>
+<p>Proyek Lintas Bidang adalah <strong>proyek yang mengintegrasikan berbagai disiplin ilmu</strong> untuk menyelesaikan <strong>masalah nyata</strong> di lingkungan sekitar.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Proyek lintas bidang itu seperti membangun rumah. Tidak cukup cuma satu keahlian. Arsitek, tukang, teknisi listrik — semua harus bekerja sama. Begitu juga proyek ini — kamu akan menggunakan semua ilmu yang sudah dipelajari!</p>
+</blockquote>
+<h3 id="ilmu-yang-diintegrasikan">Ilmu yang Diintegrasikan</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Bab</th>
+<th>Ilmu</th>
+<th>Peran dalam Proyek</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Literasi Digital, IoT, AI</td>
+<td>Memilih teknologi yang tepat</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sistem Komputer, Arduino</td>
+<td>Hardware prototipe</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Pemrograman C</td>
+<td>Coding prototipe</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Jaringan Komputer</td>
+<td>Koneksi dan komunikasi data</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Dampak Sosial</td>
+<td>Analisis dampak solusi</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="contoh-topik-proyek">Contoh Topik Proyek</h3>
+<ol>
+<li>🌡️ Sistem Monitoring Suhu untuk greenhouse sekolah</li>
+<li>🚪 Smart Door Lock dengan RFID untuk lab komputer</li>
+<li>🗑️ Smart Trash Can yang otomatis terbuka</li>
+<li>💧 Automatic Plant Watering untuk taman sekolah</li>
+<li>🚦 Smart Parking untuk area parkir sekolah</li>
+</ol>
+<h3 id="cek-pemahaman">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Apa yang dimaksud dengan proyek lintas bidang?</li>
+<li>Sebutkan ilmu dari bab apa saja yang diintegrasikan!</li>
+<li>Berikan 2 contoh topik proyek lintas bidang selain yang disebutkan!</li>
+</ol>
+<h3 id="studi-kasus">📋 Studi Kasus</h3>
+<p><strong>Proyek Tong Sampah Pintar</strong></p>
+<p>SMA Bumi Hijau memiliki masalah: tong sampah sering penuh dan bau karena tidak diangkut tepat waktu. Tim proyek lintas bidang kelas XII membuat solusi: Smart Trash Can yang otomatis memberi notifikasi ke petugas kebersihan saat tong sudah 80% penuh. Mereka menggunakan Arduino (Bab 2&amp;3), sensor ultrasonik (Bab 2), dan modul WiFi (Bab 4) untuk mengirim data.</p>
+<p><em>Pertanyaan:</em><br />
+1. Ilmu dari bab apa saja yang digunakan dalam proyek ini?<br />
+2. Apa dampak sosial (Bab 5) dari proyek ini?</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="b-tahap-1-identifikasi-masalah">B. Tahap 1: Identifikasi Masalah</h2>
+<h3 id="tahap-1-identifikasi-masalah">🔍 Tahap 1: Identifikasi Masalah</h3>
+<p>Semua proyek besar dimulai dari satu hal: <strong>MASALAH</strong>. Tanpa masalah, proyek tidak punya tujuan.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Identifikasi masalah itu seperti periksa ke dokter. Dokter tidak akan langsung kasih obat tanpa tahu penyakitnya. Pertama tanya: &ldquo;Sakit apa?&rdquo; — itu identifikasi masalah.</p>
+</blockquote>
+<h3 id="langkah-langkah">Langkah-Langkah</h3>
+<ol>
+<li><strong>Amati lingkungan sekitarmu</strong> — Apa yang tidak efisien? Apa yang masih manual?</li>
+<li><strong>Tanyakan 5W+1H</strong> — What, Why, Who, Where, When, How</li>
+<li><strong>Prioritaskan</strong> — Mana yang paling mendesak? Bisa diselesaikan dengan teknologi?</li>
+</ol>
+<h3 id="lembar-kerja">Lembar Kerja</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Pertanyaan</th>
+<th>Jawaban Tim</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Masalah apa yang ingin diselesaikan?</td>
+<td></td>
+</tr>
+<tr>
+<td>Mengapa ini penting?</td>
+<td></td>
+</tr>
+<tr>
+<td>Siapa yang merasakan dampaknya?</td>
+<td></td>
+</tr>
+<tr>
+<td>Di mana masalah ini terjadi?</td>
+<td></td>
+</tr>
+<tr>
+<td>Solusi apa yang sudah ada?</td>
+<td></td>
+</tr>
+<tr>
+<td>Bagaimana teknologi bisa membantu?</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="cek-pemahaman_1">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Mengapa identifikasi masalah adalah tahap pertama yang penting?</li>
+<li>Apa itu 5W+1H dan bagaimana penerapannya dalam identifikasi masalah?</li>
+<li>Bagaimana cara memprioritaskan masalah yang akan diselesaikan?</li>
+</ol>
+<h3 id="studi-kasus_1">📋 Studi Kasus</h3>
+<p><strong>Antrean Panjang di Kantin Sekolah</strong></p>
+<p>Setiap jam istirahat, kantin SMA Nusantara selalu penuh sesak. Siswa harus antre 15-20 menit hanya untuk membeli makanan. Akibatnya, banyak siswa tidak kebagian waktu untuk makan. Tim proyek mencoba menerapkan 5W+1H: What (antrean panjang), Why (sistem pembayaran manual), Who (siswa dan penjual), Where (kantin), When (jam istirahat), How (teknologi bisa membantu).</p>
+<p><em>Pertanyaan:</em><br />
+1. Identifikasi masalah utama dan usulkan solusi teknologi yang tepat!<br />
+2. Terapkan 5W+1H untuk masalah lain di lingkungan sekolahmu!</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="c-tahap-2-perencanaan-proyek">C. Tahap 2: Perencanaan Proyek</h2>
+<h3 id="tahap-2-perencanaan-proyek">📋 Tahap 2: Perencanaan Proyek</h3>
+<p>Setelah masalah teridentifikasi, saatnya membuat rencana. Proyek yang baik adalah proyek yang direncanakan dengan matang.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Perencanaan proyek itu seperti menulis skenario film. Sebelum syuting, sutradara sudah tahu: siapa pemainnya, di mana lokasinya, berapa biayanya, kapan selesainya.</p>
+</blockquote>
+<h3 id="tujuan-smart">Tujuan SMART</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Kriteria</th>
+<th>Contoh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>S</strong>pecific</td>
+<td>Membuat alat penyiram tanaman otomatis</td>
+</tr>
+<tr>
+<td><strong>M</strong>easurable</td>
+<td>Tanaman tersiram setiap 6 jam</td>
+</tr>
+<tr>
+<td><strong>A</strong>chievable</td>
+<td>Dengan Arduino + sensor kelembaban</td>
+</tr>
+<tr>
+<td><strong>R</strong>elevant</td>
+<td>Menghemat air di taman sekolah</td>
+</tr>
+<tr>
+<td><strong>T</strong>ime-bound</td>
+<td>Selesai dalam 4 minggu</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="timeline-proyek">Timeline Proyek</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Minggu</th>
+<th>Kegiatan</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Identifikasi &amp; Perencanaan</td>
+<td>Laporan masalah</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Desain solusi</td>
+<td>Diagram &amp; flowchart</td>
+</tr>
+<tr>
+<td>3-4</td>
+<td>Implementasi prototipe</td>
+<td>Prototipe berfungsi</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Pengujian &amp; perbaikan</td>
+<td>Hasil uji coba</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Dokumentasi &amp; presentasi</td>
+<td>Laporan &amp; slide</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="pembagian-tugas-tim">Pembagian Tugas Tim</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Peran</th>
+<th>Tanggung Jawab</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ketua Tim</td>
+<td>Koordinasi, presentasi</td>
+</tr>
+<tr>
+<td>Teknisi Hardware</td>
+<td>Merangkai komponen</td>
+</tr>
+<tr>
+<td>Programmer</td>
+<td>Menulis kode Arduino</td>
+</tr>
+<tr>
+<td>Dokumentasi</td>
+<td>Laporan &amp; video</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="cek-pemahaman_2">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Apa kepanjangan dari SMART dan jelaskan masing-masing!</li>
+<li>Mengapa timeline proyek penting?</li>
+<li>Sebutkan minimal 3 peran dalam tim proyek!</li>
+</ol>
+<h3 id="studi-kasus_2">📋 Studi Kasus</h3>
+<p><strong>Proyek Smart Parking: 3 Minggu atau Gagal</strong></p>
+<p>Tim proyek &ldquo;Smart Parking&rdquo; memiliki waktu 3 minggu untuk menyelesaikan prototipe. Mereka membuat timeline: Minggu 1 (identifikasi + desain), Minggu 2 (implementasi), Minggu 3 (pengujian + dokumentasi). Ketua tim membagi tugas: Andi (programmer), Budi (teknisi), Cici (dokumentasi). Tujuan SMART mereka: &ldquo;Membuat prototipe sistem parkir otomatis menggunakan sensor ultrasonik dan Arduino yang bisa mendeteksi ketersediaan slot parkir dalam waktu 3 minggu.&rdquo;</p>
+<p><em>Pertanyaan:</em><br />
+1. Apakah tujuan proyek sudah memenuhi kriteria SMART? Jelaskan!<br />
+2. Buat timeline alternatif jika waktu yang tersedia hanya 2 minggu!</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="d-tahap-3-desain-solusi">D. Tahap 3: Desain Solusi</h2>
+<h3 id="tahap-3-desain-solusi">✏️ Tahap 3: Desain Solusi</h3>
+<p>Desain solusi adalah penerjemahan rencana menjadi gambar teknis. Di sinilah kamu membuat blueprint prototipe.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Desain solusi itu seperti arsitek membuat denah rumah. Sebelum tukang mulai membangun, arsitek sudah punya gambar. Kalau tidak ada denah, rumah bisa roboh!</p>
+</blockquote>
+<h3 id="1-diagram-blok-sistem">1. Diagram Blok Sistem</h3>
+<pre><code>                  ┌──────────────────┐
+  ┌────────┐       │   ARDUINO UNO    │      ┌──────────┐
+  │ SENSOR │──────►│                  │──────►│  AKTUATOR │
+  │ Suhu   │       │  ┌────────────┐  │      │  (LED/    │
+  │ DHT11  │       │  │ Program C │  │      │   Buzzer) │
+  └────────┘       │  └────────────┘  │      └──────────┘
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │  Serial Monitor   │
+                    └──────────────────┘
+</code></pre>
+<h3 id="2-flowchart-program">2. Flowchart Program</h3>
+<pre><code>        ┌───────────────┐
+        │     START     │
+        └───────┬───────┘
+                ▼
+        ┌───────────────┐
+        │ Baca sensor   │
+        └───────┬───────┘
+                ▼
+        ┌───────────────┐
+        │  Suhu &gt; 30°C? │────Ya──→ LED Merah ON
+        └───────┬───────┘
+                │ Tidak
+                ▼
+        ┌───────────────┐
+        │  Suhu 25-30°C?│────Ya──→ LED Kuning ON
+        └───────┬───────┘
+                │ Tidak
+                ▼
+        ┌───────────────┐
+        │  Suhu &lt; 25°C? │────Ya──→ LED Hijau ON
+        └───────┬───────┘
+                │ Tidak
+                ▼
+        ┌───────────────┐
+        │ Tunggu 2 detik│
+        └───────┬───────┘
+                ▼
+        ┌───────────────┐
+        │ Ulangi (loop) │
+        └───────────────┘
+</code></pre>
+<h3 id="3-skema-rangkaian">3. Skema Rangkaian</h3>
+<p>Gambarkan pin-by-pin koneksi komponen ke Arduino.</p>
+<h3 id="cek-pemahaman_3">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Apa tujuan dari diagram blok sistem?</li>
+<li>Apa perbedaan diagram blok dan flowchart?</li>
+<li>Mengapa perlu membuat desain sebelum implementasi?</li>
+</ol>
+<h3 id="studi-kasus_3">📋 Studi Kasus</h3>
+<p><strong>Merancang Sistem Penyiraman Tanaman</strong></p>
+<p>Kelompok proyek ingin membuat penyiram tanaman otomatis. Mereka membuat diagram blok: Sensor Kelembaban → Arduino → Relay → Pompa Air. Flowchart-nya: Baca sensor → Jika kering → Pompa ON 5 detik → Jika basah → Pompa OFF → Ulangi. Skema rangkaian menunjukkan pin sensor ke A0, relay ke pin 7, dan power eksternal untuk pompa.</p>
+<p><em>Pertanyaan:</em><br />
+1. Gambarkan diagram blok sistem penyiraman otomatis berdasarkan deskripsi di atas!<br />
+2. Identifikasi input, proses, dan output dari sistem ini!</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="e-tahap-4-implementasi-prototipe">E. Tahap 4: Implementasi Prototipe</h2>
+<h3 id="tahap-4-implementasi-prototipe">🔨 Tahap 4: Implementasi Prototipe</h3>
+<p>Ini tahap paling seru — kamu mulai <strong>membangun</strong> prototipe! Dari gambar di kertas menjadi benda nyata.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Ini seperti memasak setelah punya resep. Kamu sudah punya daftar belanja (alat &amp; bahan), instruksi (flowchart), sekarang saatnya eksekusi! Mungkin ada yang gosong, mungkin ada yang kurang asin — itu normal. Yang penting terus dicoba sampai berhasil!</p>
+</blockquote>
+<h3 id="langkah-implementasi">Langkah Implementasi</h3>
+<pre><code>  ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐
+  │  Rangkai │   │  Tulis   │   │  Upload  │   │   Uji    │
+  │ Hardware │──►│  Program │──►│  ke Board│──►│  Coba    │
+  └──────────┘   └──────────┘   └──────────┘   └────┬─────┘
+                                                     │
+                              ┌──────────┐          │
+                              │  Debug &amp; │◄─────────┘
+                              │ Perbaiki │
+                              └──────────┘
+</code></pre>
+<h3 id="tips-implementasi">Tips Implementasi</h3>
+<ol>
+<li><strong>Rangkai bertahap</strong> — Mulai dari 1 sensor dulu</li>
+<li><strong>Cek rangkaian</strong> — Pastikan tidak ada kabel terbalik</li>
+<li><strong>Tulis program bertahap</strong> — Mulai dari digitalWrite sederhana</li>
+<li><strong>Gunakan Serial.print</strong> — Untuk debugging</li>
+<li><strong>Dokumentasi setiap langkah</strong> — Foto/video tiap tahap</li>
+</ol>
+<h3 id="checklist">Checklist</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Item</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Semua komponen tersedia</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Rangkaian di breadboard</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Program berhasil di-compile</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Sensor membaca dengan benar</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Aktuator merespons sesuai logika</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Rangkaian stabil &gt; 10 menit</td>
+<td>☐</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="cek-pemahaman_4">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Sebutkan 4 langkah implementasi prototipe secara berurutan!</li>
+<li>Mengapa sebaiknya merangkai komponen secara bertahap?</li>
+<li>Apa fungsi <code>Serial.print()</code> dalam proses implementasi?</li>
+</ol>
+<h3 id="studi-kasus_4">📋 Studi Kasus</h3>
+<p><strong>LED Tidak Menyala!</strong></p>
+<p>Raka merangkai LED ke Arduino sesuai diagram. Setelah upload program, LED tidak menyala. Ia panik, tapi kemudian menerapkan debugging bertahap:<br />
+1. Cek kabel: ternyata kabel jumper longgar di GND<br />
+2. Cek polaritas LED: kaki panjang (+) ke pin 13, pendek ke GND<br />
+3. Cek resistor: harusnya 220 Ohm, ternyata 10k Ohm (terlalu besar)<br />
+Setelah memperbaiki ketiganya, LED menyala dengan indah!</p>
+<p><em>Pertanyaan:</em><br />
+1. Mengapa resistor 10k Ohm menyebabkan LED tidak menyala?<br />
+2. Langkah debugging apa yang pertama kali harus dilakukan jika rangkaian tidak bekerja?</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="f-tahap-5-pengujian-perbaikan">F. Tahap 5: Pengujian &amp; Perbaikan</h2>
+<h3 id="tahap-5-pengujian-perbaikan">🧪 Tahap 5: Pengujian &amp; Perbaikan</h3>
+<p>Pengujian adalah memastikan prototipe bekerja sesuai yang diharapkan. Dan akan selalu ada yang perlu diperbaiki — itu normal!</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Pengujian itu seperti quality control di pabrik. Sebelum smartphone dijual, ia diuji ratusan kali. Prototipemu juga begitu!</p>
+</blockquote>
+<h3 id="jenis-pengujian">Jenis Pengujian</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Jenis</th>
+<th>Apa yang Diuji</th>
+<th>Cara Uji</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Unit Test</strong></td>
+<td>Setiap komponen (sensor, LED)</td>
+<td>Uji satu per satu</td>
+</tr>
+<tr>
+<td><strong>Integration Test</strong></td>
+<td>Semua komponen bekerja bersama</td>
+<td>Jalankan program lengkap</td>
+</tr>
+<tr>
+<td><strong>Stress Test</strong></td>
+<td>Stabil dalam waktu lama?</td>
+<td>Biarkan jalan 1 jam</td>
+</tr>
+<tr>
+<td><strong>User Test</strong></td>
+<td>Mudah digunakan?</td>
+<td>Minta teman coba</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="dokumentasi-pengujian">Dokumentasi Pengujian</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Skenario</th>
+<th>Input</th>
+<th>Output Diharapkan</th>
+<th>Output Aktual</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Suhu 25°C</td>
+<td>25°C</td>
+<td>LED hijau nyala</td>
+<td>LED hijau nyala</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Suhu 32°C</td>
+<td>32°C</td>
+<td>LED kuning nyala</td>
+<td>LED kuning nyala</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Suhu 36°C</td>
+<td>36°C</td>
+<td>LED merah nyala</td>
+<td>Tidak nyala</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="cek-pemahaman_5">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Sebutkan 4 jenis pengujian dan jelaskan masing-masing!</li>
+<li>Apa yang harus dilakukan jika hasil pengujian tidak sesuai harapan?</li>
+<li>Mengapa stress test penting untuk prototipe?</li>
+</ol>
+<h3 id="studi-kasus_5">📋 Studi Kasus</h3>
+<p><strong>Kipas Mati Setelah 1 Jam</strong></p>
+<p>Tim Smart Fan sudah berhasil membuat prototipe kipas otomatis. Saat diuji, kipas menyala sempurna saat suhu &gt; 30°C. Tapi setelah 45 menit berjalan terus, kipas mati sendiri. Setelah diperiksa, ternyata relay overheat karena spesifikasinya hanya untuk 5V, tapi kipas menarik arus lebih besar.</p>
+<p><em>Pertanyaan:</em><br />
+1. Jenis pengujian apa yang mengungkap masalah ini?<br />
+2. Solusi apa yang tepat untuk masalah relay overheat?</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="g-tahap-6-dokumentasi-laporan">G. Tahap 6: Dokumentasi &amp; Laporan</h2>
+<h3 id="tahap-6-dokumentasi-laporan">📝 Tahap 6: Dokumentasi &amp; Laporan</h3>
+<p>Dokumentasi adalah catatan lengkap tentang proyek yang kamu buat. Agar orang lain bisa memahami, mengapresiasi, dan mereproduksi karyamu.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Dokumentasi itu seperti buku resep. Kalau kamu berhasil membuat kue yang enak, tanpa resep, orang lain tidak tahu cara membuatnya. Dengan resep (dokumentasi), siapa pun bisa membuat kue yang sama!</p>
+</blockquote>
+<h3 id="format-laporan">Format Laporan</h3>
+<ol>
+<li><strong>Halaman Judul</strong> — Nama proyek, logo sekolah, anggota tim</li>
+<li><strong>Bab 1: Pendahuluan</strong> — Latar belakang, rumusan masalah, tujuan</li>
+<li><strong>Bab 2: Kajian Teori</strong> — Teori pendukung, referensi</li>
+<li><strong>Bab 3: Metode Perancangan</strong> — Diagram blok, flowchart, skema</li>
+<li><strong>Bab 4: Implementasi &amp; Pengujian</strong> — Foto, hasil uji, kendala</li>
+<li><strong>Bab 5: Penutup</strong> — Kesimpulan, saran, refleksi</li>
+<li><strong>Lampiran</strong> — Kode program, foto alat, slide</li>
+</ol>
+<h3 id="cek-pemahaman_6">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Sebutkan struktur laporan proyek yang lengkap!</li>
+<li>Mengapa dokumentasi penting dalam sebuah proyek?</li>
+<li>Apa saja yang harus difoto/direkam selama proses proyek?</li>
+</ol>
+<h3 id="studi-kasus_6">📋 Studi Kasus</h3>
+<p><strong>Laporan yang Membantu Adik Kelas</strong></p>
+<p>Tim proyek &ldquo;Smart Trash Can&rdquo; membuat dokumentasi sangat lengkap: foto rangkaian, video demo, flowchart, kode program dengan komentar, dan catatan kendala. Setahun kemudian, adik kelas menggunakan dokumentasi mereka untuk mengembangkan proyek serupa. Tanpa dokumentasi, mereka harus memulai dari nol.</p>
+<p><em>Pertanyaan:</em><br />
+1. Bagian laporan apa yang paling membantu adik kelas?<br />
+2. Apa yang terjadi jika tim tidak membuat dokumentasi?</p>
+<h3 id="tips-dokumentasi">Tips Dokumentasi</h3>
+<p>✅ <strong>Foto setiap tahap</strong> — identifikasi, rangkaian, coding, pengujian<br />
+✅ <strong>Rekam video demo</strong> — tunjukkan prototipe bekerja<br />
+✅ <strong>Catat kendala</strong> — apa yang sulit dan bagaimana mengatasinya<br />
+✅ <strong>Tulis dengan bahasa sendiri</strong> — jangan copas dari internet</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="h-tahap-7-presentasi-refleksi">H. Tahap 7: Presentasi &amp; Refleksi</h2>
+<h3 id="tahap-7-presentasi-refleksi">🎤 Tahap 7: Presentasi &amp; Refleksi</h3>
+<p>Tahap terakhir adalah berbagi hasil dengan orang lain dan merenungkan apa yang sudah dipelajari.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Presentasi itu seperti pameran karya seni. Kamu bukan cuma memajang lukisan, tapi juga menceritakan: ide di baliknya, proses membuatnya, tantangannya, dan apa yang kamu pelajari.</p>
+</blockquote>
+<h3 id="struktur-presentasi-10-menit">Struktur Presentasi (10 menit)</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Slide</th>
+<th>Konten</th>
+<th>Durasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Judul &amp; anggota tim</td>
+<td>1 menit</td>
+</tr>
+<tr>
+<td>2-3</td>
+<td>Masalah &amp; desain solusi</td>
+<td>3 menit</td>
+</tr>
+<tr>
+<td>4-5</td>
+<td>Implementasi &amp; demo</td>
+<td>5 menit</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Refleksi &amp; penutup</td>
+<td>1 menit</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="rubrik-penilaian">Rubrik Penilaian</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Skor 4</th>
+<th>Skor 3</th>
+<th>Skor 2</th>
+<th>Skor 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Konten</strong></td>
+<td>Lengkap, akurat</td>
+<td>Lengkap</td>
+<td>Kurang lengkap</td>
+<td>Tidak terstruktur</td>
+</tr>
+<tr>
+<td><strong>Demo</strong></td>
+<td>Bekerja sempurna</td>
+<td>Dengan bantuan</td>
+<td>Sebagian</td>
+<td>Tidak bekerja</td>
+</tr>
+<tr>
+<td><strong>Komunikasi</strong></td>
+<td>Jelas, percaya diri</td>
+<td>Jelas</td>
+<td>Kurang jelas</td>
+<td>Tidak siap</td>
+</tr>
+<tr>
+<td><strong>Visual</strong></td>
+<td>Menarik, informatif</td>
+<td>Cukup menarik</td>
+<td>Kurang menarik</td>
+<td>Tidak ada</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="cek-pemahaman_7">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Berapa durasi ideal presentasi proyek?</li>
+<li>Sebutkan 4 aspek yang dinilai dalam rubrik penilaian!</li>
+<li>Mengapa refleksi penting setelah proyek selesai?</li>
+</ol>
+<h3 id="studi-kasus_7">📋 Studi Kasus</h3>
+<p><strong>Presentasi Gagal karena Demo Error</strong></p>
+<p>Tim proyek &ldquo;Smart Parking&rdquo; melakukan demo saat presentasi. Namun sensor ultrasonik tiba-tiba tidak mendeteksi dengan benar karena kabel longgar. Alih-alih panik, ketua tim menjelaskan dengan tenang: &ldquo;Ini adalah contoh nyata pentingnya pengujian — kami menemukan bahwa kabel sensor perlu diperkuat. Dalam versi berikutnya, kami akan menggunakan konektor yang lebih kokoh.&rdquo;</p>
+<p><em>Pertanyaan:</em><br />
+1. Apa yang baik dari cara tim menangani kegagalan demo?<br />
+2. Persiapan apa yang bisa dilakukan untuk mengantisipasi error saat presentasi?</p>
+<h3 id="pertanyaan-refleksi">Pertanyaan Refleksi</h3>
+<ol>
+<li>Apa yang paling berhasil dari proyek ini?</li>
+<li>Apa yang paling sulit dan bagaimana kalian mengatasinya?</li>
+<li>Apa yang akan kalian lakukan berbeda jika bisa mengulang?</li>
+<li>Ilmu baru apa yang kalian dapatkan di luar materi kelas?</li>
+</ol>
+<hr />
+<blockquote>
+<p>🎉 <strong>Selamat!</strong> Kalian telah menyelesaikan perjalanan belajar Informatika kelas XII. Bukan cuma tentang coding dan Arduino, tapi tentang berpikir kritis, bekerja sama, dan menciptakan solusi untuk masalah nyata. <strong>Teruslah berkarya!</strong> 🚀</p>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<hr />
+<h2 id="proyek-mini-proposal-proyek-lintas-bidang">🏗️ Proyek Mini: 📋 Proposal Proyek Lintas Bidang</h2>
+<p>Buat proposal proyek yang menggabungkan Informatika dengan 1 bidang lain pilihanmu (Biologi, Fisika, Kimia, Seni, Ekonomi, atau Bahasa). Proposal harus mencakup identifikasi masalah, tujuan SMART, desain solusi, dan timeline pengerjaan. Proyek ini melatih kemampuan menulis ilmiah dan perencanaan sistematis.</p>
+<p><strong>Alat dan Bahan:</strong><br />
+- Laptop/Chromebook<br />
+- Google Docs/Microsoft Word<br />
+- Canva/Google Slides (untuk presentasi)<br />
+- Referensi dari buku/internet</p>
+<p><strong>Langkah-langkah:</strong><br />
+1. Tentukan bidang lain yang akan diintegrasikan dengan Informatika (contoh: Biologi = alat monitoring tanaman, Seni = instalasi lampu interaktif)<br />
+2. Identifikasi masalah nyata di lingkungan sekitar yang bisa diselesaikan dengan kombinasi kedua bidang<br />
+3. Rumuskan tujuan SMART: Specific, Measurable, Achievable, Relevant, Time-bound<br />
+4. Buat desain solusi: diagram blok sistem, flowchart program, dan sketsa alat (jika ada hardware)<br />
+5. Susun timeline proyek 4-6 minggu dalam bentuk tabel<br />
+6. Tulis proposal lengkap: Pendahuluan → Kajian Teori → Metode → Timeline → Daftar Pustaka</p>
+<blockquote>
+<p><strong>Output:</strong> Dokumen proposal proyek lintas bidang (.pdf/.docx) + slide presentasi singkat</p>
+</blockquote>
+<h2 id="rangkuman">📝 Rangkuman</h2>
+<ol>
+<li>Proyek lintas bidang mengintegrasikan semua ilmu informatika untuk menyelesaikan masalah nyata — dimulai dari identifikasi masalah hingga presentasi.</li>
+<li>Tahap 1: Identifikasi masalah dengan observasi dan 5W+1H; Tahap 2: Perencanaan dengan tujuan SMART dan timeline proyek.</li>
+<li>Tahap 3: Desain solusi mencakup diagram blok sistem, flowchart program, dan skema rangkaian.</li>
+<li>Tahap 4-5: Implementasi prototipe dan pengujian (Unit Test, Integration Test, Stress Test) dengan dokumentasi hasil.</li>
+<li>Tahap 6-7: Dokumentasi laporan lengkap dan presentasi dengan demo alat — diakhiri dengan refleksi pembelajaran.</li>
+<li>Kunci keberhasilan proyek: kerja sama tim, perencanaan matang, dokumentasi setiap langkah, dan tidak takut gagal dalam proses.</li>
+</ol>
+<hr />
+<h2 id="latihan-soal">✍️ Latihan Soal</h2>
+<h3 id="a-pilihan-ganda">A. Pilihan Ganda</h3>
+<ol>
+<li>
+<p>Proyek lintas bidang mengintegrasikan berbagai disiplin ilmu untuk…<br />
+   a. Membuat karya seni<br />
+   b. Menyelesaikan masalah nyata di lingkungan sekitar<br />
+   c. Menulis buku<br />
+   d. Mengikuti lomba<br />
+   e. Menambah nilai rapor<br />
+<strong>Jawaban: Menyelesaikan masalah nyata di lingkungan sekitar</strong></p>
+</li>
+<li>
+<p>Tahap pertama dalam metodologi proyek adalah…<br />
+   a. Desain solusi<br />
+   b. Implementasi prototipe<br />
+   c. Identifikasi masalah<br />
+   d. Pengujian<br />
+   e. Presentasi<br />
+<strong>Jawaban: Identifikasi masalah</strong></p>
+</li>
+<li>
+<p>Tujuan SMART digunakan dalam tahap…<br />
+   a. Identifikasi masalah<br />
+   b. Perencanaan proyek<br />
+   c. Implementasi<br />
+   d. Pengujian<br />
+   e. Dokumentasi<br />
+<strong>Jawaban: Perencanaan proyek</strong></p>
+</li>
+<li>
+<p>Flowchart dan diagram blok sistem dibuat pada tahap…<br />
+   a. Identifikasi<br />
+   b. Perencanaan<br />
+   c. Desain solusi<br />
+   d. Implementasi<br />
+   e. Dokumentasi<br />
+<strong>Jawaban: Desain solusi</strong></p>
+</li>
+<li>
+<p>Jenis pengujian yang menguji setiap komponen secara terpisah disebut…<br />
+   a. Integration Test<br />
+   b. Stress Test<br />
+   c. User Test<br />
+   d. Unit Test<br />
+   e. Alpha Test<br />
+<strong>Jawaban: Unit Test</strong></p>
+</li>
+</ol>
+<h3 id="b-uraian">B. Uraian</h3>
+<ol>
+<li>
+<p>Jelaskan 7 tahapan dalam proyek lintas bidang secara berurutan!</p>
+</li>
+<li>
+<p>Apa yang dimaksud dengan tujuan SMART? Berikan contoh tujuan SMART untuk proyek alat penyiram tanaman otomatis!</p>
+</li>
+<li>
+<p>Jelaskan perbedaan antara Unit Test, Integration Test, dan Stress Test dalam pengujian prototipe!</p>
+</li>
+<li>
+<p>Mengapa dokumentasi penting dalam sebuah proyek? Jelaskan format laporan proyek yang baik!</p>
+</li>
+</ol>
+<hr />
+<h2 id="rubrik-penilaian-proyek">📋 Rubrik Penilaian Proyek</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Kurang</th>
+<th>Cukup</th>
+<th>Baik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Identifikasi Masalah</td>
+<td>Masalah tidak jelas atau tidak relevan</td>
+<td>Masalah teridentifikasi tapi kurang spesifik</td>
+<td>Masalah spesifik, relevan, teridentifikasi dengan 5W+1H</td>
+</tr>
+<tr>
+<td>Perencanaan (SMART)</td>
+<td>Tujuan tidak SMART</td>
+<td>Tujuan cukup SMART dengan beberapa kelemahan</td>
+<td>Tujuan memenuhi semua kriteria SMART</td>
+</tr>
+<tr>
+<td>Desain Solusi</td>
+<td>Tidak ada desain teknis</td>
+<td>Desain ada tapi kurang detail</td>
+<td>Desain lengkap: diagram blok, flowchart, sketsa</td>
+</tr>
+<tr>
+<td>Format Proposal</td>
+<td>Proposal tidak sesuai format, banyak typo</td>
+<td>Proposal cukup rapi dengan beberapa kekurangan</td>
+<td>Proposal rapi, format benar, bahasa ilmiah, daftar pustaka</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="tugas-pengayaan">🚀 Tugas Pengayaan</h2>
+<h3 id="proyek-mini-buat-prototipe-sederhana">🔬 Proyek Mini: Buat Prototipe Sederhana</h3>
+<p>Dari proposal yang sudah dibuat pada Proyek Mini Bab 6, buatlah prototipe sederhana menggunakan bahan yang tersedia di sekitar. Jika proposal menggunakan Arduino, buat rangkaian di Tinkercad. Jika proposal berupa aplikasi, buat wireframe/mockup di Figma. Dokumentasikan proses dan hasilnya dalam laporan singkat 2-3 halaman.</p>
+<hr />
+<h2 id="glosarium">📖 Glosarium</h2>
+<ul>
+<li><strong>Proyek Lintas Bidang</strong>: Proyek yang mengintegrasikan berbagai disiplin ilmu untuk menyelesaikan masalah nyata.</li>
+<li><strong>Prototipe</strong>: Model awal atau versi percobaan dari suatu produk.</li>
+<li><strong>SMART</strong>: Kriteria tujuan: Specific, Measurable, Achievable, Relevant, Time-bound.</li>
+<li><strong>Flowchart</strong>: Diagram alur yang menggambarkan langkah-langkah suatu program.</li>
+<li><strong>Unit Test</strong>: Pengujian setiap komponen secara terpisah untuk memastikan fungsinya.</li>
+<li><strong>Debugging</strong>: Proses mencari dan memperbaiki kesalahan dalam program.</li>
+<li><strong>Dokumentasi</strong>: Catatan lengkap tentang proyek agar orang lain bisa memahami dan mereproduksi.</li>
+</ul>
+<hr />
+<h2 id="sumber-media-pembelajaran">📺 Sumber &amp; Media Pembelajaran</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Sumber</th>
+<th>Tautan</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>YouTube</td>
+<td>Cara Membuat Proyek Arduino</td>
+<td><code>youtu.be/search?q=proyek+arduino+sederhana+indonesia</code></td>
+<td>Inspirasi proyek Arduino untuk pemula</td>
+</tr>
+<tr>
+<td>YouTube</td>
+<td>Tips Presentasi yang Baik</td>
+<td><code>youtu.be/search?q=tips+presentasi+proyek+sekolah</code></td>
+<td>Cara presentasi proyek yang efektif</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>Instructables</td>
+<td><code>https://www.instructables.com/</code></td>
+<td>Koleksi proyek DIY lengkap dengan tutorial</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>Hackster.io</td>
+<td><code>https://www.hackster.io/</code></td>
+<td>Platform berbagi proyek IoT dan embedded</td>
+</tr>
+<tr>
+<td>Simulasi</td>
+<td>Tinkercad Circuits</td>
+<td><code>https://www.tinkercad.com/circuits</code></td>
+<td>Simulator rangkaian elektronik online gratis</td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

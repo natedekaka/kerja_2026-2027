@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas X (Fase E) — Bab_7_Algoritma_dan_Pemrograman — MGMP Informatika 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 MGMP Informatika</h1>
+  <p>Musyawarah Guru Mata Pelajaran<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas X (Fase E)</a> / <a href="index.html">Materi</a> / <span>Bab 7 Algoritma dan Pemrograman</span></nav></div>
+    <div class="content-inner">
+    <h1 id="bab-7-algoritma-dan-pemrograman">🤖 Bab 7: Algoritma dan Pemrograman</h1>
+<blockquote>
+<p><strong>Semester Genap</strong> | <strong>Fase E</strong> | <strong>Kelas X</strong> | <strong>20 JP</strong></p>
+</blockquote>
+<hr />
+<h2 id="pemetaan-capaian-pembelajaran">📊 Pemetaan Capaian Pembelajaran</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Elemen CP</th>
+<th>Deskripsi CP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Algoritma dan Pemrograman</td>
+<td>Menyusun algoritma, membuat flowchart, dan mengimplementasikannya dalam bahasa pemrograman visual berbasis blok.</td>
+</tr>
+<tr>
+<td>Berpikir Komputasional</td>
+<td>Menerapkan logika boolean dan struktur kontrol dalam pemrograman.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="tujuan-pembelajaran">🎯 Tujuan Pembelajaran</h2>
+<ul>
+<li><strong>A.</strong> Logika dan Algoritma Dasar</li>
+<li><strong>B.</strong> Flowchart: Memvisualisasikan Algoritma</li>
+<li><strong>C.</strong> Pengenalan Scratch sebagai Alat Pemrograman</li>
+<li><strong>D.</strong> Proyek: Program Sederhana dengan Scratch</li>
+</ul>
+<h2 id="peta-konsep">🗺️ Peta Konsep</h2>
+<pre><code>               🤖 ALGORITMA DAN PEMROGRAMAN
+                     |
+                     ├── A. Logika dan Algoritma Dasar
+                     ├── B. Flowchart: Memvisualisasikan Algoritma
+                     ├── C. Pengenalan Scratch sebagai Alat Pemrograman
+                     └── D. Proyek: Program Sederhana dengan Scratch
+</code></pre>
+<h2 id="a-logika-dan-algoritma-dasar">A. Logika dan Algoritma Dasar</h2>
+<h3 id="logika-dan-algoritma-dasar">🤖 Logika dan Algoritma Dasar</h3>
+<p><strong>Logika</strong> adalah ilmu tentang <strong>penalaran yang benar</strong>. <strong>Algoritma</strong> adalah <strong>langkah-langkah sistematis</strong> untuk menyelesaikan masalah. Tanpa algoritma yang baik, program tidak akan berjalan dengan benar.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Algoritma itu seperti <strong>resep mie instan</strong>. Langkah-langkahnya jelas, urut, dan terbatas: (1) Buka bungkus, (2) Rebus air, (3) Masukkan mie, (4) Masukkan bumbu, (5) Sajikan. Kalau langkahnya diacak — misalnya bumbu dimasukkan sebelum air mendidih — hasilnya tidak maksimal. Sama seperti program!</p>
+</blockquote>
+<h3 id="logika-dasar-and-or-not">Logika Dasar: AND, OR, NOT</h3>
+<p>Dalam pemrograman, kita sering menggunakan logika <strong>boolean</strong> (true/false):</p>
+<pre><code>AND    = semua harus benar (✅ AND ✅ = ✅)
+OR     = salah satu benar (✅ OR ❌ = ✅)
+NOT    = kebalikan (NOT ✅ = ❌)
+</code></pre>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Nilai A</th>
+<th>Nilai B</th>
+<th>A AND B</th>
+<th>A OR B</th>
+<th>NOT A</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>❌</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Contoh dalam kehidupan:</strong><br />
+- &ldquo;Kamu boleh main game <strong>JIKA</strong> PR sudah selesai <strong>DAN</strong> sudah maghrib&rdquo;<br />
+- &ldquo;Kamu dapat nilai A <strong>JIKA</strong> UTS &gt;= 80 <strong>ATAU</strong> UAS &gt;= 85&rdquo;<br />
+- &ldquo;Kamu <strong>TIDAK</strong> boleh keluar kelas tanpa izin&rdquo;</p>
+<h3 id="ciri-ciri-algoritma-yang-baik">Ciri-Ciri Algoritma yang Baik</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Ciri</th>
+<th>Penjelasan</th>
+<th>Contoh Buruk</th>
+<th>Contoh Baik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Input</strong></td>
+<td>Ada data yang diproses</td>
+<td>—</td>
+<td>Masukkan 2 angka</td>
+</tr>
+<tr>
+<td><strong>Output</strong></td>
+<td>Menghasilkan hasil</td>
+<td>—</td>
+<td>Tampilkan jumlah</td>
+</tr>
+<tr>
+<td><strong>Definitif</strong></td>
+<td>Setiap langkah jelas</td>
+<td>&ldquo;Masak sampai matang&rdquo;</td>
+<td>&ldquo;Rebus 5 menit&rdquo;</td>
+</tr>
+<tr>
+<td><strong>Finite</strong></td>
+<td>Berhenti</td>
+<td>&ldquo;Ulang terus&rdquo;</td>
+<td>&ldquo;Ulang 10 kali&rdquo;</td>
+</tr>
+<tr>
+<td><strong>Efektif</strong></td>
+<td>Bisa dijalankan</td>
+<td>&ldquo;Terbang ke bulan&rdquo;</td>
+<td>&ldquo;Hitung luas segitiga&rdquo;</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="contoh-algoritma-sederhana">Contoh Algoritma Sederhana</h3>
+<p><strong>Algoritma Membeli Gojek:</strong></p>
+<pre><code>1. Buka aplikasi Gojek
+2. Pilih GoRide
+3. Masukkan lokasi jemput (otomatis) dan tujuan
+4. Pilih driver yang tersedia
+5. Tunggu driver datang
+6. Naik dan sampai tujuan
+7. Bayar (cash/GoPay)
+8. Selesai
+</code></pre>
+<h3 id="contoh-nyata">📌 Contoh Nyata</h3>
+<p><strong>Algoritma TikTok FYP:</strong><br />
+1. Kamu menonton video kucing<br />
+2. Sistem mencatat: durasi tonton = 30 detik (lama = suka)<br />
+3. Sistem mencari pola: &ldquo;pengguna yang suka kucing juga suka&hellip;&rdquo;<br />
+4. TikTok menampilkan lebih banyak video kucing<br />
+5. Kamu jadi betah berjam-jam di TikTok!<br />
+6. <strong>Ini adalah algoritma!</strong></p>
+<h3 id="cek-pemahaman">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Jelaskan perbedaan logika AND, OR, dan NOT! Berikan contoh masing-masing!</li>
+<li>Sebutkan 5 ciri algoritma yang baik!</li>
+<li>Apa perbedaan antara algoritma yang definitif dan yang tidak? Berikan contoh!</li>
+</ol>
+<h3 id="studi-kasus">📋 Studi Kasus</h3>
+<p>Sebuah aplikasi Gojek ingin menambahkan fitur baru: jika saldo GoPay cukup, pembayaran otomatis menggunakan GoPay. Jika tidak, tampilkan pilihan metode pembayaran lain.</p>
+<p><strong>Pertanyaan:</strong><br />
+1. Tuliskan algoritma sederhana untuk fitur tersebut menggunakan logika IF-THEN-ELSE!<br />
+2. Logika boolean apa yang digunakan dalam kasus &ldquo;Saldo cukup DAN lokasi tujuan valid&rdquo;?</p>
+<blockquote>
+<p>🤔 <strong>Refleksi:</strong> Tuliskan algoritma &ldquo;Bangun pagi dan berangkat sekolah&rdquo; dalam 8 langkah. Tukarkan dengan temanmu, apakah langkahnya sudah jelas?</p>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="b-flowchart-memvisualisasikan-algoritma">B. Flowchart: Memvisualisasikan Algoritma</h2>
+<h3 id="flowchart-memvisualisasikan-algoritma">📐 Flowchart: Memvisualisasikan Algoritma</h3>
+<p>Flowchart adalah <strong>diagram yang menggambarkan alur algoritma</strong> menggunakan simbol-simbol standar. Flowchart membuat algoritma lebih mudah dipahami daripada teks.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Flowchart itu seperti <strong>peta jalan</strong>. Bayangkan algoritma &ldquo;Pergi ke rumah teman&rdquo; ditulis dalam teks: belok kiri, lurus, belok kanan&hellip; Lebih mudah dipahami pakai peta, kan? Flowchart adalah &ldquo;peta&rdquo; untuk program!</p>
+</blockquote>
+<h3 id="simbol-flowchart">Simbol Flowchart</h3>
+<pre><code>    ┌──────────┐      ┌──────────────┐      ┌──────────┐
+    │  START/  │      │   PROSES     │      │  INPUT/  │
+    │  END     │      │  (Kegiatan)  │      │  OUTPUT  │
+    └──────────┘      └──────────────┘      └──────────┘
+    (Terminator)      (Process)            (Input/Output)
+
+    ┌──────────┐      ┌──────┐       ┌──────────────────┐
+    │ KONDISI  │      │      │       │                  │
+    │ Ya / Tidak├──────► ◄───────       ► PREPARATION    │
+    └──────────┘      └──────┘       │ (Inisialisasi)   │
+    (Decision)         (Connector)    └──────────────────┘
+</code></pre>
+<h3 id="contoh-flowchart-menentukan-kelulusan">Contoh Flowchart: Menentukan Kelulusan</h3>
+<pre><code>                ┌──────────┐
+                │  START   │
+                └────┬─────┘
+                     ▼
+                ┌──────────┐
+                │ Input    │
+                │ Nilai    │
+                └────┬─────┘
+                     ▼
+                ┌──────────┐
+                │ Nilai    │
+             ┌──┤ &gt;= 75?   ├──┐
+             │  └────┬─────┘  │
+             │       │ Ya    Tidak
+             ▼       ▼       ▼
+        ┌────────┐      ┌──────────┐
+        │ LULUS  │      │ REMEDIAL │
+        └───┬────┘      └────┬─────┘
+            │                │
+            └────────┬───────┘
+                     ▼
+                ┌──────────┐
+                │  END     │
+                └──────────┘
+</code></pre>
+<h3 id="contoh-flowchart-menghitung-luas-persegi">Contoh Flowchart: Menghitung Luas Persegi</h3>
+<pre><code>                ┌──────────┐
+                │  START   │
+                └────┬─────┘
+                     ▼
+      ┌──────────────────────────┐
+      │ Input sisi (s)           │
+      └────────────┬─────────────┘
+                   ▼
+      ┌──────────────────────────┐
+      │ Hitung luas = s × s      │
+      └────────────┬─────────────┘
+                   ▼
+      ┌──────────────────────────┐
+      │ Tampilkan luas           │
+      └────────────┬─────────────┘
+                   ▼
+                ┌──────────┐
+                │  END     │
+                └──────────┘
+</code></pre>
+<h3 id="contoh-nyata_1">📌 Contoh Nyata</h3>
+<p><strong>Flowchart Login Gojek:</strong><br />
+1. START → Buka Aplikasi Gojek<br />
+2. Input nomor HP<br />
+3. Apakah nomor terdaftar?<br />
+   - Ya → Kirim OTP<br />
+   - Tidak → Tampilkan &ldquo;Daftar dulu&rdquo;<br />
+4. Input OTP<br />
+5. Apakah OTP benar?<br />
+   - Ya → Masuk ke halaman utama<br />
+   - Tidak → &ldquo;OTP salah, coba lagi&rdquo;<br />
+6. END</p>
+<h3 id="cek-pemahaman_1">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Sebutkan 4 simbol flowchart beserta fungsinya!</li>
+<li>Apa perbedaan antara simbol Process dan Decision dalam flowchart?</li>
+<li>Mengapa flowchart lebih mudah dipahami daripada algoritma dalam bentuk teks?</li>
+</ol>
+<h3 id="studi-kasus_1">📋 Studi Kasus</h3>
+<p>Seorang siswa diminta membuat flowchart untuk program &ldquo;Cek Suhu Tubuh&rdquo;. Aturannya: jika suhu &gt;= 38°C maka tampilkan &ldquo;DEMAM&rdquo;, jika kurang tampilkan &ldquo;SEHAT&rdquo;.</p>
+<p><strong>Pertanyaan:</strong><br />
+1. Buatlah flowchart dalam bentuk teks (gunakan ASCII atau deskripsi langkah) untuk program tersebut!<br />
+2. Bagaimana jika ditambahkan kondisi: jika suhu &gt;= 38°C DAN ada batuk, tampilkan &ldquo;SEGERA KE DOKTER&rdquo;?</p>
+<blockquote>
+<p>🤔 <strong>Refleksi:</strong> Buatlah flowchart untuk algoritma &ldquo;Membeli pulsa&rdquo; atau &ldquo;Membuat kopi&rdquo; menggunakan simbol-simbol yang benar!</p>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="c-pengenalan-scratch-sebagai-alat-pemrograman">C. Pengenalan Scratch sebagai Alat Pemrograman</h2>
+<h3 id="pengenalan-scratch-sebagai-alat-pemrograman">🧩 Pengenalan Scratch sebagai Alat Pemrograman</h3>
+<p><strong>Scratch</strong> adalah bahasa pemrograman <strong>visual berbasis blok</strong> yang dikembangkan oleh MIT Media Lab. Cocok untuk pemula karena tidak perlu menulis kode teks — cukup <strong>seret dan susun blok-blok</strong> seperti menyusun LEGO!</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Scratch itu seperti <strong>LEGO</strong>: setiap blok adalah perintah (misal: &ldquo;gerak 10 langkah&rdquo;, &ldquo;putar 15 derajat&rdquo;, &ldquo;katakan Halo&rdquo;). Kamu tinggal menyusun blok-blok itu seperti menyusun balok LEGO — tanpa perlu lem (coding teks)! Hasilnya? Program yang bisa jalan!</p>
+</blockquote>
+<h3 id="tampilan-scratch">Tampilan Scratch</h3>
+<pre><code>  ┌─────────────────────────────────────────────────────────┐
+  │ Scratch 3.0                             [File] [Edit]  │
+  ├──────────┬──────────────────────────┬──────────────────┤
+  │          │                          │                  │
+  │  BLOCKS  │      PROGRAM AREA        │     STAGE       │
+  │  (Kode)  │   (Susun blok di sini)   │  (Hasil/layar)  │
+  │          │                          │                  │
+  │  Motion  │  when ▢ clicked          │  ┌──────────┐   │
+  │  Looks   │  move 10 steps           │  │  Kucing  │   │
+  │  Sound   │  say [Halo!] for 2 secs  │  │  🐱      │   │
+  │  Events  │  wait 1 seconds          │  │          │   │
+  │  Control │  forever                 │  └──────────┘   │
+  │  Sensing │    next costume          │                  │
+  │  ...     │                          │                  │
+  ├──────────┴──────────────────────────┴──────────────────┤
+  │ SPRITES  │  Backdrops  │  Sound                        │
+  └────────────────────────────────────────────────────────┘
+</code></pre>
+<h3 id="kategori-blok-scratch">Kategori Blok Scratch</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Kategori</th>
+<th>Warna</th>
+<th>Fungsi</th>
+<th>Contoh Blok</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Motion</strong></td>
+<td>🔵 Biru</td>
+<td>Menggerakkan sprite</td>
+<td><code>move 10 steps</code>, <code>turn 15 degrees</code></td>
+</tr>
+<tr>
+<td><strong>Looks</strong></td>
+<td>🟣 Ungu</td>
+<td>Mengubah tampilan</td>
+<td><code>say [Halo]</code>, <code>switch costume</code></td>
+</tr>
+<tr>
+<td><strong>Sound</strong></td>
+<td>🟣 Pink</td>
+<td>Memutar suara</td>
+<td><code>play sound</code>, <code>change volume</code></td>
+</tr>
+<tr>
+<td><strong>Events</strong></td>
+<td>🟡 Kuning</td>
+<td>Memicu kode</td>
+<td><code>when flag clicked</code>, <code>when key pressed</code></td>
+</tr>
+<tr>
+<td><strong>Control</strong></td>
+<td>🟠 Oranye</td>
+<td>Mengatur alur</td>
+<td><code>wait</code>, <code>forever</code>, <code>if then else</code></td>
+</tr>
+<tr>
+<td><strong>Sensing</strong></td>
+<td>🔵 Biru Muda</td>
+<td>Mendeteksi sesuatu</td>
+<td><code>touching mouse</code>, <code>ask and wait</code></td>
+</tr>
+<tr>
+<td><strong>Operators</strong></td>
+<td>🟢 Hijau</td>
+<td>Operasi matematika</td>
+<td><code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Variables</strong></td>
+<td>🟠 Oranye</td>
+<td>Membuat variabel</td>
+<td><code>set score to 0</code>, <code>change score</code></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="contoh-kode-di-scratch">Contoh Kode di Scratch</h3>
+<pre><code class="language-blocks">Ketika bendera hijau diklik
+ulang terus
+    jika (senter menyentuh Kucing?) maka
+        katakan Aduh! selama 2 detik
+        mainkan suara Meow
+    jika tidak
+        jalan 10 langkah
+        jika di pinggir, pantulkan
+    akhir
+akhir
+</code></pre>
+<h3 id="contoh-nyata_2">📌 Contoh Nyata</h3>
+<p>Banyak game sederhana dibuat dengan Scratch oleh siswa SMP/SMA di seluruh dunia. Di Indonesia, Scratch sering digunakan untuk:<br />
+- Membuat kuis interaktif<br />
+- Animasi cerita pendek<br />
+- Game sederhana (T-Rex run, Flappy Bird clone)<br />
+- Simulasi fisika (gravitasi, gerak parabola)</p>
+<p><strong>Kunjungi</strong> https://scratch.mit.edu untuk mencoba langsung secara online — <strong>gratis!</strong></p>
+<h3 id="cek-pemahaman_2">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Apa itu Scratch dan siapa yang mengembangkannya?</li>
+<li>Sebutkan 5 kategori blok di Scratch beserta warna dan fungsinya!</li>
+<li>Mengapa Scratch cocok untuk pemula belajar pemrograman?</li>
+</ol>
+<h3 id="studi-kasus_2">📋 Studi Kasus</h3>
+<p>Di kelas X, guru memberikan tugas membuat animasi sederhana dengan Scratch. Seorang siswa ingin membuat animasi kucing yang berjalan dan mengeong ketika disentuh oleh pointer mouse.</p>
+<p><strong>Pertanyaan:</strong><br />
+1. Kategori blok apa saja yang diperlukan untuk membuat animasi tersebut?<br />
+2. Tuliskan urutan blok yang kira-kira diperlukan (dalam bentuk deskripsi)!</p>
+<blockquote>
+<p>🤔 <strong>Refleksi:</strong> Apa perbedaan pemrograman blok (Scratch) dengan pemrograman teks (C++, Python)? Mana yang lebih mudah menurutmu?</p>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="d-proyek-program-sederhana-dengan-scratch">D. Proyek: Program Sederhana dengan Scratch</h2>
+<h3 id="proyek-program-sederhana-dengan-scratch">🎮 Proyek: Program Sederhana dengan Scratch</h3>
+<p>Saatnya <strong>membuat program sungguhan</strong>! Dengan Scratch, kamu bisa membuat game, animasi, atau cerita interaktif hanya dengan menyusun blok-blok.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Proyek ini seperti <strong>membangun rumah dari LEGO</strong>. Kamu sudah tahu fungsi setiap blok (motion, looks, control, dll). Sekarang saatnya merancang dan membangun sesuatu yang <strong>nyata</strong> — bukan sekadar latihan!</p>
+</blockquote>
+<h3 id="ide-proyek-pilih-salah-satu">💡 Ide Proyek (Pilih Salah Satu)</h3>
+<h4 id="1-game-kuis-interaktif">1. 🎯 Game Kuis Interaktif</h4>
+<pre><code>Konsep: Pemain menjawab pertanyaan Informatika
+Fitur:
+✅ Pertanyaan muncul acak
+✅ Skor bertambah jika benar
+✅ Timer 10 detik per soal
+✅ Suara &quot;benar&quot; 🎉 dan &quot;salah&quot; 😢
+
+Blok yang digunakan: Events, Sensing, Variables, Control, Looks
+</code></pre>
+<h4 id="2-game-kejar-kejaran">2. 🐱 Game Kejar-Kejaran</h4>
+<pre><code>Konsep: Kucing mengejar tikus, dikendalikan mouse
+Fitur:
+✅ Kucing mengikuti pointer mouse
+✅ Tikus menghindar secara otomatis
+✅ Skor bertambah jika kucing menyentuh tikus
+✅ Level semakin cepat
+
+Blok yang digunakan: Motion, Control, Sensing, Variables
+</code></pre>
+<h4 id="3-animasi-cerita-liburan-ke-bandung">3. 🌟 Animasi Cerita &ldquo;Liburan ke Bandung&rdquo;</h4>
+<pre><code>Konsep: Animasi interaktif 2-3 menit
+Fitur:
+✅ Karakter bicara dengan speech bubble
+✅ Latar berubah (rumah → jalan → tujuan)
+✅ Klik untuk lanjut ke scene berikutnya
+✅ Efek suara dan musik
+
+Blok yang digunakan: Looks, Events, Control, Sound
+</code></pre>
+<h3 id="langkah-langkah-proyek">Langkah-Langkah Proyek</h3>
+<pre><code>┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐
+│  Tentukan │   │  Desain  │   │  Susun   │   │   Uji    │
+│  Ide     │──►│  Karakter│──►│  Blok    │──►│  &amp; Debug │
+└──────────┘   └──────────┘   └──────────┘   └────┬─────┘
+                                                   │
+                                            ┌──────────┐
+                                            │ Presentasi│
+                                            │ &amp; Kumpul  │
+                                            └──────────┘
+</code></pre>
+<h3 id="rubrik-penilaian">Rubrik Penilaian</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Skor 4</th>
+<th>Skor 3</th>
+<th>Skor 2</th>
+<th>Skor 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fungsionalitas</strong></td>
+<td>Program berjalan sempurna</td>
+<td>Berjalan dengan bug kecil</td>
+<td>Berjalan sebagian</td>
+<td>Tidak bisa jalan</td>
+</tr>
+<tr>
+<td><strong>Kreativitas</strong></td>
+<td>Konsep unik &amp; menarik</td>
+<td>Cukup kreatif</td>
+<td>Biasa saja</td>
+<td>Tidak ada kreativitas</td>
+</tr>
+<tr>
+<td><strong>Kompleksitas</strong></td>
+<td>Banyak blok &amp; interaksi</td>
+<td>Beberapa blok</td>
+<td>Blok minimal</td>
+<td>Sangat sederhana</td>
+</tr>
+<tr>
+<td><strong>Estetika</strong></td>
+<td>Tampilan &amp; suara menarik</td>
+<td>Cukup rapi</td>
+<td>Kurang rapi</td>
+<td>Acak-acakan</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="contoh-nyata_3">📌 Contoh Nyata</h3>
+<p><strong>Proyek siswa SMA N 6 Cimahi tahun lalu:</strong> Mereka membuat game &ldquo;Petualangan Si Oncom&rdquo; — sebuah game edukasi tentang sejarah Bandung. Karakter utama (Oncom, kucing lucu) harus mengumpulkan informasi sejarah sambil menghindari rintangan. Game ini dipresentasikan di acara class meeting!</p>
+<pre><code class="language-blocks">Ketika bendera hijau diklik
+set skor ke 0
+tanyakan [Siapa nama kamu?] dan tunggu
+katakan (gabung [Selamat datang, ] (jawaban)) selama 2 detik
+forever
+    if &lt;touching [musuh v] ?&gt; then
+        change skor by (-1)
+        say [Aduh!] for 1 seconds
+    end
+end
+</code></pre>
+<p>Selamat berkarya! 🚀</p>
+<h3 id="cek-pemahaman_3">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Sebutkan 3 ide proyek yang bisa dibuat dengan Scratch!</li>
+<li>Apa saja 4 aspek penilaian dalam rubrik proyek Scratch?</li>
+<li>Jelaskan langkah-langkah pengerjaan proyek Scratch dari awal hingga akhir!</li>
+</ol>
+<h3 id="studi-kasus_3">📋 Studi Kasus</h3>
+<p>Sebuah kelompok memilih proyek &ldquo;Game Kuis Informatika&rdquo; dengan Scratch. Setelah seminggu, mereka baru membuat 3 soal, skor belum berfungsi, dan tampilan masih berantakan. Deadline tinggal 3 hari lagi.</p>
+<p><strong>Pertanyaan:</strong><br />
+1. Apa yang salah dengan perencanaan proyek kelompok tersebut?<br />
+2. Buatkan jadwal 3 hari yang efektif agar proyek mereka selesai tepat waktu!</p>
+<blockquote>
+<p>🤔 <strong>Refleksi:</strong> Setelah proyek selesai, tuliskan (1) Hal paling seru, (2) Kesulitan terbesar, (3) Satu hal yang akan kamu tingkatkan!</p>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<hr />
+<h2 id="proyek-mini-game-sederhana-di-scratch">🏗️ Proyek Mini: Game Sederhana di Scratch 🎮</h2>
+<p>Buat game atau animasi interaktif menggunakan Scratch. Pilih salah satu: Game Tebak Angka, Kuis Interaktif, atau Animasi Cerita Pendek. Minimal menggunakan 3 kategori blok berbeda.</p>
+<p><strong>Alat dan Bahan:</strong><br />
+- Scratch (https://scratch.mit.edu) — online atau offline<br />
+- Laptop/komputer dengan koneksi internet</p>
+<p><strong>Langkah-langkah:</strong><br />
+1. Tentukan ide: Game Tebak Angka / Kuis Informatika / Animasi Cerita<br />
+2. Buat flowchart sederhana alur program kamu<br />
+3. Pilih sprite (karakter) dan backdrop (latar) yang sesuai<br />
+4. Susun blok-blok program: events, control, motion/looks, variables<br />
+5. Uji coba program — cari dan perbaiki bug (debugging)<br />
+6. Tambahkan fitur tambahan: skor, timer, suara, atau level<br />
+7. Simpan dan kumpulkan file .sb3 beserta dokumentasi</p>
+<blockquote>
+<p><strong>Output:</strong> File Scratch (.sb3) + flowchart + dokumentasi singkat</p>
+</blockquote>
+<hr />
+<h2 id="rangkuman">📝 Rangkuman</h2>
+<ul>
+<li>Algoritma adalah langkah-langkah sistematis untuk menyelesaikan masalah. Logika dasar meliputi AND, OR, dan NOT.</li>
+<li>Flowchart memvisualisasikan algoritma menggunakan simbol standar: terminator, proses, decision, dan input/output.</li>
+<li>Scratch adalah bahasa pemrograman visual berbasis blok dari MIT — cocok untuk pemula belajar konsep coding tanpa menulis teks.</li>
+<li>Proyek Scratch bisa berupa game kuis, game kejar-kejaran, atau animasi cerita — melatih kreativitas dan logika pemrograman.</li>
+</ul>
+<hr />
+<h2 id="latihan-soal">✍️ Latihan Soal</h2>
+<h3 id="a-pilihan-ganda">A. Pilihan Ganda</h3>
+<ol>
+<li>
+<p>Logika AND akan menghasilkan nilai benar (true) jika&hellip;<br />
+   a. Salah satu benar<br />
+   b. Keduanya benar<br />
+   c. Keduanya salah<br />
+   d. Minimal satu benar<br />
+   e. Tidak ada yang benar<br />
+<strong>Kunci Jawaban: B</strong></p>
+</li>
+<li>
+<p>Flowchart adalah&hellip;<br />
+   a. Bahasa pemrograman<br />
+   b. Diagram yang menggambarkan alur algoritma<br />
+   c. Software untuk coding<br />
+   d. Jenis komputer<br />
+   e. Alat input<br />
+<strong>Kunci Jawaban: B</strong></p>
+</li>
+<li>
+<p>Simbol flowchart berbentuk belah ketupat digunakan untuk&hellip;<br />
+   a. Start/End<br />
+   b. Proses<br />
+   c. Decision/kondisi<br />
+   d. Input/Output<br />
+   e. Konektor<br />
+<strong>Kunci Jawaban: C</strong></p>
+</li>
+<li>
+<p>Scratch adalah bahasa pemrograman&hellip;<br />
+   a. Teks tingkat tinggi<br />
+   b. Visual berbasis blok<br />
+   c. Mesin tingkat rendah<br />
+   d. Database<br />
+   e. Markup<br />
+<strong>Kunci Jawaban: B</strong></p>
+</li>
+<li>
+<p>Blok berwarna kuning di Scratch termasuk kategori&hellip;<br />
+   a. Motion<br />
+   b. Control<br />
+   c. Events<br />
+   d. Looks<br />
+   e. Sound<br />
+<strong>Kunci Jawaban: C</strong></p>
+</li>
+</ol>
+<h3 id="b-uraian">B. Uraian</h3>
+<ol>
+<li>
+<p>Jelaskan apa yang dimaksud dengan algoritma dan sebutkan minimal 4 ciri algoritma yang baik!</p>
+</li>
+<li>
+<p>Buatlah flowchart sederhana untuk menentukan apakah seorang siswa lulus atau remedial (nilai &gt;= 75 lulus)!</p>
+</li>
+<li>
+<p>Jelaskan perbedaan dan kegunaan blok Motion, Looks, Control, dan Events di Scratch!</p>
+</li>
+<li>
+<p>Buatlah algoritma dalam 8-10 langkah untuk &lsquo;Memesan tiket bioskop melalui aplikasi online&rsquo;!</p>
+</li>
+</ol>
+<hr />
+<h2 id="rubrik-penilaian-proyek">📋 Rubrik Penilaian Proyek</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Kurang</th>
+<th>Cukup</th>
+<th>Baik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fungsionalitas Program</td>
+<td>Program tidak berjalan</td>
+<td>Program berjalan dengan bug</td>
+<td>Program berjalan sempurna</td>
+</tr>
+<tr>
+<td>Kompleksitas Blok</td>
+<td>Hanya 1-2 kategori blok</td>
+<td>3 kategori blok digunakan</td>
+<td>4+ kategori blok, ada variabel/logika</td>
+</tr>
+<tr>
+<td>Kreativitas &amp; Desain</td>
+<td>Sprite default, tidak ada desain</td>
+<td>Ada modifikasi sprite/latar</td>
+<td>Desain unik, menarik, sesuai tema</td>
+</tr>
+<tr>
+<td>Dokumentasi</td>
+<td>Tidak ada dokumentasi</td>
+<td>Dokumentasi minimal</td>
+<td>Dokumentasi lengkap: flowchart + deskripsi</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="tugas-pengayaan">🚀 Tugas Pengayaan</h2>
+<h3 id="scratch-tingkat-lanjut">Scratch Tingkat Lanjut</h3>
+<p>Buat game yang lebih kompleks di Scratch: game platformer (lompat rintangan) atau game shooting. Gunakan cloning, variabel global, dan message broadcasting.</p>
+<h3 id="eksplorasi-python">Eksplorasi Python</h3>
+<p>Coba buat program sederhana dengan Python di https://replit.com/ atau Google Colab. Program: kalkulator sederhana atau konversi suhu. Bandingkan dengan Scratch!</p>
+<hr />
+<h2 id="glosarium">📖 Glosarium</h2>
+<ul>
+<li><strong>Algoritma</strong>: Langkah-langkah sistematis dan logis untuk menyelesaikan masalah.</li>
+<li><strong>Flowchart</strong>: Diagram yang menggambarkan alur algoritma menggunakan simbol-simbol standar.</li>
+<li><strong>Scratch</strong>: Bahasa pemrograman visual berbasis blok yang dikembangkan oleh MIT.</li>
+<li><strong>Logika Boolean</strong>: Sistem logika dengan dua nilai: benar (true) dan salah (false).</li>
+<li><strong>Variabel</strong>: Tempat penyimpanan data yang nilainya bisa berubah selama program berjalan.</li>
+<li><strong>Sprite</strong>: Karakter atau objek dalam Scratch yang bisa diprogram.</li>
+<li><strong>Loop (Perulangan)</strong>: Blok perintah yang menjalankan kode secara berulang (forever, repeat).</li>
+</ul>
+<hr />
+<h2 id="sumber-media-pembelajaran">📺 Sumber &amp; Media Pembelajaran</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Sumber</th>
+<th>Tautan</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>YouTube</td>
+<td>Belajar Algoritma dan Flowchart</td>
+<td><code>https://youtu.be/...search?q=algoritma+dan+flowchart+indonesia</code></td>
+<td>Video belajar algoritma dasar dan flowchart</td>
+</tr>
+<tr>
+<td>YouTube</td>
+<td>Pemrograman Scratch untuk Pemula</td>
+<td><code>https://youtu.be/...search?q=tutorial+scratch+bahasa+indonesia</code></td>
+<td>Tutorial Scratch dari dasar oleh kreator Indonesia</td>
+</tr>
+<tr>
+<td>Simulasi</td>
+<td>Scratch MIT — Coba Online</td>
+<td><code>https://scratch.mit.edu/</code></td>
+<td>Platform pemrograman visual blok — gratis!</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>Blockly Games</td>
+<td><code>https://blockly.games/</code></td>
+<td>Game coding visual untuk latihan logika</td>
+</tr>
+<tr>
+<td>YouTube</td>
+<td>Sekolahmu — Algoritma Pemrograman</td>
+<td><code>https://youtu.be/...search?q=sekolahmu+algoritma+pemrograman</code></td>
+<td>Materi algoritma dari Sekolahmu channel</td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

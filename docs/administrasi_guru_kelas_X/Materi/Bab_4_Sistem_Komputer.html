@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas X (Fase E) — Bab_4_Sistem_Komputer — MGMP Informatika 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 MGMP Informatika</h1>
+  <p>Musyawarah Guru Mata Pelajaran<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas X (Fase E)</a> / <a href="index.html">Materi</a> / <span>Bab 4 Sistem Komputer</span></nav></div>
+    <div class="content-inner">
+    <h1 id="bab-4-sistem-komputer">⚙️ Bab 4: Sistem Komputer</h1>
+<blockquote>
+<p><strong>Semester Ganjil</strong> | <strong>Fase E</strong> | <strong>Kelas X</strong> | <strong>15 JP</strong></p>
+</blockquote>
+<hr />
+<h2 id="pemetaan-capaian-pembelajaran">📊 Pemetaan Capaian Pembelajaran</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Elemen CP</th>
+<th>Deskripsi CP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sistem Komputer</td>
+<td>Memahami peran sistem operasi, komponen hardware, dan software dalam sistem komputer.</td>
+</tr>
+<tr>
+<td>Teknologi Informasi dan Komunikasi</td>
+<td>Mengidentifikasi jenis-jenis perangkat lunak dan kegunaannya.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="tujuan-pembelajaran">🎯 Tujuan Pembelajaran</h2>
+<ul>
+<li><strong>A.</strong> Hardware: Komponen Fisik Komputer</li>
+<li><strong>B.</strong> Software: Perangkat Lunak Sistem dan Aplikasi</li>
+<li><strong>C.</strong> Sistem Operasi: Jembatan Pengguna dan Hardware</li>
+</ul>
+<h2 id="peta-konsep">🗺️ Peta Konsep</h2>
+<pre><code>               ⚙️ SISTEM KOMPUTER
+                     |
+                     ├── A. Hardware: Komponen Fisik Komputer
+                     ├── B. Software: Perangkat Lunak Sistem dan Aplikasi
+                     └── C. Sistem Operasi: Jembatan Pengguna dan Hardware
+</code></pre>
+<h2 id="a-hardware-komponen-fisik-komputer">A. Hardware: Komponen Fisik Komputer</h2>
+<h3 id="hardware-komponen-fisik-komputer">⚙️ Hardware: Komponen Fisik Komputer</h3>
+<p>Hardware adalah semua bagian komputer yang <strong>bisa dilihat dan disentuh</strong>. Ibarat tubuh manusia, hardware adalah <strong>anggota badan</strong> — fisik yang bisa diraba.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Hardware itu seperti <strong>dapur</strong>. Ada kompor (CPU), wajan (motherboard), pisau (mouse/keyboard), talenan (RAM), lemari es (hard disk), dan piring (monitor). Semua alat fisik yang diperlukan untuk memasak.</p>
+</blockquote>
+<h3 id="komponen-utama-hardware">Komponen Utama Hardware</h3>
+<pre><code>                 ┌──────────────────────┐
+                 │      MONITOR         │
+                 │   (Output Visual)    │
+                 └──────────┬───────────┘
+                            │
+      ┌─────────────────────┼─────────────────────┐
+      │                     │                     │
+      ▼                     ▼                     ▼
+┌──────────┐         ┌──────────┐         ┌──────────┐
+│ KEYBOARD ├────────►│   CPU    │◄────────│  MOUSE   │
+│ (Input)  │         │  (Otak)  │         │ (Input)  │
+└──────────┘         └────┬─────┘         └──────────┘
+                          │
+      ┌───────────────────┼────────────────────┐
+      │                   │                    │
+      ▼                   ▼                    ▼
+┌──────────┐        ┌──────────┐        ┌──────────┐
+│   RAM    │        │  HDD/SSD │        │  SPEAKER │
+│ Memori   │        │ Storage  │        │ Output   │
+│ Sementara│        │ Permanen │        │ Audio    │
+└──────────┘        └──────────┘        └──────────┘
+</code></pre>
+<h3 id="tabel-komponen-dan-fungsinya">Tabel Komponen dan Fungsinya</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Komponen</th>
+<th>Fungsi</th>
+<th>Analogi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPU</strong> (Prosesor)</td>
+<td>Otak komputer — menjalankan perintah</td>
+<td>Manajer yang memberi instruksi</td>
+</tr>
+<tr>
+<td><strong>RAM</strong></td>
+<td>Memori sementara, cepat tapi hilang saat mati</td>
+<td>Meja kerja sementara</td>
+</tr>
+<tr>
+<td><strong>Hard Disk / SSD</strong></td>
+<td>Penyimpanan permanen, lambat tapi awet</td>
+<td>Lemari arsip</td>
+</tr>
+<tr>
+<td><strong>Motherboard</strong></td>
+<td>Papan sirkuit utama penghubung semua komponen</td>
+<td>Kerangka tubuh</td>
+</tr>
+<tr>
+<td><strong>Power Supply (PSU)</strong></td>
+<td>Sumber listrik</td>
+<td>Jantung yang pompa darah (listrik)</td>
+</tr>
+<tr>
+<td><strong>GPU / VGA Card</strong></td>
+<td>Mengolah grafis / tampilan</td>
+<td>Pelukis digital</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="cpu-otak-komputer">CPU: Otak Komputer</h3>
+<pre><code>┌─────────────────────────────────┐
+│     PROSESOR (CPU)              │
+│  ┌─────┐  ┌─────┐  ┌─────┐    │
+│  │ ALU │  │ CU  │  │ Cache│    │
+│  └─────┘  └─────┘  └─────┘    │
+│  • ALU = Arithmetic Logic Unit  │
+│  • CU = Control Unit            │
+│  • Cache = Memori super cepat   │
+└─────────────────────────────────┘
+</code></pre>
+<h3 id="contoh-nyata">📌 Contoh Nyata</h3>
+<p>Spek komputer lab sekolah biasanya: <strong>Intel Core i3 / RAM 4 GB / SSD 256 GB</strong>. Cukup untuk belajar Microsoft Office, browsing, dan coding dasar. Kalau mau gaming atau editing video berat, butuh spek lebih tinggi (i5/i7, RAM 16GB, GPU dedicated).</p>
+<h3 id="cek-pemahaman">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Sebutkan 5 komponen utama hardware dan fungsinya masing-masing!</li>
+<li>Apa perbedaan antara RAM dan Hard Disk/SSD?</li>
+<li>Jelaskan fungsi ALU dan CU dalam prosesor!</li>
+</ol>
+<h3 id="studi-kasus">📋 Studi Kasus</h3>
+<p>Andi ingin membeli laptop untuk belajar dan desain grafis. Temannya menyarankan laptop dengan RAM 4 GB dan prosesor i3, tapi Andi juga lihat laptop lain dengan RAM 8 GB dan prosesor i5 harganya lebih mahal 2 juta.</p>
+<p><strong>Pertanyaan:</strong><br />
+1. Komponen hardware mana yang paling penting untuk kebutuhan desain grafis?<br />
+2. Berdasarkan spek yang berbeda, laptop mana yang sebaiknya dipilih Andi? Jelaskan alasannya!</p>
+<blockquote>
+<p>🤔 <strong>Refleksi:</strong> Coba lihat spek HP atau komputermu! Berapa GHz prosesornya? Berapa GB RAM-nya? Catat dan bandingkan dengan temanmu!</p>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="b-software-perangkat-lunak-sistem-dan-aplikasi">B. Software: Perangkat Lunak Sistem dan Aplikasi</h2>
+<h3 id="software-perangkat-lunak-sistem-dan-aplikasi">💿 Software: Perangkat Lunak Sistem dan Aplikasi</h3>
+<p>Software adalah <strong>program dan data</strong> yang membuat hardware bisa bekerja. Software <strong>tidak bisa disentuh</strong> — dia adalah instruksi logis yang dijalankan komputer.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Hardware adalah <strong>piano</strong>, software adalah <strong>lembaran musik</strong>. Piano tanpa lembaran musik hanya benda mati. Lembaran musik tanpa piano tidak bisa dimainkan. Keduanya harus bersatu agar tercipta musik yang indah!</p>
+</blockquote>
+<h3 id="jenis-jenis-software">Jenis-Jenis Software</h3>
+<pre><code>                ┌──────────────────────────────┐
+                │       SOFTWARE               │
+                ├────────────────────┬─────────┤
+                │                    │         │
+          ┌─────▼──────┐      ┌─────▼──────┐  │
+          │  SISTEM OS  │      │  APLIKASI  │  │
+          │  (OS)       │      │            │  │
+          │  Windows    │      │  Word      │  │
+          │  Linux      │      │  Chrome    │  │
+          │  macOS      │      │  Canva     │  │
+          │  Android    │      │  Scratch   │  │
+          └─────────────┘      └────────────┘  │
+                │                               │
+          ┌─────▼──────┐                       │
+          │  UTILITY   │                       │
+          │  Antivirus │                       │
+          │  Cleaner   │                       │
+          └────────────┘                       │
+                └──────────────────────────────┘
+</code></pre>
+<h3 id="perbandingan-software-sistem-vs-aplikasi">Perbandingan Software Sistem vs Aplikasi</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Software Sistem</th>
+<th>Software Aplikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tujuan</strong></td>
+<td>Mengelola hardware &amp; software lain</td>
+<td>Membantu tugas spesifik pengguna</td>
+</tr>
+<tr>
+<td><strong>Pengguna</strong></td>
+<td>Sistem (otomatis)</td>
+<td>Langsung oleh user</td>
+</tr>
+<tr>
+<td><strong>Contoh</strong></td>
+<td>Windows 11, Android 14</td>
+<td>Word, Excel, Chrome, CapCut</td>
+</tr>
+<tr>
+<td><strong>Tanpa OS?</strong></td>
+<td>OS diperlukan agar aplikasi jalan</td>
+<td>Tidak bisa jalan tanpa OS</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="software-aplikasi-populer">Software Aplikasi Populer</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Kategori</th>
+<th>Contoh</th>
+<th>Fungsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Office</strong></td>
+<td>Microsoft Office, Google Docs</td>
+<td>Menulis, spreadsheet, presentasi</td>
+</tr>
+<tr>
+<td><strong>Browser</strong></td>
+<td>Chrome, Firefox, Edge</td>
+<td>Berselancar di internet</td>
+</tr>
+<tr>
+<td><strong>Desain</strong></td>
+<td>Canva, Figma, CorelDRAW</td>
+<td>Membuat desain grafis</td>
+</tr>
+<tr>
+<td><strong>Editing</strong></td>
+<td>CapCut, Kdenlive, Photoshop</td>
+<td>Edit video, foto</td>
+</tr>
+<tr>
+<td><strong>Komunikasi</strong></td>
+<td>WhatsApp, Discord, Zoom</td>
+<td>Chat, video call</td>
+</tr>
+<tr>
+<td><strong>Pendidikan</strong></td>
+<td>Google Classroom, Quizizz</td>
+<td>Belajar dan tugas</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="contoh-nyata_1">📌 Contoh Nyata</h3>
+<p><strong>Saat kamu membuat laporan:</strong><br />
+- <strong>Sistem Operasi:</strong> Windows 11 menyalakan laptop<br />
+- <strong>Aplikasi:</strong> Microsoft Word untuk menulis<br />
+- <strong>Browser:</strong> Chrome untuk mencari referensi<br />
+- <strong>Cloud:</strong> Google Drive untuk menyimpan &amp; share</p>
+<h3 id="cek-pemahaman_1">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Jelaskan perbedaan software sistem dan software aplikasi!</li>
+<li>Sebutkan 3 contoh software aplikasi untuk desain grafis!</li>
+<li>Mengapa software aplikasi tidak bisa berjalan tanpa sistem operasi?</li>
+</ol>
+<h3 id="studi-kasus_1">📋 Studi Kasus</h3>
+<p>Seorang siswa menginstal 3 sistem operasi berbeda di satu laptop (Windows, Linux, dan macOS) untuk tugas sekolahnya. Dia bingung mengapa beberapa aplikasi Word dan Excel tidak bisa jalan di Linux.</p>
+<p><strong>Pertanyaan:</strong><br />
+1. Mengapa aplikasi tertentu hanya bisa berjalan di sistem operasi tertentu?<br />
+2. Menurutmu, sistem operasi apa yang paling cocok untuk seorang pelajar? Jelaskan alasannya!</p>
+<blockquote>
+<p>🤔 <strong>Refleksi:</strong> Sebutkan 5 aplikasi yang paling sering kamu pakai dalam sehari! Kategorikan sebagai sistem atau aplikasi!</p>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="c-sistem-operasi-jembatan-pengguna-dan-hardware">C. Sistem Operasi: Jembatan Pengguna dan Hardware</h2>
+<h3 id="sistem-operasi-jembatan-pengguna-dan-hardware">🔗 Sistem Operasi: Jembatan Pengguna dan Hardware</h3>
+<p>Sistem Operasi (OS) adalah <strong>software paling penting</strong> di komputer. Dia menjadi jembatan antara pengguna (kamu), aplikasi, dan hardware.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Sistem Operasi itu seperti <strong>resepsionis</strong> di hotel besar. Kamu (pengguna) datang dan minta sesuatu (buka file, buka browser). Resepsionis (OS) yang mengatur siapa yang melakukan apa — menyuruh petugas kebersihan, bellboy, atau teknisi (hardware) untuk bekerja. Kamu tidak perlu langsung ngomong ke petugasnya!</p>
+</blockquote>
+<h3 id="fungsi-utama-sistem-operasi">Fungsi Utama Sistem Operasi</h3>
+<pre><code>   ┌──────────────────────────────────────────┐
+   │            PENGGUNA (USER)               │
+   ├──────────────────────────────────────────┤
+   │   APLIKASI: Word, Chrome, Game, Canva    │
+   ├──────────────────────────────────────────┤
+   │     SISTEM OPERASI (Windows/Linux)        │
+   │   ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐  │
+   │   │CPU   │ │Memory│ │I/O   │ │File  │  │
+   │   │Mgmt  │ │Mgmt  │ │Mgmt  │ │Mgmt  │  │
+   │   └──────┘ └──────┘ └──────┘ └──────┘  │
+   ├──────────────────────────────────────────┤
+   │           HARDWARE (CPU, RAM, dll)        │
+   └──────────────────────────────────────────┘
+</code></pre>
+<h3 id="sistem-operasi-populer">Sistem Operasi Populer</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>OS</th>
+<th>Developer</th>
+<th>Perangkat</th>
+<th>UI</th>
+<th>Kelebihan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Windows 11</strong></td>
+<td>Microsoft</td>
+<td>PC, Laptop</td>
+<td>GUI</td>
+<td>Banyak software, mudah dipakai</td>
+</tr>
+<tr>
+<td><strong>macOS</strong></td>
+<td>Apple</td>
+<td>MacBook, iMac</td>
+<td>GUI</td>
+<td>Desain premium, stabil</td>
+</tr>
+<tr>
+<td><strong>Linux (Ubuntu)</strong></td>
+<td>Open-source</td>
+<td>PC, Server</td>
+<td>GUI/CLI</td>
+<td>Gratis, ringan, aman</td>
+</tr>
+<tr>
+<td><strong>Android</strong></td>
+<td>Google</td>
+<td>Smartphone</td>
+<td>Touch</td>
+<td>Paling populer di HP</td>
+</tr>
+<tr>
+<td><strong>iOS</strong></td>
+<td>Apple</td>
+<td>iPhone, iPad</td>
+<td>Touch</td>
+<td>Keamanan, ekosistem Apple</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="cli-vs-gui">CLI vs GUI</h3>
+<pre><code>┌──────────────────┐    ┌──────────────────┐
+│      CLI         │    │      GUI         │
+│ (Command Line)   │    │ (Graphical)      │
+│                  │    │                  │
+│ $ ls -la         │    │  ╔══╗  ┌──┐     │
+│ $ cd Documents   │    │  ║  ║  │  │     │
+│ $ mkdir Tugas    │    │  ╚══╝  └──┘     │
+│ $ python run.py  │    │  Klik, drag,     │
+│                  │    │  visual          │
+│ Cepat, hemat     │    │ Mudah, ramah     │
+│ resource         │    │ pengguna         │
+└──────────────────┘    └──────────────────┘
+</code></pre>
+<h3 id="contoh-nyata_2">📌 Contoh Nyata</h3>
+<p><strong>Boot process:</strong> Saat kamu tekan tombol power laptop:<br />
+1. PSU memberi listrik ke motherboard<br />
+2. BIOS/UEFI melakukan pengecekan hardware (POST)<br />
+3. BIOS mencari bootloader di SSD/HDD<br />
+4. Bootloader memuat Windows/Linux ke RAM<br />
+5. Kamu lihat layar login — <strong>selesai booting!</strong></p>
+<h3 id="cek-pemahaman_2">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Sebutkan 4 fungsi utama sistem operasi!</li>
+<li>Apa perbedaan antara CLI dan GUI? Sebutkan kelebihan masing-masing!</li>
+<li>Sebutkan 3 sistem operasi populer beserta perangkat yang menggunakannya!</li>
+</ol>
+<h3 id="studi-kasus_2">📋 Studi Kasus</h3>
+<p>Laptop seorang siswa tiba-tiba muncul layar biru (Blue Screen of Death) saat sedang mengerjakan tugas. Semua file yang belum disimpan hilang.</p>
+<p><strong>Pertanyaan:</strong><br />
+1. Jelaskan apa yang mungkin terjadi pada sistem operasi berdasarkan gejala di atas!<br />
+2. Apa yang seharusnya dilakukan siswa tersebut untuk mencegah kejadian serupa di masa depan?</p>
+<blockquote>
+<p>🤔 <strong>Refleksi:</strong> OS apa yang kamu pakai di HP dan laptop? Sebutkan 3 kelebihan dan 3 kekurangan yang kamu rasakan!</p>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<hr />
+<h2 id="proyek-mini-poster-anatomi-komputer">🏗️ Proyek Mini: Poster Anatomi Komputer 🖥️</h2>
+<p>Buat poster yang menampilkan komponen-komponen utama hardware komputer beserta fungsinya. Gambar atau ilustrasi komponen harus diberi label dan penjelasan singkat.</p>
+<p><strong>Alat dan Bahan:</strong><br />
+- Canva / PowerPoint / Kertas gambar<br />
+- Referensi gambar komponen komputer</p>
+<p><strong>Langkah-langkah:</strong><br />
+1. Identifikasi minimal 7 komponen hardware: CPU, RAM, HDD/SSD, Motherboard, PSU, GPU, dan satu komponen input/output<br />
+2. Cari gambar referensi setiap komponen (bisa dari internet atau gambar tangan)<br />
+3. Buat layout poster: susun komponen seperti diagram sistem komputer<br />
+4. Beri label nama dan fungsi singkat pada setiap komponen<br />
+5. Tambahkan panah alur data: Input → Proses → Output → Storage<br />
+6. Buat semenarik mungkin dengan warna yang harmonis</p>
+<blockquote>
+<p><strong>Output:</strong> Poster digital (.pdf/.jpg) atau poster fisik ukuran A3</p>
+</blockquote>
+<hr />
+<h2 id="rangkuman">📝 Rangkuman</h2>
+<ul>
+<li>Hardware terdiri dari komponen input, proses (CPU), output, storage (HDD/SSD), dan network — semuanya bekerja sama membentuk sistem komputer.</li>
+<li>Software dibagi menjadi sistem operasi (Windows, Linux), aplikasi (Word, Chrome), dan utility (antivirus).</li>
+<li>Sistem Operasi adalah jembatan antara pengguna, aplikasi, dan hardware — fungsi utamanya mengelola CPU, memori, I/O, dan file.</li>
+</ul>
+<hr />
+<h2 id="latihan-soal">✍️ Latihan Soal</h2>
+<h3 id="a-pilihan-ganda">A. Pilihan Ganda</h3>
+<ol>
+<li>
+<p>Komponen komputer yang disebut sebagai &lsquo;otak&rsquo; komputer adalah&hellip;<br />
+   a. RAM<br />
+   b. Hard Disk<br />
+   c. CPU<br />
+   d. Motherboard<br />
+   e. PSU<br />
+<strong>Kunci Jawaban: C</strong></p>
+</li>
+<li>
+<p>RAM adalah memori yang bersifat&hellip;<br />
+   a. Permanen<br />
+   b. Sementara dan hilang saat komputer mati<br />
+   c. Tidak bisa dihapus<br />
+   d. Hanya untuk menyimpan file<br />
+   e. Sama seperti hard disk<br />
+<strong>Kunci Jawaban: B</strong></p>
+</li>
+<li>
+<p>Perangkat lunak yang bertindak sebagai jembatan antara pengguna dan hardware adalah&hellip;<br />
+   a. Aplikasi<br />
+   b. Browser<br />
+   c. Sistem Operasi<br />
+   d. Driver<br />
+   e. Utility<br />
+<strong>Kunci Jawaban: C</strong></p>
+</li>
+<li>
+<p>Berikut ini yang termasuk perangkat output adalah&hellip;<br />
+   a. Keyboard<br />
+   b. Mouse<br />
+   c. Monitor<br />
+   d. Scanner<br />
+   e. Mikrofon<br />
+<strong>Kunci Jawaban: C</strong></p>
+</li>
+<li>
+<p>Linux adalah contoh dari&hellip;<br />
+   a. Aplikasi perkantoran<br />
+   b. Browser<br />
+   c. Sistem Operasi<br />
+   d. Bahasa pemrograman<br />
+   e. Game<br />
+<strong>Kunci Jawaban: C</strong></p>
+</li>
+</ol>
+<h3 id="b-uraian">B. Uraian</h3>
+<ol>
+<li>
+<p>Jelaskan fungsi masing-masing: CPU, RAM, Hard Disk/SSD, dan Motherboard dalam sistem komputer!</p>
+</li>
+<li>
+<p>Apa perbedaan antara software sistem dan software aplikasi? Berikan masing-masing 3 contoh!</p>
+</li>
+<li>
+<p>Jelaskan peran sistem operasi sebagai jembatan antara pengguna dan hardware!</p>
+</li>
+<li>
+<p>Apa yang dimaksud dengan GUI dan CLI? Sebutkan 2 kelebihan dan 2 kekurangan masing-masing!</p>
+</li>
+</ol>
+<hr />
+<h2 id="rubrik-penilaian-proyek">📋 Rubrik Penilaian Proyek</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Kurang</th>
+<th>Cukup</th>
+<th>Baik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kelengkapan Komponen</td>
+<td>Kurang dari 4 komponen</td>
+<td>5-6 komponen tercantum</td>
+<td>7+ komponen lengkap</td>
+</tr>
+<tr>
+<td>Ketepatan Fungsi</td>
+<td>Fungsi tidak tepat atau salah</td>
+<td>Fungsi cukup tepat</td>
+<td>Fungsi tepat dan detail</td>
+</tr>
+<tr>
+<td>Visual &amp; Label</td>
+<td>Tidak ada label atau label salah</td>
+<td>Ada label, cukup rapi</td>
+<td>Label jelas, layout profesional</td>
+</tr>
+<tr>
+<td>Alur Sistem</td>
+<td>Tidak menunjukkan alur data</td>
+<td>Alur data ada tapi kurang jelas</td>
+<td>Alur data Input→Proses→Output→Storage jelas</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="tugas-pengayaan">🚀 Tugas Pengayaan</h2>
+<h3 id="riset-spesifikasi">Riset Spesifikasi</h3>
+<p>Cari 3 laptop/PC dengan rentang harga berbeda (5jt, 10jt, 15jt+). Bandingkan spesifikasi CPU, RAM, storage, dan GPU. Tulis rekomendasi untuk: pelajar, desainer grafis, dan gamer.</p>
+<h3 id="eksplorasi-os">Eksplorasi OS</h3>
+<p>Install Linux Ubuntu di VirtualBox atau coba live USB. Jelaskan perbedaan pengalaman menggunakan Linux vs Windows: tampilan, cara instal aplikasi, dan kecepatan.</p>
+<hr />
+<h2 id="glosarium">📖 Glosarium</h2>
+<ul>
+<li><strong>CPU (Central Processing Unit)</strong>: Otak komputer yang menjalankan semua perintah dan proses.</li>
+<li><strong>RAM (Random Access Memory)</strong>: Memori sementara yang cepat tapi hilang saat komputer mati.</li>
+<li><strong>Storage (HDD/SSD)</strong>: Penyimpanan permanen untuk data dan file.</li>
+<li><strong>Motherboard</strong>: Papan sirkuit utama yang menghubungkan semua komponen komputer.</li>
+<li><strong>Sistem Operasi</strong>: Software utama yang menjadi jembatan antara pengguna, aplikasi, dan hardware.</li>
+<li><strong>GUI (Graphical User Interface)</strong>: Antarmuka pengguna berbasis grafis — ikon, menu, dan jendela.</li>
+<li><strong>CLI (Command Line Interface)</strong>: Antarmuka pengguna berbasis teks — mengetik perintah.</li>
+</ul>
+<hr />
+<h2 id="sumber-media-pembelajaran">📺 Sumber &amp; Media Pembelajaran</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Sumber</th>
+<th>Tautan</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>YouTube</td>
+<td>Cara Kerja Komputer — Kok Bisa?</td>
+<td><code>https://youtu.be/...search?q=cara+kerja+komputer+kok+bisa</code></td>
+<td>Animasi tentang komponen dalam komputer</td>
+</tr>
+<tr>
+<td>YouTube</td>
+<td>Merakit PC untuk Pemula</td>
+<td><code>https://youtu.be/...search?q=merakit+PC+pemula+indonesia</code></td>
+<td>Tutorial merakit komputer oleh content creator IT Indonesia</td>
+</tr>
+<tr>
+<td>Simulasi</td>
+<td>PhET Simulation — CPU</td>
+<td><code>https://phet.colorado.edu/in/simulations/</code></td>
+<td>Simulasi tentang sirkuit dan logika dasar</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>Zenius — Sistem Komputer</td>
+<td><code>https://www.zenius.net/</code></td>
+<td>Materi dan latihan soal sistem komputer</td>
+</tr>
+<tr>
+<td>YouTube</td>
+<td>Kelas IT — Sistem Operasi</td>
+<td><code>https://youtu.be/...search?q=kelas+IT+sistem+operasi</code></td>
+<td>Penjelasan fungsi dan jenis sistem operasi</td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>
