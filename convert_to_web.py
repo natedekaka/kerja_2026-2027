@@ -762,6 +762,21 @@ body {
   .search-wrap input { padding: 0.6rem 0.8rem 0.6rem 2.2rem; font-size: 0.8rem; }
 }
 
+/* ═══ SIGNATURE BLOCK (TTD 2 KOLOM) ═══ */
+.signature-block { display: flex; gap: 2rem; justify-content: space-between; margin-top: 3rem; }
+.signature-left, .signature-right { flex: 1; text-align: center; }
+.signature-left p, .signature-right p { margin-bottom: 0.25rem; }
+.sig-space { height: 4rem; }
+
+@media (max-width: 480px) {
+  .signature-block { flex-direction: column; gap: 2.5rem; }
+}
+
+@media print {
+  .signature-block { page-break-inside: avoid; }
+  .sig-space { height: 3rem; }
+}
+
 /* ═══ PRINT BUTTON ═══ */
 .btn-print {
   display: inline-flex;
@@ -1182,10 +1197,46 @@ def strip_yaml_frontmatter(text):
     return re.sub(r'^---\s*\n.*?\n---\s*\n', '', text, flags=re.DOTALL)
 
 
+def _fix_signature_block(html):
+    """Convert signature block (Mengetahui, / Guru Mata Pelajaran) to two-column layout."""
+    pattern = (
+        r'(?:<hr\s*/>\s*)?'                                            # optional opening hr
+        r'<p>Mengetahui,<br\s*/>\s*Kepala[^<]*</p>\s*'                  # left: Mengetahui, Kepala
+        r'<hr\s*/>\s*'                                                  # separator
+        r'<p>(Guru Mata Pelajaran[^<]*)</p>\s*'                          # guru role
+        r'<p>([^<]*)<br\s*/>\s*NIP\.[^<]*</p>\s*'                       # teacher name + nip
+        r'<hr\s*/>'                                                      # closing hr
+        r'(?:\s*<hr\s*/>)?'                                              # optional closing hr
+    )
+
+    def replace(m):
+        guru_role = m.group(1)
+        teacher_name_line = m.group(2)
+        nip_match = re.search(r'NIP\.[^<]*', m.group(0))
+        nip_text = nip_match.group(0) if nip_match else 'NIP. ........'
+        return (
+            '<div class="signature-block">\n'
+            '  <div class="signature-left">\n'
+            '    <p>Mengetahui,<br/>Kepala Sekolah</p>\n'
+            '    <div class="sig-space"></div>\n'
+            '    <p>_________________________</p>\n'
+            '  </div>\n'
+            '  <div class="signature-right">\n'
+            f'    <p>{guru_role}</p>\n'
+            f'    <p>{teacher_name_line}<br/>{nip_text}</p>\n'
+            '    <p>_________________________</p>\n'
+            '  </div>\n'
+            '</div>'
+        )
+
+    return re.sub(pattern, replace, html, flags=re.DOTALL)
+
+
 def convert_md_to_html(md_text):
     html = MD.reset().convert(md_text)
     html = re.sub(r'<table>', '<div class="table-wrap"><table>', html)
     html = re.sub(r'</table>', '</table></div>', html)
+    html = _fix_signature_block(html)
     return html
 
 

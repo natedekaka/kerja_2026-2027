@@ -743,6 +743,21 @@ body {
   .search-wrap input { padding: 0.6rem 0.8rem 0.6rem 2.2rem; font-size: 0.8rem; }
 }
 
+/* ═══ SIGNATURE BLOCK (TTD 2 KOLOM) ═══ */
+.signature-block { display: flex; gap: 2rem; justify-content: space-between; margin-top: 3rem; }
+.signature-left, .signature-right { flex: 1; text-align: center; }
+.signature-left p, .signature-right p { margin-bottom: 0.25rem; }
+.sig-space { height: 4rem; }
+
+@media (max-width: 480px) {
+  .signature-block { flex-direction: column; gap: 2.5rem; }
+}
+
+@media print {
+  .signature-block { page-break-inside: avoid; }
+  .sig-space { height: 3rem; }
+}
+
 /* ═══ PRINT BUTTON ═══ */
 .btn-print {
   display: inline-flex;
