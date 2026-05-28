@@ -261,6 +261,124 @@ body {
   position: relative; z-index: 1;
 }
 
+/* ═══ CATEGORY CARDS (Root · Modul Ajar · Materi) ═══ */
+.category-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 900px;
+  margin: -1.25rem auto 2.5rem;
+}
+.cat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.75rem 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform var(--transition), box-shadow var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.cat-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+}
+.cat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+.cat-card .cat-icon {
+  width: 52px; height: 52px;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 0.75rem;
+  font-size: 1.4rem;
+}
+.cat-card-root .cat-icon { background: #EFF6FF; }
+.cat-card-modul .cat-icon { background: #ECFDF5; }
+.cat-card-materi .cat-icon { background: #F5F3FF; }
+.cat-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  border: none;
+  padding: 0;
+}
+.cat-card-root h3 { color: var(--primary); }
+.cat-card-modul h3 { color: #059669; }
+.cat-card-materi h3 { color: #7C3AED; }
+.cat-card .cat-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+.cat-card .cat-stats {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.cat-card .cat-stat {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  background: var(--bg-section);
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+}
+.cat-card .cat-stat strong {
+  color: var(--text);
+  font-weight: 600;
+}
+.cat-card .cat-link {
+  display: inline-block;
+  padding: 0.4rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition);
+}
+.cat-card-root .cat-link {
+  background: var(--primary);
+  color: #fff;
+}
+.cat-card-modul .cat-link {
+  background: #059669;
+  color: #fff;
+}
+.cat-card-materi .cat-link {
+  background: #7C3AED;
+  color: #fff;
+}
+.cat-card .cat-link:hover {
+  filter: brightness(1.1);
+  transform: scale(1.04);
+}
+
+/* dark mode overrides */
+.dark-mode .cat-card-root .cat-icon { background: rgba(96,165,250,0.15); }
+.dark-mode .cat-card-modul .cat-icon { background: rgba(52,211,153,0.15); }
+.dark-mode .cat-card-materi .cat-icon { background: rgba(167,139,250,0.15); }
+.dark-mode .cat-stat { background: rgba(255,255,255,0.05); }
+
+/* responsive */
+@media (max-width: 768px) {
+  .category-cards { grid-template-columns: 1fr; gap: 1rem; margin: -0.5rem auto 2rem; }
+  .cat-card { padding: 1.25rem 1rem; }
+  .cat-card .cat-icon { width: 44px; height: 44px; font-size: 1.2rem; }
+  .cat-card h3 { font-size: 0.95rem; }
+}
+@media (max-width: 480px) {
+  .category-cards { gap: 0.75rem; }
+  .cat-card { padding: 1rem 0.75rem; }
+  .cat-card .cat-stats { gap: 0.4rem; }
+  .cat-card .cat-stat { font-size: 0.65rem; }
+}
+
 /* ═══ STATS ROW ═══ */
 .stats-row {
   display: grid;
