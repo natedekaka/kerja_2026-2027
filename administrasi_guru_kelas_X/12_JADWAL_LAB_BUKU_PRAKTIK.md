@@ -228,7 +228,7 @@ _________________________
 
 Guru Mata Pelajaran / Kepala Lab,
 
-Daniarsyah, S.Kom.
-NIP. 198004052022211004
+Raden Hana Amalia, ST.
+NIP. ................................
 
 _________________________

@@ -242,16 +242,14 @@ MINGGU A:                   MINGGU B:
 
 ---
 
-Mengetahui,
-Kepala SMA Negeri 6 Cimahi
+Mengetahui,  
+Kepala Sekolah
 
 _________________________
-**_________________________**
-NIP. ______________________
 
-Guru Mata Pelajaran / Kepala Laboratorium,
+Guru Mata Pelajaran / Kepala Lab,
 
-**Daniarsyah, S.Kom.**
-NIP. 198004052022211004
+Raden Hana Amalia, ST.
+NIP. ................................
 
 _________________________
