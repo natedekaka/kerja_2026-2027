@@ -333,7 +333,7 @@ body {
   justify-content: center;
   gap: 0.75rem;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 .cat-card .cat-stat {
   font-size: 0.7rem;
@@ -346,29 +346,41 @@ body {
   color: var(--text);
   font-weight: 600;
 }
-.cat-card .cat-link {
-  display: inline-block;
-  padding: 0.4rem 1.2rem;
+.cat-card .cat-grade-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.cat-card .cat-grade-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.35rem 0.85rem;
   border-radius: 20px;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-decoration: none;
   transition: all var(--transition);
+  border: 1.5px solid transparent;
 }
-.cat-card-root .cat-link {
+.cat-card-root .cat-grade-btn {
   background: var(--primary);
   color: #fff;
+  border-color: var(--primary);
 }
-.cat-card-modul .cat-link {
+.cat-card-modul .cat-grade-btn {
   background: #059669;
   color: #fff;
+  border-color: #059669;
 }
-.cat-card-materi .cat-link {
+.cat-card-materi .cat-grade-btn {
   background: #7C3AED;
   color: #fff;
+  border-color: #7C3AED;
 }
-.cat-card .cat-link:hover {
-  filter: brightness(1.1);
+.cat-card .cat-grade-btn:hover {
+  filter: brightness(1.15);
   transform: scale(1.04);
 }
 

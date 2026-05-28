@@ -352,7 +352,7 @@ body {
   justify-content: center;
   gap: 0.75rem;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 .cat-card .cat-stat {
   font-size: 0.7rem;
@@ -365,29 +365,41 @@ body {
   color: var(--text);
   font-weight: 600;
 }
-.cat-card .cat-link {
-  display: inline-block;
-  padding: 0.4rem 1.2rem;
+.cat-card .cat-grade-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.cat-card .cat-grade-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.35rem 0.85rem;
   border-radius: 20px;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-decoration: none;
   transition: all var(--transition);
+  border: 1.5px solid transparent;
 }
-.cat-card-root .cat-link {
+.cat-card-root .cat-grade-btn {
   background: var(--primary);
   color: #fff;
+  border-color: var(--primary);
 }
-.cat-card-modul .cat-link {
+.cat-card-modul .cat-grade-btn {
   background: #059669;
   color: #fff;
+  border-color: #059669;
 }
-.cat-card-materi .cat-link {
+.cat-card-materi .cat-grade-btn {
   background: #7C3AED;
   color: #fff;
+  border-color: #7C3AED;
 }
-.cat-card .cat-link:hover {
-  filter: brightness(1.1);
+.cat-card .cat-grade-btn:hover {
+  filter: brightness(1.15);
   transform: scale(1.04);
 }
 
@@ -1235,18 +1247,22 @@ def generate_index():
                 content.append(f'      <span class="cat-stat">Kelas {grade_lbl}: <strong>{count}</strong></span>')
         content.append(f'      <span class="cat-stat">Total: <strong>{total}</strong></span>')
         content.append('    </div>')
-        # Link ke halaman kategori per kelas (ambil dari kelas pertama yang punya)
-        target_slug = None
-        for gs in ["administrasi_guru_kelas_X", "administrasi_guru_kelas_XI", "administrasi_guru_kelas_XII"]:
-            p = BASE_DIR / gs
-            if key == "root" or (key == "modul" and (p / "modul_ajar").exists()) or (key == "materi" and (p / "Materi").exists()):
-                if key == "root":
-                    content.append(f'    <a href="{gs}/index.html" class="cat-link">Jelajahi \u2192</a>')
-                elif key == "modul":
-                    content.append(f'    <a href="{gs}/modul_ajar/index.html" class="cat-link">Jelajahi \u2192</a>')
-                else:
-                    content.append(f'    <a href="{gs}/Materi/index.html" class="cat-link">Jelajahi \u2192</a>')
-                break
+        # Tombol per kelas
+        grade_slugs = [
+            ("X", "administrasi_guru_kelas_X"),
+            ("XI", "administrasi_guru_kelas_XI"),
+            ("XII", "administrasi_guru_kelas_XII"),
+        ]
+        content.append('    <div class="cat-grade-links">')
+        for grade_lbl, slug in grade_slugs:
+            if key == "root":
+                href = f"{slug}/index.html"
+            elif key == "modul":
+                href = f"{slug}/modul_ajar/index.html"
+            else:
+                href = f"{slug}/Materi/index.html"
+            content.append(f'      <a href="{href}" class="cat-grade-btn">{grade_lbl} \u2192</a>')
+        content.append('    </div>')
         content.append('  </div>')
     content.append('</div>')
 
