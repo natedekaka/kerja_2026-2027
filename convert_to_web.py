@@ -497,14 +497,6 @@ body {
 
 /* Tablet portrait / small laptop */
 @media (max-width: 768px) {
-  body { flex-direction: column; }
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-    max-height: 45vh;
-    border-bottom: 2px solid rgba(255,255,255,0.06);
-  }
   .sidebar-header { padding: 1rem 1.25rem; }
   .sidebar-nav a { padding: 0.4rem 1.25rem; font-size: 0.78rem; }
   .content { margin-left: 0; }
@@ -543,7 +535,6 @@ body {
 
 /* Phone */
 @media (max-width: 480px) {
-  .sidebar { max-height: 40vh; }
   .sidebar-header { padding: 0.75rem 1rem; }
   .sidebar-header h1 { font-size: 0.85rem; }
   .sidebar-nav a { padding: 0.35rem 1rem; font-size: 0.72rem; }
