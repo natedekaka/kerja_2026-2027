@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XI (Fase F) — Bab_4_Jaringan_Komputer_dan_Internet — MGMP Informatika 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 MGMP Informatika</h1>
+  <p>Musyawarah Guru Mata Pelajaran<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XI (Fase F)</a> / <a href="index.html">Materi</a> / <span>Bab 4 Jaringan Komputer dan Internet</span></nav></div>
+    <div class="content-inner">
+    <h1 id="bab-4-jaringan-komputer-dan-internet">🌐 Bab 4: Jaringan Komputer dan Internet</h1>
+<blockquote>
+<p><strong>Semester Genap</strong> | <strong>Fase F</strong> | <strong>Kelas XI</strong> | <strong>25 JP</strong></p>
+</blockquote>
+<hr />
+<h2 id="pemetaan-capaian-pembelajaran">📊 Pemetaan Capaian Pembelajaran</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Elemen CP</th>
+<th>Deskripsi CP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaringan Komputer dan Internet (JKI)</td>
+<td>Memahami arsitektur jaringan, model OSI, dan menerapkan prinsip keamanan siber dalam tata kelola akses data</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="tujuan-pembelajaran">🎯 Tujuan Pembelajaran</h2>
+<ul>
+<li><strong>A.</strong> Pengantar Jaringan &amp; Topologi</li>
+<li><strong>B.</strong> OSI Layer &amp; Mekanisme Pertukaran Data</li>
+<li><strong>C.</strong> Cyber Security: Ancaman &amp; Mitigasi</li>
+<li><strong>D.</strong> Tata Kelola Akses Data</li>
+<li><strong>E.</strong> Praktik Packet Tracer</li>
+</ul>
+<h2 id="peta-konsep">🗺️ Peta Konsep</h2>
+<pre><code>               🌐 JARINGAN KOMPUTER DAN INTERNET
+                     |
+                     ├── A. Pengantar Jaringan &amp; Topologi
+                     ├── B. OSI Layer &amp; Mekanisme Pertukaran Data
+                     ├── C. Cyber Security: Ancaman &amp; Mitigasi
+                     ├── D. Tata Kelola Akses Data
+                     └── E. Praktik Packet Tracer
+</code></pre>
+<h2 id="a-pengantar-jaringan-topologi">A. Pengantar Jaringan &amp; Topologi</h2>
+<h3 id="pengantar-jaringan-topologi">🌐 Pengantar Jaringan &amp; Topologi</h3>
+<p>Jaringan komputer adalah <strong>dua atau lebih komputer yang terhubung</strong> untuk berbagi data dan sumber daya.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Jaringan komputer itu seperti <strong>sistem jalan</strong>. Ada jalan kampung (LAN), jalan provinsi (MAN), dan jalan tol antar pulau (WAN). Semakin lebar jalannya, semakin banyak data yang bisa lewat!</p>
+</blockquote>
+<h3 id="jenis-jaringan">Jenis Jaringan</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Jenis</th>
+<th>Luas</th>
+<th>Contoh</th>
+<th>Seperti&hellip;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>LAN</strong></td>
+<td>1 ruangan - 1 gedung</td>
+<td>Lab komputer sekolah</td>
+<td>Jalan di komplek perumahan</td>
+</tr>
+<tr>
+<td><strong>MAN</strong></td>
+<td>1 kota</td>
+<td>Koneksi antar cabang bank</td>
+<td>Jalan provinsi</td>
+</tr>
+<tr>
+<td><strong>WAN</strong></td>
+<td>Antar kota/negara</td>
+<td>Internet</td>
+<td>Jalan tol lintas pulau</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="topologi-jaringan">Topologi Jaringan</h3>
+<pre><code>STAR:        RING:         BUS:          MESH:
+  ⭐           ⭕           🚌             🔀
+  PC─Switch   PC─PC        PC PC PC       PC═PC
+  │  │  │     │   │        │  │  │       ║║║║
+  PC PC PC    PC─PC        ═══KABEL═══    PC═PC
+✅ Paling    ✅ Satu arah  ✅ Hemat      ✅ Paling andal
+❌ Butuh hub ❌ 1 mati= ❌ Kabel putus ❌ Boros kabel
+              semua mati   =semua mati
+</code></pre>
+<h3 id="perangkat-jaringan">Perangkat Jaringan</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Perangkat</th>
+<th>Fungsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Router</strong></td>
+<td>Menghubungkan jaringan berbeda (LAN → Internet)</td>
+</tr>
+<tr>
+<td><strong>Switch</strong></td>
+<td>Menghubungkan komputer dalam satu LAN</td>
+</tr>
+<tr>
+<td><strong>Access Point</strong></td>
+<td>Memancarkan sinyal WiFi</td>
+</tr>
+<tr>
+<td><strong>Modem</strong></td>
+<td>Mengubah sinyal ISP jadi data digital</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>💡 <strong>Topologi Star</strong> adalah yang paling umum karena jika satu kabel putus, komputer lain tidak terganggu.</p>
+</blockquote>
+<h3 id="cek-pemahaman">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Jelaskan perbedaan antara LAN, MAN, dan WAN! Berikan contoh masing-masing!</li>
+<li>Gambarkan topologi Star dan Ring! Apa kelebihan dan kekurangan masing-masing?</li>
+<li>Apa fungsi Router, Switch, dan Access Point dalam sebuah jaringan?</li>
+</ol>
+<h3 id="studi-kasus">📋 Studi Kasus</h3>
+<p>SMA Harapan Bangsa sedang membangun <strong>laboratorium komputer baru</strong> dengan 30 PC. Semua PC harus terhubung ke internet dan bisa saling berbagi data. Kepala sekolah meminta usulan desain jaringan yang efisien dan mudah dikelola.</p>
+<p><strong>Analisis:</strong><br />
+1. Topologi apa yang paling tepat untuk laboratorium tersebut? Jelaskan kelebihan dan kekurangannya!<br />
+2. Perangkat jaringan apa saja yang dibutuhkan? Gambarkan skema jaringan sederhananya!</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="b-osi-layer-mekanisme-pertukaran-data">B. OSI Layer &amp; Mekanisme Pertukaran Data</h2>
+<h3 id="osi-layer-mekanisme-pertukaran-data">📦 OSI Layer &amp; Mekanisme Pertukaran Data</h3>
+<h3 id="osi-7-layer">OSI 7 Layer</h3>
+<p>OSI (Open Systems Interconnection) adalah <strong>model referensi</strong> yang menjelaskan bagaimana data berpindah dari satu komputer ke komputer lain.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> OSI Layer itu seperti <strong>proses pengiriman paket</strong>. Kamu beli kue online, kue dibungkus (Presentation), dikasih label alamat (Session), diantar kurir (Transport), lewat jalan tertentu (Network), dikirim bit per bit (Data Link), jadi sinyal listrik (Physical).</p>
+</blockquote>
+<pre><code>┌──────┬─────────────────────────────────────────────┐
+│Layer │ Fungsi                    │ Contoh Protocol │
+├──────┼───────────────────────────┼─────────────────┤
+│ 7    │ APPLICATION — Antarmuka   │ HTTP, FTP, DNS  │
+│      │ user dengan jaringan      │                 │
+│ 6    │ PRESENTATION — Enkripsi,  │ SSL/TLS, JPEG   │
+│      │ kompresi, format data     │                 │
+│ 5    │ SESSION — Mengelola sesi  │ NetBIOS, RPC    │
+│      │ koneksi                   │                 │
+│ 4    │ TRANSPORT — Pengiriman    │ TCP, UDP        │
+│      │ data andal (TCP) / cepat  │                 │
+│ 3    │ NETWORK — Routing, alamat │ IP, ICMP        │
+│      │ IP                        │                 │
+│ 2    │ DATA LINK — Framing,      │ Ethernet, MAC   │
+│      │ deteksi error             │                 │
+│ 1    │ PHYSICAL — Sinyal listrik │ Kabel, WiFi     │
+│      │ / radio, bit              │                 │
+└──────┴───────────────────────────┴─────────────────┘
+</code></pre>
+<h3 id="enkapsulasi-data">Enkapsulasi Data</h3>
+<p>Setiap layer <strong>membungkus</strong> data dari layer di atasnya dengan header-nya sendiri.</p>
+<pre><code>[Data Asli] → Layer 7-6-5
+↓
+[TCP header | Data] → Layer 4 (Transport)
+↓
+[IP header | TCP header | Data] → Layer 3 (Network)
+↓
+[MAC header | IP | TCP | Data | Trailer] → Layer 2 (Data Link)
+↓
+[10101010010101010101010] → Layer 1 (Physical)
+</code></pre>
+<blockquote>
+<p>🔑 <strong>Mnemonic:</strong> <strong>A</strong>ll <strong>P</strong>eople <strong>S</strong>eem <strong>T</strong>o <strong>N</strong>eed <strong>D</strong>ata <strong>P</strong>rocessing (Application → Physical)</p>
+</blockquote>
+<h3 id="cek-pemahaman_1">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Sebutkan 7 layer OSI dari atas ke bawah beserta fungsi masing-masing!</li>
+<li>Apa yang dimaksud dengan enkapsulasi data dalam konteks OSI Layer?</li>
+<li>Pada layer berapa protokol HTTP dan TCP bekerja? Jelaskan perbedaan fungsi keduanya!</li>
+</ol>
+<h3 id="studi-kasus_1">📋 Studi Kasus</h3>
+<p>Ketika kamu mengirim foto selfie ke teman melalui <strong>Instagram</strong>, data foto tersebut melewati proses enkapsulasi berlapis sebelum sampai ke temanmu. Mulai dari data foto asli hingga menjadi sinyal listrik yang dikirim melalui kabel atau WiFi.</p>
+<p><strong>Analisis:</strong><br />
+1. Jelaskan bagaimana data foto selfie tersebut dibungkus (enkapsulasi) di setiap layer OSI! Mulai dari Application hingga Physical layer!<br />
+2. Jika koneksi internet temanmu lambat, layer apa yang paling mungkin terpengaruh? Mengapa?</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="c-cyber-security-ancaman-mitigasi">C. Cyber Security: Ancaman &amp; Mitigasi</h2>
+<h3 id="cyber-security-ancaman-mitigasi">🔒 Cyber Security: Ancaman &amp; Mitigasi</h3>
+<p>Cyber Security adalah praktik melindungi sistem, jaringan, dan data dari serangan digital.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Cyber security itu seperti <strong>sistem keamanan rumah</strong>. Ada pagar (firewall), CCTV (monitoring), kunci ganda (MFA), satpam (antivirus), dan asuransi (backup). Semakin banyak lapisan, semakin aman!</p>
+</blockquote>
+<h3 id="jenis-ancaman">Jenis Ancaman</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Ancaman</th>
+<th>Deskripsi</th>
+<th>Contoh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Malware</strong></td>
+<td>Software berbahaya</td>
+<td>Virus, ransomware WannaCry</td>
+</tr>
+<tr>
+<td><strong>Phishing</strong></td>
+<td>Pemancing data pribadi</td>
+<td>Email palsu dari &ldquo;bank&rdquo;</td>
+</tr>
+<tr>
+<td><strong>DDoS</strong></td>
+<td>Banjir traffic ke server</td>
+<td>Website down total</td>
+</tr>
+<tr>
+<td><strong>Man-in-the-Middle</strong></td>
+<td>Menyadap komunikasi</td>
+<td>WiFi palsu di kafe</td>
+</tr>
+<tr>
+<td><strong>SQL Injection</strong></td>
+<td>Inject kode ke database</td>
+<td>Bocor data pengguna</td>
+</tr>
+<tr>
+<td><strong>Social Engineering</strong></td>
+<td>Manipulasi psikologis</td>
+<td>&ldquo;Saya dari IT, minta password&rdquo;</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="mitigasi-cara-melindungi-diri">Mitigasi: Cara Melindungi Diri</h3>
+<pre><code>🔐  Gunakan password berbeda untuk setiap akun
+🔑  Aktifkan 2FA (Two Factor Authentication)
+🔄  Update software &amp; antivirus secara rutin
+📁  Backup data penting ke cloud + hard drive
+🔗  Jangan klik link sembarangan
+📧  Verifikasi pengirim email
+🛡️  Gunakan VPN di WiFi publik
+</code></pre>
+<h3 id="password-manager">Password Manager</h3>
+<p>Gunakan <strong>password manager</strong> (Bitwarden, 1Password, Google Password Manager) untuk menyimpan semua password — kamu cukup ingat 1 password utama.</p>
+<blockquote>
+<p>🔑 <strong>Aturan Password:</strong> Minimal 12 karakter, kombinasi huruf besar-kecil-angka-simbol. Contoh: <code>S4y4!ncL4s$XI_2026</code></p>
+</blockquote>
+<h3 id="cek-pemahaman_2">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Sebutkan 3 jenis ancaman cyber dan jelaskan cara kerjanya!</li>
+<li>Apa itu phishing? Bagaimana cara mengenali email phishing?</li>
+<li>Sebutkan minimal 4 cara untuk melindungi data pribadi dari serangan cyber!</li>
+</ol>
+<h3 id="studi-kasus_2">📋 Studi Kasus</h3>
+<p>Rudi menerima SMS yang mengaku dari &ldquo;Bank Central&rdquo; yang menyatakan: &ldquo;Akun Anda akan diblokir! Klik link berikut untuk verifikasi: bit.ly/bank-central-verif. Abaikan = akun diblokir 24 jam!&rdquo; Rudi panik karena ia memang punya rekening di bank tersebut. Ia hampir mengklik link itu sebelum bertanya pada gurunya.</p>
+<p><strong>Analisis:</strong><br />
+1. Jenis serangan cyber apa yang dialami Rudi? Jelaskan ciri-cirinya!<br />
+2. Apa yang seharusnya dilakukan Rudi? Buat langkah-langkah yang benar!</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="d-tata-kelola-akses-data">D. Tata Kelola Akses Data</h2>
+<h3 id="tata-kelola-akses-data">🛡️ Tata Kelola Akses Data</h3>
+<p>Tata kelola akses data mengatur <strong>siapa boleh mengakses apa</strong> dalam sebuah sistem.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Akses data itu seperti <strong>tingkatan di game</strong>. Player biasa cuma bisa main di level 1-5. Admin bisa akses semua level. Game master bisa ubah aturan game. Setiap peran punya <strong>wewenang berbeda</strong>.</p>
+</blockquote>
+<h3 id="model-kontrol-akses">Model Kontrol Akses</h3>
+<pre><code>┌────────────────────────────────────────────────────┐
+│  MAC (Mandatory) — Label keamanan (Top Secret,     │
+│                    Confidential, Public)           │
+│  DAC (Discretionary) — Pemilik data atur akses    │
+│  RBAC (Role-Based) — Akses berdasar peran          │
+│                    (Siswa, Guru, Admin)            │
+│  ABAC (Attribute-Based) — Akses berdasar atribut   │
+│                    (Jam kerja, lokasi, device)     │
+└────────────────────────────────────────────────────┘
+</code></pre>
+<h3 id="implementasi">Implementasi</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Peran</th>
+<th>Akses ke Data Nilai</th>
+<th>Akses ke Data Pribadi</th>
+<th>Akses ke Konfigurasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Siswa</strong></td>
+<td>Lihat nilai sendiri</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr>
+<td><strong>Guru</strong></td>
+<td>Input &amp; edit nilai</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr>
+<td><strong>Wali Kelas</strong></td>
+<td>Lihat semua nilai kelas</td>
+<td>Lihat data pribadi</td>
+<td>✗</td>
+</tr>
+<tr>
+<td><strong>Admin IT</strong></td>
+<td>✗</td>
+<td>✗</td>
+<td>Kelola server &amp; akun</td>
+</tr>
+<tr>
+<td><strong>Kepala Sekolah</strong></td>
+<td>Lihat laporan</td>
+<td>Lihat laporan</td>
+<td>✗</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="prinsip-keamanan">Prinsip Keamanan</h3>
+<ul>
+<li><strong>Least Privilege:</strong> Beri akses seminimal mungkin</li>
+<li><strong>Need to Know:</strong> Akses hanya pada yang perlu diketahui</li>
+<li><strong>Separation of Duties:</strong> Tugas penting dipegang &gt; 1 orang</li>
+<li><strong>Audit Trail:</strong> Catat semua aktivitas akses</li>
+</ul>
+<h3 id="cek-pemahaman_3">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Jelaskan perbedaan antara model akses RBAC dan MAC!</li>
+<li>Apa yang dimaksud dengan prinsip Least Privilege? Berikan contohnya!</li>
+<li>Mengapa prinsip Separation of Duties penting dalam keamanan data?</li>
+</ol>
+<h3 id="studi-kasus_3">📋 Studi Kasus</h3>
+<p>SMA Nusantara menggunakan <strong>sistem informasi sekolah</strong> yang memiliki data nilai, data pribadi siswa, data keuangan, dan konfigurasi server. Pengguna sistem meliputi: siswa, guru, wali kelas, admin TU, kepala sekolah, dan admin IT. Saat ini, semua pengguna bisa mengakses hampir semua data — dan baru-baru ini terjadi kebocoran data nilai.</p>
+<p><strong>Analisis:</strong><br />
+1. Rancang tabel akses (siapa boleh mengakses apa) menggunakan model RBAC untuk sistem tersebut!<br />
+2. Kebocoran data nilai terjadi karena seorang siswa bisa mengakses database. Prinsip apa yang dilanggar? Bagaimana seharusnya?</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<h2 id="e-praktik-packet-tracer">E. Praktik Packet Tracer</h2>
+<h3 id="praktik-packet-tracer">🖥️ Praktik Packet Tracer</h3>
+<p><strong>Cisco Packet Tracer</strong> adalah software simulasi jaringan yang memungkinkan kamu merancang, mengkonfigurasi, dan menguji jaringan tanpa alat fisik.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Packet Tracer itu seperti <strong>game simulasi kota (SimCity)</strong> tapi untuk jaringan komputer. Kamu bisa bangun jaringan, sambungkan perangkat, atur konfigurasi — tanpa harus beli router beneran!</p>
+</blockquote>
+<h3 id="aktivitas-konfigurasi-jaringan-dasar">Aktivitas: Konfigurasi Jaringan Dasar</h3>
+<pre><code>┌──────────┐        ┌──────────┐        ┌──────────┐
+│   PC 0   │───────►│  Switch  │◄───────│   PC 1   │
+│ 192.168. │        │          │        │ 192.168. │
+│  1.1     │        └────┬─────┘        │  1.2     │
+└──────────┘             │              └──────────┘
+                        │
+                 ┌──────┴──────┐
+                 │   Router    │───► Internet
+                 │ 192.168.1.1 │
+                 └─────────────┘
+</code></pre>
+<h3 id="langkah-langkah">Langkah-Langkah</h3>
+<ol>
+<li><strong>Buka Packet Tracer</strong> → Tambahkan 2 PC, 1 Switch, 1 Router</li>
+<li><strong>Sambungkan</strong> dengan kabel Copper Straight-Through</li>
+<li><strong>Konfigurasi IP:</strong><br />
+   - PC0: 192.168.1.2/24, Gateway: 192.168.1.1<br />
+   - PC1: 192.168.1.3/24, Gateway: 192.168.1.1<br />
+   - Router: 192.168.1.1/24</li>
+<li><strong>Uji koneksi</strong> → Buka Command Prompt di PC0 → <code>ping 192.168.1.3</code></li>
+</ol>
+<h3 id="perintah-dasar">Perintah Dasar</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Perintah</th>
+<th>Fungsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ping [IP]</code></td>
+<td>Tes koneksi ke IP tujuan</td>
+</tr>
+<tr>
+<td><code>ipconfig</code></td>
+<td>Lihat konfigurasi IP sendiri</td>
+</tr>
+<tr>
+<td><code>tracert [IP]</code></td>
+<td>Lacak jalur yang dilewati paket</td>
+</tr>
+<tr>
+<td><code>show ip route</code> (Router)</td>
+<td>Lihat tabel routing</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>💡 <strong>Tips:</strong> Kalau ping gagal, cek: kabel terhubung?, IP sudah benar? firewall mati?</p>
+</blockquote>
+<h3 id="cek-pemahaman_4">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Apa fungsi Cisco Packet Tracer dalam pembelajaran jaringan?</li>
+<li>Sebutkan langkah-langkah untuk mengkonfigurasi 2 PC agar bisa saling ping!</li>
+<li>Apa artinya jika perintah <code>ping</code> berhasil? Apa yang terjadi jika gagal?</li>
+</ol>
+<h3 id="studi-kasus_4">📋 Studi Kasus</h3>
+<p>Sekolah kamu memiliki <strong>2 gedung</strong> yang berjarak 200 meter. Gedung A (lab komputer) dan Gedung B (perpustakaan). Kamu diminta merancang jaringan yang menghubungkan kedua gedung agar siswa di perpustakaan bisa mengakses internet dari server di lab komputer. Tersedia 2 router, 2 switch, dan kabel secukupnya.</p>
+<p><strong>Analisis:</strong><br />
+1. Gambarkan desain jaringan di Packet Tracer untuk menghubungkan kedua gedung!<br />
+2. Konfigurasi IP apa yang akan kamu berikan untuk PC di Gedung A dan Gedung B? Bagaimana cara memastikan koneksi berhasil?</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
+</blockquote>
+<hr />
+<hr />
+<h2 id="proyek-mini-desain-simulasi-jaringan">🏗️ Proyek Mini: 🌐 Desain + Simulasi Jaringan</h2>
+<p>Rancang jaringan komputer untuk 2 laboratorium sekolah menggunakan Cisco Packet Tracer. Konfigurasi IP, routing dasar, dan uji konektivitas antar perangkat dalam jaringan.</p>
+<p><strong>Alat dan Bahan:</strong><br />
+- Cisco Packet Tracer (install di lab atau download)<br />
+- Laptop/komputer<br />
+- Buku catatan untuk sketsa desain</p>
+<p><strong>Langkah-langkah:</strong><br />
+1. Buat sketsa desain jaringan di kertas: 2 lab (@10 PC), 1 server, 2 switch, 1 router, koneksi internet.<br />
+2. Buka Cisco Packet Tracer dan tambahkan semua perangkat sesuai sketsa.<br />
+3. Sambungkan perangkat dengan kabel Copper Straight-Through yang sesuai.<br />
+4. Konfigurasi IP address: Lab A (192.168.1.0/24), Lab B (192.168.2.0/24), Router sebagai gateway.<br />
+5. Konfigurasi routing statis di router agar kedua lab bisa saling terhubung.<br />
+6. Uji koneksi dengan perintah <code>ping</code> antar PC di lab yang berbeda — dokumentasikan hasilnya.</p>
+<blockquote>
+<p><strong>Output:</strong> File Packet Tracer (.pkt) + laporan konfigurasi + screenshot hasil ping</p>
+</blockquote>
+<h2 id="rangkuman">📝 Rangkuman</h2>
+<ul>
+<li>Jaringan komputer dibagi menjadi <strong>LAN</strong> (lokal), <strong>MAN</strong> (kota), dan <strong>WAN</strong> (luas). Topologi yang paling umum adalah <strong>Star</strong> karena jika satu kabel putus yang lain tidak terganggu.</li>
+<li><strong>OSI Model</strong> memiliki 7 layer: Physical, Data Link, Network, Transport, Session, Presentation, Application. Setiap layer membungkus data dengan header-nya (enkapsulasi).</li>
+<li><strong>Cyber Security</strong> melindungi sistem dari ancaman seperti Malware, Phishing, DDoS, Man-in-the-Middle, SQL Injection, dan Social Engineering dengan mitigasi seperti 2FA dan password manager.</li>
+<li><strong>Tata kelola akses data</strong> menggunakan model RBAC (Role-Based Access Control) dengan prinsip Least Privilege — beri akses seminimal mungkin sesuai peran.</li>
+<li><strong>Cisco Packet Tracer</strong> adalah simulator jaringan yang memungkinkan praktik konfigurasi tanpa alat fisik. Perintah dasar: ping, ipconfig, tracert.</li>
+</ul>
+<hr />
+<h2 id="latihan-soal">✍️ Latihan Soal</h2>
+<h3 id="pilihan-ganda">Pilihan Ganda</h3>
+<ol>
+<li>
+<p>Topologi jaringan yang paling umum digunakan pada jaringan sekolah saat ini adalah&hellip;<br />
+   a. Bus<br />
+   b. Ring<br />
+   c. Star<br />
+   d. Mesh<br />
+   e. Tree<br />
+<strong>Kunci Jawaban: C</strong></p>
+</li>
+<li>
+<p>Layer OSI yang bertanggung jawab untuk routing dan pengalamatan IP adalah&hellip;<br />
+   a. Physical Layer<br />
+   b. Data Link Layer<br />
+   c. Network Layer<br />
+   d. Transport Layer<br />
+   e. Application Layer<br />
+<strong>Kunci Jawaban: C</strong></p>
+</li>
+<li>
+<p>Serangan cyber berupa pemancingan data pribadi melalui email palsu disebut&hellip;<br />
+   a. Malware<br />
+   b. Phishing<br />
+   c. DDoS<br />
+   d. SQL Injection<br />
+   e. Social Engineering<br />
+<strong>Kunci Jawaban: B</strong></p>
+</li>
+<li>
+<p>Prinsip keamanan yang menyatakan &lsquo;beri akses seminimal mungkin&rsquo; disebut&hellip;<br />
+   a. Need to Know<br />
+   b. Separation of Duties<br />
+   c. Audit Trail<br />
+   d. Least Privilege<br />
+   e. Zero Trust<br />
+<strong>Kunci Jawaban: D</strong></p>
+</li>
+<li>
+<p>Perintah Cisco untuk menguji koneksi ke IP tujuan adalah&hellip;<br />
+   a. ipconfig<br />
+   b. tracert<br />
+   c. ping<br />
+   d. show ip route<br />
+   e. netstat<br />
+<strong>Kunci Jawaban: C</strong></p>
+</li>
+</ol>
+<h3 id="uraian">Uraian</h3>
+<ol>
+<li>
+<p>Jelaskan perbedaan antara LAN, MAN, dan WAN! Berikan contoh masing-masing dalam konteks kehidupan sehari-hari!</p>
+</li>
+<li>
+<p>Gambarkan dan jelaskan fungsi dari 7 layer OSI Model! Gunakan mnemonik untuk memudahkan mengingat urutan layer!</p>
+</li>
+<li>
+<p>Apa saja jenis ancaman cyber security yang perlu diwaspadai? Jelaskan cara mitigasi untuk melindungi data pribadi dari serangan tersebut!</p>
+</li>
+<li>
+<p>Jelaskan prinsip Least Privilege dan Need to Know dalam tata kelola akses data! Berikan contoh penerapannya di lingkungan sekolah!</p>
+</li>
+</ol>
+<hr />
+<h2 id="rubrik-penilaian-proyek">📋 Rubrik Penilaian Proyek</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Kurang</th>
+<th>Cukup</th>
+<th>Baik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Desain Topologi</td>
+<td>Topologi tidak sesuai, perangkat kurang</td>
+<td>Topologi sesuai, perangkat lengkap</td>
+<td>Topologi optimal, efisien, dan rapi</td>
+</tr>
+<tr>
+<td>Konfigurasi IP</td>
+<td>IP tidak sesuai, tidak ada pemetaan</td>
+<td>IP benar untuk satu lab</td>
+<td>IP benar untuk kedua lab, routing berfungsi</td>
+</tr>
+<tr>
+<td>Fungsionalitas Jaringan</td>
+<td>Tidak ada koneksi antar perangkat</td>
+<td>Koneksi berhasil dalam satu lab</td>
+<td>Semua perangkat terhubung, ping berhasil antar lab</td>
+</tr>
+<tr>
+<td>Dokumentasi</td>
+<td>Tidak ada dokumentasi</td>
+<td>Dokumentasi ada tapi kurang detail</td>
+<td>Dokumentasi lengkap dengan screenshot</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="tugas-pengayaan">🚀 Tugas Pengayaan</h2>
+<h3 id="kursus-jaringan-di-cisco-netacad">🌐 Kursus Jaringan di Cisco NetAcad</h3>
+<p>Daftar dan mulai modul <em>Introduction to Networks</em> di <a href="https://www.netacad.com/">Cisco Networking Academy</a> (gratis). Selesaikan modul 1-3 dan catat: 3 konsep baru yang kamu pelajari, 1 hal yang paling menarik, dan 1 pertanyaan yang masih mengganjal.</p>
+<h3 id="tantangan-cyber-security">🔐 Tantangan Cyber Security</h3>
+<p>Pelajari dasar-dasar cyber security melalui <a href="https://www.netacad.com/">Cisco CyberOps Associate</a> atau artikel di <a href="https://www.bssn.go.id/">NCSC Indonesia</a>. Buat poster infografis tip keamanan digital untuk remaja — minimal 5 tips dengan ilustrasi menarik.</p>
+<hr />
+<h2 id="glosarium">📖 Glosarium</h2>
+<ul>
+<li><strong>LAN</strong>: Local Area Network — jaringan komputer dalam area terbatas seperti satu ruangan atau gedung.</li>
+<li><strong>MAN</strong>: Metropolitan Area Network — jaringan komputer yang mencakup satu kota.</li>
+<li><strong>WAN</strong>: Wide Area Network — jaringan komputer yang mencakup area luas antar kota atau negara.</li>
+<li><strong>OSI Model</strong>: Model referensi 7 layer yang menjelaskan proses pertukaran data dalam jaringan komputer.</li>
+<li><strong>Enkapsulasi</strong>: Proses pembungkusan data dengan header di setiap layer OSI sebelum dikirim melalui jaringan.</li>
+<li><strong>Phishing</strong>: Serangan cyber berupa pemancingan data pribadi melalui email atau pesan palsu.</li>
+<li><strong>Malware</strong>: Perangkat lunak berbahaya yang dirancang untuk merusak sistem atau mencuri data.</li>
+<li><strong>Least Privilege</strong>: Prinsip keamanan yang memberikan akses seminimal mungkin kepada pengguna.</li>
+<li><strong>RBAC</strong>: Role-Based Access Control — model kontrol akses berdasarkan peran pengguna dalam organisasi.</li>
+<li><strong>Cisco Packet Tracer</strong>: Software simulasi jaringan untuk merancang dan mengkonfigurasi jaringan tanpa alat fisik.</li>
+</ul>
+<hr />
+<h2 id="sumber-media-pembelajaran">📺 Sumber &amp; Media Pembelajaran</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Sumber</th>
+<th>Tautan</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>YouTube</td>
+<td>Apa itu Jaringan Komputer?</td>
+<td><code>youtu.be/search?q=apa+itu+jaringan+komputer</code></td>
+<td>Penjelasan dasar jaringan komputer</td>
+</tr>
+<tr>
+<td>Simulasi</td>
+<td>Cisco Packet Tracer — Tutorial</td>
+<td><code>youtu.be/search?q=packet+tracer+tutorial+indonesia</code></td>
+<td>Panduan praktik Packet Tracer</td>
+</tr>
+<tr>
+<td>YouTube</td>
+<td>OSI Layer Dijelaskan</td>
+<td><code>youtu.be/search?q=OSI+layer+indonesia</code></td>
+<td>Penjelasan 7 layer OSI dengan analogi</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>Cyber Security untuk Remaja</td>
+<td><code>youtu.be/search?q=cyber+security+dasar</code></td>
+<td>Tips keamanan digital untuk pelajar</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>Cisco Networking Academy</td>
+<td><code>https://www.netacad.com/</code></td>
+<td>Kursus jaringan gratis dari Cisco</td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

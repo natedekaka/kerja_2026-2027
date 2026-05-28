@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas X (Fase E) — Modul_Ajar_23_AP_Perulangan — MGMP Informatika 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 MGMP Informatika</h1>
+  <p>Musyawarah Guru Mata Pelajaran<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas X (Fase E)</a> / <a href="index.html">Modul Ajar</a> / <span>Modul Ajar 23 AP Perulangan</span></nav></div>
+    <div class="content-inner">
+    <h1 id="modul-ajar-informatika-kelas-x">MODUL AJAR INFORMATIKA KELAS X</h1>
+<h2 id="ap-struktur-perulangan-looping-dalam-python">AP: STRUKTUR PERULANGAN (LOOPING) DALAM PYTHON</h2>
+<hr />
+<h3 id="a-informasi-umum">A. INFORMASI UMUM</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Komponen</th>
+<th>Deskripsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Satuan Pendidikan</td>
+<td>SMA Negeri 6 Cimahi</td>
+</tr>
+<tr>
+<td>Mata Pelajaran</td>
+<td>Informatika</td>
+</tr>
+<tr>
+<td>Kelas / Fase</td>
+<td>X (Sepuluh) / Fase E</td>
+</tr>
+<tr>
+<td>Elemen</td>
+<td>AP — Algoritma &amp; Pemrograman</td>
+</tr>
+<tr>
+<td>Tujuan Pembelajaran</td>
+<td>TP.7.4: Menerapkan perulangan (for, while) dalam Python</td>
+</tr>
+<tr>
+<td>Alokasi Waktu</td>
+<td>2 JP (2 × 45 menit)</td>
+</tr>
+<tr>
+<td>Pertemuan ke-</td>
+<td>3 (tiga)</td>
+</tr>
+<tr>
+<td>Kompetensi Awal</td>
+<td>Peserta didik telah memahami konsep nilai, variabel, tipe data, input-output, dan struktur percabangan if-elif-else dalam Python</td>
+</tr>
+<tr>
+<td>Integrasi 8 Dimensi</td>
+<td>Kreativitas, Penalaran Kritis, Kemandirian</td>
+</tr>
+<tr>
+<td>Sarana &amp; Prasarana</td>
+<td>Proyektor/LCD, laptop/komputer, Python IDLE atau Google Colab, papan tulis, spidol warna</td>
+</tr>
+<tr>
+<td>Target Peserta Didik</td>
+<td>Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan)</td>
+</tr>
+<tr>
+<td>Model Pembelajaran</td>
+<td>Demonstrasi interaktif, praktik coding, dan tantangan pemrograman (Gamification)</td>
+</tr>
+<tr>
+<td>Metode</td>
+<td>Demonstrasi, tanya jawab, praktik individu, kompetisi coding, code review</td>
+</tr>
+<tr>
+<td>Sumber Belajar</td>
+<td>Buku Informatika Kelas X Bab 7, dokumentasi Python, W3Schools Python Loops, modul ajar guru</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="b-tujuan-pembelajaran">B. TUJUAN PEMBELAJARAN</h3>
+<h4 id="b1-tujuan-pembelajaran">B.1 Tujuan Pembelajaran</h4>
+<ol>
+<li>Menjelaskan konsep perulangan (looping) dan perbedaan antara for loop dan while loop.</li>
+<li>Menerapkan for loop dengan fungsi range() untuk iterasi dengan jumlah yang pasti.</li>
+<li>Menerapkan while loop dengan kondisi boolean untuk iterasi dengan syarat tertentu.</li>
+<li>Menggunakan nested loop (perulangan bersarang) untuk menyelesaikan masalah pola (pattern).</li>
+<li>Memilih jenis perulangan yang tepat berdasarkan karakteristik masalah yang dihadapi.</li>
+</ol>
+<h4 id="b2-indikator-keberhasilan">B.2 Indikator Keberhasilan</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Indikator</th>
+<th>Kriteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Menjelaskan perulangan</td>
+<td>Mampu menyebutkan 3 perbedaan antara for dan while loop</td>
+</tr>
+<tr>
+<td>2. For loop</td>
+<td>Program mencetak deret 1-10, tabel perkalian, dan menjumlah deret menggunakan for</td>
+</tr>
+<tr>
+<td>3. While loop</td>
+<td>Program tebak angka berjalan dengan benar dan berhenti saat kondisi terpenuhi</td>
+</tr>
+<tr>
+<td>4. Nested loop</td>
+<td>Menampilkan pola bintang segitiga dengan jumlah baris sesuai input pengguna</td>
+</tr>
+<tr>
+<td>5. Pemilihan jenis loop</td>
+<td>Mampu menjelaskan alasan memilih for atau while pada studi kasus yang diberikan</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="b3-kata-kunci">B.3 Kata Kunci</h4>
+<p>Perulangan, loop, iterasi, for, while, range(), nested loop, infinite loop, break, continue, kondisi berhenti, counter, akumulator</p>
+<h3 id="c-kegiatan-pembelajaran">C. KEGIATAN PEMBELAJARAN</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Tahap</th>
+<th>Waktu</th>
+<th>Aktivitas Guru</th>
+<th>Aktivitas Siswa</th>
+<th>Media/Sumber</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pendahuluan</strong></td>
+<td>10&rsquo;</td>
+<td>Guru membuka kelas dan memantik: &ldquo;Coba tulis angka 1 sampai 100 tanpa loop&hellip;&rdquo; — siswa menyadari bahwa menulis manual tidak efisien. Guru mendemonstrasikan betapa repotnya tanpa loop. Guru menyampaikan TP dan manfaat perulangan.</td>
+<td>Siswa mencoba membayangkan atau menulis beberapa angka. Siswa menyadari pentingnya loop. Siswa menyimak TP.</td>
+<td>Proyektor, papan tulis</td>
+</tr>
+<tr>
+<td><strong>Inti — Sesi 1</strong></td>
+<td>15&rsquo;</td>
+<td>Guru menjelaskan for loop: for i in range(n) — analogi &ldquo;antrian tiket: untuk setiap orang, lakukan X&rdquo;. Guru menjelaskan variasi range(start, stop, step). Guru memberikan contoh mencetak bilangan genap 2-20.</td>
+<td>Siswa menyimak dan mencatat. Siswa menulis kode for loop pertama mereka. Siswa mencoba mengubah parameter range.</td>
+<td>Python IDLE/Colab, slide materi</td>
+</tr>
+<tr>
+<td><strong>Inti — Sesi 2</strong></td>
+<td>15&rsquo;</td>
+<td>Guru menjelaskan while loop: while kondisi — analogi &ldquo;isi galon sampai penuh&rdquo;. Guru menjelaskan risiko infinite loop dan cara menghindarinya. Guru demonstrasi program hitung mundur 10-1.</td>
+<td>Siswa menyimak dan menulis kode while loop. Siswa sengaja membuat infinite loop lalu menghentikannya untuk memahami konsep.</td>
+<td>Python IDLE/Colab, slide</td>
+</tr>
+<tr>
+<td><strong>Inti — Praktik 1</strong></td>
+<td>15&rsquo;</td>
+<td>Guru memberikan 3 tantangan for loop: (1) deret 1-n, (2) tabel perkalian 1-10, (3) jumlah deret 1+2+&hellip;+n. Guru berkeliling membantu.</td>
+<td>Siswa menyelesaikan 3 tantangan for loop secara individu. Siswa menguji dengan berbagai nilai n.</td>
+<td>LKPD, Python IDLE/Colab</td>
+</tr>
+<tr>
+<td><strong>Inti — Praktik 2</strong></td>
+<td>20&rsquo;</td>
+<td>Guru memberikan tantangan while loop: program tebak angka (komputer punya angka rahasia 1-100, user menebak sampai benar dengan petunjuk &ldquo;lebih besar&rdquo; atau &ldquo;lebih kecil&rdquo;). Guru memfasilitasi kompetisi.</td>
+<td>Siswa membuat program tebak angka. Siswa saling mencoba program teman. Siswa yang selesai pertama mendapat apresiasi.</td>
+<td>LKPD, Python IDLE/Colab</td>
+</tr>
+<tr>
+<td><strong>Inti — Nested Loop</strong></td>
+<td>10&rsquo;</td>
+<td>Guru menjelaskan nested loop dengan contoh pola bintang segitiga. Guru menunjukkan bagaimana outer loop mengontrol baris dan inner loop mengontrol kolom.</td>
+<td>Siswa menulis nested loop untuk pola bintang. Siswa bereksperimen dengan pola berbeda (segitiga siku, segitiga sama sisi, persegi).</td>
+<td>Python IDLE/Colab, papan tulis</td>
+</tr>
+<tr>
+<td><strong>Penutup</strong></td>
+<td>15&rsquo;</td>
+<td>Guru memberikan tugas: program mencetak bilangan prima dari 1-100 menggunakan loop. Guru menyimpulkan perbedaan for dan while. Guru menutup kelas.</td>
+<td>Siswa mencatat tugas. Siswa membuat mindmap perbedaan for dan while. Siswa berdoa.</td>
+<td>Papan tulis, buku catatan</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="d-asesmen">D. ASESMEN</h3>
+<h4 id="d1-asesmen-diagnostik-awal">D.1 Asesmen Diagnostik (Awal)</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Pertanyaan</th>
+<th>Tujuan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apa yang dimaksud dengan iterasi?</td>
+<td>Mengetahui pemahaman awal tentang konsep pengulangan</td>
+</tr>
+<tr>
+<td>Bagaimana cara menulis angka 1 sampai 10 tanpa mengetik satu per satu?</td>
+<td>Mengukur kemampuan berpikir efisien</td>
+</tr>
+<tr>
+<td>Sebutkan contoh perulangan dalam kehidupan sehari-hari!</td>
+<td>Mengidentifikasi kemampuan analogi siswa</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="d2-asesmen-formatif-proses">D.2 Asesmen Formatif (Proses)</h4>
+<ul>
+<li>Observasi: guru memantau progress praktik 1, 2, dan nested loop.</li>
+<li>Hasil program tebak angka: apakah program berjalan tanpa infinite loop?</li>
+<li>Kuis singkat: perbedaan for dan while dengan contoh.</li>
+</ul>
+<h4 id="d3-asesmen-sumatif-akhir">D.3 Asesmen Sumatif (Akhir)</h4>
+<ul>
+<li>Produk: minimal 3 program Python (for, while, nested loop).</li>
+<li>Tugas rumah: program bilangan prima 1-100.</li>
+</ul>
+<h4 id="d4-rubrik-penilaian-program-perulangan">D.4 Rubrik Penilaian Program Perulangan</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>SB (4)</th>
+<th>B (3)</th>
+<th>C (2)</th>
+<th>PB (1)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Penggunaan for loop</strong></td>
+<td>Menggunakan for loop dengan range() yang tepat, variasi step, dan manipulasi string/number</td>
+<td>For loop berfungsi dengan range() dasar</td>
+<td>For loop berfungsi tetapi ada error minor</td>
+<td>Tidak menggunakan atau for loop error</td>
+</tr>
+<tr>
+<td><strong>Penggunaan while loop</strong></td>
+<td>While loop memiliki kondisi berhenti yang jelas, tidak ada infinite loop, menggunakan break/continue dengan tepat</td>
+<td>While loop berfungsi dengan kondisi sederhana</td>
+<td>While loop berfungsi tetapi ada risiko infinite loop</td>
+<td>Tidak menggunakan atau while loop error</td>
+</tr>
+<tr>
+<td><strong>Nested loop</strong></td>
+<td>Pola bintang sempurna dengan input dinamis, bisa membuat 2+ variasi pola</td>
+<td>Pola bintang berfungsi dengan input statis</td>
+<td>Nested loop berfungsi tetapi pola tidak sesuai</td>
+<td>Tidak berhasil membuat nested loop</td>
+</tr>
+<tr>
+<td><strong>Logika dan efisiensi</strong></td>
+<td>Kode efisien, tidak ada pengulangan yang tidak perlu, mudah dibaca</td>
+<td>Kode cukup efisien dengan sedikit redundansi</td>
+<td>Kode berjalan tetapi boros iterasi</td>
+<td>Kode tidak efisien atau tidak berfungsi</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="d5-contoh-soal">D.5 Contoh Soal</h4>
+<p><strong>Soal:</strong> Buatlah program Python yang menerima input n (bilangan bulat positif) dan menampilkan:<br />
+- Deret bilangan genap dari 2 sampai n (menggunakan for)<br />
+- Faktorial dari n (menggunakan while)<br />
+- Pola bintang segitiga siku-siku dengan n baris (menggunakan nested loop)</p>
+<h3 id="e-lembar-kerja-peserta-didik-lkpd">E. LEMBAR KERJA PESERTA DIDIK (LKPD)</h3>
+<p><strong>Nama:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_____ <strong>Kelas:</strong> X ___</p>
+<h4 id="e1-tantangan-for-loop-mudah">E.1 Tantangan For Loop (Mudah)</h4>
+<pre><code class="language-python"># Tantangan 1: Deret 1 sampai n
+n = int(input(&quot;Masukkan n: &quot;))
+for i in range(1, n + 1):
+    print(i, end=&quot; &quot;)
+</code></pre>
+<p><strong>Soal:</strong> Modifikasi kode di atas untuk mencetak hanya bilangan ganjil dari 1 sampai n!</p>
+<pre><code class="language-python"># Tantangan 2: Tabel Perkalian 1-10
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(f&quot;{i} x {j} = {i*j}&quot;)
+    print(&quot;---&quot;)
+</code></pre>
+<h4 id="e2-program-tebak-angka-sedang">E.2 Program Tebak Angka (Sedang)</h4>
+<pre><code class="language-python">import random
+
+# Program Tebak Angka
+angka_rahasia = random.randint(1, 100)
+tebakan = 0
+percobaan = 0
+
+print(&quot;Saya punya angka rahasia antara 1-100. Tebak!&quot;)
+
+while tebakan != angka_rahasia:
+    tebakan = int(input(&quot;Masukkan tebakan Anda: &quot;))
+    percobaan += 1
+
+    if tebakan &lt; angka_rahasia:
+        print(&quot;Lebih besar!&quot;)
+    elif tebakan &gt; angka_rahasia:
+        print(&quot;Lebih kecil!&quot;)
+    else:
+        print(f&quot;Selamat! Anda menebak dalam {percobaan} percobaan.&quot;)
+</code></pre>
+<p><strong>Tugas Pengembangan:</strong><br />
+1. Tambahkan batas maksimal percobaan (misal 7 kali)<br />
+2. Jika percobaan habis, tampilkan angka rahasia dan pesan &ldquo;Game Over&rdquo;<br />
+3. Simpan riwayat tebakan dalam sebuah list dan tampilkan saat game selesai</p>
+<h4 id="e3-pola-bintang-nested-loop-sulit">E.3 Pola Bintang Nested Loop (Sulit)</h4>
+<pre><code class="language-python"># Pola segitiga siku-siku
+n = int(input(&quot;Masukkan jumlah baris: &quot;))
+for i in range(1, n + 1):
+    for j in range(i):
+        print(&quot;*&quot;, end=&quot;&quot;)
+    print()
+</code></pre>
+<p><strong>Tantangan:</strong> Buatlah pola berikut menggunakan nested loop:</p>
+<pre><code>    *
+   **
+  ***
+ ****
+*****
+</code></pre>
+<p><em>(segitiga siku rata kanan)</em></p>
+<p><strong>Tantangan Tambahan:</strong> Buat pola belah ketupat (diamond) dengan input n baris!</p>
+<h4 id="e4-program-bilangan-prima-tugas">E.4 Program Bilangan Prima (Tugas)</h4>
+<p>Buat program yang mencetak semua bilangan prima dari 1 sampai 100. Petunjuk: gunakan nested loop — loop luar untuk iterasi angka, loop dalam untuk mengecek faktor pembagi.</p>
+<h3 id="f-diferensiasi-pembelajaran">F. DIFERENSIASI PEMBELAJARAN</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Deskripsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Level 1 (Bimbingan)</strong></td>
+<td>Siswa diberikan kode jadi dan diminta mengubah nilai parameter (n, step, kondisi) untuk mengamati perubahan output. Guru mendampingi step-by-step. Template kode disediakan dengan komentar petunjuk.</td>
+</tr>
+<tr>
+<td><strong>Level 2 (Reguler)</strong></td>
+<td>Siswa menyelesaikan seluruh LKPD secara mandiri. Siswa menulis kode dari awal. Siswa diminta menambahkan minimal 1 fitur pengembangan pada program tebak angka.</td>
+</tr>
+<tr>
+<td><strong>Level 3 (Percepatan)</strong></td>
+<td>Siswa menyelesaikan semua tantangan plus membuat program &ldquo;simulasi ATM&rdquo; (tarik tunai: while loop untuk menu berulang, for loop untuk mencetak struk, nested if untuk validasi PIN). Siswa juga mempelajari list comprehension sebagai alternatif loop.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="g-refleksi-guru">G. REFLEKSI GURU</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek Refleksi</th>
+<th>Catatan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apakah siswa dapat membedakan kapan menggunakan for vs while?</td>
+<td></td>
+</tr>
+<tr>
+<td>Apakah ada siswa yang mengalami infinite loop dan bagaimana penanganannya?</td>
+<td></td>
+</tr>
+<tr>
+<td>Apakah tantangan pola bintang cukup menantang untuk level reguler?</td>
+<td></td>
+</tr>
+<tr>
+<td>Bagian mana yang memerlukan pengulangan penjelasan di pertemuan berikutnya?</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="h-bahan-bacaan-untuk-guru">H. BAHAN BACAAN UNTUK GURU</h3>
+<ul>
+<li><strong>Buku Informatika Kelas X, Bab 7</strong> — Penerbit Kemdikbudristek</li>
+<li><strong>Python Official Documentation — More Control Flow Tools (for, while, break, continue)</strong> — https://docs.python.org/3/tutorial/controlflow.html</li>
+<li><strong>&ldquo;Automate the Boring Stuff with Python&rdquo; oleh Al Sweigart</strong> — Bab 2 (Flow Control) — sumber praktis untuk pengajaran loop</li>
+<li><strong>GeeksforGeeks Python Loops</strong> — https://www.geeksforgeeks.org/loops-in-python/</li>
+<li><strong>Python Tutor (Loop Visualization)</strong> — https://pythontutor.com/ — alat bantu visual untuk menunjukkan iterasi loop step-by-step kepada siswa</li>
+</ul>
+<hr />
+<p>Mengetahui,<br />
+Kepala Sekolah</p>
+<hr />
+<p>Guru Mata Pelajaran,</p>
+<p>Daniarsyah, S.Kom.<br />
+NIP. 198004052022211004</p>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

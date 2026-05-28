@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas X (Fase E) — Modul_Ajar_25_AP_Debugging — MGMP Informatika 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 MGMP Informatika</h1>
+  <p>Musyawarah Guru Mata Pelajaran<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas X (Fase E)</a> / <a href="index.html">Modul Ajar</a> / <span>Modul Ajar 25 AP Debugging</span></nav></div>
+    <div class="content-inner">
+    <h1 id="modul-ajar-informatika-kelas-x">MODUL AJAR INFORMATIKA KELAS X</h1>
+<h2 id="ap-debugging-dan-pengujian-program">AP: DEBUGGING DAN PENGUJIAN PROGRAM</h2>
+<hr />
+<h3 id="a-informasi-umum">A. INFORMASI UMUM</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Komponen</th>
+<th>Deskripsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Satuan Pendidikan</td>
+<td>SMA Negeri 6 Cimahi</td>
+</tr>
+<tr>
+<td>Mata Pelajaran</td>
+<td>Informatika</td>
+</tr>
+<tr>
+<td>Kelas / Fase</td>
+<td>X (Sepuluh) / Fase E</td>
+</tr>
+<tr>
+<td>Elemen</td>
+<td>AP — Algoritma &amp; Pemrograman</td>
+</tr>
+<tr>
+<td>Tujuan Pembelajaran</td>
+<td>TP.7.6: Debugging &amp; error handling</td>
+</tr>
+<tr>
+<td>Alokasi Waktu</td>
+<td>2 JP (2 × 45 menit)</td>
+</tr>
+<tr>
+<td>Pertemuan ke-</td>
+<td>5 (lima)</td>
+</tr>
+<tr>
+<td>Kompetensi Awal</td>
+<td>Peserta didik telah mampu menulis program Python dengan variabel, percabangan, perulangan, dan fungsi</td>
+</tr>
+<tr>
+<td>Integrasi 8 Dimensi</td>
+<td>Kemandirian, Penalaran Kritis, Kreativitas</td>
+</tr>
+<tr>
+<td>Sarana &amp; Prasarana</td>
+<td>Proyektor/LCD, laptop/komputer, Python IDLE atau Google Colab, papan tulis, kertas soal error, timer untuk lomba debugging</td>
+</tr>
+<tr>
+<td>Target Peserta Didik</td>
+<td>Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan)</td>
+</tr>
+<tr>
+<td>Model Pembelajaran</td>
+<td>Problem Based Learning, Gamification (Lomba Debugging)</td>
+</tr>
+<tr>
+<td>Metode</td>
+<td>Demonstrasi, studi kasus, problem solving, kompetisi, diskusi, praktik mandiri</td>
+</tr>
+<tr>
+<td>Sumber Belajar</td>
+<td>Buku Informatika Kelas X Bab 7, dokumentasi Python — Errors and Exceptions, Python Tutor, modul ajar guru</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="b-tujuan-pembelajaran">B. TUJUAN PEMBELAJARAN</h3>
+<h4 id="b1-tujuan-pembelajaran">B.1 Tujuan Pembelajaran</h4>
+<ol>
+<li>Mengidentifikasi dan membedakan jenis-jenis error dalam Python: SyntaxError, NameError, TypeError, ValueError, IndexError, ZeroDivisionError, dan LogicError.</li>
+<li>Membaca dan memahami pesan error (traceback) yang ditampilkan Python untuk menemukan lokasi dan jenis error.</li>
+<li>Menerapkan teknik debugging sistematis: membaca error message, melacak variabel, dan mengisolasi blok kode yang bermasalah.</li>
+<li>Menggunakan struktur try-except-finally untuk menangani error agar program tetap berjalan (error handling).</li>
+<li>Menguji program dengan berbagai skenario input termasuk kasus batas (edge case) untuk memvalidasi kebenaran program.</li>
+</ol>
+<h4 id="b2-indikator-keberhasilan">B.2 Indikator Keberhasilan</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Indikator</th>
+<th>Kriteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Mengidentifikasi error</td>
+<td>Mampu menyebutkan minimal 5 jenis error Python dengan contoh masing-masing</td>
+</tr>
+<tr>
+<td>2. Membaca traceback</td>
+<td>Mampu menentukan baris error dan jenis error dari pesan traceback dalam 2 menit</td>
+</tr>
+<tr>
+<td>3. Debugging</td>
+<td>Menemukan dan memperbaiki 5 dari 5 error dalam kode yang diberikan dalam 15 menit</td>
+</tr>
+<tr>
+<td>4. Error handling</td>
+<td>Program menggunakan try-except untuk menangani minimal 3 jenis error berbeda</td>
+</tr>
+<tr>
+<td>5. Pengujian</td>
+<td>Menguji program dengan 3 skenario: input normal, input batas, input error</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="b3-kata-kunci">B.3 Kata Kunci</h4>
+<p>Debugging, error handling, SyntaxError, NameError, TypeError, ValueError, IndexError, ZeroDivisionError, LogicError, traceback, exception, try, except, finally, raise, bug, testing, edge case</p>
+<h3 id="c-kegiatan-pembelajaran">C. KEGIATAN PEMBELAJARAN</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Tahap</th>
+<th>Waktu</th>
+<th>Aktivitas Guru</th>
+<th>Aktivitas Siswa</th>
+<th>Media/Sumber</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pendahuluan</strong></td>
+<td>10&rsquo;</td>
+<td>Guru membuka kelas, mengecek kehadiran. Guru memantik: &ldquo;Program tidak pernah benar di percobaan pertama. Debugging adalah skill paling penting seorang programmer!&rdquo; Guru menyampaikan TP.</td>
+<td>Siswa merespons. Siswa berbagi pengalaman pernah mengalami error saat coding. Siswa menyimak TP.</td>
+<td>Proyektor, slide pembuka</td>
+</tr>
+<tr>
+<td><strong>Inti — Sesi 1</strong></td>
+<td>20&rsquo;</td>
+<td>Guru menjelaskan 7 jenis error Python dengan contoh kode langsung: SyntaxError (lupa titik dua), NameError (variabel belum didefinisikan), TypeError (operasi tipe beda), ValueError (input salah), IndexError (indeks di luar range), ZeroDivisionError (pembagian nol), LogicError (program jalan tapi hasil salah).</td>
+<td>Siswa menulis setiap contoh error di komputer. Siswa mengamati pesan error yang muncul. Siswa mencatat ciri-ciri setiap jenis error.</td>
+<td>Python IDLE/Colab, slide 7 jenis error</td>
+</tr>
+<tr>
+<td><strong>Inti — Sesi 2</strong></td>
+<td>10&rsquo;</td>
+<td>Guru mengajarkan cara membaca error message (traceback): &ldquo;Error message adalah teman, bukan musuh.&rdquo; Guru menunjukkan bagaimana traceback menunjukkan file, baris, dan jenis error.</td>
+<td>Siswa membaca traceback dan mengidentifikasi informasi penting (file, line number, exception type, error message).</td>
+<td>Proyektor, kode error</td>
+</tr>
+<tr>
+<td><strong>Inti — Praktik 1</strong></td>
+<td>20&rsquo;</td>
+<td>Guru memberikan kode yang mengandung 5 error. Siswa mencari dan memperbaiki satu per satu. Guru berkeliling memberikan petunjuk tanpa memberi jawaban langsung.</td>
+<td>Siswa mengidentifikasi dan memperbaiki setiap error. Siswa menuliskan jenis error dan perbaikannya di LKPD.</td>
+<td>LKPD soal error, Python IDLE/Colab</td>
+</tr>
+<tr>
+<td><strong>Inti — Praktik 2</strong></td>
+<td>15&rsquo;</td>
+<td>Guru menjelaskan try-except-finally: program tetap jalan meskipun error. Guru memberi contoh program pembagian dengan try-except ZeroDivisionError dan ValueError.</td>
+<td>Siswa menulis program dengan try-except. Siswa menguji program dengan input normal dan error.</td>
+<td>Python IDLE/Colab, slide try-except</td>
+</tr>
+<tr>
+<td><strong>Inti — Lomba Debugging</strong></td>
+<td>10&rsquo;</td>
+<td>Guru memberikan 3 kode error secara bertahap. Siapa paling cepat perbaiki semua error? Guru memfasilitasi dan memberikan apresiasi.</td>
+<td>Siswa berlomba memperbaiki error. Siswa pertama yang selesai mendapat apresiasi.</td>
+<td>Soal lomba di proyektor</td>
+</tr>
+<tr>
+<td><strong>Penutup</strong></td>
+<td>15&rsquo;</td>
+<td>Guru memberikan tugas: buat program sendiri lalu &ldquo;tanamkan&rdquo; 3 error — tukar dengan teman untuk diperbaiki. Guru menyimpulkan jenis-jenis error dan pentingnya debugging.</td>
+<td>Siswa mencatat tugas. Siswa membuat kesimpulan tentang debugging. Siswa berdoa.</td>
+<td>Papan tulis, buku catatan</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="d-asesmen">D. ASESMEN</h3>
+<h4 id="d1-asesmen-diagnostik-awal">D.1 Asesmen Diagnostik (Awal)</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Pertanyaan</th>
+<th>Tujuan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apa yang terjadi saat program Python mengalami error?</td>
+<td>Mengetahui pengalaman siswa dengan error</td>
+</tr>
+<tr>
+<td>Bagaimana reaksi kalian saat muncul error merah?</td>
+<td>Mengukur sikap siswa terhadap error</td>
+</tr>
+<tr>
+<td>Sebutkan error yang paling sering kalian temui saat coding!</td>
+<td>Mengidentifikasi pengalaman debugging siswa</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="d2-asesmen-formatif-proses">D.2 Asesmen Formatif (Proses)</h4>
+<ul>
+<li>Hasil identifikasi error pada praktik 1 (5 error).</li>
+<li>Kecepatan dan ketepatan dalam lomba debugging.</li>
+<li>Program try-except: apakah menangani minimal 2 jenis error.</li>
+</ul>
+<h4 id="d3-asesmen-sumatif-akhir">D.3 Asesmen Sumatif (Akhir)</h4>
+<ul>
+<li>Produk: kode hasil debugging + program dengan try-except (praktik 2).</li>
+<li>Tugas: program dengan 3 error yang ditanam (beserta kunci jawaban).</li>
+</ul>
+<h4 id="d4-rubrik-penilaian-debugging-dan-error-handling">D.4 Rubrik Penilaian Debugging dan Error Handling</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>SB (4)</th>
+<th>B (3)</th>
+<th>C (2)</th>
+<th>PB (1)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Identifikasi error</strong></td>
+<td>Mengidentifikasi semua jenis error dengan tepat beserta penyebabnya</td>
+<td>Mengidentifikasi 4 dari 5 error dengan tepat</td>
+<td>Mengidentifikasi 3 dari 5 error</td>
+<td>Mengidentifikasi kurang dari 3 error</td>
+</tr>
+<tr>
+<td><strong>Perbaikan error</strong></td>
+<td>Semua error diperbaiki dengan solusi yang tepat dan efisien</td>
+<td>4 error diperbaiki dengan benar</td>
+<td>3 error diperbaiki dengan benar</td>
+<td>Kurang dari 3 error diperbaiki</td>
+</tr>
+<tr>
+<td><strong>Error handling (try-except)</strong></td>
+<td>Menggunakan try-except untuk 3+ jenis error, ada finally, dan pesan error informatif</td>
+<td>Try-except untuk 2 jenis error</td>
+<td>Try-except hanya untuk 1 jenis error</td>
+<td>Tidak menggunakan try-except</td>
+</tr>
+<tr>
+<td><strong>Pengujian program</strong></td>
+<td>Menguji dengan 3+ skenario (normal, batas, error) dan mencatat semua hasil</td>
+<td>Menguji dengan 2 skenario</td>
+<td>Menguji hanya dengan skenario normal</td>
+<td>Tidak melakukan pengujian</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="d5-contoh-soal">D.5 Contoh Soal</h4>
+<p><strong>Soal:</strong> Berikut adalah kode Python yang memiliki 4 error. Identifikasi jenis error, lokasi (baris), dan tuliskan perbaikannya!</p>
+<pre><code class="language-python"># Program menghitung rata-rata
+jumlah = 0
+data = [85, 90, 78, &quot;92&quot;, 88]
+for i in range(len(data)):
+    jumlah = jumlah + data[i]
+rata_rata = jumlah / len(data
+print(&quot;Rata-rata:&quot;, rata-rata)
+</code></pre>
+<h3 id="e-lembar-kerja-peserta-didik-lkpd">E. LEMBAR KERJA PESERTA DIDIK (LKPD)</h3>
+<p><strong>Nama:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_____ <strong>Kelas:</strong> X ___</p>
+<h4 id="e1-praktik-1-cari-dan-perbaiki-5-error-mudah">E.1 Praktik 1 — Cari dan Perbaiki 5 Error! (Mudah)</h4>
+<p>Kode berikut mengandung 5 error. Identifikasi jenis error, baris, dan perbaikannya!</p>
+<pre><code class="language-python"># Program menghitung diskon
+print(&quot;Program Diskon Belanja&quot;)
+
+total = input(&quot;Masukkan total belanja: &quot;)
+if total &gt; 100000:
+    diskon = total * 0.1
+    print(&quot;Anda mendapat diskon 10%&quot;)
+elif total &gt; 50000
+    diskon = total * 0.05
+    print(&quot;Anda mendapat diskon 5%&quot;)
+else
+    diskon = 0
+print(f&quot;Total yang dibayar: {total - diskon}&quot;)
+</code></pre>
+<p><strong>Tabel Identifikasi Error:</strong><br />
+| No | Baris | Jenis Error | Perbaikan |<br />
+|&mdash;|&mdash;|&mdash;|&mdash;|<br />
+| 1 | | | |<br />
+| 2 | | | |<br />
+| 3 | | | |<br />
+| 4 | | | |<br />
+| 5 | | | |</p>
+<h4 id="e2-praktik-2-error-handling-dengan-try-except-sedang">E.2 Praktik 2 — Error Handling dengan try-except (Sedang)</h4>
+<pre><code class="language-python"># Program pembagian dengan error handling
+def bagi_angka():
+    while True:
+        try:
+            a = float(input(&quot;Masukkan pembilang: &quot;))
+            b = float(input(&quot;Masukkan penyebut: &quot;))
+            hasil = a / b
+            print(f&quot;Hasil: {a} / {b} = {hasil}&quot;)
+            break
+        except ZeroDivisionError:
+            print(&quot;Error: Penyebut tidak boleh nol. Coba lagi!&quot;)
+        except ValueError:
+            print(&quot;Error: Input harus berupa angka. Coba lagi!&quot;)
+        except KeyboardInterrupt:
+            print(&quot;\nProgram dihentikan oleh user.&quot;)
+            break
+
+bagi_angka()
+</code></pre>
+<p><strong>Tugas Pengembangan:</strong><br />
+1. Tambahkan except untuk menangani OverflowError<br />
+2. Tambahkan blok finally yang mencetak &ldquo;Program selesai dijalankan&rdquo;<br />
+3. Buat versi kalkulator lengkap (+, -, *, /) yang menggunakan try-except di setiap operasi</p>
+<h4 id="e3-lomba-debugging-3-kode-error-sulit">E.3 Lomba Debugging — 3 Kode Error (Sulit)</h4>
+<p><strong>Soal 1:</strong> Perbaiki program faktorial berikut:</p>
+<pre><code class="language-python">n = int(input(&quot;Masukkan n: &quot;))
+for i in range(1, n)
+    faktorial *= i
+print(f&quot;Faktorial = {faktorial}&quot;)
+</code></pre>
+<p><strong>Soal 2:</strong> Perbaiki program mencari nilai maksimum:</p>
+<pre><code class="language-python">angka = [12, 45, 7, 89, 23]
+maks = 0
+for i in range(len(angka))
+    if angka[i] &gt; maks
+    maks = angka[1]
+print(&quot;Nilai maks:&quot;, maks)
+</code></pre>
+<p><strong>Soal 3:</strong> Perbaiki program menyapa pengguna:</p>
+<pre><code class="language-python">nama = input(&quot;Siapa nama Anda? &quot;)
+umur = input(&quot;Berapa umur Anda? &quot;)
+tahun_sekarang = 2026
+tahun_lahir = tahun_sekarang - umur
+print(f&quot;Halo {nama}, kamu lahir tahun {tahun_lahir}&quot;)
+</code></pre>
+<h3 id="f-diferensiasi-pembelajaran">F. DIFERENSIASI PEMBELAJARAN</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Deskripsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Level 1 (Bimbingan)</strong></td>
+<td>Siswa diberikan kode error dengan petunjuk berupa komentar &ldquo;ERROR DI SINI&rdquo; atau tanda panah. Guru mendampingi siswa membaca pesan error dan melacak baris yang bermasalah.</td>
+</tr>
+<tr>
+<td><strong>Level 2 (Reguler)</strong></td>
+<td>Siswa mengerjakan seluruh LKPD secara mandiri. Siswa diharapkan dapat menyelesaikan praktik 1 dan 2 dalam waktu yang disediakan.</td>
+</tr>
+<tr>
+<td><strong>Level 3 (Percepatan)</strong></td>
+<td>Siswa menyelesaikan semua soal plus tantangan: membuat program &ldquo;bank sederhana&rdquo; (setor, tarik, cek saldo) yang dilengkapi error handling untuk saldo tidak mencukupi, input negatif, dan input non-angka. Siswa juga diminta menulis minimal 3 test case.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="g-refleksi-guru">G. REFLEKSI GURU</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek Refleksi</th>
+<th>Catatan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apakah siswa masih takut dengan pesan error merah setelah pembelajaran ini?</td>
+<td></td>
+</tr>
+<tr>
+<td>Error jenis apa yang paling sulit diidentifikasi siswa?</td>
+<td></td>
+</tr>
+<tr>
+<td>Apakah lomba debugging efektif meningkatkan motivasi siswa?</td>
+<td></td>
+</tr>
+<tr>
+<td>Apakah siswa mampu menerapkan try-except pada program mereka sendiri?</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>
