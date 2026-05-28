@@ -754,17 +754,58 @@ body {
   .search-wrap input { padding: 0.6rem 0.8rem 0.6rem 2.2rem; font-size: 0.8rem; }
 }
 
+/* ═══ PRINT BUTTON ═══ */
+.btn-print {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-section);
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+.btn-print:hover {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
 @media print {
-  .sidebar { display: none; }
-  .content { margin-left: 0; }
-  .site-footer { display: none; }
-  .breadcrumb-wrap { display: none; }
-  .hero { background: none !important; color: #000 !important; border: 1px solid #ccc; }
-  .hero h1 { color: #000 !important; }
-  .hero p { color: #333 !important; }
+  .sidebar { display: none !important; }
+  .content { margin-left: 0 !important; }
+  .site-footer { display: none !important; }
+  .breadcrumb-wrap { display: none !important; }
+  .hamburger { display: none !important; }
+  .theme-toggle { display: none !important; }
+  .back-to-top { display: none !important; }
+  .btn-print { display: none !important; }
+  .sidebar-overlay { display: none !important; }
+  .search-wrap { display: none !important; }
+  .stats-grid { display: none !important; }
+  .progress-wrap { display: none !important; }
+  .category-cards { display: none !important; }
+  .identity-section { display: none !important; }
+  .teacher-grid-wrap { display: none !important; }
+  .grade-grid { display: none !important; }
+  .hero { background: none !important; color: #000 !important; border: 1px solid #ccc !important; padding: 0.5rem !important; }
+  .hero h1 { color: #000 !important; font-size: 14pt !important; }
+  .hero p { color: #333 !important; font-size: 11pt !important; }
   .hero .sub { color: #666 !important; }
+  .hero-icon { display: none !important; }
   .grade-card { break-inside: avoid; }
-  .content-inner { max-width: 100%; }
+  .content-inner { max-width: 100% !important; padding: 0 !important; }
+  body { background: #fff !important; color: #000 !important; font-size: 11pt; }
+  a { color: #000 !important; text-decoration: underline; }
+  h1, h2, h3, h4 { page-break-after: avoid; }
+  table { font-size: 9pt; }
+  pre, code { font-size: 8pt; white-space: pre-wrap; word-break: break-word; }
+  img { max-width: 100% !important; page-break-inside: avoid; }
+  .cat-card, .stat-card, .teacher-card { break-inside: avoid; }
 }
 
 /* ═══ ANIMATIONS ═══ */
@@ -1190,7 +1231,9 @@ def render_page(content_html, title, breadcrumb_items=None, depth=0):
   <div class="sidebar-overlay" id="sidebarOverlay"></div>
   <aside class="sidebar" id="sidebar">{sidebar}</aside>
   <main class="content">
-    <div class="breadcrumb-wrap">{bc}</div>
+    <div class="breadcrumb-wrap">{bc}
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">\U0001f5a8 Cetak PDF</button>
+   </div>
     <div class="content-inner">
     {content_html}
     </div>
