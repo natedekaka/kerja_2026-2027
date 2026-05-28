@@ -971,8 +971,8 @@ def build_sidebar_html(depth=0):
     pfx = "../" * depth
     html = []
     html.append('<div class="sidebar-header">')
-    html.append('  <h1>\U0001f4cb MGMP Informatika</h1>')
-    html.append('  <p>Musyawarah Guru Mata Pelajaran<br>SMA N 6 Cimahi &middot; 2026/2027</p>')
+    html.append('  <h1>\U0001f4cb Adm. Guru &middot; Modul Ajar &middot; Materi</h1>')
+    html.append('  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>')
     html.append('</div>')
     html.append('<nav class="sidebar-nav">')
 
@@ -1016,7 +1016,7 @@ def render_page(content_html, title, breadcrumb_items=None, depth=0):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title} \u2014 MGMP Informatika 2026/2027</title>
+  <title>{title} \u2014 Adm. Guru &amp; Modul Ajar 2026/2027</title>
   <link rel="stylesheet" href="{css_path}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>\U0001f4cb</text></svg>">
 </head>
@@ -1067,8 +1067,8 @@ def generate_index():
     # ─── hero ───
     content.append('<div class="hero">')
     content.append('  <div class="hero-icon">\U0001f4da</div>')
-    content.append('  <h1>MGMP Informatika</h1>')
-    content.append('  <p>SMA Negeri 6 Cimahi \u2014 Tahun Pelajaran 2026/2027</p>')
+    content.append('  <h1>Administrasi Guru, Modul Ajar &amp; Materi</h1>')
+    content.append('  <p>MGMP Informatika SMA Negeri 6 Cimahi \u2014 Tahun Pelajaran 2026/2027</p>')
     content.append('  <div class="sub">Musyawarah Guru Mata Pelajaran Informatika</div>')
     content.append('</div>')
 
@@ -1168,8 +1168,8 @@ def generate_index():
     content.append('<footer class="site-footer">')
     content.append('  <div class="footer-inner">')
     content.append('    <div class="footer-brand">')
-    content.append('      <h3>MGMP Informatika</h3>')
-    content.append('      <p>SMA Negeri 6 Cimahi &middot; 2026/2027</p>')
+    content.append('      <h3>Adm. Guru &middot; Modul Ajar &middot; Materi</h3>')
+    content.append('      <p>MGMP Informatika SMA Negeri 6 Cimahi &middot; 2026/2027</p>')
     content.append('    </div>')
     content.append('    <div class="footer-links">')
     content.append('      <a href="https://github.com/natedekaka" class="brand" target="_blank" rel="noopener">\U0001f3a8 natedekaka</a>')
