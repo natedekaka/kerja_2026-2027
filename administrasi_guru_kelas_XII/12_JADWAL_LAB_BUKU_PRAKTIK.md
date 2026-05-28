@@ -5,53 +5,104 @@
 
 ## A. JADWAL PENGGUNAAN LAB KOMPUTER
 
-### Semester 1 (Ganjil)
+### Informasi Lab
 
-| Hari | Jam ke- | Waktu | Kelas | Mata Pelajaran | Guru | Aplikasi yang Digunakan |
-|------|---------|-------|-------|---------------|------|------------------------|
-| **Senin** | 1–2 | 07.00–08.30 | XII MIPA 1 | INFORMATIKA | Daniarsyah, S.Kom. | Arduino IDE, Wokwi |
-| | 3–4 | 08.30–10.00 | XII MIPA 2 | INFORMATIKA | Daniarsyah, S.Kom. | Arduino IDE, Fritzing |
-| | 5–6 | 10.30–12.00 | | | | |
-| | 7–8 | 12.30–14.00 | | | | |
-| **Selasa** | 1–2 | 07.00–08.30 | XII IPS 1 | INFORMATIKA | Daniarsyah, S.Kom. | Arduino IDE, Wokwi |
-| | 3–4 | 08.30–10.00 | | | | |
-| | 5–6 | 10.30–12.00 | XII MIPA 1 | INFORMATIKA | Daniarsyah, S.Kom. | Python, VS Code |
-| | 7–8 | 12.30–14.00 | | | | |
-| **Rabu** | 1–2 | 07.00–08.30 | | | | |
-| | 3–4 | 08.30–10.00 | XII MIPA 2 | INFORMATIKA | Daniarsyah, S.Kom. | Python, VS Code |
-| | 5–6 | 10.30–12.00 | XII IPS 1 | INFORMATIKA | Daniarsyah, S.Kom. | Cisco Packet Tracer |
-| | 7–8 | 12.30–14.00 | | | | |
-| **Kamis** | 1–2 | 07.00–08.30 | XII MIPA 1 | INFORMATIKA | Daniarsyah, S.Kom. | Cisco Packet Tracer, Wireshark |
-| | 3–4 | 08.30–10.00 | | | | |
-| | 5–6 | 10.30–12.00 | XII MIPA 2 | INFORMATIKA | Daniarsyah, S.Kom. | Cisco Packet Tracer, Wireshark |
-| | 7–8 | 12.30–14.00 | | | | |
-| **Jumat** | 1–2 | 07.00–08.30 | XII IPS 1 | INFORMATIKA | Daniarsyah, S.Kom. | Wokwi, Canva |
-| | 3–4 | 08.30–10.00 | | | | |
-| | 5–6 | 10.30–12.00 | | | | |
-| **Sabtu** | — | — | — | — | — | — |
+| Item | Detail |
+|------|--------|
+| Laboratorium | Lab 1 & Lab 2 (2 lab) |
+| Kapasitas per Lab | 20–25 komputer |
+| Jam Operasional | Senin–Jumat: JP 1–10 (07.00–16.30) |
+| Kapasitas per Minggu | 2 lab × 10 JP/hari × 5 hari = **100 JP/minggu** |
 
-### Semester 2 (Genap)
+### Sistem Rotasi 2 Mingguan
 
-| Hari | Jam ke- | Waktu | Kelas | Mata Pelajaran | Guru | Aplikasi yang Digunakan |
-|------|---------|-------|-------|---------------|------|------------------------|
-| **Senin** | 1–2 | 07.00–08.30 | XII MIPA 1 | INFORMATIKA | Daniarsyah, S.Kom. | Arduino IDE, IoT Cloud |
-| | 3–4 | 08.30–10.00 | XII MIPA 2 | INFORMATIKA | Daniarsyah, S.Kom. | Arduino IDE, IoT Cloud |
-| | 5–6 | 10.30–12.00 | | | | |
-| | 7–8 | 12.30–14.00 | | | | |
-| **Selasa** | 1–2 | 07.00–08.30 | XII IPS 1 | INFORMATIKA | Daniarsyah, S.Kom. | Arduino IDE, IoT Cloud |
-| | 3–4 | 08.30–10.00 | | | | |
-| | 5–6 | 10.30–12.00 | XII MIPA 1 | INFORMATIKA | Daniarsyah, S.Kom. | Proyek IoT (Integrasi) |
-| | 7–8 | 12.30–14.00 | | | | |
-| **Rabu** | 1–2 | 07.00–08.30 | | | | |
-| | 3–4 | 08.30–10.00 | XII MIPA 2 | INFORMATIKA | Daniarsyah, S.Kom. | Proyek IoT (Integrasi) |
-| | 5–6 | 10.30–12.00 | XII IPS 1 | INFORMATIKA | Daniarsyah, S.Kom. | Proyek IoT (Integrasi) |
-| **Kamis** | 1–2 | 07.00–08.30 | XII MIPA 1 | INFORMATIKA | Daniarsyah, S.Kom. | Presentasi & Publikasi |
-| | 3–4 | 08.30–10.00 | | | | |
-| | 5–6 | 10.30–12.00 | XII MIPA 2 | INFORMATIKA | Daniarsyah, S.Kom. | Presentasi & Publikasi |
-| **Jumat** | 1–2 | 07.00–08.30 | XII IPS 1 | INFORMATIKA | Daniarsyah, S.Kom. | Presentasi & Publikasi |
-| | 3–4 | 08.30–10.00 | | | | |
-| | 5–6 | 10.30–12.00 | | | | |
-| **Sabtu** | — | — | — | — | — | — |
+Kelas XII (11 rombel) bersama XI (12 rombel) dibagi menjadi **2 Grup** — bergantian lab tiap minggu:
+
+```
+MINGGU A:                   MINGGU B:
+┌─ LAB ─┐  ┌─ KELAS ─┐     ┌─ LAB ─┐  ┌─ KELAS ─┐
+│ XII-A │  │ XII-B   │     │ XII-B │  │ XII-A   │
+│ XI-A  │  │ XI-B    │     │ XI-B  │  │ XI-A    │
+│ X     │  │         │     │ X     │  │         │
+└───────┘  └─────────┘     └───────┘  └─────────┘
+```
+
+- **Kelas XII-A** (XII.1–XII.5, 5 kelas): Lab di **Minggu A**
+- **Kelas XII-B** (XII.6–XII.11, 6 kelas): Lab di **Minggu B**
+- **Kelas XI-A** (XI.1–XI.6): Lab di **Minggu A**
+- **Kelas XI-B** (XI.7–XI.12): Lab di **Minggu B**
+- **Kelas X** (11 rombel, 2 JP): Lab **setiap minggu** (Kamis–Jumat)
+
+> **Ketika tidak lab → pembelajaran teori di kelas masing-masing (5 JP teori).**
+
+### Pembagian Guru & Beban Kelas XII
+
+| No | Guru | Kelas XII | Grup | JP Lab/minggu |
+|----|------|-----------|------|--------------|
+| 1 | Raden Hana Amalia, ST. | XII.1, XII.2 | A | 5+5 = 10 JP (Minggu A) |
+| 2 | Daniarsyah, S.Kom. | XII.3, XII.4 | A | 5+5 = 10 JP (Minggu A) |
+| 3 | Lingga Oktaviani, S.Kom. | XII.5 | A | 5 JP (Minggu A) |
+| 4 | Razzib Zabbal Noor, S.Kom. | XII.6, XII.7 | B | 5+5 = 10 JP (Minggu B) |
+| 5 | Edi Kusnadi, M.Pd. | XII.8, XII.9 | B | 5+5 = 10 JP (Minggu B) |
+| 6 | Muharima Rasyid Noor, S.St. | XII.10, XII.11 | B | 5+5 = 10 JP (Minggu B) |
+
+---
+
+### MINGGU A — XII Grup A Lab (XII.1–XII.5)
+
+| Hari | JP ke- | Waktu | Lab 1 | Lab 2 |
+|------|--------|-------|-------|-------|
+| **Senin** | 1–5 | 07.00–11.15 | XI.1 (Raden Hana Amalia) | XI.2 (Raden Hana Amalia) |
+| | 6–10 | 12.15–16.30 | **XII.1** (Raden Hana Amalia) | **XII.2** (Raden Hana Amalia) |
+| **Selasa** | 1–5 | 07.00–11.15 | XI.3 (Daniarsyah) | XI.4 (Daniarsyah) |
+| | 6–10 | 12.15–16.30 | **XII.3** (Daniarsyah) | **XII.4** (Daniarsyah) |
+| **Rabu** | 1–5 | 07.00–11.15 | XI.5 (Lingga Oktaviani) | XI.6 (Lingga Oktaviani) |
+| | 6–10 | 12.15–16.30 | **XII.5** (Lingga Oktaviani) | — |
+| **Kamis** | 1–8 | 07.00–14.00 | X.1–X.8 (setiap minggu) | X.5–X.8 (setiap minggu) |
+| **Jumat** | 1–4 | 07.00–10.00 | X.9–X.11 (setiap minggu) | — |
+
+### MINGGU B — XII Grup B Lab (XII.6–XII.11)
+
+| Hari | JP ke- | Waktu | Lab 1 | Lab 2 |
+|------|--------|-------|-------|-------|
+| **Senin** | 1–5 | 07.00–11.15 | XI.7 (Razzib Zabbal Noor) | XI.8 (Razzib Zabbal Noor) |
+| | 6–10 | 12.15–16.30 | **XII.6** (Razzib Zabbal Noor) | **XII.7** (Razzib Zabbal Noor) |
+| **Selasa** | 1–5 | 07.00–11.15 | XI.9 (Edi Kusnadi) | XI.10 (Edi Kusnadi) |
+| | 6–10 | 12.15–16.30 | **XII.8** (Edi Kusnadi) | **XII.9** (Edi Kusnadi) |
+| **Rabu** | 1–5 | 07.00–11.15 | XI.11 (Muharima Rasyid Noor) | XI.12 (Muharima Rasyid Noor) |
+| | 6–10 | 12.15–16.30 | **XII.10** (Muharima Rasyid Noor) | **XII.11** (Muharima Rasyid Noor) |
+| **Kamis** | 1–8 | 07.00–14.00 | X.1–X.8 (setiap minggu) | X.5–X.8 (setiap minggu) |
+| **Jumat** | 1–4 | 07.00–10.00 | X.9–X.11 (setiap minggu) | — |
+
+> **Minggu A → XII Grup A lab, XII Grup B teori di kelas.**
+> **Minggu B → XII Grup B lab, XII Grup A teori di kelas.**
+
+### Detail Jadwal Lab Kelas XII (per kelas)
+
+| Grup | Kelas | Hari Lab | JP ke- | Guru | Lab |
+|------|-------|----------|--------|------|-----|
+| **A** | XII.1 | Senin (Minggu A) | 6–10 (siang) | Raden Hana Amalia, ST. | Lab 1 |
+| **A** | XII.2 | Senin (Minggu A) | 6–10 (siang) | Raden Hana Amalia, ST. | Lab 2 |
+| **A** | XII.3 | Selasa (Minggu A) | 6–10 (siang) | Daniarsyah, S.Kom. | Lab 1 |
+| **A** | XII.4 | Selasa (Minggu A) | 6–10 (siang) | Daniarsyah, S.Kom. | Lab 2 |
+| **A** | XII.5 | Rabu (Minggu A) | 6–10 (siang) | Lingga Oktaviani, S.Kom. | Lab 1 |
+| **B** | XII.6 | Senin (Minggu B) | 6–10 (siang) | Razzib Zabbal Noor, S.Kom. | Lab 1 |
+| **B** | XII.7 | Senin (Minggu B) | 6–10 (siang) | Razzib Zabbal Noor, S.Kom. | Lab 2 |
+| **B** | XII.8 | Selasa (Minggu B) | 6–10 (siang) | Edi Kusnadi, M.Pd. | Lab 1 |
+| **B** | XII.9 | Selasa (Minggu B) | 6–10 (siang) | Edi Kusnadi, M.Pd. | Lab 2 |
+| **B** | XII.10 | Rabu (Minggu B) | 6–10 (siang) | Muharima Rasyid Noor, S.St. | Lab 1 |
+| **B** | XII.11 | Rabu (Minggu B) | 6–10 (siang) | Muharima Rasyid Noor, S.St. | Lab 2 |
+
+### Aplikasi yang Digunakan
+
+| Bab | Judul | Software / Tools |
+|-----|-------|-----------------|
+| 1 | Eksplorasi IoT & AI | Arduino IDE, Wokwi, Google Cloud |
+| 2 | Mikrokontroler & Sensor | Arduino IDE, Fritzing, Wokwi |
+| 3 | Algoritma & Struktur Data | Python, VS Code |
+| 4 | Jaringan & Keamanan | Cisco Packet Tracer, Wireshark |
+| 5 | Literasi Digital & Cyber Crime | Browser, Canva |
+| 6 | Proyek IoT | Arduino IDE, IoT Platform |
 
 ---
 
