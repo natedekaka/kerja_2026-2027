@@ -1131,12 +1131,12 @@ def generate_index():
     content.append('  <div class="teacher-grid">')
     
     teachers = [
-        ("RH", "Raden Hana Amalia", "Ketua MGMP", "\u2014"),
+        ("RH", "Raden Hana Amalia, ST.", "Ketua MGMP", "\u2014"),
         ("DS", "Daniarsyah, S.Kom.", "Sekretaris", "198004052022211004"),
-        ("LO", "Lingga Oktaviani", "Anggota", "\u2014"),
-        ("RZ", "Razzib Zabbal Noor", "Anggota", "\u2014"),
-        ("EK", "Edi Kusnadi", "Anggota", "\u2014"),
-        ("MR", "Muharima Rasyid Noor", "Anggota", "\u2014"),
+        ("LO", "Lingga Oktaviani, S.Kom.", "Anggota", "\u2014"),
+        ("RZ", "Razzib Zabbal Noor, S.Kom.", "Anggota", "\u2014"),
+        ("EK", "Edi Kusnadi, M.Pd.", "Anggota", "\u2014"),
+        ("MR", "Muharima Rasyid Noor, S.St.", "Anggota", "\u2014"),
     ]
     for init, nama, role, nip in teachers:
         content.append('    <div class="teacher-card">')
@@ -1152,7 +1152,7 @@ def generate_index():
     content.append('<div class="identity-section anim-fade-up">')
     content.append('  <h2>\U0001f3eb MGMP Informatika SMA Negeri 6 Cimahi</h2>')
     content.append('  <div class="identity-grid">')
-    content.append('    <span class="label">Ketua MGMP</span><span class="value"><strong>Raden Hana Amalia</strong></span>')
+    content.append('    <span class="label">Ketua MGMP</span><span class="value"><strong>Raden Hana Amalia, ST.</strong></span>')
     content.append('    <span class="label">Sekretaris</span><span class="value">Daniarsyah, S.Kom. &middot; NIP. 198004052022211004</span>')
     content.append('    <span class="label">Pangkat / Gol.</span><span class="value">IX</span>')
     content.append('    <span class="label">Sekolah</span><span class="value">SMA Negeri 6 Cimahi</span>')
