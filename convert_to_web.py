@@ -374,33 +374,52 @@ body {
 .cat-card .cat-grade-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
-  padding: 0.35rem 0.85rem;
+  justify-content: center;
+  gap: 0.2rem;
+  padding: 0.4rem 1rem;
   border-radius: 20px;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
+  letter-spacing: 0.02em;
   transition: all var(--transition);
-  border: 1.5px solid transparent;
+  border: 1.5px solid;
+  min-width: 52px;
 }
-.cat-card-root .cat-grade-btn {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
+.cat-card .cat-grade-btn-x {
+  background: #DBEAFE;
+  color: #1D4ED8;
+  border-color: #BFDBFE;
 }
-.cat-card-modul .cat-grade-btn {
-  background: #059669;
-  color: #fff;
-  border-color: #059669;
+.cat-card .cat-grade-btn-xi {
+  background: #D1FAE5;
+  color: #047857;
+  border-color: #A7F3D0;
 }
-.cat-card-materi .cat-grade-btn {
-  background: #7C3AED;
-  color: #fff;
-  border-color: #7C3AED;
+.cat-card .cat-grade-btn-xii {
+  background: #FEF3C7;
+  color: #B45309;
+  border-color: #FDE68A;
 }
 .cat-card .cat-grade-btn:hover {
-  filter: brightness(1.15);
-  transform: scale(1.04);
+  filter: brightness(1.08);
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.dark-mode .cat-card .cat-grade-btn-x {
+  background: rgba(59,130,246,0.15);
+  color: #93C5FD;
+  border-color: rgba(59,130,246,0.3);
+}
+.dark-mode .cat-card .cat-grade-btn-xi {
+  background: rgba(16,185,129,0.15);
+  color: #6EE7B7;
+  border-color: rgba(16,185,129,0.3);
+}
+.dark-mode .cat-card .cat-grade-btn-xii {
+  background: rgba(245,158,11,0.15);
+  color: #FCD34D;
+  border-color: rgba(245,158,11,0.3);
 }
 
 /* dark mode overrides */
@@ -1249,19 +1268,19 @@ def generate_index():
         content.append('    </div>')
         # Tombol per kelas
         grade_slugs = [
-            ("X", "administrasi_guru_kelas_X"),
-            ("XI", "administrasi_guru_kelas_XI"),
-            ("XII", "administrasi_guru_kelas_XII"),
+            ("X", "administrasi_guru_kelas_X", "x"),
+            ("XI", "administrasi_guru_kelas_XI", "xi"),
+            ("XII", "administrasi_guru_kelas_XII", "xii"),
         ]
         content.append('    <div class="cat-grade-links">')
-        for grade_lbl, slug in grade_slugs:
+        for grade_lbl, slug, gs in grade_slugs:
             if key == "root":
                 href = f"{slug}/index.html"
             elif key == "modul":
                 href = f"{slug}/modul_ajar/index.html"
             else:
                 href = f"{slug}/Materi/index.html"
-            content.append(f'      <a href="{href}" class="cat-grade-btn">{grade_lbl} \u2192</a>')
+            content.append(f'      <a href="{href}" class="cat-grade-btn cat-grade-btn-{gs}">{grade_lbl} \u2192</a>')
         content.append('    </div>')
         content.append('  </div>')
     content.append('</div>')
