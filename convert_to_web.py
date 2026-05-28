@@ -1154,7 +1154,6 @@ def generate_index():
     content.append('  <div class="identity-grid">')
     content.append('    <span class="label">Ketua MGMP</span><span class="value"><strong>Raden Hana Amalia, ST.</strong></span>')
     content.append('    <span class="label">Sekretaris</span><span class="value">Daniarsyah, S.Kom. &middot; NIP. 198004052022211004</span>')
-    content.append('    <span class="label">Pangkat / Gol.</span><span class="value">IX</span>')
     content.append('    <span class="label">Sekolah</span><span class="value">SMA Negeri 6 Cimahi</span>')
     content.append('    <span class="label">Tahun Pelajaran</span><span class="value">2026/2027</span>')
     content.append('  </div>')
