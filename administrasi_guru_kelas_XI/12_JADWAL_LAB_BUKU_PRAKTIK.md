@@ -41,12 +41,12 @@ MINGGU A:                   MINGGU B:
 
 | No | Guru | Kelas XI | Grup | JP Lab/minggu |
 |----|------|----------|------|--------------|
-| 1 | Raden Hana Amalia, ST. | XI.1, XI.2 | A | 5+5 = 10 JP (Minggu A) |
-| 2 | Daniarsyah, S.Kom. | XI.3, XI.4 | A | 5+5 = 10 JP (Minggu A) |
-| 3 | Lingga Oktaviani, S.Kom. | XI.5, XI.6 | A | 5+5 = 10 JP (Minggu A) |
-| 4 | Razzib Zabbal Noor, S.Kom. | XI.7, XI.8 | B | 5+5 = 10 JP (Minggu B) |
-| 5 | Edi Kusnadi, M.Pd. | XI.9, XI.10 | B | 5+5 = 10 JP (Minggu B) |
-| 6 | Muharima Rasyid Noor, S.St. | XI.11, XI.12 | B | 5+5 = 10 JP (Minggu B) |
+| 1 | Daniarsyah, S.Kom. | XI.1, XI.2, XI.3 | A | 5+5+5 = 15 JP (Minggu A) |
+| 2 | Razzib Zabbal Noor, S.Kom. | XI.4, XI.5, XI.6, XI.7 | A (4-6), B (7) | 5+5+5+5 = 20 JP |
+| 3 | Edi Kusnadi, M.Pd. | XI.8, XI.9, XI.10 | B | 5+5+5 = 15 JP (Minggu B) |
+| 4 | Muharima Rasyid Noor, S.St. | XI.11, XI.12 | B | 5+5 = 10 JP (Minggu B) |
+
+> **Total: 60 JP untuk 12 kelas XI**
 
 ---
 
@@ -54,27 +54,27 @@ MINGGU A:                   MINGGU B:
 
 | Hari | JP ke- | Waktu | Lab 1 | Lab 2 |
 |------|--------|-------|-------|-------|
-| **Senin** | 1–5 | 07.00–11.15 | **XI.1** (Raden Hana Amalia) | **XI.2** (Raden Hana Amalia) |
+| **Senin** | 1–5 | 07.00–11.15 | **XI.1** (Daniarsyah) | **XI.2** (Daniarsyah) |
 | | 6–10 | 12.15–16.30 | XII.1 (Raden Hana Amalia) | XII.2 (Raden Hana Amalia) |
-| **Selasa** | 1–5 | 07.00–11.15 | **XI.3** (Daniarsyah) | **XI.4** (Daniarsyah) |
-| | 6–10 | 12.15–16.30 | XII.3 (Daniarsyah) | XII.4 (Daniarsyah) |
-| **Rabu** | 1–5 | 07.00–11.15 | **XI.5** (Lingga Oktaviani) | **XI.6** (Lingga Oktaviani) |
-| | 6–10 | 12.15–16.30 | XII.5 (Lingga Oktaviani) | — |
-| **Kamis** | 1–8 | 07.00–14.00 | X.1–X.8 (2 JP × 8 kelas) | X.5–X.8 (paralel) |
-| **Jumat** | 1–4 | 07.00–10.00 | X.9–X.11 (2 JP × 3 kelas) | — |
+| **Selasa** | 1–5 | 07.00–11.15 | **XI.3** (Daniarsyah) | **XI.4** (Razzib Z.) |
+| | 6–10 | 12.15–16.30 | XII.3 (Raden Hana Amalia) | XII.4 (Raden Hana Amalia) |
+| **Rabu** | 1–5 | 07.00–11.15 | **XI.5** (Razzib Z.) | **XI.6** (Razzib Z.) |
+| | 6–10 | 12.15–16.30 | XII.5 (Raden Hana Amalia) | — |
+| **Kamis** | 1–8 | 07.00–14.00 | X.1–X.8 | X.3–X.8 (paralel) |
+| **Jumat** | 1–6 | 07.00–12.00 | X.9–X.11 | — |
 
 ### MINGGU B — XI Grup B Lab (XI.7–XI.12)
 
 | Hari | JP ke- | Waktu | Lab 1 | Lab 2 |
 |------|--------|-------|-------|-------|
-| **Senin** | 1–5 | 07.00–11.15 | **XI.7** (Razzib Zabbal Noor) | **XI.8** (Razzib Zabbal Noor) |
-| | 6–10 | 12.15–16.30 | XII.6 (Razzib Zabbal Noor) | XII.7 (Razzib Zabbal Noor) |
+| **Senin** | 1–5 | 07.00–11.15 | **XI.7** (Razzib Z.) | **XI.8** (Edi Kusnadi) |
+| | 6–10 | 12.15–16.30 | XII.6 (Lingga O.) | XII.7 (Lingga O.) |
 | **Selasa** | 1–5 | 07.00–11.15 | **XI.9** (Edi Kusnadi) | **XI.10** (Edi Kusnadi) |
-| | 6–10 | 12.15–16.30 | XII.8 (Edi Kusnadi) | XII.9 (Edi Kusnadi) |
-| **Rabu** | 1–5 | 07.00–11.15 | **XI.11** (Muharima Rasyid Noor) | **XI.12** (Muharima Rasyid Noor) |
-| | 6–10 | 12.15–16.30 | XII.10 (Muharima Rasyid Noor) | XII.11 (Muharima Rasyid Noor) |
-| **Kamis** | 1–8 | 07.00–14.00 | X.1–X.8 (setiap minggu) | X.5–X.8 (setiap minggu) |
-| **Jumat** | 1–4 | 07.00–10.00 | X.9–X.11 (setiap minggu) | — |
+| | 6–10 | 12.15–16.30 | XII.8 (Lingga O.) | XII.9 (Lingga O.) |
+| **Rabu** | 1–5 | 07.00–11.15 | **XI.11** (Muharima R.) | **XI.12** (Muharima R.) |
+| | 6–10 | 12.15–16.30 | XII.10 (Lingga O.) | XII.11 (Daniarsyah) |
+| **Kamis** | 1–8 | 07.00–14.00 | X.1–X.8 | X.3–X.8 (paralel) |
+| **Jumat** | 1–6 | 07.00–12.00 | X.9–X.11 | — |
 
 > **Minggu A → XI Grup A lab, XI Grup B teori di kelas.**
 > **Minggu B → XI Grup B lab, XI Grup A teori di kelas.**
@@ -83,14 +83,14 @@ MINGGU A:                   MINGGU B:
 
 | Grup | Kelas | Hari Lab | JP ke- | Guru | Lab |
 |------|-------|----------|--------|------|-----|
-| **A** | XI.1 | Senin (Minggu A) | 1–5 | Raden Hana Amalia, ST. | Lab 1 |
-| **A** | XI.2 | Senin (Minggu A) | 1–5 | Raden Hana Amalia, ST. | Lab 2 |
+| **A** | XI.1 | Senin (Minggu A) | 1–5 | Daniarsyah, S.Kom. | Lab 1 |
+| **A** | XI.2 | Senin (Minggu A) | 1–5 | Daniarsyah, S.Kom. | Lab 2 |
 | **A** | XI.3 | Selasa (Minggu A) | 1–5 | Daniarsyah, S.Kom. | Lab 1 |
-| **A** | XI.4 | Selasa (Minggu A) | 1–5 | Daniarsyah, S.Kom. | Lab 2 |
-| **A** | XI.5 | Rabu (Minggu A) | 1–5 | Lingga Oktaviani, S.Kom. | Lab 1 |
-| **A** | XI.6 | Rabu (Minggu A) | 1–5 | Lingga Oktaviani, S.Kom. | Lab 2 |
+| **A** | XI.4 | Selasa (Minggu A) | 1–5 | Razzib Zabbal Noor, S.Kom. | Lab 2 |
+| **A** | XI.5 | Rabu (Minggu A) | 1–5 | Razzib Zabbal Noor, S.Kom. | Lab 1 |
+| **A** | XI.6 | Rabu (Minggu A) | 1–5 | Razzib Zabbal Noor, S.Kom. | Lab 2 |
 | **B** | XI.7 | Senin (Minggu B) | 1–5 | Razzib Zabbal Noor, S.Kom. | Lab 1 |
-| **B** | XI.8 | Senin (Minggu B) | 1–5 | Razzib Zabbal Noor, S.Kom. | Lab 2 |
+| **B** | XI.8 | Senin (Minggu B) | 1–5 | Edi Kusnadi, M.Pd. | Lab 2 |
 | **B** | XI.9 | Selasa (Minggu B) | 1–5 | Edi Kusnadi, M.Pd. | Lab 1 |
 | **B** | XI.10 | Selasa (Minggu B) | 1–5 | Edi Kusnadi, M.Pd. | Lab 2 |
 | **B** | XI.11 | Rabu (Minggu B) | 1–5 | Muharima Rasyid Noor, S.St. | Lab 1 |

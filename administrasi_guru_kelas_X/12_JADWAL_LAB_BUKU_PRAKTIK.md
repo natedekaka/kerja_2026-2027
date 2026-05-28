@@ -38,21 +38,21 @@ MINGGU A:                   MINGGU B:
 
 ### Pembagian Grup
 
-| Grup | Kelas XI (6 kelas) | Kelas XII |
-|------|-------------------|-----------|
+| Grup | Kelas XI (6 kelas) | Kelas XII (5-6 kelas) |
+|------|-------------------|-----------------------|
 | **A** (Lab Minggu A) | XI.1 – XI.6 | XII.1 – XII.5 (5 kelas) |
 | **B** (Lab Minggu B) | XI.7 – XI.12 | XII.6 – XII.11 (6 kelas) |
 
-### Pembagian Guru
+### Pembagian Guru (MGMP Informatika)
 
 | No | Guru | Kelas X | Kelas XI | Kelas XII | Total JP |
 |----|------|---------|----------|-----------|----------|
-| 1 | Raden Hana Amalia, ST. | X.1, X.2 | XI.1, XI.2 | XII.1, XII.2 | 24 JP |
-| 2 | Daniarsyah, S.Kom. | X.3, X.4 | XI.3, XI.4 | XII.3, XII.4 | 24 JP |
-| 3 | Lingga Oktaviani, S.Kom. | X.5, X.6 | XI.5, XI.6 | XII.5 | 19 JP |
-| 4 | Razzib Zabbal Noor, S.Kom. | X.7, X.8 | XI.7, XI.8 | XII.6, XII.7 | 24 JP |
-| 5 | Edi Kusnadi, M.Pd. | X.9, X.10 | XI.9, XI.10 | XII.8, XII.9 | 24 JP |
-| 6 | Muharima Rasyid Noor, S.St. | X.11 | XI.11, XI.12 | XII.10, XII.11 | 22 JP |
+| 1 | Raden Hana Amalia, ST. | — | — | XII.1–XII.5 | 25 JP |
+| 2 | Lingga Oktaviani, S.Kom. | — | — | XII.6–XII.10 | 25 JP |
+| 3 | Daniarsyah, S.Kom. | X.1, X.2 | XI.1–XI.3 | XII.11 | 24 JP |
+| 4 | Razzib Zabbal Noor, S.Kom. | X.3, X.4 | XI.4–XI.7 | — | 24 JP |
+| 5 | Edi Kusnadi, M.Pd. | X.5, X.6, X.7 | XI.8–XI.10 | — | 21 JP |
+| 6 | Muharima Rasyid Noor, S.St. | X.8–X.11 | XI.11–XI.12 | — | 18 JP |
 | | **Total** | **22 JP** | **60 JP** | **55 JP** | **137 JP** |
 
 ---
@@ -61,53 +61,55 @@ MINGGU A:                   MINGGU B:
 
 | Hari | JP ke- | Waktu | Lab 1 | Lab 2 |
 |------|--------|-------|-------|-------|
-| **Senin** | 1–5 | 07.00–11.15 | XI.1 (Raden Hana Amalia) | XI.2 (Raden Hana Amalia) |
+| **Senin** | 1–5 | 07.00–11.15 | XI.1 (Daniarsyah) | XI.2 (Daniarsyah) |
 | | 6–10 | 12.15–16.30 | XII.1 (Raden Hana Amalia) | XII.2 (Raden Hana Amalia) |
-| **Selasa** | 1–5 | 07.00–11.15 | XI.3 (Daniarsyah) | XI.4 (Daniarsyah) |
-| | 6–10 | 12.15–16.30 | XII.3 (Daniarsyah) | XII.4 (Daniarsyah) |
-| **Rabu** | 1–5 | 07.00–11.15 | XI.5 (Lingga Oktaviani) | XI.6 (Lingga Oktaviani) |
-| | 6–10 | 12.15–16.30 | XII.5 (Lingga Oktaviani) | — |
-| **Kamis** | 1–2 | 07.00–08.30 | **X.1** (Raden Hana Amalia) | **X.5** (Lingga Oktaviani) |
-| | 3–4 | 08.30–10.00 | **X.2** (Raden Hana Amalia) | **X.6** (Lingga Oktaviani) |
-| | 5–6 | 10.30–12.00 | **X.3** (Daniarsyah) | **X.7** (Razzib Zabbal Noor) |
-| | 7–8 | 12.30–14.00 | **X.4** (Daniarsyah) | **X.8** (Razzib Zabbal Noor) |
-| **Jumat** | 1–2 | 07.00–08.30 | **X.9** (Edi Kusnadi) | **X.11** (Muharima Rasyid Noor) |
-| | 3–4 | 08.30–10.00 | **X.10** (Edi Kusnadi) | — |
+| **Selasa** | 1–5 | 07.00–11.15 | XI.3 (Daniarsyah) | XI.4 (Razzib Z.) |
+| | 6–10 | 12.15–16.30 | XII.3 (Raden Hana Amalia) | XII.4 (Raden Hana Amalia) |
+| **Rabu** | 1–5 | 07.00–11.15 | XI.5 (Razzib Z.) | XI.6 (Razzib Z.) |
+| | 6–10 | 12.15–16.30 | XII.5 (Raden Hana Amalia) | — |
+| **Kamis** | 1–2 | 07.00–08.30 | **X.1** (Daniarsyah) | **X.3** (Razzib Z.) |
+| | 3–4 | 08.30–10.00 | **X.2** (Daniarsyah) | **X.4** (Razzib Z.) |
+| | 5–6 | 10.30–12.00 | **X.5** (Edi Kusnadi) | **X.7** (Edi Kusnadi) |
+| | 7–8 | 12.30–14.00 | **X.6** (Edi Kusnadi) | **X.8** (Muharima R.) |
+| **Jumat** | 1–2 | 07.00–08.30 | **X.9** (Muharima R.) | — |
+| | 3–4 | 08.30–10.00 | **X.10** (Muharima R.) | — |
+| | 5–6 | 10.30–12.00 | **X.11** (Muharima R.) | — |
 
 ### MINGGU B — (XI-B + XII-B di Lab)
 
 | Hari | JP ke- | Waktu | Lab 1 | Lab 2 |
 |------|--------|-------|-------|-------|
-| **Senin** | 1–5 | 07.00–11.15 | XI.7 (Razzib Zabbal Noor) | XI.8 (Razzib Zabbal Noor) |
-| | 6–10 | 12.15–16.30 | XII.6 (Razzib Zabbal Noor) | XII.7 (Razzib Zabbal Noor) |
+| **Senin** | 1–5 | 07.00–11.15 | XI.7 (Razzib Z.) | XI.8 (Edi Kusnadi) |
+| | 6–10 | 12.15–16.30 | XII.6 (Lingga O.) | XII.7 (Lingga O.) |
 | **Selasa** | 1–5 | 07.00–11.15 | XI.9 (Edi Kusnadi) | XI.10 (Edi Kusnadi) |
-| | 6–10 | 12.15–16.30 | XII.8 (Edi Kusnadi) | XII.9 (Edi Kusnadi) |
-| **Rabu** | 1–5 | 07.00–11.15 | XI.11 (Muharima Rasyid Noor) | XI.12 (Muharima Rasyid Noor) |
-| | 6–10 | 12.15–16.30 | XII.10 (Muharima Rasyid Noor) | XII.11 (Muharima Rasyid Noor) |
-| **Kamis** | 1–2 | 07.00–08.30 | **X.1** (Raden Hana Amalia) | **X.5** (Lingga Oktaviani) |
-| | 3–4 | 08.30–10.00 | **X.2** (Raden Hana Amalia) | **X.6** (Lingga Oktaviani) |
-| | 5–6 | 10.30–12.00 | **X.3** (Daniarsyah) | **X.7** (Razzib Zabbal Noor) |
-| | 7–8 | 12.30–14.00 | **X.4** (Daniarsyah) | **X.8** (Razzib Zabbal Noor) |
-| **Jumat** | 1–2 | 07.00–08.30 | **X.9** (Edi Kusnadi) | **X.11** (Muharima Rasyid Noor) |
-| | 3–4 | 08.30–10.00 | **X.10** (Edi Kusnadi) | — |
+| | 6–10 | 12.15–16.30 | XII.8 (Lingga O.) | XII.9 (Lingga O.) |
+| **Rabu** | 1–5 | 07.00–11.15 | XI.11 (Muharima R.) | XI.12 (Muharima R.) |
+| | 6–10 | 12.15–16.30 | XII.10 (Lingga O.) | XII.11 (Daniarsyah) |
+| **Kamis** | 1–2 | 07.00–08.30 | **X.1** (Daniarsyah) | **X.3** (Razzib Z.) |
+| | 3–4 | 08.30–10.00 | **X.2** (Daniarsyah) | **X.4** (Razzib Z.) |
+| | 5–6 | 10.30–12.00 | **X.5** (Edi Kusnadi) | **X.7** (Edi Kusnadi) |
+| | 7–8 | 12.30–14.00 | **X.6** (Edi Kusnadi) | **X.8** (Muharima R.) |
+| **Jumat** | 1–2 | 07.00–08.30 | **X.9** (Muharima R.) | — |
+| | 3–4 | 08.30–10.00 | **X.10** (Muharima R.) | — |
+| | 5–6 | 10.30–12.00 | **X.11** (Muharima R.) | — |
 
-> **Kelas X (bold)** — jadwal lab **sama setiap minggu** (tidak berotasi). Lab untuk praktik Scratch, pengolahan data, dan presentasi.
+> **Kelas X (bold)** — jadwal **sama setiap minggu** (tidak berotasi). Lab untuk praktik Scratch, pengolahan data, dan presentasi.
 
 ### Jadwal Lab Kelas X per Minggu
 
 | Hari | Jam ke- | Kelas | Guru | Aplikasi |
 |------|---------|-------|------|----------|
-| Kamis | 1–2 | X.1 | Raden Hana Amalia, ST. | Scratch / Spreadsheet / Canva |
-| Kamis | 3–4 | X.2 | Raden Hana Amalia, ST. | Scratch / Spreadsheet / Canva |
-| Kamis | 5–6 | X.3 | Daniarsyah, S.Kom. | Scratch / Spreadsheet / Canva |
-| Kamis | 7–8 | X.4 | Daniarsyah, S.Kom. | Scratch / Spreadsheet / Canva |
-| Kamis | 1–2 | X.5 | Lingga Oktaviani, S.Kom. | Scratch / Spreadsheet / Canva |
-| Kamis | 3–4 | X.6 | Lingga Oktaviani, S.Kom. | Scratch / Spreadsheet / Canva |
-| Kamis | 5–6 | X.7 | Razzib Zabbal Noor, S.Kom. | Scratch / Spreadsheet / Canva |
-| Kamis | 7–8 | X.8 | Razzib Zabbal Noor, S.Kom. | Scratch / Spreadsheet / Canva |
-| Jumat | 1–2 | X.9 | Edi Kusnadi, M.Pd. | Scratch / Spreadsheet / Canva |
-| Jumat | 3–4 | X.10 | Edi Kusnadi, M.Pd. | Scratch / Spreadsheet / Canva |
-| Jumat | 1–2 | X.11 | Muharima Rasyid Noor, S.St. | Scratch / Spreadsheet / Canva |
+| Kamis | 1–2 | X.1 | Daniarsyah, S.Kom. | Scratch / Spreadsheet / Canva |
+| Kamis | 3–4 | X.2 | Daniarsyah, S.Kom. | Scratch / Spreadsheet / Canva |
+| Kamis | 5–6 | X.5 | Edi Kusnadi, M.Pd. | Scratch / Spreadsheet / Canva |
+| Kamis | 7–8 | X.6 | Edi Kusnadi, M.Pd. | Scratch / Spreadsheet / Canva |
+| Kamis | 1–2 | X.3 | Razzib Zabbal Noor, S.Kom. | Scratch / Spreadsheet / Canva |
+| Kamis | 3–4 | X.4 | Razzib Zabbal Noor, S.Kom. | Scratch / Spreadsheet / Canva |
+| Kamis | 5–6 | X.7 | Edi Kusnadi, M.Pd. | Scratch / Spreadsheet / Canva |
+| Kamis | 7–8 | X.8 | Muharima Rasyid Noor, S.St. | Scratch / Spreadsheet / Canva |
+| Jumat | 1–2 | X.9 | Muharima Rasyid Noor, S.St. | Scratch / Spreadsheet / Canva |
+| Jumat | 3–4 | X.10 | Muharima Rasyid Noor, S.St. | Scratch / Spreadsheet / Canva |
+| Jumat | 5–6 | X.11 | Muharima Rasyid Noor, S.St. | Scratch / Spreadsheet / Canva |
 
 > **Catatan:** 2 JP (1 × 45 menit × 2) per minggu. Sisa waktu lab tidak terpakai dapat digunakan untuk remedial, pengayaan, atau kegiatan mandiri.
 
