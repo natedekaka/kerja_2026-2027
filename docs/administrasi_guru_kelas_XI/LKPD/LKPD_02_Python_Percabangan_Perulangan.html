@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XI (Fase F) — LKPD_02_Python_Percabangan_Perulangan — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XI (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 02 Python Percabangan Perulangan</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-python-percabangan-dan-perulangan">LKPD - Python Percabangan dan Perulangan</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XI / Ganjil<br />
+<strong>Materi Pokok:</strong> Bab 2 - Struktur Kontrol: Percabangan (if/elif/else) dan Perulangan (for/while)<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Menerapkan struktur percabangan if/elif/else dalam Python</li>
+<li>Menggunakan perulangan for dan while untuk memproses data berulang</li>
+<li>Membuat program grade nilai, tebak angka, dan deret bilangan</li>
+<li>Mengidentifikasi kapan menggunakan percabangan dan perulangan</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ol>
+<li>Komputer/laptop dengan Python 3.x</li>
+<li>Teks editor / IDE Python</li>
+<li>Google Colab (alternatif)</li>
+</ol>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="langkah-1-percabangan-ifelifelse">Langkah 1: Percabangan if/elif/else</h3>
+<p>Buat file <code>percabangan.py</code>:</p>
+<pre><code class="language-python"># Percabangan if/elif/else
+nilai = int(input(&quot;Masukkan nilai ujian (0-100): &quot;))
+
+if nilai &gt;= 90:
+    print(&quot;Grade A - Sangat Baik&quot;)
+elif nilai &gt;= 80:
+    print(&quot;Grade B - Baik&quot;)
+elif nilai &gt;= 70:
+    print(&quot;Grade C - Cukup&quot;)
+elif nilai &gt;= 60:
+    print(&quot;Grade D - Kurang&quot;)
+else:
+    print(&quot;Grade E - Tidak Lulus&quot;)
+
+# Cek kelulusan
+if nilai &gt;= 70:
+    print(f&quot;Selamat! Nilai {nilai} dinyatakan LULUS&quot;)
+else:
+    print(f&quot;Maaf! Nilai {nilai} dinyatakan TIDAK LULUS&quot;)
+</code></pre>
+<h3 id="langkah-2-program-grade-nilai-lengkap">Langkah 2: Program Grade Nilai (Lengkap)</h3>
+<p>Buat file <code>grade_nilai.py</code> dan lengkapi bagian yang kosong:</p>
+<pre><code class="language-python"># === PROGRAM GRADE NILAI ===
+# Lengkapi bagian yang bertanda TODO
+
+print(&quot;=== Grade Nilai ===&quot;)
+nama = input(&quot;Nama siswa: &quot;)
+nilai = int(input(&quot;Nilai akhir: &quot;))
+
+# TODO: Tentukan grade dengan if/elif/else
+# A: 90-100, B: 80-89, C: 70-79, D: 60-69, E: &lt;60
+if ___________________:
+    grade = &quot;A&quot;
+    predikat = &quot;Sangat Baik&quot;
+elif _________________:
+    grade = &quot;B&quot;
+    predikat = &quot;Baik&quot;
+elif _________________:
+    grade = &quot;C&quot;
+    predikat = &quot;Cukup&quot;
+elif _________________:
+    grade = &quot;D&quot;
+    predikat = &quot;Kurang&quot;
+else:
+    grade = &quot;E&quot;
+    predikat = &quot;Tidak Lulus&quot;
+
+# TODO: Tentukan status lulus/tidak (lulus jika nilai &gt;= 70)
+if ___________________:
+    status = &quot;LULUS&quot;
+else:
+    status = &quot;TIDAK LULUS&quot;
+
+# Cetak hasil
+print(f&quot;Nama    : {nama}&quot;)
+print(f&quot;Nilai   : {nilai}&quot;)
+print(f&quot;Grade   : {grade} ({predikat})&quot;)
+print(f&quot;Status  : {status}&quot;)
+</code></pre>
+<h3 id="langkah-3-perulangan-for">Langkah 3: Perulangan for</h3>
+<p>Buat file <code>perulangan_for.py</code>:</p>
+<pre><code class="language-python"># Perulangan for
+
+# Mencetak 1-10
+print(&quot;Deret 1-10:&quot;)
+for i in range(1, 11):
+    print(i, end=&quot; &quot;)
+print()
+
+# Mencetak bilangan genap
+print(&quot;Bilangan genap 2-20:&quot;)
+for i in range(2, 21, 2):
+    print(i, end=&quot; &quot;)
+print()
+
+# Menjumlahkan deret
+total = 0
+for i in range(1, 101):
+    total += i
+print(f&quot;Jumlah 1 + 2 + ... + 100 = {total}&quot;)
+
+# Iterasi string
+kata = &quot;INFORMATIKA&quot;
+for huruf in kata:
+    print(huruf, end=&quot;-&quot;)
+print()
+</code></pre>
+<h3 id="langkah-4-perulangan-while">Langkah 4: Perulangan while</h3>
+<p>Buat file <code>perulangan_while.py</code>:</p>
+<pre><code class="language-python"># Perulangan while
+
+# Hitung mundur
+print(&quot;Hitung mundur:&quot;)
+counter = 5
+while counter &gt; 0:
+    print(counter)
+    counter -= 1
+print(&quot;Go!&quot;)
+
+# Input dengan validasi
+password = &quot;&quot;
+while password != &quot;admin123&quot;:
+    password = input(&quot;Masukkan password: &quot;)
+    if password != &quot;admin123&quot;:
+        print(&quot;Password salah, coba lagi!&quot;)
+print(&quot;Password benar! Akses granted.&quot;)
+</code></pre>
+<h3 id="langkah-5-program-tebak-angka">Langkah 5: Program Tebak Angka</h3>
+<p>Buat file <code>tebak_angka.py</code> dan lengkapi:</p>
+<pre><code class="language-python"># === PROGRAM TEBAK ANGKA ===
+import random
+
+angka_rahasia = random.randint(1, 20)
+print(&quot;=== Tebak Angka (1-20) ===&quot;)
+print(&quot;Tebak angka antara 1 sampai 20!&quot;)
+
+tebakan = 0
+percobaan = 0
+
+# TODO: Buat perulangan while yang terus berjalan
+# sampai tebakan benar
+while tebakan != ________________:
+    tebakan = int(input(&quot;Masukkan tebakanmu: &quot;))
+    percobaan += 1
+
+    # TODO: Beri petunjuk apakah tebakan terlalu besar/kecil
+    if tebakan ________________:
+        print(&quot;Terlalu besar, coba lagi!&quot;)
+    elif tebakan ________________:
+        print(&quot;Terlalu kecil, coba lagi!&quot;)
+
+# TODO: Cetak selamat dan jumlah percobaan
+print(f&quot;Selamat! Tebakanmu benar.&quot;)
+print(f&quot;Jumlah percobaan: {percobaan}&quot;)
+</code></pre>
+<h3 id="langkah-6-program-deret-bilangan">Langkah 6: Program Deret Bilangan</h3>
+<p>Buat file <code>deret_bilangan.py</code>:</p>
+<pre><code class="language-python"># === PROGRAM DERET BILANGAN ===
+print(&quot;=== Deret Bilangan ===&quot;)
+n = int(input(&quot;Masukkan jumlah suku (n): &quot;))
+
+print(f&quot;\nDeret 1 hingga {n}:&quot;)
+for i in range(1, n + 1):
+    print(i, end=&quot; &quot;)
+print()
+
+# TODO: Cetak deret bilangan ganjil dari 1 hingga n
+print(f&quot;Bilangan ganjil 1-{n}:&quot;)
+# tulis kode di sini
+
+# TODO: Cetak deret bilangan genap dari 2 hingga n
+print(f&quot;Bilangan genap 2-{n}:&quot;)
+# tulis kode di sini
+
+# TODO: Hitung dan cetak total deret 1+2+...+n
+total = 0
+for i in range(1, n + 1):
+    total += i
+print(f&quot;Jumlah deret 1 hingga {n} = {total}&quot;)
+
+# TODO: Cetak deret kuadrat 1^2, 2^2, 3^2, ..., n^2
+print(f&quot;Deret kuadrat 1^2 hingga {n}^2:&quot;)
+# tulis kode di sini
+</code></pre>
+<h3 id="langkah-7-gabungan-percabangan-dan-perulangan">Langkah 7: Gabungan Percabangan dan Perulangan</h3>
+<p>Buat file <code>menu_sekolah.py</code>:</p>
+<pre><code class="language-python"># Aplikasi Menu Sekolah
+print(&quot;=== APLIKASI DATA SEKOLAH ===&quot;)
+
+while True:
+    print(&quot;\nMenu:&quot;)
+    print(&quot;1. Cek Kelulusan&quot;)
+    print(&quot;2. Deret Bilangan&quot;)
+    print(&quot;3. Keluar&quot;)
+    pilihan = int(input(&quot;Pilih menu (1-3): &quot;))
+
+    if pilihan == 1:
+        print(&quot;\n--- Cek Kelulusan ---&quot;)
+        nama = input(&quot;Nama: &quot;)
+        nilai = int(input(&quot;Nilai: &quot;))
+        if nilai &gt;= 70:
+            print(f&quot;{nama} LULUS dengan nilai {nilai}&quot;)
+        else:
+            print(f&quot;{nama} TIDAK LULUS dengan nilai {nilai}&quot;)
+
+    elif pilihan == 2:
+        print(&quot;\n--- Deret Bilangan ---&quot;)
+        n = int(input(&quot;Masukkan batas: &quot;))
+        for i in range(1, n + 1):
+            print(i, end=&quot; &quot;)
+        print()
+
+    elif pilihan == 3:
+        print(&quot;Terima kasih!&quot;)
+        break
+
+    else:
+        print(&quot;Pilihan tidak valid!&quot;)
+</code></pre>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Program</th>
+<th>Input/Skenario</th>
+<th>Output</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>percabangan.py</td>
+<td>nilai=85</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>percabangan.py</td>
+<td>nilai=55</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>grade_nilai.py</td>
+<td>nama=&rdquo;Siswa&rdquo;, nilai=92</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>tebak_angka.py</td>
+<td>tebak 3 kali benar</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>deret_bilangan.py</td>
+<td>n=7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>menu_sekolah.py</td>
+<td>pilih semua menu</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Apa perbedaan antara <code>if-elif-else</code> dengan beberapa <code>if</code> terpisah? Kapan sebaiknya menggunakan masing-masing?</li>
+<li>Jelaskan perbedaan perulangan <code>for</code> dan <code>while</code>. Berikan contoh kasus yang cocok untuk masing-masing.</li>
+<li>Pada program tebak angka, apa fungsi <code>import random</code> dan <code>random.randint(1, 20)</code>?</li>
+<li>Apa yang terjadi jika pengguna memasukkan angka di luar rentang (misal -5 atau 1000) pada program grade nilai? Bagaimana cara mengatasinya?</li>
+<li>Buatlah flowchart sederhana dari program menu_sekolah.py.</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Tuliskan kesimpulan dari praktikum ini minimal 3 poin.</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kode percabangan benar</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kode perulangan benar</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program tebak angka lengkap</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program deret bilangan lengkap</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Jawaban diskusi</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kesimpulan</td>
+<td>10%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

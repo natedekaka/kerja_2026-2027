@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas X (Fase E) — LKPD_07_Scratch_Game — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas X (Fase E)</a> / <a href="index.html">LKPD</a> / <span>LKPD 07 Scratch Game</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-game-interaktif-dengan-scratch">LKPD - Game Interaktif dengan Scratch</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> X / Ganjil<br />
+<strong>Materi Pokok:</strong> Bab 7 – Algoritma dan Pemrograman (Scratch: Game Interaktif)<br />
+<strong>Alokasi Waktu:</strong> 2 JP (1 JP = 45 menit)</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Peserta didik mampu membuat game interaktif sederhana menggunakan Scratch.</li>
+<li>Peserta didik mampu menggunakan <strong>Variables</strong> untuk skor dan timer.</li>
+<li>Peserta didik mampu menggunakan blok <strong>Sensing</strong> untuk mendeteksi tumbukan.</li>
+<li>Peserta didik mampu menggunakan blok <strong>Broadcast</strong> untuk komunikasi antar sprite.</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ol>
+<li>Komputer/laptop dengan koneksi internet.</li>
+<li>Browser (Chrome/Edge/Firefox).</li>
+<li>Akun Scratch (opsional) atau mode online di scratch.mit.edu.</li>
+</ol>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="tahap-1-membuat-game-tangkap-objek-falling-objects">Tahap 1: Membuat Game Tangkap Objek (Falling Objects)</h3>
+<h4 id="a-persiapan-stage-dan-sprite">a. Persiapan Stage dan Sprite</h4>
+<ol>
+<li>Buka https://scratch.mit.edu → <strong>Create</strong>.</li>
+<li>Hapus sprite kucing default.</li>
+<li>Tambahkan sprite <strong>Bowl</strong> (mangkuk) dari library — sprite ini sebagai penangkap.</li>
+<li>Tambahkan sprite <strong>Apple</strong> (apel) — sebagai objek yang jatuh.</li>
+<li>Pilih backdrop <strong>Neon Tunnel</strong> atau <strong>Space</strong> atau polos.</li>
+</ol>
+<h4 id="b-membuat-variabel">b. Membuat Variabel</h4>
+<ol>
+<li>Klik <strong>Variables</strong> (Variabel) → <strong>Make a Variable</strong>.</li>
+<li>Buat variabel <strong><code>skor</code></strong> (untuk semua sprite).</li>
+<li>Buat variabel <strong><code>waktu</code></strong> (untuk semua sprite).</li>
+<li>Centang kotak di samping nama variabel agar muncul di Stage.</li>
+</ol>
+<h4 id="c-kode-untuk-sprite-bowl-mangkuk">c. Kode untuk Sprite Bowl (Mangkuk)</h4>
+<pre><code>Ketika [bendera hijau] diklik
+set ukuran ke 80%
+pergi ke x: (0) y: (-150)
+set [skor] ke (0)
+set [waktu] ke (30)
+ulang (30) kali  // timer mundur
+    tunggu (1) detik
+    ubah [waktu] oleh (-1)
+akhir
+siarkan [gameover] dan tunggu
+</code></pre>
+<pre><code>Ketika [bendera hijau] diklik
+selamanya
+    jika (tombol [panah kanan] ditekan?) maka
+        ubah x oleh (10)
+    akhir
+    jika (tombol [panah kiri] ditekan?) maka
+        ubah x oleh (-10)
+    akhir
+akhir
+</code></pre>
+<h4 id="d-kode-untuk-sprite-apple-apel">d. Kode untuk Sprite Apple (Apel)</h4>
+<pre><code>Ketika [bendera hijau] diklik
+selamanya
+    pergi ke x: (angka acak antara (-220) dan (220)) y: (180)
+    ulang (sampai (posisi y) &lt; (-170))
+        jika (menyentuh [Bowl]?) maka
+            ubah [skor] oleh (1)
+            berhenti [script ini]
+        akhir
+        ubah y oleh (-5)
+        tunggu (0.05) detik
+    akhir
+    tunggu (0.5) detik
+akhir
+</code></pre>
+<p><em>Penjelasan:</em> Apel muncul di posisi acak atas, jatuh perlahan. Jika menyentuh Bowl, skor +1.</p>
+<h4 id="e-menambahkan-efek-game-over">e. Menambahkan Efek Game Over</h4>
+<ol>
+<li>Buat sprite baru (atau gunakan sprite teks) untuk menampilkan &ldquo;Game Over&rdquo;.</li>
+<li>Buat script:</li>
+</ol>
+<pre><code>Ketika saya menerima [gameover]
+tampilkan
+pergi ke x: (0) y: (0)
+set ukuran ke 200%
+</code></pre>
+<ol start="3">
+<li>Atur sprite ini agar <strong>tersembunyi</strong> saat game dimulai:</li>
+</ol>
+<pre><code>Ketika [bendera hijau] diklik
+sembunyikan
+</code></pre>
+<h3 id="tahap-2-menambahkan-level-kesulitan">Tahap 2: Menambahkan Level Kesulitan</h3>
+<ol>
+<li>Duplikat sprite Apple (klik kanan → duplicate) sehingga ada 2 atau 3 apel.</li>
+<li>Atur kecepatan jatuh yang berbeda (misal ubah <code>ubah y oleh (-5)</code> menjadi -8 untuk lebih cepat).</li>
+<li>Jalankan game. Skor akan bertambah setiap berhasil menangkap apel.</li>
+</ol>
+<h3 id="tahap-3-membuat-game-kuis-sederhana-pengayaan">Tahap 3: Membuat Game Kuis Sederhana (Pengayaan)</h3>
+<p>Jika waktu memungkinkan, buat game kuis interaktif:</p>
+<ol>
+<li>Tambahkan sprite <strong>Think</strong> atau sprite karakter yang bertanya.</li>
+<li>Buat variabel <strong><code>jawaban</code></strong>.</li>
+<li>Script kuis:</li>
+</ol>
+<pre><code>Ketika [bendera hijau] diklik
+set [skor] ke (0)
+tanya [Berapakah 7 + 8?] dan tunggu
+jika (jawaban) = (15) maka
+    ucapkan [Benar! ✓] selama (2) detik
+    ubah [skor] oleh (10)
+jika tidak
+    ucapkan [Salah! ✗ Jawabannya: 15] selama (2) detik
+akhir
+tunggu (1) detik
+tanya [Apa ibukota Indonesia?] dan tunggu
+jika (jawaban) = [Jakarta] maka
+    ucapkan [Benar!] selama (2) detik
+    ubah [skor] oleh (10)
+jika tidak
+    ucapkan [Salah!] selama (2) detik
+akhir
+</code></pre>
+<h3 id="tahap-4-menyimpan-proyek">Tahap 4: Menyimpan Proyek</h3>
+<ol>
+<li>Klik <strong>File</strong> → <strong>Save to your computer</strong>.</li>
+<li>Simpan dengan nama <strong>&ldquo;Game_Tangkap_atau_Kuis_[Nama].sb3&rdquo;</strong>.</li>
+</ol>
+<h2 id="d-tabel-hasil-pengamatan">D. Tabel Hasil Pengamatan</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Fitur Game</th>
+<th>Blok Utama yang Digunakan</th>
+<th>Berfungsi? (Ya/Tidak)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Bowl bergerak dengan panah</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Apel jatuh dari atas</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Deteksi tumbukan Bowl-Apel</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Skor bertambah saat menangkap</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Timer mundur (30 detik)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Game over saat timer habis</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Multiple apel / level</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Kuis interaktif (pengayaan)</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Jelaskan fungsi variabel <code>skor</code> dan <code>waktu</code> dalam game ini!</li>
+<li>Bagaimana cara kerja blok <code>repeat until</code> pada script apel? Apa kondisi yang menghentikan perulangan?</li>
+<li>Apa yang dimaksud dengan <strong>broadcast</strong> (<code>siarkan</code>) dan bagaimana cara kerjanya dalam game ini?</li>
+<li>Jika ingin apel jatuh lebih cepat seiring waktu, bagaimana cara mengubah script-nya?</li>
+<li>Apa perbedaan algoritma game <strong>tangkap objek</strong> dengan <strong>game kuis</strong>? Mana yang lebih kompleks?</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Tuliskan kesimpulan tentang proses pembuatan game interaktif dengan Scratch serta penerapan konsep variabel, perulangan, percabangan, dan event!</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Skor Maks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bowl bergerak (kontrol keyboard)</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Objek jatuh dari atas</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Deteksi tumbukan dan skor</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Timer dan game over</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Multiple sprite / level</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Kuis interaktif (pengayaan)</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Proyek tersimpan (.sb3)</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Tabel hasil &amp; jawaban diskusi</td>
+<td>15</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100</strong></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

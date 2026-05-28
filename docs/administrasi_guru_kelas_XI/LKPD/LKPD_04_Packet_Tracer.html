@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XI (Fase F) — LKPD_04_Packet_Tracer — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XI (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 04 Packet Tracer</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-cisco-packet-tracer">LKPD - Cisco Packet Tracer</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XI / Genap<br />
+<strong>Materi Pokok:</strong> Bab 4 - Jaringan Komputer dan Internet (Topologi Jaringan, Konfigurasi IP/CIDR, Konektivitas)<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Merancang topologi jaringan kantor sederhana di Cisco Packet Tracer</li>
+<li>Mengkonfigurasi IP address dan subnet mask (CIDR) pada perangkat jaringan</li>
+<li>Melakukan pengujian konektivitas antar perangkat dengan ping</li>
+<li>Menganalisis hasil pengujian dan mengidentifikasi masalah koneksi</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ol>
+<li>Komputer/laptop dengan sistem operasi Windows/Linux</li>
+<li>Cisco Packet Tracer (minimal versi 7.x atau 8.x)</li>
+<li><em>Download</em>: https://www.netacad.com/courses/packet-tracer (gratis setelah login Cisco NetAcad)</li>
+</ol>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="langkah-1-persiapan-cisco-packet-tracer">Langkah 1: Persiapan Cisco Packet Tracer</h3>
+<ol>
+<li>Buka aplikasi Cisco Packet Tracer</li>
+<li>Pilih menu <strong>File &gt; New</strong> untuk membuat project baru</li>
+<li>Simpan project dengan nama <code>topologi_kantor.pkt</code></li>
+</ol>
+<h3 id="langkah-2-membuat-topologi-jaringan-kantor">Langkah 2: Membuat Topologi Jaringan Kantor</h3>
+<p>Buat topologi seperti gambar berikut (deskripsi logis):</p>
+<p><strong>Topologi:</strong><br />
+- 1 buah Router (Router-PT)<br />
+- 2 buah Switch (Switch-PT)<br />
+- 4 buah PC (PC-PT) → 2 di Switch1, 2 di Switch2<br />
+- Koneksi menggunakan kabel <strong>Copper Straight-Through</strong></p>
+<p><strong>Langkah detail:</strong><br />
+1. Dari panel <em>End Devices</em>, seret 4 PC (PC0, PC1, PC2, PC3) ke workspace<br />
+2. Dari panel <em>Switches</em>, seret 2 Switch (Switch0, Switch1) ke workspace<br />
+3. Dari panel <em>Routers</em>, seret 1 Router (Router0) ke workspace<br />
+4. Hubungkan PC0 dan PC1 ke Switch0 dengan kabel <strong>Copper Straight-Through</strong><br />
+5. Hubungkan PC2 dan PC3 ke Switch1 dengan kabel <strong>Copper Straight-Through</strong><br />
+6. Hubungkan Switch0 ke Router0 (port FastEthernet0/0)<br />
+7. Hubungkan Switch1 ke Router0 (port FastEthernet1/0)</p>
+<h3 id="langkah-3-konfigurasi-ip-address-pada-pc">Langkah 3: Konfigurasi IP Address pada PC</h3>
+<p><strong>Skema IP (CIDR):</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Perangkat</th>
+<th>Interface</th>
+<th>IP Address</th>
+<th>Subnet Mask</th>
+<th>Gateway</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PC0</td>
+<td>-</td>
+<td>192.168.1.2</td>
+<td>255.255.255.0</td>
+<td>192.168.1.1</td>
+</tr>
+<tr>
+<td>PC1</td>
+<td>-</td>
+<td>192.168.1.3</td>
+<td>255.255.255.0</td>
+<td>192.168.1.1</td>
+</tr>
+<tr>
+<td>PC2</td>
+<td>-</td>
+<td>192.168.2.2</td>
+<td>255.255.255.0</td>
+<td>192.168.2.1</td>
+</tr>
+<tr>
+<td>PC3</td>
+<td>-</td>
+<td>192.168.2.3</td>
+<td>255.255.255.0</td>
+<td>192.168.2.1</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Konfigurasi PC0 (lakukan hal serupa untuk PC lainnya):</strong><br />
+1. Klik PC0 → tab <strong>Desktop</strong> → pilih <strong>IP Configuration</strong><br />
+2. Pilih <strong>Static</strong><br />
+3. Isi:<br />
+   - IP Address: 192.168.1.2<br />
+   - Subnet Mask: 255.255.255.0<br />
+   - Default Gateway: 192.168.1.1<br />
+   - DNS Server: (kosongkan)<br />
+4. Ulangi untuk PC1, PC2, PC3 dengan IP yang sesuai tabel</p>
+<h3 id="langkah-4-konfigurasi-router">Langkah 4: Konfigurasi Router</h3>
+<p>Klik Router0 → tab <strong>CLI</strong> (atau <strong>Config</strong>).</p>
+<p><strong>Via CLI - Konfigurasi interface:</strong></p>
+<p>Masuk ke mode privileged:</p>
+<pre><code>Router&gt; enable
+Router# configure terminal
+</code></pre>
+<p><strong>Konfigurasi FastEthernet0/0</strong> (terhubung ke jaringan 192.168.1.0/24):</p>
+<pre><code>Router(config)# interface fastEthernet 0/0
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+Router(config-if)# no shutdown
+Router(config-if)# exit
+</code></pre>
+<p><strong>Konfigurasi FastEthernet1/0</strong> (terhubung ke jaringan 192.168.2.0/24):</p>
+<pre><code>Router(config)# interface fastEthernet 1/0
+Router(config-if)# ip address 192.168.2.1 255.255.255.0
+Router(config-if)# no shutdown
+Router(config-if)# exit
+Router(config)# exit
+Router# show ip interface brief
+</code></pre>
+<h3 id="langkah-5-pengujian-konektivitas-ping-test">Langkah 5: Pengujian Konektivitas (Ping Test)</h3>
+<p><strong>Test 1: PC0 ke Gateway</strong><br />
+1. Klik PC0 → tab <strong>Desktop</strong> → pilih <strong>Command Prompt</strong><br />
+2. Ketik:</p>
+<pre><code>ping 192.168.1.1
+</code></pre>
+<ol start="3">
+<li>Catat hasilnya (reply atau timeout)</li>
+</ol>
+<p><strong>Test 2: PC0 ke PC1 (satu jaringan)</strong></p>
+<pre><code>ping 192.168.1.3
+</code></pre>
+<p><strong>Test 3: PC0 ke PC2 (beda jaringan)</strong></p>
+<pre><code>ping 192.168.2.2
+</code></pre>
+<p><strong>Test 4: PC2 ke PC3 (satu jaringan)</strong><br />
+1. Klik PC2 → tab <strong>Desktop</strong> → <strong>Command Prompt</strong></p>
+<pre><code>ping 192.168.2.3
+</code></pre>
+<p><strong>Test 5: PC0 ke PC3 (beda jaringan)</strong></p>
+<pre><code>ping 192.168.2.3
+</code></pre>
+<h3 id="langkah-6-simulasi-paket-data-opsional">Langkah 6: Simulasi Paket Data (Opsional)</h3>
+<ol>
+<li>Beralih ke mode <strong>Simulation</strong> (tombol Shift+S atau icon di kanan bawah)</li>
+<li>Klik <strong>Edit Filters</strong> → centang hanya <strong>ICMP</strong></li>
+<li>Klik PC0 → pilih <strong>Ping</strong> → target 192.168.2.3 → <strong>Go</strong></li>
+<li>Klik <strong>Auto Capture / Play</strong> untuk melihat perjalanan paket</li>
+<li>Amati bagaimana paket bergerak dari PC0 → Switch0 → Router0 → Switch1 → PC3</li>
+</ol>
+<h3 id="langkah-7-tugas-mandiri-eksplorasi">Langkah 7: Tugas Mandiri - Eksplorasi</h3>
+<p>Coba lakukan skenario berikut:<br />
+1. Ganti IP PC0 menjadi 192.168.1.100, apakah masih bisa ping ke gateway?<br />
+2. Ganti IP PC0 menjadi 192.168.3.2 (jaringan berbeda), ping ke 192.168.1.1. Apakah berhasil? Jelaskan.<br />
+3. Matikan interface router FastEthernet0/0 dengan perintah <code>shutdown</code>, lalu ping dari PC0 ke 192.168.1.1. Apa yang terjadi?</p>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Pengujian</th>
+<th>Dari</th>
+<th>Ke</th>
+<th>IP Tujuan</th>
+<th>Hasil (Reply/Timeout)</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Test 1</td>
+<td>PC0</td>
+<td>Gateway</td>
+<td>192.168.1.1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Test 2</td>
+<td>PC0</td>
+<td>PC1</td>
+<td>192.168.1.3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Test 3</td>
+<td>PC0</td>
+<td>PC2</td>
+<td>192.168.2.2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Test 4</td>
+<td>PC2</td>
+<td>PC3</td>
+<td>192.168.2.3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Test 5</td>
+<td>PC0</td>
+<td>PC3</td>
+<td>192.168.2.3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tugas 1</td>
+<td>PC0</td>
+<td>Gateway</td>
+<td>192.168.1.1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Tugas 2</td>
+<td>PC0</td>
+<td>Gateway</td>
+<td>192.168.1.1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Tugas 3</td>
+<td>PC0</td>
+<td>Gateway</td>
+<td>192.168.1.1</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Mengapa PC0 dan PC1 (satu jaringan 192.168.1.0/24) bisa saling ping tanpa melalui router? Jelaskan peran switch dalam hal ini.</li>
+<li>Mengapa PC0 perlu gateway 192.168.1.1 agar bisa berkomunikasi dengan PC2 (jaringan 192.168.2.0/24)? Apa fungsi router?</li>
+<li>Tuliskan perintah untuk melihat konfigurasi interface di router dan interpretasikan outputnya.</li>
+<li>Apa yang dimaksud dengan CIDR? Hitunglah jumlah host maksimal pada jaringan 192.168.1.0/24 dan 192.168.1.0/28.</li>
+<li>Jika ada 30 perangkat dalam satu jaringan, subnet mask apa yang paling efisien digunakan?</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Tuliskan kesimpulan dari praktikum ini minimal 3 poin.</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Topologi jaringan sesuai</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Konfigurasi IP dan gateway benar</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Konfigurasi router benar</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Pengujian ping dan analisis</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Jawaban diskusi</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XII (Fase F) — LKPD_05_C_Sorting_Searching — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XII (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 05 C Sorting Searching</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-sorting-dan-searching-dalam-bahasa-c">LKPD - Sorting dan Searching dalam Bahasa C</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XII / Ganjil<br />
+<strong>Materi Pokok:</strong> Bab 3 – Algoritma Sorting &amp; Searching<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Peserta didik mampu mengimplementasikan Bubble Sort dan Selection Sort dalam C.</li>
+<li>Peserta didik mampu mengimplementasikan Linear Search dan Binary Search dalam C.</li>
+<li>Peserta didik mampu menganalisis kompleksitas waktu algoritma sorting dan searching.</li>
+<li>Peserta didik mampu membandingkan efisiensi berbagai algoritma.</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ul>
+<li>PC/Laptop dengan compiler C (GCC/MinGW/Dev-C++/CodeBlocks)</li>
+<li>Teks editor (VS Code / CodeBlocks / vim)</li>
+<li>Terminal/Command Prompt</li>
+</ul>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="bagian-1-bubble-sort-45-menit">Bagian 1: Bubble Sort (45 menit)</h3>
+<p><strong>Teori:</strong> Bubble Sort membandingkan elemen bersebelahan dan menukar jika tidak urut. Proses diulang sampai semua terurut.</p>
+<ol>
+<li>Buat file <code>bubble_sort.c</code>:</li>
+</ol>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+
+void bubbleSort(int arr[], int n) {
+    int i, j, temp;
+    for (i = 0; i &lt; n - 1; i++) {
+        for (j = 0; j &lt; n - i - 1; j++) {
+            if (arr[j] &gt; arr[j + 1]) {
+                // Tukar elemen
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
+
+void cetakArray(int arr[], int n) {
+    int i;
+    for (i = 0; i &lt; n; i++) {
+        printf(&quot;%d &quot;, arr[i]);
+    }
+    printf(&quot;\n&quot;);
+}
+
+int main() {
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    printf(&quot;Array sebelum sorting: &quot;);
+    cetakArray(arr, n);
+
+    bubbleSort(arr, n);
+
+    printf(&quot;Array setelah sorting: &quot;);
+    cetakArray(arr, n);
+
+    return 0;
+}
+</code></pre>
+<ol start="2">
+<li>Kompilasi dan jalankan:</li>
+</ol>
+<pre><code class="language-bash">gcc bubble_sort.c -o bubble_sort
+./bubble_sort
+</code></pre>
+<ol start="3">
+<li><strong>Modifikasi:</strong> Tambahkan variabel <code>counter</code> untuk menghitung berapa kali perbandingan terjadi.</li>
+</ol>
+<h3 id="bagian-2-selection-sort-45-menit">Bagian 2: Selection Sort (45 menit)</h3>
+<p><strong>Teori:</strong> Selection Sort mencari elemen terkecil lalu menukar dengan elemen pertama, kemudian mencari elemen terkecil kedua, dan seterusnya.</p>
+<ol>
+<li>Buat file <code>selection_sort.c</code>:</li>
+</ol>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+
+void selectionSort(int arr[], int n) {
+    int i, j, minIdx, temp;
+
+    for (i = 0; i &lt; n - 1; i++) {
+        minIdx = i;
+        for (j = i + 1; j &lt; n; j++) {
+            if (arr[j] &lt; arr[minIdx]) {
+                minIdx = j;
+            }
+        }
+
+        // Tukar elemen terkecil dengan elemen ke-i
+        if (minIdx != i) {
+            temp = arr[i];
+            arr[i] = arr[minIdx];
+            arr[minIdx] = temp;
+        }
+    }
+}
+
+void cetakArray(int arr[], int n) {
+    int i;
+    for (i = 0; i &lt; n; i++) {
+        printf(&quot;%d &quot;, arr[i]);
+    }
+    printf(&quot;\n&quot;);
+}
+
+int main() {
+    int arr[] = {29, 10, 14, 37, 13, 33, 48};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    printf(&quot;Array sebelum sorting: &quot;);
+    cetakArray(arr, n);
+
+    selectionSort(arr, n);
+
+    printf(&quot;Array setelah sorting: &quot;);
+    cetakArray(arr, n);
+
+    return 0;
+}
+</code></pre>
+<h3 id="bagian-3-linear-search-45-menit">Bagian 3: Linear Search (45 menit)</h3>
+<ol>
+<li>Buat file <code>linear_search.c</code>:</li>
+</ol>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+
+int linearSearch(int arr[], int n, int cari) {
+    int i;
+    for (i = 0; i &lt; n; i++) {
+        if (arr[i] == cari) {
+            return i;  // Ditemukan di indeks i
+        }
+    }
+    return -1;  // Tidak ditemukan
+}
+
+int main() {
+    int arr[] = {12, 34, 54, 2, 3, 78, 45, 23, 67, 89};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int cari, hasil;
+
+    printf(&quot;Array: &quot;);
+    for (int i = 0; i &lt; n; i++) {
+        printf(&quot;%d &quot;, arr[i]);
+    }
+    printf(&quot;\n&quot;);
+
+    printf(&quot;Masukkan angka yang dicari: &quot;);
+    scanf(&quot;%d&quot;, &amp;cari);
+
+    hasil = linearSearch(arr, n, cari);
+
+    if (hasil != -1) {
+        printf(&quot;Angka %d ditemukan di indeks ke-%d\n&quot;, cari, hasil);
+    } else {
+        printf(&quot;Angka %d tidak ditemukan\n&quot;, cari);
+    }
+
+    return 0;
+}
+</code></pre>
+<h3 id="bagian-4-binary-search-60-menit">Bagian 4: Binary Search (60 menit)</h3>
+<p><strong>Syarat:</strong> Array HARUS sudah terurut.</p>
+<ol>
+<li>Buat file <code>binary_search.c</code>:</li>
+</ol>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+
+int binarySearch(int arr[], int kiri, int kanan, int cari) {
+    while (kiri &lt;= kanan) {
+        int tengah = kiri + (kanan - kiri) / 2;
+
+        // Jika elemen tengah adalah yang dicari
+        if (arr[tengah] == cari) {
+            return tengah;
+        }
+
+        // Jika cari lebih besar, abaikan kiri
+        if (arr[tengah] &lt; cari) {
+            kiri = tengah + 1;
+        }
+        // Jika cari lebih kecil, abaikan kanan
+        else {
+            kanan = tengah - 1;
+        }
+    }
+
+    return -1;  // Tidak ditemukan
+}
+
+int main() {
+    int arr[] = {2, 5, 8, 12, 16, 23, 38, 45, 56, 72};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int cari, hasil;
+
+    printf(&quot;Array terurut: &quot;);
+    for (int i = 0; i &lt; n; i++) {
+        printf(&quot;%d &quot;, arr[i]);
+    }
+    printf(&quot;\n&quot;);
+
+    printf(&quot;Masukkan angka yang dicari: &quot;);
+    scanf(&quot;%d&quot;, &amp;cari);
+
+    hasil = binarySearch(arr, 0, n - 1, cari);
+
+    if (hasil != -1) {
+        printf(&quot;Angka %d ditemukan di indeks ke-%d\n&quot;, cari, hasil);
+    } else {
+        printf(&quot;Angka %d tidak ditemukan\n&quot;, cari);
+    }
+
+    return 0;
+}
+</code></pre>
+<ol start="2">
+<li><strong>Modifikasi:</strong> Buat versi rekursif dari Binary Search:</li>
+</ol>
+<pre><code class="language-c">int binarySearchRekursif(int arr[], int kiri, int kanan, int cari) {
+    if (kanan &gt;= kiri) {
+        int tengah = kiri + (kanan - kiri) / 2;
+
+        if (arr[tengah] == cari)
+            return tengah;
+
+        if (arr[tengah] &gt; cari)
+            return binarySearchRekursif(arr, kiri, tengah - 1, cari);
+
+        return binarySearchRekursif(arr, tengah + 1, kanan, cari);
+    }
+
+    return -1;
+}
+</code></pre>
+<h3 id="bagian-5-perbandingan-kinerja-45-menit">Bagian 5: Perbandingan Kinerja (45 menit)</h3>
+<p>Buat program yang membandingkan waktu eksekusi:</p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+#include &lt;time.h&gt;
+#include &lt;stdlib.h&gt;
+
+void bubbleSort(int arr[], int n);
+void selectionSort(int arr[], int n);
+void cetakArray(int arr[], int n);
+
+int main() {
+    int arr[1000];
+    int arrCopy[1000];
+    int n = 1000;
+    clock_t start, end;
+    double waktu;
+
+    srand(time(NULL));
+
+    // Generate 1000 angka acak
+    for (int i = 0; i &lt; n; i++) {
+        arr[i] = rand() % 10000;
+    }
+
+    // Uji Bubble Sort
+    for (int i = 0; i &lt; n; i++) arrCopy[i] = arr[i];
+    start = clock();
+    bubbleSort(arrCopy, n);
+    end = clock();
+    waktu = ((double)(end - start)) / CLOCKS_PER_SEC;
+    printf(&quot;Bubble Sort: %.4f detik\n&quot;, waktu);
+
+    // Uji Selection Sort
+    for (int i = 0; i &lt; n; i++) arrCopy[i] = arr[i];
+    start = clock();
+    selectionSort(arrCopy, n);
+    end = clock();
+    waktu = ((double)(end - start)) / CLOCKS_PER_SEC;
+    printf(&quot;Selection Sort: %.4f detik\n&quot;, waktu);
+
+    return 0;
+}
+</code></pre>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<h3 id="perbandingan-algoritma-sorting">Perbandingan Algoritma Sorting</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Algoritma</th>
+<th>n=10</th>
+<th>n=100</th>
+<th>n=1000</th>
+<th>n=10000</th>
+<th>Kompleksitas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bubble Sort</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>O(n²)</td>
+</tr>
+<tr>
+<td>Selection Sort</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>O(n²)</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="perbandingan-algoritma-searching">Perbandingan Algoritma Searching</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Algoritma</th>
+<th>Data Ditemukan (indeks)</th>
+<th>Data Tidak Ditemukan</th>
+<th>Kompleksitas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linear Search (n=10)</td>
+<td></td>
+<td></td>
+<td>O(n)</td>
+</tr>
+<tr>
+<td>Binary Search (n=10)</td>
+<td></td>
+<td></td>
+<td>O(log n)</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Jelaskan perbedaan cara kerja Bubble Sort dan Selection Sort! Mana yang lebih efisien? Mengapa?</li>
+<li>Mengapa Binary Search membutuhkan array yang sudah terurut? Apa yang terjadi jika array belum terurut?</li>
+<li>Hitung secara manual berapa kali perbandingan terjadi pada Bubble Sort untuk array berisi 5 elemen!</li>
+<li>Pada data yang sudah hampir terurut, algoritma sorting mana yang paling efisien? Jelaskan!</li>
+<li>Jika kita memiliki 1 juta data, algoritma searching mana yang sebaiknya digunakan? Berapa perkiraan waktu yang dibutuhkan masing-masing?</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Buat kesimpulan tentang prinsip kerja algoritma sorting (Bubble Sort, Selection Sort) dan searching (Linear Search, Binary Search), serta pentingnya memilih algoritma yang tepat berdasarkan karakteristik data.</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Program Bubble Sort</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program Selection Sort</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program Linear Search</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program Binary Search</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program perbandingan kinerja</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Analisis dan kesimpulan</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

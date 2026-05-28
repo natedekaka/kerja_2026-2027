@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XI (Fase F) — LKPD_01_Python_Dasar — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XI (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 01 Python Dasar</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-python-dasar">LKPD - Python Dasar</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XI / Ganjil<br />
+<strong>Materi Pokok:</strong> Bab 2 - Dasar Pemrograman Python (Variabel, Tipe Data, Input/Output, Operator)<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Menjelaskan konsep variabel dan tipe data dalam Python</li>
+<li>Menggunakan input/output untuk interaksi dengan pengguna</li>
+<li>Menerapkan operator aritmatika, perbandingan, dan logika</li>
+<li>Membuat program sederhana (hitung luas, konversi suhu)</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ol>
+<li>Komputer/laptop dengan sistem operasi Windows/Linux/macOS</li>
+<li>Python 3.x terinstal (cek dengan <code>python --version</code>)</li>
+<li>Teks editor (VS Code, IDLE, atau Thonny)</li>
+<li><em>Atau akses</em> ke Google Colab (colab.research.google.com)</li>
+</ol>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="langkah-1-cek-instalasi-python">Langkah 1: Cek Instalasi Python</h3>
+<p>Buka terminal/command prompt, ketik:</p>
+<pre><code class="language-bash">python --version
+</code></pre>
+<p>Pastikan muncul versi Python 3.x.</p>
+<h3 id="langkah-2-program-pertama-hello-world">Langkah 2: Program Pertama - Hello World</h3>
+<p>Buat file <code>hello.py</code>, tulis kode berikut:</p>
+<pre><code class="language-python"># Program pertama
+print(&quot;Hello, Selamat Belajar Python!&quot;)
+print(&quot;Informatika Kelas XI&quot;)
+</code></pre>
+<p>Jalankan:</p>
+<pre><code class="language-bash">python hello.py
+</code></pre>
+<h3 id="langkah-3-variabel-dan-tipe-data">Langkah 3: Variabel dan Tipe Data</h3>
+<p>Buat file <code>variabel.py</code>:</p>
+<pre><code class="language-python"># Variabel dan Tipe Data
+nama = &quot;Alex&quot;          # string
+umur = 17              # integer
+tinggi = 165.5         # float
+siswa_aktif = True     # boolean
+
+print(&quot;Nama:&quot;, nama)
+print(&quot;Tipe data nama:&quot;, type(nama))
+print(&quot;Umur:&quot;, umur)
+print(&quot;Tipe data umur:&quot;, type(umur))
+print(&quot;Tinggi:&quot;, tinggi)
+print(&quot;Tipe data tinggi:&quot;, type(tinggi))
+print(&quot;Siswa aktif:&quot;, siswa_aktif)
+print(&quot;Tipe data siswa_aktif:&quot;, type(siswa_aktif))
+</code></pre>
+<h3 id="langkah-4-input-dari-pengguna">Langkah 4: Input dari Pengguna</h3>
+<p>Buat file <code>input_data.py</code>:</p>
+<pre><code class="language-python"># Input Data Diri
+nama = input(&quot;Masukkan nama kamu: &quot;)
+umur = int(input(&quot;Masukkan umur kamu: &quot;))
+tinggi = float(input(&quot;Masukkan tinggi badan (cm): &quot;))
+
+print(&quot;\n--- Data Diri ---&quot;)
+print(f&quot;Nama  : {nama}&quot;)
+print(f&quot;Umur  : {umur} tahun&quot;)
+print(f&quot;Tinggi: {tinggi} cm&quot;)
+print(f&quot;Tahun depan umurmu {umur + 1} tahun&quot;)
+</code></pre>
+<h3 id="langkah-5-operator-aritmatika">Langkah 5: Operator Aritmatika</h3>
+<p>Buat file <code>operator.py</code>:</p>
+<pre><code class="language-python"># Operator Aritmatika
+a = int(input(&quot;Masukkan bilangan pertama: &quot;))
+b = int(input(&quot;Masukkan bilangan kedua: &quot;))
+
+print(f&quot;\n{a} + {b} = {a + b}&quot;)
+print(f&quot;{a} - {b} = {a - b}&quot;)
+print(f&quot;{a} x {b} = {a * b}&quot;)
+print(f&quot;{a} : {b} = {a / b}&quot;)
+print(f&quot;{a} // {b} = {a // b}  (pembagian bulat)&quot;)
+print(f&quot;{a} ^ {b}  = {a ** b}  (pangkat)&quot;)
+print(f&quot;{a} mod {b} = {a % b}  (sisa bagi)&quot;)
+</code></pre>
+<h3 id="langkah-6-program-hitung-luas-bangun-datar">Langkah 6: Program Hitung Luas Bangun Datar</h3>
+<p>Buat file <code>hitung_luas.py</code>:</p>
+<pre><code class="language-python"># Program Hitung Luas Bangun Datar
+print(&quot;=== PROGRAM HITUNG LUAS ===&quot;)
+print(&quot;1. Luas Persegi&quot;)
+print(&quot;2. Luas Persegi Panjang&quot;)
+print(&quot;3. Luas Segitiga&quot;)
+print(&quot;4. Luas Lingkaran&quot;)
+
+pilihan = int(input(&quot;Pilih bangun (1-4): &quot;))
+
+# Luas Persegi
+sisi = int(input(&quot;Masukkan sisi: &quot;))
+luas = sisi * sisi
+print(f&quot;Luas persegi (sisi={sisi}) = {luas}&quot;)
+
+# TODO: siswa melengkapi pilihan 2, 3, 4 sendiri
+</code></pre>
+<h3 id="langkah-7-program-konversi-suhu">Langkah 7: Program Konversi Suhu</h3>
+<p>Buat file <code>konversi_suhu.py</code>:</p>
+<pre><code class="language-python"># Program Konversi Suhu
+print(&quot;=== KONVERSI SUHU ===&quot;)
+celcius = float(input(&quot;Masukkan suhu dalam Celcius: &quot;))
+
+fahrenheit = (celcius * 9/5) + 32
+reamur = celcius * 4/5
+kelvin = celcius + 273.15
+
+print(f&quot;{celcius}°C = {fahrenheit:.2f}°F&quot;)
+print(f&quot;{celcius}°C = {reamur:.2f}°R&quot;)
+print(f&quot;{celcius}°C = {kelvin:.2f}K&quot;)
+</code></pre>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Program</th>
+<th>Input</th>
+<th>Output</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>hello.py</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>variabel.py</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>input_data.py</td>
+<td>nama, umur, tinggi</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>operator.py</td>
+<td>a=10, b=3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>konversi_suhu.py</td>
+<td>100°C</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Apa perbedaan tipe data <code>int</code>, <code>float</code>, dan <code>str</code>? Berikan contoh masing-masing.</li>
+<li>Mengapa saat menggunakan <code>input()</code> hasilnya perlu dikonversi dengan <code>int()</code> atau <code>float()</code> untuk operasi matematika?</li>
+<li>Pada program konversi suhu, apa yang terjadi jika input berupa huruf? Mengapa?</li>
+<li>Jelaskan perbedaan operator <code>/</code> (pembagian biasa) dan <code>//</code> (pembagian bulat) dengan contoh.</li>
+<li>Buatlah variasi program konversi suhu yang menerima input dalam Fahrenheit dan mengonversi ke Celcius.</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Tuliskan kesimpulan dari praktikum ini minimal 3 poin.</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ketepatan menulis sintaks</td>
+<td>25%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program berjalan dengan benar</td>
+<td>25%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kelengkapan tabel pengamatan</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Jawaban diskusi dan analisis</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kesimpulan</td>
+<td>10%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XI (Fase F) — LKPD_06_Analisis_Data_Python — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XI (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 06 Analisis Data Python</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-analisis-data-dengan-python">LKPD - Analisis Data dengan Python</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XI / Genap<br />
+<strong>Materi Pokok:</strong> Bab 6 - Analisis Data (Import CSV, Sorting, Visualisasi dengan Matplotlib)<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Mengimpor data dari file CSV ke dalam program Python</li>
+<li>Melakukan pengurutan (sorting) data berdasarkan kriteria tertentu</li>
+<li>Membuat visualisasi data menggunakan library Matplotlib</li>
+<li>Menyajikan data dalam bentuk grafik yang informatif</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ol>
+<li>Komputer/laptop dengan koneksi internet</li>
+<li>Google Colab (colab.research.google.com) atau Python 3.x dengan library pandas dan matplotlib</li>
+<li>File dataset CSV (akan dibuat sendiri)</li>
+</ol>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="langkah-1-persiapan-google-colab">Langkah 1: Persiapan Google Colab</h3>
+<ol>
+<li>Buka https://colab.research.google.com</li>
+<li>Klik <strong>File &gt; New notebook</strong></li>
+<li>Ganti nama notebook menjadi <code>Analisis_Data_XI.ipynb</code></li>
+<li>Jalankan cell pertama untuk cek library:</li>
+</ol>
+<pre><code class="language-python">import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+print(&quot;Library berhasil diimport!&quot;)
+print(f&quot;Pandas version: {pd.__version__}&quot;)
+print(f&quot;Matplotlib version: {plt.matplotlib.__version__}&quot;)
+</code></pre>
+<h3 id="langkah-2-membuat-dataset-csv">Langkah 2: Membuat Dataset CSV</h3>
+<p>Buat file <code>nilai_siswa.csv</code> dengan data berikut. Bisa dibuat langsung di Colab:</p>
+<pre><code class="language-python"># Buat dataset nilai siswa
+data = {
+    &quot;Nama&quot;: [&quot;Andi&quot;, &quot;Budi&quot;, &quot;Citra&quot;, &quot;Dewi&quot;, &quot;Eko&quot;,
+             &quot;Fajar&quot;, &quot;Gita&quot;, &quot;Hadi&quot;, &quot;Indah&quot;, &quot;Joko&quot;,
+             &quot;Kiki&quot;, &quot;Lala&quot;, &quot;Mega&quot;, &quot;Nina&quot;, &quot;Oka&quot;],
+    &quot;Kelas&quot;: [&quot;XI-A&quot;, &quot;XI-A&quot;, &quot;XI-A&quot;, &quot;XI-B&quot;, &quot;XI-B&quot;,
+              &quot;XI-B&quot;, &quot;XI-A&quot;, &quot;XI-A&quot;, &quot;XI-B&quot;, &quot;XI-B&quot;,
+              &quot;XI-A&quot;, &quot;XI-B&quot;, &quot;XI-A&quot;, &quot;XI-B&quot;, &quot;XI-A&quot;],
+    &quot;Tugas&quot;: [85, 78, 92, 88, 65,
+              72, 95, 80, 74, 90,
+              88, 76, 91, 83, 79],
+    &quot;UTS&quot;: [82, 75, 90, 85, 60,
+            70, 93, 78, 72, 88,
+            85, 74, 89, 80, 76],
+    &quot;UAS&quot;: [88, 80, 95, 86, 68,
+            75, 96, 82, 76, 92,
+            90, 78, 93, 85, 80]
+}
+
+df = pd.DataFrame(data)
+
+# Simpan ke CSV
+df.to_csv(&quot;nilai_siswa.csv&quot;, index=False)
+print(&quot;Dataset berhasil dibuat!&quot;)
+print(df.head())
+</code></pre>
+<h3 id="langkah-3-import-dan-eksplorasi-data">Langkah 3: Import dan Eksplorasi Data</h3>
+<pre><code class="language-python"># Import data dari CSV
+df = pd.read_csv(&quot;nilai_siswa.csv&quot;)
+
+# Lihat 5 data pertama
+print(&quot;5 Data Pertama:&quot;)
+print(df.head())
+
+# Info dataset
+print(&quot;\nInfo Dataset:&quot;)
+print(df.info())
+
+# Statistik deskriptif
+print(&quot;\nStatistik Deskriptif:&quot;)
+print(df.describe())
+
+# Cek jumlah siswa per kelas
+print(&quot;\nJumlah Siswa per Kelas:&quot;)
+print(df[&quot;Kelas&quot;].value_counts())
+</code></pre>
+<h3 id="langkah-4-menambahkan-kolom-nilai-akhir">Langkah 4: Menambahkan Kolom Nilai Akhir</h3>
+<pre><code class="language-python"># Hitung nilai akhir: 20% Tugas + 30% UTS + 50% UAS
+df[&quot;Nilai_Akhir&quot;] = (0.2 * df[&quot;Tugas&quot;] +
+                     0.3 * df[&quot;UTS&quot;] +
+                     0.5 * df[&quot;UAS&quot;])
+
+# Bulatkan 1 desimal
+df[&quot;Nilai_Akhir&quot;] = df[&quot;Nilai_Akhir&quot;].round(1)
+
+# Tambahkan kolom status
+df[&quot;Status&quot;] = df[&quot;Nilai_Akhir&quot;].apply(
+    lambda x: &quot;Lulus&quot; if x &gt;= 70 else &quot;Tidak Lulus&quot;
+)
+
+print(&quot;\nData dengan Nilai Akhir:&quot;)
+print(df[[&quot;Nama&quot;, &quot;Kelas&quot;, &quot;Nilai_Akhir&quot;, &quot;Status&quot;]].head(10))
+</code></pre>
+<h3 id="langkah-5-sorting-data">Langkah 5: Sorting Data</h3>
+<pre><code class="language-python"># Urutkan berdasarkan Nilai Akhir (tertinggi ke terendah)
+print(&quot;10 Siswa dengan Nilai Akhir Terbaik:&quot;)
+df_sorted = df.sort_values(&quot;Nilai_Akhir&quot;, ascending=False)
+print(df_sorted[[&quot;Nama&quot;, &quot;Kelas&quot;, &quot;Nilai_Akhir&quot;]].head(10))
+
+print(&quot;\n10 Siswa dengan Nilai Akhir Terendah:&quot;)
+print(df_sorted[[&quot;Nama&quot;, &quot;Kelas&quot;, &quot;Nilai_Akhir&quot;]].tail(10))
+
+# Urutkan berdasarkan Nama (A-Z)
+print(&quot;\nSiswa urut abjad:&quot;)
+df_abjad = df.sort_values(&quot;Nama&quot;)
+print(df_abjad[[&quot;Nama&quot;, &quot;Kelas&quot;, &quot;Nilai_Akhir&quot;]])
+</code></pre>
+<h3 id="langkah-6-visualisasi-dengan-matplotlib-diagram-batang">Langkah 6: Visualisasi dengan Matplotlib - Diagram Batang</h3>
+<pre><code class="language-python"># Diagram batang nilai akhir seluruh siswa
+plt.figure(figsize=(12, 6))
+plt.bar(df[&quot;Nama&quot;], df[&quot;Nilai_Akhir&quot;], color=&quot;skyblue&quot;)
+plt.axhline(y=70, color=&quot;red&quot;, linestyle=&quot;--&quot;, label=&quot;Batas Lulus (70)&quot;)
+plt.xlabel(&quot;Nama Siswa&quot;, fontsize=12)
+plt.ylabel(&quot;Nilai Akhir&quot;, fontsize=12)
+plt.title(&quot;Nilai Akhir Siswa Kelas XI&quot;, fontsize=14, fontweight=&quot;bold&quot;)
+plt.xticks(rotation=45)
+plt.legend()
+plt.tight_layout()
+plt.show()
+</code></pre>
+<h3 id="langkah-7-visualisasi-diagram-lingkaran-pie-chart">Langkah 7: Visualisasi - Diagram Lingkaran (Pie Chart)</h3>
+<pre><code class="language-python"># Diagram lingkaran perbandingan kelas
+kelas_count = df[&quot;Kelas&quot;].value_counts()
+
+plt.figure(figsize=(8, 8))
+plt.pie(kelas_count.values, labels=kelas_count.index,
+        autopct=&quot;%1.1f%%&quot;, colors=[&quot;gold&quot;, &quot;lightcoral&quot;],
+        startangle=90, shadow=True)
+plt.title(&quot;Perbandingan Jumlah Siswa per Kelas&quot;, fontsize=14, fontweight=&quot;bold&quot;)
+plt.axis(&quot;equal&quot;)
+plt.show()
+</code></pre>
+<h3 id="langkah-8-visualisasi-diagram-garis-perbandingan-nilai">Langkah 8: Visualisasi - Diagram Garis (Perbandingan Nilai)</h3>
+<pre><code class="language-python"># Perbandingan nilai Tugas, UTS, UAS per siswa
+plt.figure(figsize=(14, 7))
+x = range(len(df))
+plt.plot(x, df[&quot;Tugas&quot;], marker=&quot;o&quot;, label=&quot;Tugas&quot;, color=&quot;blue&quot;)
+plt.plot(x, df[&quot;UTS&quot;], marker=&quot;s&quot;, label=&quot;UTS&quot;, color=&quot;green&quot;)
+plt.plot(x, df[&quot;UAS&quot;], marker=&quot;^&quot;, label=&quot;UAS&quot;, color=&quot;orange&quot;)
+plt.plot(x, df[&quot;Nilai_Akhir&quot;], marker=&quot;d&quot;, label=&quot;Nilai Akhir&quot;, color=&quot;red&quot;, linewidth=2)
+
+plt.xlabel(&quot;Siswa (Index)&quot;, fontsize=12)
+plt.ylabel(&quot;Nilai&quot;, fontsize=12)
+plt.title(&quot;Perbandingan Nilai Tugas, UTS, UAS, dan Nilai Akhir&quot;, fontsize=14)
+plt.xticks(x, df[&quot;Nama&quot;], rotation=45)
+plt.legend()
+plt.grid(True, linestyle=&quot;--&quot;, alpha=0.7)
+plt.tight_layout()
+plt.show()
+</code></pre>
+<h3 id="langkah-9-analisis-tambahan-rata-rata-per-kelas">Langkah 9: Analisis Tambahan - Rata-rata per Kelas</h3>
+<pre><code class="language-python"># Rata-rata nilai per kelas
+rata_kelas = df.groupby(&quot;Kelas&quot;)[[&quot;Tugas&quot;, &quot;UTS&quot;, &quot;UAS&quot;, &quot;Nilai_Akhir&quot;]].mean().round(1)
+print(&quot;Rata-rata Nilai per Kelas:&quot;)
+print(rata_kelas)
+
+# Diagram batang perbandingan rata-rata kelas
+rata_kelas.plot(kind=&quot;bar&quot;, figsize=(10, 6))
+plt.title(&quot;Perbandingan Rata-rata Nilai per Kelas&quot;, fontsize=14, fontweight=&quot;bold&quot;)
+plt.xlabel(&quot;Kelas&quot;, fontsize=12)
+plt.ylabel(&quot;Rata-rata Nilai&quot;, fontsize=12)
+plt.xticks(rotation=0)
+plt.legend(title=&quot;Komponen&quot;)
+plt.grid(axis=&quot;y&quot;, linestyle=&quot;--&quot;, alpha=0.7)
+plt.tight_layout()
+plt.show()
+</code></pre>
+<h3 id="langkah-10-tugas-mandiri">Langkah 10: Tugas Mandiri</h3>
+<pre><code class="language-python"># TODO 1: Hitung jumlah siswa yang lulus dan tidak lulus
+# Tampilkan dalam diagram lingkaran
+
+# TODO 2: Buat diagram batang horizontal (barh) untuk 5 nilai akhir terbaik
+
+# TODO 3: Filter siswa dengan nilai akhir &gt;= 80 (sangat baik), cetak daftarnya
+
+# TODO 4: Buat scatter plot antara UTS dan UAS untuk melihat korelasi
+</code></pre>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Langkah</th>
+<th>Deskripsi</th>
+<th>Hasil/Cuplikan Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Import data</td>
+<td>df.head()</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Statistik</td>
+<td>df.describe()</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Sorting</td>
+<td>3 besar nilai akhir</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Diagram batang</td>
+<td>Grafik nilai akhir</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Diagram lingkaran</td>
+<td>Pie chart per kelas</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Diagram garis</td>
+<td>Perbandingan nilai</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Rata-rata kelas</td>
+<td>Groupby mean</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Jelaskan fungsi method <code>pd.read_csv()</code> dan <code>df.info()</code>. Informasi apa saja yang bisa didapat dari <code>df.describe()</code>?</li>
+<li>Bagaimana cara kerja pengurutan (<code>sort_values</code>) secara descending dan ascending? Berikan contoh penggunaannya.</li>
+<li>Pada diagram batang nilai akhir, apa arti garis horizontal merah di y=70? Mengapa garis tersebut penting?</li>
+<li>Bandingkan diagram batang dan diagram lingkaran. Kapan sebaiknya menggunakan masing-masing jenis diagram?</li>
+<li>Interpretasikan diagram perbandingan nilai Tugas, UTS, UAS. Apakah ada pola tertentu? Siswa mana yang paling konsisten?</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Tuliskan kesimpulan dari praktikum ini minimal 3 poin.</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Import data dan eksplorasi</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Menambahkan kolom dan sorting</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Visualisasi diagram batang</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Visualisasi diagram lingkaran</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Visualisasi diagram garis</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Tugas mandiri</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Jawaban diskusi</td>
+<td>10%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

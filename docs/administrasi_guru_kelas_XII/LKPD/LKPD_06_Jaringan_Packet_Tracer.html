@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XII (Fase F) — LKPD_06_Jaringan_Packet_Tracer — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XII (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 06 Jaringan Packet Tracer</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-konfigurasi-jaringan-dengan-cisco-packet-tracer">LKPD - Konfigurasi Jaringan dengan Cisco Packet Tracer</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XII / Ganjil<br />
+<strong>Materi Pokok:</strong> Bab 4 – Jaringan Komputer – Routing, IP, Gateway, DNS<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Peserta didik mampu merancang topologi jaringan dengan 2 switch, 1 router, dan 4 PC.</li>
+<li>Peserta didik mampu mengkonfigurasi IP address dan subnet mask pada setiap PC.</li>
+<li>Peserta didik mampu mengkonfigurasi router (gateway/default gateway) untuk routing antar jaringan.</li>
+<li>Peserta didik mampu menguji koneksi antar PC menggunakan perintah ping.</li>
+<li>Peserta didik mampu mengkonfigurasi DNS server dan menguji resolusi nama.</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ul>
+<li>PC/Laptop dengan Cisco Packet Tracer terinstal</li>
+<li>File Packet Tracer (dibuat sendiri selama praktikum)</li>
+</ul>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="bagian-1-merancang-topologi-jaringan-30-menit">Bagian 1: Merancang Topologi Jaringan (30 menit)</h3>
+<ol>
+<li>Buka Cisco Packet Tracer.</li>
+<li>Buat topologi jaringan berikut:</li>
+</ol>
+<pre><code>                        +---------------------+
+                        |                     |
+                        |      Router         |
+                        |    (Router-PT)      |
+                        |                     |
+                        +--------+-----------+
+                                 |
+                   +-------------+-------------+
+                   |                           |
+            +------+------+            +------+------+
+            |             |            |             |
+         [Switch0]    [Switch1]    [Switch0]    [Switch1]
+         (Switch-PT)  (Switch-PT)  (Switch-PT)  (Switch-PT)
+            |             |            |             |
+            |             |            |             |
+          [PC0]         [PC1]        [PC2]         [PC3]
+          (PC-PT)       (PC-PT)      (PC-PT)       (PC-PT)
+</code></pre>
+<ol start="3">
+<li>Rencana pengalamatan IP:</li>
+</ol>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Perangkat</th>
+<th>Interface</th>
+<th>IP Address</th>
+<th>Subnet Mask</th>
+<th>Gateway</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Router</td>
+<td>Gig0/0</td>
+<td>192.168.1.1</td>
+<td>255.255.255.0</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Switch0 VLAN1</td>
+<td>-</td>
+<td>192.168.1.254</td>
+<td>255.255.255.0</td>
+<td>192.168.1.1</td>
+</tr>
+<tr>
+<td>PC0</td>
+<td>FastEthernet0</td>
+<td>192.168.1.10</td>
+<td>255.255.255.0</td>
+<td>192.168.1.1</td>
+</tr>
+<tr>
+<td>PC1</td>
+<td>FastEthernet0</td>
+<td>192.168.1.11</td>
+<td>255.255.255.0</td>
+<td>192.168.1.1</td>
+</tr>
+<tr>
+<td>Router</td>
+<td>Gig0/1</td>
+<td>192.168.2.1</td>
+<td>255.255.255.0</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Switch1 VLAN1</td>
+<td>-</td>
+<td>192.168.2.254</td>
+<td>255.255.255.0</td>
+<td>192.168.2.1</td>
+</tr>
+<tr>
+<td>PC2</td>
+<td>FastEthernet0</td>
+<td>192.168.2.10</td>
+<td>255.255.255.0</td>
+<td>192.168.2.1</td>
+</tr>
+<tr>
+<td>PC3</td>
+<td>FastEthernet0</td>
+<td>192.168.2.11</td>
+<td>255.255.255.0</td>
+<td>192.168.2.1</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="bagian-2-menambahkan-dan-menghubungkan-perangkat-30-menit">Bagian 2: Menambahkan dan Menghubungkan Perangkat (30 menit)</h3>
+<ol>
+<li>Dari panel <strong>End Devices</strong>, seret 4 PC (PC-PT) ke workspace.</li>
+<li>Dari panel <strong>Network Devices &gt; Switches</strong>, seret 2 Switch (Switch-PT).</li>
+<li>Dari panel <strong>Network Devices &gt; Routers</strong>, seret 1 Router (Router-PT).</li>
+<li>Hubungkan kabel:<br />
+   - <strong>PC0 → Switch0:</strong> Gunakan kabel <strong>Copper Straight-Through</strong><ul>
+<li>Klik PC0 → pilih FastEthernet0 → klik Switch0 → pilih port FastEthernet0/1</li>
+<li><strong>PC1 → Switch0:</strong> FastEthernet0 → Switch0 FastEthernet0/2</li>
+<li><strong>Switch0 → Router:</strong> Switch0 FastEthernet0/24 → Router GigabitEthernet0/0</li>
+<li><strong>PC2 → Switch1:</strong> FastEthernet0 → Switch1 FastEthernet0/1</li>
+<li><strong>PC3 → Switch1:</strong> FastEthernet0 → Switch1 FastEthernet0/2</li>
+<li><strong>Switch1 → Router:</strong> Switch1 FastEthernet0/24 → Router GigabitEthernet0/1</li>
+</ul>
+</li>
+</ol>
+<h3 id="bagian-3-konfigurasi-ip-pada-pc-30-menit">Bagian 3: Konfigurasi IP pada PC (30 menit)</h3>
+<ol>
+<li>Klik <strong>PC0</strong> → Tab <strong>Desktop</strong> → <strong>IP Configuration</strong>.</li>
+<li>Isi:<br />
+   - IP Address: <code>192.168.1.10</code><br />
+   - Subnet Mask: <code>255.255.255.0</code><br />
+   - Default Gateway: <code>192.168.1.1</code><br />
+   - DNS Server: (kosongkan dulu)</li>
+<li>Ulangi untuk PC1:<br />
+   - IP: <code>192.168.1.11</code> / Mask: <code>255.255.255.0</code> / Gateway: <code>192.168.1.1</code></li>
+<li>Ulangi untuk PC2:<br />
+   - IP: <code>192.168.2.10</code> / Mask: <code>255.255.255.0</code> / Gateway: <code>192.168.2.1</code></li>
+<li>Ulangi untuk PC3:<br />
+   - IP: <code>192.168.2.11</code> / Mask: <code>255.255.255.0</code> / Gateway: <code>192.168.2.1</code></li>
+</ol>
+<h3 id="bagian-4-konfigurasi-router-45-menit">Bagian 4: Konfigurasi Router (45 menit)</h3>
+<ol>
+<li>Klik <strong>Router</strong> → Tab <strong>CLI</strong>.</li>
+<li>Ketik perintah berikut (ENTER setelah setiap baris):</li>
+</ol>
+<pre><code>enable
+configure terminal
+hostname R1
+
+interface GigabitEthernet0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+
+interface GigabitEthernet0/1
+ip address 192.168.2.1 255.255.255.0
+no shutdown
+exit
+
+exit
+write memory
+</code></pre>
+<ol start="3">
+<li>Verifikasi konfigurasi:</li>
+</ol>
+<pre><code>show ip interface brief
+</code></pre>
+<p>Pastikan kedua interface berstatus <code>up</code> dan <code>up</code>.</p>
+<h3 id="bagian-5-uji-koneksi-ping-30-menit">Bagian 5: Uji Koneksi (Ping) (30 menit)</h3>
+<ol>
+<li>Klik <strong>PC0</strong> → Tab <strong>Desktop</strong> → <strong>Command Prompt</strong>.</li>
+<li>Uji koneksi ke gateway sendiri:</li>
+</ol>
+<pre><code>ping 192.168.1.1
+</code></pre>
+<p>Jika berhasil: <code>Reply from 192.168.1.1: bytes=32 time&lt;1ms TTL=255</code></p>
+<ol start="3">
+<li>Uji koneksi ke PC1 (satu jaringan):</li>
+</ol>
+<pre><code>ping 192.168.1.11
+</code></pre>
+<ol start="4">
+<li>Uji koneksi ke PC2 (beda jaringan):</li>
+</ol>
+<pre><code>ping 192.168.2.10
+</code></pre>
+<ol start="5">
+<li>Ulangi dari PC2:</li>
+</ol>
+<pre><code>ping 192.168.1.10
+ping 192.168.1.11
+ping 192.168.2.1
+</code></pre>
+<ol start="6">
+<li>Catat hasil ping ke tabel pengamatan.</li>
+</ol>
+<h3 id="bagian-6-konfigurasi-dns-server-45-menit">Bagian 6: Konfigurasi DNS Server (45 menit)</h3>
+<ol>
+<li>Tambahkan <strong>Server-PT</strong> dari panel <strong>End Devices</strong>.</li>
+<li>Hubungkan server ke <strong>Switch0</strong> (FastEthernet0 → Switch0 FastEthernet0/3).</li>
+<li>Konfigurasi IP Server:<br />
+   - IP: <code>192.168.1.100</code> / Mask: <code>255.255.255.0</code> / Gateway: <code>192.168.1.1</code></li>
+<li>Klik <strong>Server</strong> → Tab <strong>Services</strong> → <strong>DNS</strong>.</li>
+<li>Aktifkan DNS dengan <strong>On</strong>.</li>
+<li>Tambahkan record:<br />
+   - Name: <code>www.sekolahku.local</code> → Address: <code>192.168.1.10</code> (PC0)<br />
+   - Name: <code>mail.sekolahku.local</code> → Address: <code>192.168.1.11</code> (PC1)<br />
+   - Name: <code>server.sekolahku.local</code> → Address: <code>192.168.1.100</code><br />
+   - Klik <strong>Add</strong> setiap kali.</li>
+<li>Konfigurasi DNS di PC0:<br />
+   - Klik <strong>PC0</strong> → <strong>Desktop</strong> → <strong>IP Configuration</strong><br />
+   - DNS Server: <code>192.168.1.100</code></li>
+<li>Ulangi untuk PC1, PC2, PC3 dengan DNS Server yang sama.</li>
+<li>Uji DNS dari <strong>Command Prompt PC0</strong>:</li>
+</ol>
+<pre><code>ping www.sekolahku.local
+ping mail.sekolahku.local
+</code></pre>
+<ol start="10">
+<li>Jika berhasil, akan muncul <code>Reply from 192.168.1.10 ...</code> (nama domain beresolusi ke IP).</li>
+</ol>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<h3 id="hasil-uji-ping">Hasil Uji Ping</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Dari</th>
+<th>Ke</th>
+<th>IP Tujuan</th>
+<th>Status (Success/Fail)</th>
+<th>Waktu (ms)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PC0</td>
+<td>Gateway</td>
+<td>192.168.1.1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PC0</td>
+<td>PC1</td>
+<td>192.168.1.11</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PC0</td>
+<td>PC2</td>
+<td>192.168.2.10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PC2</td>
+<td>PC0</td>
+<td>192.168.1.10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PC2</td>
+<td>Gateway</td>
+<td>192.168.2.1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PC2</td>
+<td>PC1</td>
+<td>192.168.1.11</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="hasil-uji-dns">Hasil Uji DNS</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Dari</th>
+<th>Nama Domain</th>
+<th>Hasil Resolusi IP</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PC0</td>
+<td>www.sekolahku.local</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PC0</td>
+<td>mail.sekolahku.local</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PC1</td>
+<td>server.sekolahku.local</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Mengapa PC0 dapat melakukan ping ke PC1 (satu jaringan) tanpa konfigurasi router? Jelaskan alurnya!</li>
+<li>Apa fungsi default gateway pada konfigurasi IP setiap PC? Apa yang terjadi jika gateway tidak diisi?</li>
+<li>Pada saat PC0 melakukan ping ke PC2 (beda jaringan), data melewati perangkat apa saja? Sebutkan jalur lengkapnya!</li>
+<li>Bagaimana cara router mengetahui bahwa paket untuk 192.168.2.x harus dikirim ke interface Gig0/1?</li>
+<li>Apa keuntungan menggunakan DNS dibandingkan menggunakan IP address secara langsung? Dalam skenario apa penggunaan DNS menjadi sangat penting?</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Buat kesimpulan tentang konsep routing antar jaringan, fungsi gateway, peran DNS dalam resolusi nama, dan pentingnya konfigurasi IP yang benar dalam komunikasi jaringan.</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Topologi jaringan</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Konfigurasi IP setiap PC</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Konfigurasi router (CLI)</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Uji koneksi (ping)</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Konfigurasi DNS</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Analisis dan kesimpulan</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

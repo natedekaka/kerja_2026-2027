@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XII (Fase F) — LKPD_03_Arduino_Sensor — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XII (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 03 Arduino Sensor</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-sensor-suhu-lm35-dan-sensor-jarak-hc-sr04">LKPD - Sensor Suhu (LM35) dan Sensor Jarak (HC-SR04)</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XII / Ganjil<br />
+<strong>Materi Pokok:</strong> Bab 2 – Mikrokontroler – Sensor Analog &amp; Digital<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Peserta didik mampu membaca data sensor suhu LM35 menggunakan ADC Arduino.</li>
+<li>Peserta didik mampu mengkonversi nilai ADC menjadi suhu dalam satuan Celsius.</li>
+<li>Peserta didik mampu menggunakan sensor ultrasonik HC-SR04 untuk mengukur jarak.</li>
+<li>Peserta didik mampu menampilkan data sensor ke Serial Monitor.</li>
+<li>Peserta didik mampu menganalisis akurasi dan presisi data sensor.</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ul>
+<li>1x Arduino Uno + kabel USB</li>
+<li>1x Breadboard</li>
+<li>1x Sensor suhu LM35</li>
+<li>1x Sensor ultrasonik HC-SR04</li>
+<li>Kabel jumper secukupnya</li>
+<li>PC/Laptop dengan Arduino IDE</li>
+<li>Penggaris (untuk kalibrasi jarak)</li>
+</ul>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="bagian-1-membaca-sensor-suhu-lm35-60-menit">Bagian 1: Membaca Sensor Suhu LM35 (60 menit)</h3>
+<p><strong>Teori:</strong> LM35 mengeluarkan tegangan 10 mV per °C. Rumus konversi:</p>
+<pre><code>Suhu (°C) = (ADC_value × 5.0 / 1023.0) × 100
+</code></pre>
+<ol>
+<li>Buat rangkaian berikut:</li>
+</ol>
+<pre><code>LM35:
+  Pin 1 (kiri)  → +5V
+  Pin 2 (tengah) → A0
+  Pin 3 (kanan)  → GND
+</code></pre>
+<p><strong>Diagram Breadboard:</strong></p>
+<pre><code>      +---------------------------+
+      |                           |
+      |  Arduino Uno              |
+      |                           |
+      |  +5V ----[kabel]---- Pin 1 LM35
+      |  A0   ----[kabel]---- Pin 2 LM35
+      |  GND  ----[kabel]---- Pin 3 LM35
+      +---------------------------+
+
+        [LM35 - tampak datar]
+        +-----+
+        |1 2 3|   1 = +5V
+        +-----+   2 = Vout (ke A0)
+       [____]     3 = GND
+</code></pre>
+<ol start="2">
+<li>Tulis program berikut:</li>
+</ol>
+<pre><code class="language-c">int sensorLM35 = A0;
+float suhu = 0;
+int nilaiADC = 0;
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println(&quot;Pengukuran Suhu LM35&quot;);
+  Serial.println(&quot;--------------------&quot;);
+}
+
+void loop() {
+  nilaiADC = analogRead(sensorLM35);
+  suhu = (nilaiADC * 5.0 / 1023.0) * 100.0;
+
+  Serial.print(&quot;ADC: &quot;);
+  Serial.print(nilaiADC);
+  Serial.print(&quot; | Tegangan: &quot;);
+  Serial.print(nilaiADC * 5.0 / 1023.0, 3);
+  Serial.print(&quot; V | Suhu: &quot;);
+  Serial.print(suhu, 2);
+  Serial.println(&quot; C&quot;);
+
+  delay(1000);
+}
+</code></pre>
+<ol start="3">
+<li>Upload dan buka Serial Monitor (Ctrl+Shift+M, baud 9600).</li>
+<li>Amati suhu ruangan. Catat selama 5 menit (5 data).</li>
+<li><strong>Uji kalibrasi:</strong><br />
+   - Pegang sensor dengan jari (panas tubuh) → catat suhu<br />
+   - Dekatkan sensor ke es batu (hati-hati jangan kena air) → catat suhu</li>
+</ol>
+<h3 id="bagian-2-membaca-sensor-jarak-hc-sr04-60-menit">Bagian 2: Membaca Sensor Jarak HC-SR04 (60 menit)</h3>
+<p><strong>Teori:</strong> HC-SR04 mengirim gelombang ultrasonik dan mengukur waktu pantul.</p>
+<pre><code>Jarak (cm) = (waktu_pantul / 2) × 0.0343
+</code></pre>
+<ol>
+<li>Buat rangkaian berikut:</li>
+</ol>
+<pre><code>HC-SR04:
+  Vcc  → +5V
+  Trig → Pin 9
+  Echo → Pin 10
+  Gnd  → GND
+</code></pre>
+<p><strong>Diagram Breadboard:</strong></p>
+<pre><code>      +---------------------------+
+      |                           |
+      |  Arduino Uno              |
+      |                           |
+      |  +5V  ----[kabel]---- Vcc  (HC-SR04)
+      |  Pin 9 ----[kabel]---- Trig
+      |  Pin 10 ----[kabel]---- Echo
+      |  GND  ----[kabel]---- Gnd
+      +---------------------------+
+
+      [HC-SR04]
+      +------------------+
+      |   Vcc Trig Echo Gnd |
+      |   [TT]  [RR]        |
+      +------------------+
+      TT = Transmitter (pemancar)
+      RR = Receiver (penerima)
+</code></pre>
+<ol start="2">
+<li>Tulis program berikut:</li>
+</ol>
+<pre><code class="language-c">#define trigPin 9
+#define echoPin 10
+
+long durasi;
+float jarak;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  Serial.println(&quot;Pengukuran Jarak HC-SR04&quot;);
+  Serial.println(&quot;-------------------------&quot;);
+}
+
+void loop() {
+  // Kirim trigger pulse (10 us)
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  // Baca durasi pantulan
+  durasi = pulseIn(echoPin, HIGH);
+
+  // Konversi ke cm (kecepatan suara 343 m/s)
+  jarak = (durasi / 2.0) * 0.0343;
+
+  Serial.print(&quot;Durasi: &quot;);
+  Serial.print(durasi);
+  Serial.print(&quot; us | Jarak: &quot;);
+  Serial.print(jarak, 2);
+  Serial.println(&quot; cm&quot;);
+
+  delay(500);
+}
+</code></pre>
+<ol start="3">
+<li>Upload dan buka Serial Monitor.</li>
+<li><strong>Uji pengukuran:</strong><br />
+   - Tempatkan benda di depan sensor pada jarak 5 cm, 10 cm, 20 cm, 50 cm<br />
+   - Bandingkan dengan hasil ukur penggaris<br />
+   - Catat ke tabel pengamatan</li>
+</ol>
+<h3 id="bagian-3-kalibrasi-dan-akurasi-30-menit">Bagian 3: Kalibrasi dan Akurasi (30 menit)</h3>
+<ol>
+<li>Tempelkan penggaris di meja.</li>
+<li>Letakkan benda (buku/kardus) pada jarak tertentu.</li>
+<li>Bandingkan hasil sensor dengan penggaris.</li>
+<li>Hitung error:</li>
+</ol>
+<pre><code>Error (%) = |Jarak Sensor - Jarak Nyata| / Jarak Nyata × 100%
+</code></pre>
+<h3 id="bagian-4-program-gabungan-45-menit">Bagian 4: Program Gabungan (45 menit)</h3>
+<p>Buat program yang membaca kedua sensor sekaligus:</p>
+<pre><code class="language-c">int sensorLM35 = A0;
+#define trigPin 9
+#define echoPin 10
+
+float suhu;
+float jarak;
+long durasi;
+int nilaiADC;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+}
+
+void loop() {
+  // Baca suhu
+  nilaiADC = analogRead(sensorLM35);
+  suhu = (nilaiADC * 5.0 / 1023.0) * 100.0;
+
+  // Baca jarak
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  durasi = pulseIn(echoPin, HIGH);
+  jarak = (durasi / 2.0) * 0.0343;
+
+  // Tampilkan ke Serial Monitor
+  Serial.print(&quot;Suhu: &quot;);
+  Serial.print(suhu, 1);
+  Serial.print(&quot; C | Jarak: &quot;);
+  Serial.print(jarak, 1);
+  Serial.println(&quot; cm&quot;);
+
+  delay(1000);
+}
+</code></pre>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<h3 id="data-sensor-suhu-lm35">Data Sensor Suhu LM35</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Nilai ADC</th>
+<th>Tegangan (V)</th>
+<th>Suhu (°C)</th>
+<th>Kondisi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ruangan</td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ruangan</td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ruangan</td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Pegang</td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Es/Dingin</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="data-sensor-jarak-hc-sr04">Data Sensor Jarak HC-SR04</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Jarak Nyata (cm)</th>
+<th>Durasi (us)</th>
+<th>Jarak Sensor (cm)</th>
+<th>Error (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>10</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>20</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>30</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>50</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Mengapa LM35 tidak memerlukan library tambahan, sementara sensor lain seperti DHT11 membutuhkan?</li>
+<li>Faktor apa saja yang mempengaruhi akurasi pengukuran jarak HC-SR04? Bagaimana pengaruh suhu ruangan?</li>
+<li>Jika HC-SR04 digunakan untuk mengukur jarak di dalam air, apakah hasilnya akurat? Jelaskan!</li>
+<li>Pada program gabungan, mengapa pembacaan jarak kadang menampilkan nilai 0? Bagaimana cara mengatasinya?</li>
+<li>Buatlah grafik hubungan antara jarak nyata (sumbu X) dengan jarak sensor (sumbu Y) berdasarkan data pengamatan. Apakah hubungannya linear?</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Buat kesimpulan tentang cara kerja ADC pada Arduino, prinsip pengukuran suhu dengan LM35, prinsip sonar pada HC-SR04, serta pentingnya kalibrasi dalam pengukuran sensor.</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rangkaian LM35</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Rangkaian HC-SR04</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program LM35 (ADC → suhu)</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program HC-SR04 (pulseIn)</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program gabungan</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Data pengamatan &amp; analisis</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

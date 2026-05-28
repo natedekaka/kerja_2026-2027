@@ -318,6 +318,10 @@ body {
 .cat-card-root::before { background: var(--primary); }
 .cat-card-modul::before { background: #059669; }
 .cat-card-materi::before { background: #7C3AED; }
+.cat-card-lkpd {
+  background: linear-gradient(180deg, #FFF7ED 0%, var(--card) 40%);
+}
+.cat-card-lkpd::before { background: #D97706; }
 .cat-card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-lg);
@@ -332,6 +336,7 @@ body {
 .cat-card-root .cat-icon { background: #EFF6FF; }
 .cat-card-modul .cat-icon { background: #ECFDF5; }
 .cat-card-materi .cat-icon { background: #F5F3FF; }
+.cat-card-lkpd .cat-icon { background: #FFF7ED; }
 .cat-card h3 {
   font-size: 1.05rem;
   font-weight: 700;
@@ -342,6 +347,7 @@ body {
 .cat-card-root h3 { color: var(--primary); }
 .cat-card-modul h3 { color: #059669; }
 .cat-card-materi h3 { color: #7C3AED; }
+.cat-card-lkpd h3 { color: #D97706; }
 .cat-card .cat-desc {
   font-size: 0.78rem;
   color: var(--text-muted);
@@ -429,6 +435,8 @@ body {
 .dark-mode .cat-card-root { background: linear-gradient(180deg, rgba(96,165,250,0.07) 0%, var(--card) 40%); }
 .dark-mode .cat-card-modul { background: linear-gradient(180deg, rgba(52,211,153,0.07) 0%, var(--card) 40%); }
 .dark-mode .cat-card-materi { background: linear-gradient(180deg, rgba(167,139,250,0.07) 0%, var(--card) 40%); }
+.dark-mode .cat-card-lkpd .cat-icon { background: rgba(251,191,36,0.15); }
+.dark-mode .cat-card-lkpd { background: linear-gradient(180deg, rgba(251,191,36,0.07) 0%, var(--card) 40%); }
 .dark-mode .cat-stat { background: rgba(255,255,255,0.05); }
 
 /* responsive */
@@ -1196,6 +1204,9 @@ def build_sidebar_html(depth=0):
         if (grade_path / "Materi").exists():
             html.append(f'  <div class="nav-sub"><a href="{pfx}{grade_slug}/Materi/index.html">\U0001f4da Materi</a></div>')
 
+        if (grade_path / "LKPD").exists():
+            html.append(f'  <div class="nav-sub"><a href="{pfx}{grade_slug}/LKPD/index.html">\U0001f4dd LKPD</a></div>')
+ 
     html.append('</nav>')
     return '\n'.join(html)
 
@@ -1266,10 +1277,11 @@ def generate_index():
         root_count = len(list((BASE_DIR / slug).glob("[0-9]*.md")))
         ma_count = len(list((BASE_DIR / slug / "modul_ajar").glob("*.md"))) if (BASE_DIR / slug / "modul_ajar").exists() else 0
         mt_count = len(list((BASE_DIR / slug / "Materi").glob("*.md"))) if (BASE_DIR / slug / "Materi").exists() else 0
-        subtotal = root_count + ma_count + mt_count
+        lkpd_count = len(list((BASE_DIR / slug / "LKPD").glob("*.md"))) if (BASE_DIR / slug / "LKPD").exists() else 0
+        subtotal = root_count + ma_count + mt_count + lkpd_count
         sublines = sum(len(f.read_text().splitlines()) for f in (BASE_DIR / slug).rglob("*.md"))
         totals[slug] = (subtotal, sublines)
-        grade_stats[short] = {"total": subtotal, "lines": sublines, "root": root_count, "ma": ma_count, "mt": mt_count}
+        grade_stats[short] = {"total": subtotal, "lines": sublines, "root": root_count, "ma": ma_count, "mt": mt_count, "lkpd": lkpd_count}
         total_md += subtotal
         total_lines += sublines
 
@@ -1285,6 +1297,7 @@ def generate_index():
     total_root = sum(grade_stats[s["short"]]["root"] for s in [{"short":"x"},{"short":"xi"},{"short":"xii"}])
     total_ma = sum(grade_stats[s["short"]]["ma"] for s in [{"short":"x"},{"short":"xi"},{"short":"xii"}])
     total_mt = sum(grade_stats[s["short"]]["mt"] for s in [{"short":"x"},{"short":"xi"},{"short":"xii"}])
+    total_lkpd = sum(grade_stats[s["short"]]["lkpd"] for s in [{"short":"x"},{"short":"xi"},{"short":"xii"}])
 
     cat_items = [
         ("root", "\U0001f4c1", "Root Dokumen", "Administrasi guru: prota, prosem, ATP, jurnal, dll.", total_root,
@@ -1295,6 +1308,9 @@ def generate_index():
          "#"),
         ("materi", "\U0001f4da", "Materi", "Bahan ajar per bab untuk setiap kelas.", total_mt,
          [("X", grade_stats["x"]["mt"]), ("XI", grade_stats["xi"]["mt"]), ("XII", grade_stats["xii"]["mt"])],
+         "#"),
+        ("lkpd", "\U0001f4dd", "LKPD", "Lembar Kerja Peserta Didik untuk praktik lab.", total_lkpd,
+         [("X", grade_stats["x"]["lkpd"]), ("XI", grade_stats["xi"]["lkpd"]), ("XII", grade_stats["xii"]["lkpd"])],
          "#"),
     ]
 
@@ -1322,6 +1338,8 @@ def generate_index():
                 href = f"{slug}/index.html"
             elif key == "modul":
                 href = f"{slug}/modul_ajar/index.html"
+            elif key == "lkpd":
+                href = f"{slug}/LKPD/index.html"
             else:
                 href = f"{slug}/Materi/index.html"
             content.append(f'      <a href="{href}" class="cat-grade-btn cat-grade-btn-{gs}">{grade_lbl} \u2192</a>')
@@ -1473,6 +1491,10 @@ def generate_grade_index(grade_label, grade_path):
     if mt_dir.exists():
         mt_count = len(list(mt_dir.glob("*.md")))
         content.append(f'<a href="Materi/index.html" style="padding:0.8rem 1.25rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);text-decoration:none;font-weight:600;">\U0001f4da Materi ({mt_count} file)</a>')
+    lkpd_dir = grade_path / "LKPD"
+    if lkpd_dir.exists():
+        lkpd_count = len(list(lkpd_dir.glob("*.md")))
+        content.append(f'<a href="LKPD/index.html" style="padding:0.8rem 1.25rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);text-decoration:none;font-weight:600;">\U0001f4dd LKPD ({lkpd_count} file)</a>')
     content.append('</div>')
 
     breadcrumbs = [("Beranda", "../index.html"), (grade_label, None)]
@@ -1701,6 +1723,30 @@ def convert_all():
             (mt_out / "index.html").write_text(
                 generate_subsection_index(f"\U0001f4da Materi \u2014 {grade_label}", mt_files, grade_label, grade_path))
             print(f"  \u2713 Materi/index.html ({len(mt_files)} files)")
+
+        lkpd_dir = grade_path / "LKPD"
+        if lkpd_dir.exists():
+            lkpd_out = grade_out / "LKPD"
+            lkpd_out.mkdir(parents=True, exist_ok=True)
+            lkpd_files = sorted(lkpd_dir.glob("*.md"))
+            for f in lkpd_files:
+                try:
+                    text = strip_yaml_frontmatter(f.read_text(encoding="utf-8"))
+                    html_body = convert_md_to_html(text)
+                    breadcrumbs = [
+                        ("Beranda", "../../index.html"),
+                        (grade_label, "../index.html"),
+                        ("LKPD", "index.html"),
+                        (f.stem.replace("_", " "), None),
+                    ]
+                    page = render_page(html_body, f"{grade_label} \u2014 {f.stem}", breadcrumbs, depth=2)
+                    (lkpd_out / f"{f.stem}.html").write_text(page)
+                except Exception as e:
+                    print(f"  \u2717 LKPD/{f.name}: {e}")
+
+            (lkpd_out / "index.html").write_text(
+                generate_subsection_index(f"\U0001f4dd LKPD \u2014 {grade_label}", lkpd_files, grade_label, grade_path))
+            print(f"  \u2713 LKPD/index.html ({len(lkpd_files)} files)")
 
     total_html = len(list(OUT_DIR.rglob("*.html")))
     print(f"\n{'='*50}")

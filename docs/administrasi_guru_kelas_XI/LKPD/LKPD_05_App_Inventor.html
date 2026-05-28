@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XI (Fase F) — LKPD_05_App_Inventor — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XI (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 05 App Inventor</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-mit-app-inventor">LKPD - MIT App Inventor</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XI / Genap<br />
+<strong>Materi Pokok:</strong> Bab 5 - Aplikasi Mobile (MIT App Inventor: Desain UI dan Blok Logika)<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Mendesain antarmuka pengguna (UI) aplikasi Android sederhana di MIT App Inventor</li>
+<li>Menyusun blok logika untuk menjalankan fungsionalitas aplikasi</li>
+<li>Membuat aplikasi kuis interaktif dengan skor dan umpan balik</li>
+<li>Menguji aplikasi menggunakan AI Companion atau emulator</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ol>
+<li>Komputer/laptop dengan koneksi internet</li>
+<li>Browser web (Chrome/Firefox/Edge)</li>
+<li>Akun Google (untuk login ke MIT App Inventor)</li>
+<li>Smartphone Android (opsional, untuk pengujian dengan MIT AI2 Companion)</li>
+<li>Link: https://ai2.appinventor.mit.edu</li>
+</ol>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="langkah-1-persiapan-mit-app-inventor">Langkah 1: Persiapan MIT App Inventor</h3>
+<ol>
+<li>Buka browser, kunjungi https://ai2.appinventor.mit.edu</li>
+<li>Login dengan akun Google</li>
+<li>Klik <strong>Start New Project</strong></li>
+<li>Nama project: <code>KuisInformatikaXI</code></li>
+<li>Klik <strong>OK</strong></li>
+</ol>
+<h3 id="langkah-2-desain-ui-screen-layar">Langkah 2: Desain UI (Screen / Layar)</h3>
+<p><strong>Atur Properties Screen1:</strong><br />
+- Title: &ldquo;Kuis Informatika&rdquo;<br />
+- ScreenOrientation: Portrait<br />
+- BackgroundColor: pilih warna bebas (misal: Light Blue)</p>
+<p><strong>Tambahkan komponen berikut</strong> (dari Palette ke Viewer):</p>
+<p><strong>Palette &gt; User Interface:</strong><br />
+1. <strong>Label</strong> (<code>lblSoal</code>) - Text: &ldquo;Soal akan muncul di sini&rdquo; - FontSize: 18 - TextAlignment: center<br />
+2. <strong>Label</strong> (<code>lblNomor</code>) - Text: &ldquo;Soal 1/5&rdquo; - FontSize: 14 - TextColor: Gray<br />
+3. <strong>Label</strong> (<code>lblSkor</code>) - Text: &ldquo;Skor: 0&rdquo; - FontSize: 14 - TextColor: Dark green</p>
+<ol start="4">
+<li><strong>Button</strong> (<code>btnPilihanA</code>) - Text: &ldquo;Pilihan A&rdquo;</li>
+<li><strong>Button</strong> (<code>btnPilihanB</code>) - Text: &ldquo;Pilihan B&rdquo;</li>
+<li><strong>Button</strong> (<code>btnPilihanC</code>) - Text: &ldquo;Pilihan C&rdquo;</li>
+<li><strong>Button</strong> (<code>btnPilihanD</code>) - Text: &ldquo;Pilihan D&rdquo;</li>
+</ol>
+<p>Atur Width masing-masing button ke &ldquo;Fill parent&rdquo; dan Height ke 40px</p>
+<ol start="8">
+<li><strong>Label</strong> (<code>lblUmpanBalik</code>) - Text: &ldquo;&rdquo; - FontSize: 16 - TextAlignment: center</li>
+<li><strong>Button</strong> (<code>btnNext</code>) - Text: &ldquo;Soal Selanjutnya&rdquo; - Enabled: false</li>
+<li><strong>Button</strong> (<code>btnRestart</code>) - Text: &ldquo;Ulangi Kuis&rdquo; - Visible: false</li>
+</ol>
+<p><strong>Palette &gt; Layout:</strong><br />
+- <strong>HorizontalArrangement</strong> (untuk lblNomor dan lblSkor sebaris)<br />
+   - Masukkan lblNomor dan lblSkor ke dalamnya</p>
+<h3 id="langkah-3-blok-logika-variabel-global">Langkah 3: Blok Logika - Variabel Global</h3>
+<p>Beralih ke tab <strong>Blocks</strong>.</p>
+<p>Buat variabel global:<br />
+1. Klik <strong>Variables</strong> → <strong>initialize global name</strong> → ganti <code>name</code> jadi <code>soalList</code><br />
+2. Klik <strong>Variables</strong> → <strong>initialize global name</strong> → ganti jadi <code>indexSoal</code><br />
+3. Klik <strong>Variables</strong> → <strong>initialize global name</strong> → ganti jadi <code>skor</code><br />
+4. Klik <strong>Variables</strong> → <strong>initialize global name</strong> → ganti jadi <code>jawabanBenar</code></p>
+<p><strong>Isi variabel global:</strong></p>
+<p>Klik <code>initialize global soalList</code>:</p>
+<pre><code class="language-blocks">initialize global soalList as
+create empty list
+</code></pre>
+<p>Klik kanan pada block → <strong>Show as Blocks</strong>. Gambaran isi list (dibuat dengan blok):</p>
+<pre><code>( list &quot;
+  &quot;Apa kepanjangan CPU?&quot;, &quot;Central Processing Unit&quot;,
+  &quot;Central Program Unit&quot;, &quot;Computer Personal Unit&quot;,
+  &quot;Central Power Unit&quot;, &quot;Central Processing Unit&quot;
+)
+</code></pre>
+<p>(Untuk memudahkan, buat list dengan 5 soal seperti tabel di bawah)</p>
+<h3 id="langkah-4-blok-prosedur-inisialisasi">Langkah 4: Blok Prosedur Inisialisasi</h3>
+<p>Buat prosedur <code>inisialisasiKuis</code>:</p>
+<p><strong>Prosedures</strong> → <strong>to procedure</strong> → beri nama <code>inisialisasiKuis</code></p>
+<p>Isi prosedur:</p>
+<pre><code class="language-blocks">set global soalList to:
+( list
+  &quot;Apa kepanjangan CPU?&quot;
+  &quot;Central Processing Unit&quot;
+  &quot;Central Program Unit&quot;
+  &quot;Computer Personal Unit&quot;
+  &quot;Central Power Unit&quot;
+  &quot;Central Processing Unit&quot;
+  ---
+  &quot;Manakah yang termasuk perangkat input?&quot;
+  &quot;Monitor&quot;
+  &quot;Keyboard&quot;
+  &quot;Printer&quot;
+  &quot;Speaker&quot;
+  &quot;Keyboard&quot;
+  ---
+  &quot;Apa fungsi RAM pada komputer?&quot;
+  &quot;Menyimpan data permanen&quot;
+  &quot;Menyimpan data sementara&quot;
+  &quot;Memproses grafik&quot;
+  &quot;Menampilkan gambar&quot;
+  &quot;Menyimpan data sementara&quot;
+  ---
+  &quot;Apa singkatan dari HTTP?&quot;
+  &quot;HyperText Transfer Protocol&quot;
+  &quot;High Tech Transfer Protocol&quot;
+  &quot;HyperText Transmission Process&quot;
+  &quot;Home Tool Transfer Protocol&quot;
+  &quot;HyperText Transfer Protocol&quot;
+  ---
+  &quot;Bahasa pemrograman yang sering digunakan untuk AI adalah...&quot;
+  &quot;HTML&quot;
+  &quot;Java&quot;
+  &quot;Python&quot;
+  &quot;CSS&quot;
+  &quot;Python&quot;
+)
+</code></pre>
+<p>Setelah itu buat prosedur <code>tampilSoal</code> yang mengambil soal dari list berdasarkan index.</p>
+<h3 id="langkah-5-blok-screeninitialize">Langkah 5: Blok Screen.Initialize</h3>
+<pre><code class="language-blocks">when Screen1.Initialize
+do
+  call inisialisasiKuis
+  set global indexSoal to 1
+  set global skor to 0
+  call tampilSoal
+</code></pre>
+<h3 id="langkah-6-blok-prosedur-tampilsoal">Langkah 6: Blok Prosedur tampilSoal</h3>
+<pre><code class="language-blocks">when Screen1.Initialize
+do
+  call inisialisasiKuis
+  set global indexSoal to 0
+  set global skor to 0
+  update display
+</code></pre>
+<p>Buat prosedur <code>updateDisplay</code>:</p>
+<pre><code class="language-blocks">to procedure updateDisplay
+  set lblNomor.Text to join &quot;Soal &quot; (global indexSoal + 1) &quot;/5&quot;
+  set lblSoal.Text to select list item
+    list: global soalList
+    index: (global indexSoal * 6) + 1
+  set btnPilihanA.Text to select list item
+    list: global soalList
+    index: (global indexSoal * 6) + 2
+  set btnPilihanB.Text to select list item
+    list: global soalList
+    index: (global indexSoal * 6) + 3
+  set btnPilihanC.Text to select list item
+    list: global soalList
+    index: (global indexSoal * 6) + 4
+  set btnPilihanD.Text to select list item
+    list: global soalList
+    index: (global indexSoal * 6) + 5
+  set global jawabanBenar to select list item
+    list: global soalList
+    index: (global indexSoal * 6) + 6
+  set lblUmpanBalik.Text to &quot;&quot;
+  set btnNext.Enabled to false
+</code></pre>
+<h3 id="langkah-7-blok-pilihan-jawaban">Langkah 7: Blok Pilihan Jawaban</h3>
+<p>Buat blok untuk setiap tombol pilihan (A, B, C, D). Contoh untuk btnPilihanA:</p>
+<pre><code class="language-blocks">when btnPilihanA.Click
+do
+  if call (btnPilihanA.Text) = (global jawabanBenar)
+  then
+    set lblUmpanBalik.Text to &quot;✅ Benar!&quot;
+    set lblUmpanBalik.TextColor to GREEN
+    set global skor to (global skor + 20)
+    set lblSkor.Text to join &quot;Skor: &quot; (global skor)
+  else
+    set lblUmpanBalik.Text to &quot;❌ Salah! Jawaban: &quot; (global jawabanBenar)
+    set lblUmpanBalik.TextColor to RED
+  set btnNext.Enabled to true
+</code></pre>
+<blockquote>
+<p><strong>Catatan Buat Guru/Siswa:</strong> Buat blok serupa untuk btnPilihanB, btnPilihanC, dan btnPilihanD dengan mengganti <code>btnPilihanA.Text</code> sesuai tombol masing-masing.</p>
+</blockquote>
+<h3 id="langkah-8-blok-tombol-soal-selanjutnya">Langkah 8: Blok Tombol Soal Selanjutnya</h3>
+<pre><code class="language-blocks">when btnNext.Click
+do
+  if (global indexSoal) &lt; 4
+  then
+    set global indexSoal to (global indexSoal + 1)
+    call updateDisplay
+  else
+    set lblSoal.Text to join &quot;Kuis selesai! Skor kamu: &quot; (global skor)
+    set btnPilihanA.Visible to false
+    set btnPilihanB.Visible to false
+    set btnPilihanC.Visible to false
+    set btnPilihanD.Visible to false
+    set btnNext.Visible to false
+    set btnRestart.Visible to true
+</code></pre>
+<h3 id="langkah-9-blok-tombol-ulangi-kuis">Langkah 9: Blok Tombol Ulangi Kuis</h3>
+<pre><code class="language-blocks">when btnRestart.Click
+do
+  set global indexSoal to 0
+  set global skor to 0
+  set btnPilihanA.Visible to true
+  set btnPilihanB.Visible to true
+  set btnPilihanC.Visible to true
+  set btnPilihanD.Visible to true
+  set btnNext.Visible to true
+  set btnNext.Enabled to false
+  set btnRestart.Visible to false
+  call updateDisplay
+</code></pre>
+<h3 id="langkah-10-uji-coba-aplikasi">Langkah 10: Uji Coba Aplikasi</h3>
+<ol>
+<li>Klik <strong>Connect &gt; AI Companion</strong></li>
+<li>Di smartphone, buka aplikasi <strong>MIT AI2 Companion</strong> (install dari Play Store)</li>
+<li>Scan QR code yang muncul</li>
+<li>Uji coba aplikasi:<br />
+   - Jawab setiap soal<br />
+   - Perhatikan perubahan skor<br />
+   - Klik &ldquo;Soal Selanjutnya&rdquo;<br />
+   - Setelah selesai, klik &ldquo;Ulangi Kuis&rdquo;</li>
+</ol>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Soal</th>
+<th>Jawaban Kamu</th>
+<th>Benar/Salah</th>
+<th>Skor Akumulasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Apa kepanjangan CPU?</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Manakah yang termasuk perangkat input?</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Apa fungsi RAM pada komputer?</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Apa singkatan dari HTTP?</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Bahasa pemrograman AI?</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total Skor Akhir</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Jelaskan fungsi dari variabel global <code>soalList</code>, <code>indexSoal</code>, <code>skor</code>, dan <code>jawabanBenar</code>.</li>
+<li>Mengapa struktur data list digunakan untuk menyimpan soal dan jawaban? Apa alternatif lain?</li>
+<li>Bagaimana cara kerja blok percabangan (if/else) saat mengecek jawaban? Jelaskan alurnya.</li>
+<li>Apa yang terjadi jika pemain tidak memilih jawaban dan langsung mengklik &ldquo;Soal Selanjutnya&rdquo;? Bagaimana cara mencegahnya?</li>
+<li>Buatlah saran pengembangan: fitur apa yang bisa ditambahkan agar aplikasi kuis ini lebih menarik?</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Tuliskan kesimpulan dari praktikum ini minimal 3 poin.</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Desain UI sesuai ketentuan</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Variabel dan list tersusun benar</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Blok logika berfungsi</td>
+<td>25%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Aplikasi berjalan di pengujian</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Jawaban diskusi</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

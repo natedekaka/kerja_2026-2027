@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XI (Fase F) — LKPD_03_Python_Fungsi_Rekursi — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XI (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 03 Python Fungsi Rekursi</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-python-fungsi-dan-rekursi">LKPD - Python Fungsi dan Rekursi</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XI / Ganjil<br />
+<strong>Materi Pokok:</strong> Bab 2 - Fungsi, Rekursi (Faktorial, Fibonacci), dan Algoritma Greedy (Pecahan Uang)<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Mendefinisikan dan memanggil fungsi dalam Python</li>
+<li>Menerapkan fungsi rekursif untuk faktorial dan fibonacci</li>
+<li>Mengimplementasikan algoritma greedy untuk masalah pecahan uang</li>
+<li>Membedakan fungsi iteratif dan rekursif</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ol>
+<li>Komputer/laptop dengan Python 3.x</li>
+<li>Teks editor / IDE Python</li>
+<li>Google Colab (alternatif)</li>
+</ol>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="langkah-1-dasar-fungsi">Langkah 1: Dasar Fungsi</h3>
+<p>Buat file <code>fungsi_dasar.py</code>:</p>
+<pre><code class="language-python"># Fungsi tanpa parameter
+def sapa():
+    print(&quot;Halo! Selamat belajar fungsi Python.&quot;)
+
+def garis():
+    print(&quot;=&quot; * 40)
+
+# Fungsi dengan parameter
+def sapa_orang(nama):
+    print(f&quot;Halo, {nama}! Selamat datang.&quot;)
+
+# Fungsi dengan return value
+def luas_persegi(sisi):
+    return sisi * sisi
+
+# Main program
+garis()
+sapa()
+garis()
+sapa_orang(&quot;Alex&quot;)
+sapa_orang(&quot;Budi&quot;)
+
+luas = luas_persegi(5)
+print(f&quot;Luas persegi (sisi=5) = {luas}&quot;)
+</code></pre>
+<h3 id="langkah-2-fungsi-dengan-multiple-parameter">Langkah 2: Fungsi dengan Multiple Parameter</h3>
+<p>Buat file <code>fungsi_lanjut.py</code>:</p>
+<pre><code class="language-python"># Fungsi dengan banyak parameter
+def hitung_luas(panjang, lebar):
+    return panjang * lebar
+
+def hitung_volume(p, l, t):
+    return p * l * t
+
+def info_balok(p, l, t):
+    luas = hitung_luas(p, l)
+    volume = hitung_volume(p, l, t)
+    print(f&quot;Panjang: {p}, Lebar: {l}, Tinggi: {t}&quot;)
+    print(f&quot;Luas Alas: {luas}&quot;)
+    print(f&quot;Volume: {volume}&quot;)
+
+# Main
+info_balok(10, 5, 3)
+print()
+
+# Fungsi dengan default parameter
+def pangkat(bilangan, eksponen=2):
+    return bilangan ** eksponen
+
+print(f&quot;3^2 = {pangkat(3)}&quot;)
+print(f&quot;3^4 = {pangkat(3, 4)}&quot;)
+</code></pre>
+<h3 id="langkah-3-fungsi-rekursif-faktorial">Langkah 3: Fungsi Rekursif - Faktorial</h3>
+<p>Buat file <code>faktorial.py</code>:</p>
+<pre><code class="language-python"># Faktorial secara iteratif
+def faktorial_iteratif(n):
+    hasil = 1
+    for i in range(1, n + 1):
+        hasil *= i
+    return hasil
+
+# Faktorial secara rekursif
+def faktorial_rekursif(n):
+    if n &lt;= 1:          # base case
+        return 1
+    else:               # recursive case
+        return n * faktorial_rekursif(n - 1)
+
+# Demo
+print(&quot;Faktorial dengan iterasi:&quot;)
+for i in range(0, 8):
+    print(f&quot;{i}! = {faktorial_iteratif(i)}&quot;)
+
+print(&quot;\nFaktorial dengan rekursi:&quot;)
+for i in range(0, 8):
+    print(f&quot;{i}! = {faktorial_rekursif(i)}&quot;)
+
+print(f&quot;\n5! = {faktorial_rekursif(5)}&quot;)
+# Visualisasi: faktorial_rekursif(5)
+# = 5 * faktorial_rekursif(4)
+# = 5 * 4 * faktorial_rekursif(3)
+# = 5 * 4 * 3 * faktorial_rekursif(2)
+# = 5 * 4 * 3 * 2 * faktorial_rekursif(1)
+# = 5 * 4 * 3 * 2 * 1 = 120
+</code></pre>
+<h3 id="langkah-4-fungsi-rekursif-fibonacci">Langkah 4: Fungsi Rekursif - Fibonacci</h3>
+<p>Buat file <code>fibonacci.py</code>:</p>
+<pre><code class="language-python"># Fibonacci secara rekursif
+def fibonacci(n):
+    if n &lt;= 1:          # base case: F(0)=0, F(1)=1
+        return n
+    else:               # recursive case: F(n) = F(n-1) + F(n-2)
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+# Cetak deret Fibonacci
+print(&quot;Deret Fibonacci:&quot;)
+n = int(input(&quot;Masukkan jumlah suku: &quot;))
+print(&quot;Rekursif:&quot;)
+for i in range(n):
+    print(f&quot;F({i}) = {fibonacci(i)}&quot;)
+</code></pre>
+<h3 id="langkah-5-algoritma-greedy-pecahan-uang">Langkah 5: Algoritma Greedy - Pecahan Uang</h3>
+<p>Buat file <code>pecahan_uang.py</code>:</p>
+<pre><code class="language-python"># Algoritma Greedy untuk Pecahan Uang
+def tukar_uang(jumlah, pecahan):
+    &quot;&quot;&quot;
+    Mencari kombinasi pecahan uang dengan jumlah koin minimal (greedy).
+    pecahan: list pecahan yang tersedia (urut menurun)
+    &quot;&quot;&quot;
+    sisa = jumlah
+    hasil = {}  # dictionary untuk menyimpan hasil
+
+    for p in pecahan:
+        if sisa &gt;= p:
+            count = sisa // p         # berapa banyak pecahan p
+            sisa = sisa % p           # sisa setelah diambil
+            hasil[p] = count          # simpan ke dictionary
+            print(f&quot;Rp{p}: {count} keping/lembar&quot;)
+
+    return hasil
+
+# Pecahan uang Rupiah (urut dari terbesar)
+pecahan = [100000, 50000, 20000, 10000, 5000, 2000, 1000, 500, 200, 100]
+
+print(&quot;=== Algoritma Greedy: Penukaran Uang ===&quot;)
+jumlah = int(input(&quot;Masukkan jumlah uang: Rp&quot;))
+print(f&quot;\nMenukar Rp{jumlah:,} dengan pecahan terkecil:&quot;)
+hasil = tukar_uang(jumlah, pecahan)
+</code></pre>
+<h3 id="langkah-6-program-lengkap-kombinasi-fungsi">Langkah 6: Program Lengkap - Kombinasi Fungsi</h3>
+<p>Buat file <code>program_lengkap.py</code> dan lengkapi bagian yang kosong:</p>
+<pre><code class="language-python"># === PROGRAM FUNGSI LENGKAP ===
+
+def tampil_menu():
+    print(&quot;\n=== MENU FUNGSI ===&quot;)
+    print(&quot;1. Faktorial&quot;)
+    print(&quot;2. Fibonacci&quot;)
+    print(&quot;3. Tukar Pecahan Uang&quot;)
+    print(&quot;4. Keluar&quot;)
+
+def hitung_faktorial():
+    # TODO: buat fungsi faktorial (rekursif)
+    n = int(input(&quot;Masukkan angka: &quot;))
+    hasil = 1
+    for i in range(1, n + 1):
+        hasil *= i
+    print(f&quot;{n}! = {hasil}&quot;)
+
+def cetak_fibonacci():
+    # TODO: buat fungsi cetak fibonacci
+    n = int(input(&quot;Masukkan jumlah suku: &quot;))
+    a, b = 0, 1
+    for i in range(n):
+        print(a, end=&quot; &quot;)
+        a, b = b, a + b
+    print()
+
+def tukar_uang():
+    # TODO: buat fungsi tukar uang greedy
+    pecahan = [100000, 50000, 20000, 10000, 5000, 2000, 1000]
+    jumlah = int(input(&quot;Masukkan jumlah uang: Rp&quot;))
+    sisa = jumlah
+    for p in pecahan:
+        if sisa &gt;= p:
+            count = sisa // p
+            sisa = sisa % p
+            print(f&quot;Rp{p} x {count}&quot;)
+
+# Main program
+while True:
+    tampil_menu()
+    pilih = int(input(&quot;Pilih menu: &quot;))
+    if pilih == 1:
+        hitung_faktorial()
+    elif pilih == 2:
+        cetak_fibonacci()
+    elif pilih == 3:
+        tukar_uang()
+    elif pilih == 4:
+        print(&quot;Program selesai.&quot;)
+        break
+</code></pre>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Program</th>
+<th>Input</th>
+<th>Output</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>fungsi_dasar.py</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>faktorial.py</td>
+<td>n=6</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>fibonacci.py</td>
+<td>n=8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>pecahan_uang.py</td>
+<td>Rp175.000</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>program_lengkap.py</td>
+<td>pilih 1, n=5</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Apa perbedaan fungsi iteratif dan rekursif? Sebutkan kelebihan dan kekurangan masing-masing.</li>
+<li>Pada fungsi faktorial rekursif, apa yang dimaksud <em>base case</em> dan <em>recursive case</em>? Apa yang terjadi jika tidak ada base case?</li>
+<li>Mengapa algoritma greedy pada pecahan uang menggunakan pecahan yang diurutkan dari terbesar ke terkecil? Apakah selalu menghasilkan solusi optimal? Jelaskan.</li>
+<li>Buatlah visualisasi/dekomposisi pemanggilan <code>fibonacci(5)</code> secara rekursif (pohon rekursi).</li>
+<li>Buatlah fungsi rekursif untuk menghitung pangkat: <code>pangkat(bil, eks)</code> yang mengembalikan <code>bil</code> pangkat <code>eks</code>.</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Tuliskan kesimpulan dari praktikum ini minimal 3 poin.</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fungsi dasar dan parameter</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Fungsi rekursif faktorial</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Fungsi rekursif fibonacci</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Algoritma greedy pecahan uang</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Jawaban diskusi dan analisis</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kesimpulan</td>
+<td>10%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

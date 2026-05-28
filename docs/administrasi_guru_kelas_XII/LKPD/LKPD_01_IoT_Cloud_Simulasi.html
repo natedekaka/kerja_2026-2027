@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XII (Fase F) — LKPD_01_IoT_Cloud_Simulasi — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XII (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 01 IoT Cloud Simulasi</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-simulasi-iot-dan-cloud-platform">LKPD - Simulasi IoT dan Cloud Platform</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XII / Ganjil<br />
+<strong>Materi Pokok:</strong> Bab 1 – Internet of Things (IoT) &amp; Cloud Platform<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Peserta didik mampu menjelaskan arsitektur IoT (device, gateway, cloud, aplikasi).</li>
+<li>Peserta didik mampu menggunakan simulator IoT (Wokwi) untuk merancang sistem sederhana.</li>
+<li>Peserta didik mampu menghubungkan sensor virtual ke platform cloud (ThingSpeak / Blynk).</li>
+<li>Peserta didik mampu membaca data dari cloud dashboard.</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ul>
+<li>PC/Laptop dengan koneksi internet</li>
+<li>Browser web (Chrome/Firefox/Edge)</li>
+<li>Akun Wokwi (https://wokwi.com) — gratis</li>
+<li>Akun ThingSpeak (https://thingspeak.com) — gratis</li>
+<li>Akun Blynk (https://blynk.io) — opsional</li>
+</ul>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="bagian-1-eksplorasi-arsitektur-iot-15-menit">Bagian 1: Eksplorasi Arsitektur IoT (15 menit)</h3>
+<ol>
+<li>Buka browser dan kunjungi https://wokwi.com</li>
+<li>Pilih menu <strong>Examples &gt; Arduino Uno</strong></li>
+<li>Amati komponen-komponen berikut:<br />
+   - <strong>Device Layer</strong>: Mikrokontroler (Arduino Uno), sensor, aktuator<br />
+   - <strong>Gateway/Network</strong>: WiFi (pada ESP32/ESP8266)<br />
+   - <strong>Cloud/Platform</strong>: ThingSpeak / Blynk<br />
+   - <strong>Application Layer</strong>: Dashboard monitoring</li>
+<li>Gambarlah diagram arsitektur IoT di buku catatan dengan format:</li>
+</ol>
+<pre><code>+------------------+       +-----------+       +-------------+       +--------------+
+|  Device Layer    |       | Gateway   |       | Cloud       |       | Application  |
+| (Sensor + MCU)   | ----&gt; | (WiFi)    | ----&gt; | Platform    | ----&gt; | (Dashboard)  |
+| Arduino/ESP32    |       | ESP8266   |       | ThingSpeak  |       | Web/Mobile   |
++------------------+       +-----------+       +-------------+       +--------------+
+</code></pre>
+<h3 id="bagian-2-simulasi-rangkaian-iot-dengan-wokwi-60-menit">Bagian 2: Simulasi Rangkaian IoT dengan Wokwi (60 menit)</h3>
+<ol>
+<li>Buka https://wokwi.com/projects/new/arduino-uno</li>
+<li>Hapus kode default, salin kode berikut:</li>
+</ol>
+<pre><code class="language-c">void setup() {
+  Serial.begin(9600);
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  int sensorValue = analogRead(A0);
+  float voltage = sensorValue * (5.0 / 1023.0);
+
+  Serial.print(&quot;Sensor Value: &quot;);
+  Serial.print(sensorValue);
+  Serial.print(&quot; | Voltage: &quot;);
+  Serial.println(voltage);
+
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(500);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(500);
+}
+</code></pre>
+<ol start="3">
+<li>Klik <strong>Start Simulation</strong> dan amati Serial Monitor.</li>
+<li>Tambahkan komponen <strong>Potentiometer</strong> dari panel komponen:<br />
+   - Hubungkan pin tengah potentiometer ke A0<br />
+   - Hubungkan pin kiri ke GND, pin kanan ke 5V</li>
+<li>Putar slider potentiometer dan amati perubahan nilai di Serial Monitor.</li>
+<li>Catat 5 sampel data ke tabel pengamatan.</li>
+</ol>
+<h3 id="bagian-3-koneksi-ke-cloud-thingspeak-60-menit">Bagian 3: Koneksi ke Cloud ThingSpeak (60 menit)</h3>
+<ol>
+<li>Buka https://thingspeak.com dan login/daftar akun.</li>
+<li>Klik <strong>New Channel</strong>, isi:<br />
+   - Name: <code>LKPD IoT - [Nama]</code><br />
+   - Field 1: <code>Sensor Voltage</code><br />
+   - Field 2: <code>Sensor Value</code><br />
+   - Simpan dan catat <strong>Write API Key</strong>.</li>
+<li>Buka project Wokwi baru → pilih <strong>ESP32 Dev Module</strong> (bukan Arduino Uno).</li>
+<li>Salin kode berikut dan ganti <code>YOUR_API_KEY</code> dengan kunci ThingSpeak:</li>
+</ol>
+<pre><code class="language-c">#include &lt;WiFi.h&gt;
+#include &lt;HTTPClient.h&gt;
+
+const char* ssid = &quot;Wokwi-GUEST&quot;;
+const char* password = &quot;&quot;;
+const char* server = &quot;http://api.thingspeak.com/update&quot;;
+const char* apiKey = &quot;YOUR_API_KEY&quot;;
+
+void setup() {
+  Serial.begin(115200);
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(&quot;.&quot;);
+  }
+  Serial.println(&quot;\nWiFi Connected!&quot;);
+}
+
+void loop() {
+  int sensorValue = analogRead(34);
+  float voltage = sensorValue * (3.3 / 4095.0);
+
+  HTTPClient http;
+  String url = String(server) + &quot;?api_key=&quot; + apiKey
+               + &quot;&amp;field1=&quot; + String(voltage, 2)
+               + &quot;&amp;field2=&quot; + String(sensorValue);
+
+  http.begin(url);
+  int httpCode = http.GET();
+
+  if (httpCode == 200) {
+    Serial.println(&quot;Data sent to ThingSpeak!&quot;);
+  } else {
+    Serial.print(&quot;Failed, code: &quot;);
+    Serial.println(httpCode);
+  }
+
+  http.end();
+  delay(15000);
+}
+</code></pre>
+<ol start="5">
+<li>Jalankan simulasi. Jika berhasil, data akan muncul di ThingSpeak Channel.</li>
+<li>Buka tab <strong>Private View</strong> di ThingSpeak untuk melihat grafik.</li>
+</ol>
+<h3 id="bagian-4-eksplorasi-dashboard-cloud-45-menit">Bagian 4: Eksplorasi Dashboard Cloud (45 menit)</h3>
+<ol>
+<li>Di ThingSpeak, klik <strong>Add Visualizations &gt; Chart</strong>.</li>
+<li>Buat 2 widget:<br />
+   - Widget 1: Line Chart untuk Field 1 (Voltage)<br />
+   - Widget 2: Gauge untuk Field 2 (Sensor Value)</li>
+<li>Klik <strong>Save</strong> dan presentasikan dashboard ke guru.</li>
+</ol>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Sensor Value (ADC)</th>
+<th>Voltage (V)</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Jelaskan perbedaan peran device layer, gateway, dan cloud platform dalam arsitektur IoT!</li>
+<li>Apa pengaruh perubahan nilai potensiometer terhadap data yang dikirim ke ThingSpeak?</li>
+<li>Jika koneksi WiFi terputus, apa yang terjadi pada data sensor? Bagaimana cara mengatasinya?</li>
+<li>Bandingkan penggunaan Wokwi (simulator) dengan perangkat asli. Sebutkan kelebihan dan kekurangan masing-masing!</li>
+<li>Bagaimana cara ThingSpeak menyimpan dan menampilkan data secara real-time?</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Buatlah kesimpulan minimal 3 paragraf yang mencakup:<br />
+- Prinsip kerja arsitektur IoT<br />
+- Pengalaman menggunakan simulator Wokwi<br />
+- Pengalaman menghubungkan perangkat ke cloud platform</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ketepatan diagram arsitektur IoT</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kode program (struktur, komentar)</td>
+<td>25%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Hasil simulasi dan data pengamatan</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dashboard cloud</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Analisis dan kesimpulan</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XII (Fase F) — LKPD_07_Proyek_IoT — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XII (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 07 Proyek IoT</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-proyek-iot-smart-monitor-atau-otomasi-relay">LKPD - Proyek IoT: Smart Monitor atau Otomasi Relay</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XII / Genap<br />
+<strong>Materi Pokok:</strong> Bab 6 – Proyek IoT – Smart Monitor &amp; Otomasi<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Peserta didik mampu merencanakan proyek IoT sederhana secara mandiri.</li>
+<li>Peserta didik mampu merakit rangkaian DHT11 + LCD atau relay otomasi.</li>
+<li>Peserta didik mampu memprogram Arduino/ESP32 untuk membaca sensor dan mengontrol aktuator.</li>
+<li>Peserta didik mampu menguji dan memvalidasi sistem yang dibuat.</li>
+<li>Peserta didik mampu membuat laporan proyek yang sistematis.</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<h3 id="opsi-a-smart-monitor-dht11-lcd">Opsi A: Smart Monitor (DHT11 + LCD)</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Komponen</th>
+<th>Jumlah</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Arduino Uno / ESP32</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sensor DHT11</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>LCD 16×2 + I2C</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Breadboard</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Kabel jumper</td>
+<td>secukupnya</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Kabel USB</td>
+<td>1</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="opsi-b-otomasi-relay">Opsi B: Otomasi Relay</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Komponen</th>
+<th>Jumlah</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Arduino Uno / ESP32</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Modul Relay 1/2 channel</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Lampu DC / LED 12V</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Push button</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sensor LDR (opsional)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Breadboard</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Kabel jumper &amp; power supply</td>
+<td>secukupnya</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="bagian-1-perencanaan-proyek-30-menit">Bagian 1: Perencanaan Proyek (30 menit)</h3>
+<ol>
+<li>Pilih salah satu opsi proyek (A atau B).</li>
+<li>Buatlah perencanaan dengan format:</li>
+</ol>
+<pre><code>Nama Proyek     : 
+Tujuan          : 
+Komponen        : 
+Cara Kerja      : 
+Diagram Blok    : (gambar manual / digital)
+</code></pre>
+<h3 id="bagian-2a-smart-monitor-dht11-lcd-120-menit">Bagian 2A: Smart Monitor (DHT11 + LCD) — 120 menit</h3>
+<p><strong>Diagram Rangkaian:</strong></p>
+<pre><code>DHT11:
+  Pin 1 (VCC)  → +5V
+  Pin 2 (DATA) → Pin 7
+  Pin 4 (GND)  → GND
+
+LCD I2C:
+  VCC → +5V
+  GND → GND
+  SDA → A4 (Uno) / Pin 21 (ESP32)
+  SCL → A5 (Uno) / Pin 22 (ESP32)
+</code></pre>
+<p><strong>Diagram Breadboard:</strong></p>
+<pre><code>      +--------------------------------------+
+      |                                      |
+      |  Arduino Uno                         |
+      |                                      |
+      |  +5V  ---- DHT11(VCC) ---- LCD(VCC) |
+      |  GND  ---- DHT11(GND) ---- LCD(GND) |
+      |  Pin 7 ---- DHT11(DATA)             |
+      |  A4    ---- LCD(SDA)                |
+      |  A5    ---- LCD(SCL)                |
+      +--------------------------------------+
+
+      [DHT11]
+      +----+
+      |    |  (depan / grill)
+      | 1234|  1=VCC  2=DATA  3=NC  4=GND
+      +----+
+</code></pre>
+<p><strong>Kode Program:</strong></p>
+<pre><code class="language-c">#include &lt;DHT.h&gt;
+#include &lt;LiquidCrystal_I2C.h&gt;
+
+#define DHTPIN 7
+#define DHTTYPE DHT11
+
+DHT dht(DHTPIN, DHTTYPE);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+void setup() {
+  Serial.begin(9600);
+  dht.begin();
+
+  lcd.init();
+  lcd.backlight();
+  lcd.setCursor(0, 0);
+  lcd.print(&quot;Smart Monitor&quot;);
+  delay(2000);
+  lcd.clear();
+}
+
+void loop() {
+  float suhu = dht.readTemperature();
+  float kelembaban = dht.readHumidity();
+
+  if (isnan(suhu) || isnan(kelembaban)) {
+    Serial.println(&quot;Gagal membaca DHT11!&quot;);
+    lcd.setCursor(0, 0);
+    lcd.print(&quot;Sensor Error!&quot;);
+    delay(1000);
+    return;
+  }
+
+  // Tampilkan di Serial Monitor
+  Serial.print(&quot;Suhu: &quot;);
+  Serial.print(suhu);
+  Serial.print(&quot; C | Kelembaban: &quot;);
+  Serial.print(kelembaban);
+  Serial.println(&quot;%&quot;);
+
+  // Tampilkan di LCD
+  lcd.setCursor(0, 0);
+  lcd.print(&quot;Suhu: &quot;);
+  lcd.print(suhu, 1);
+  lcd.print(&quot;C&quot;);
+
+  lcd.setCursor(0, 1);
+  lcd.print(&quot;RH:   &quot;);
+  lcd.print(kelembaban, 1);
+  lcd.print(&quot;%&quot;);
+
+  delay(2000);
+}
+</code></pre>
+<p><strong>Catatan:</strong> Jika LCD I2C tidak muncul, coba alamat <code>0x3F</code> atau <code>0x27</code>. Jalankan I2C Scanner jika perlu.</p>
+<h3 id="bagian-2b-otomasi-relay-120-menit">Bagian 2B: Otomasi Relay — 120 menit</h3>
+<p><strong>Diagram Rangkaian:</strong></p>
+<pre><code>Relay:
+  VCC → +5V
+  GND → GND
+  IN1 → Pin 8
+  IN2 → Pin 9 (jika relay 2 ch)
+
+LED/Lampu:
+  COM (Relay) → +5V
+  NO (Relay)  → (+) LED/Lampu
+  GND         → (-) LED/Lampu
+
+Button:
+  Pin 2 (button1) → +5V (dengan pull-down 10k)
+  Pin 3 (button2) → +5V (dengan pull-down 10k)
+</code></pre>
+<p><strong>Diagram Breadboard:</strong></p>
+<pre><code>      +--------------------------------------+
+      |                                      |
+      |  Arduino Uno                         |
+      |                                      |
+      |  +5V  ---- Relay(VCC) ---- Button   |
+      |  GND  ---- Relay(GND) ---- LED(-)   |
+      |  Pin 8 ---- Relay(IN1)              |
+      |  Pin 2 ---- Button1 (via 10k ke GND)|
+      |  Pin 3 ---- Button2 (via 10k ke GND)|
+      +--------------------------------------+
+
+      [Relay Module]
+      +-------------+
+      | VCC GND IN1 |
+      | COM NO NC   |
+      +-------------+
+      COM = Common, NO = Normally Open, NC = Normally Closed
+</code></pre>
+<p><strong>Kode Program:</strong></p>
+<pre><code class="language-c">#define RELAY1 8
+#define RELAY2 9
+#define BUTTON1 2
+#define BUTTON2 3
+
+bool relay1State = false;
+bool relay2State = false;
+int lastButton1 = LOW;
+int lastButton2 = LOW;
+
+void setup() {
+  pinMode(RELAY1, OUTPUT);
+  pinMode(RELAY2, OUTPUT);
+  pinMode(BUTTON1, INPUT);
+  pinMode(BUTTON2, INPUT);
+
+  digitalWrite(RELAY1, LOW);
+  digitalWrite(RELAY2, LOW);
+
+  Serial.begin(9600);
+  Serial.println(&quot;Sistem Otomasi Relay Siap&quot;);
+}
+
+void loop() {
+  int btn1 = digitalRead(BUTTON1);
+  int btn2 = digitalRead(BUTTON2);
+
+  // Button 1: toggle relay 1
+  if (btn1 == HIGH &amp;&amp; lastButton1 == LOW) {
+    relay1State = !relay1State;
+    digitalWrite(RELAY1, relay1State);
+    Serial.print(&quot;Relay 1: &quot;);
+    Serial.println(relay1State ? &quot;ON&quot; : &quot;OFF&quot;);
+    delay(50);
+  }
+
+  // Button 2: toggle relay 2
+  if (btn2 == HIGH &amp;&amp; lastButton2 == LOW) {
+    relay2State = !relay2State;
+    digitalWrite(RELAY2, relay2State);
+    Serial.print(&quot;Relay 2: &quot;);
+    Serial.println(relay2State ? &quot;ON&quot; : &quot;OFF&quot;);
+    delay(50);
+  }
+
+  // Otomasi suhu: jika menggunakan DHT11, relay 1 ON saat suhu &gt; 30°C
+  // (modifikasi sesuai komponen yang ada)
+
+  lastButton1 = btn1;
+  lastButton2 = btn2;
+  delay(10);
+}
+</code></pre>
+<h3 id="bagian-3-pengujian-sistem-30-menit">Bagian 3: Pengujian Sistem (30 menit)</h3>
+<ol>
+<li>Upload program ke Arduino/ESP32.</li>
+<li>Uji setiap fitur:<br />
+   - <strong>Opsi A:</strong> Apakah suhu dan kelembaban terbaca di LCD dan Serial Monitor?<br />
+   - <strong>Opsi B:</strong> Apakah relay menyala/mati saat tombol ditekan?</li>
+<li>Jika ada error, lakukan debugging:<br />
+   - Periksa koneksi kabel<br />
+   - Periksa alamat I2C (untuk LCD)<br />
+   - Baca pesan error di Serial Monitor<br />
+   - Periksa library yang digunakan (install jika belum)</li>
+</ol>
+<h3 id="bagian-4-dokumentasi-dan-laporan-60-menit">Bagian 4: Dokumentasi dan Laporan (60 menit)</h3>
+<p>Buat laporan proyek dengan format berikut:</p>
+<hr />
+<h2 id="template-laporan-proyek-iot">TEMPLATE LAPORAN PROYEK IoT</h2>
+<h3 id="1-judul-proyek">1. Judul Proyek</h3>
+<p>&hellip;</p>
+<h3 id="2-latar-belakang">2. Latar Belakang</h3>
+<p>(Jelaskan mengapa proyek ini dibuat, masalah apa yang ingin diselesaikan)</p>
+<h3 id="3-tujuan">3. Tujuan</h3>
+<p>&hellip;</p>
+<h3 id="4-diagram-sistem">4. Diagram Sistem</h3>
+<p>Gambar diagram blok sistem:</p>
+<pre><code>+------------------+      +------------------+      +------------------+
+|   INPUT          |      |   PROSES         |      |   OUTPUT         |
+| - Sensor DHT11   | ---&gt; | - Arduino/ESP32  | ---&gt; | - LCD 16x2      |
+| - Button         |      | - Logika kontrol |      | - Relay/Lampu   |
+| - LDR            |      |                  |      | - Serial Monitor|
++------------------+      +------------------+      +------------------+
+                                  |
+                           +------------------+
+                           |   KOMUNIKASI     |
+                           | - Serial (USB)   |
+                           | - WiFi/Cloud     |
+                           +------------------+
+</code></pre>
+<h3 id="5-alat-dan-bahan">5. Alat dan Bahan</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Nama Komponen</th>
+<th>Spesifikasi</th>
+<th>Jumlah</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="6-skema-rangkaian">6. Skema Rangkaian</h3>
+<p>(Gambar skema rangkaian / foto rangkaian asli)</p>
+<h3 id="7-kode-program">7. Kode Program</h3>
+<p>(Salin kode program yang dibuat)</p>
+<h3 id="8-cara-kerja">8. Cara Kerja</h3>
+<p>(Jelaskan alur kerja sistem step by step)</p>
+<h3 id="9-hasil-pengujian">9. Hasil Pengujian</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Skenario Uji</th>
+<th>Input</th>
+<th>Output yang Diharapkan</th>
+<th>Output Aktual</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="10-analisis-dan-pembahasan">10. Analisis dan Pembahasan</h3>
+<p>(3–5 paragraf analisis)</p>
+<h3 id="11-kesimpulan-dan-saran">11. Kesimpulan dan Saran</h3>
+<p>(2–3 paragraf kesimpulan + saran pengembangan)</p>
+<hr />
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<h3 id="pengujian-smart-monitor-opsi-a">Pengujian Smart Monitor (Opsi A)</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Waktu (menit ke-)</th>
+<th>Suhu (°C)</th>
+<th>Kelembaban (%)</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>8</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>10</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="pengujian-otomasi-relay-opsi-b">Pengujian Otomasi Relay (Opsi B)</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Tombol</th>
+<th>Aksi</th>
+<th>Status Relay 1</th>
+<th>Status Relay 2</th>
+<th>LED/Lampu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Button1</td>
+<td>Tekan</td>
+<td></td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Button1</td>
+<td>Tekan lg</td>
+<td></td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Button2</td>
+<td>Tekan</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Button2</td>
+<td>Tekan lg</td>
+<td>-</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Apa kendala terbesar yang Anda hadapi selama pengerjaan proyek? Bagaimana cara mengatasinya?</li>
+<li>Bandingkan penggunaan Arduino Uno dengan ESP32 untuk proyek IoT! Kapan sebaiknya menggunakan masing-masing?</li>
+<li>Jika proyek Smart Monitor dikembangkan dengan koneksi internet (IoT Cloud), fitur apa saja yang bisa ditambahkan?</li>
+<li>Pada proyek otomasi relay, bagaimana cara menambahkan sensor cahaya (LDR) agar relay menyala otomatis saat gelap?</li>
+<li>Jelaskan potensi pengembangan proyek ini menjadi produk yang bermanfaat di lingkungan sekolah atau rumah!</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Tulis kesimpulan yang mencakup:<br />
+- Pengalaman merencanakan dan mengerjakan proyek IoT dari awal hingga akhir<br />
+- Pemahaman tentang integrasi sensor, aktuator, dan mikrokontroler<br />
+- Refleksi terhadap kesulitan dan solusi yang ditemukan<br />
+- Rencana pengembangan proyek ke depan</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Perencanaan proyek</td>
+<td>10%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Rangkaian elektronika</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kode program</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Fungsionalitas sistem</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Pengujian dan debugging</td>
+<td>10%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Laporan proyek</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Presentasi/demonstrasi</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>

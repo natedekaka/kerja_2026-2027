@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas XII (Fase F) — LKPD_04_Arduino_Motor — Adm. Guru &amp; Modul Ajar 2026/2027</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📋</text></svg>">
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar"><div class="sidebar-header">
+  <h1>📋 Adm. Guru &middot; Modul Ajar &middot; Materi</h1>
+  <p>MGMP Informatika<br>SMA N 6 Cimahi &middot; 2026/2027</p>
+</div>
+<nav class="sidebar-nav">
+  <a href="../../index.html">🏠 Beranda</a>
+  <div class="nav-section">Kelas X (Fase E)</div>
+  <a href="../../administrasi_guru_kelas_X/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_X/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XI (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XI/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XI/LKPD/index.html">📝 LKPD</a></div>
+  <div class="nav-section">Kelas XII (Fase F)</div>
+  <a href="../../administrasi_guru_kelas_XII/index.html">📁 Root Dokumen</a>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/modul_ajar/index.html">📖 Modul Ajar</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/Materi/index.html">📚 Materi</a></div>
+  <div class="nav-sub"><a href="../../administrasi_guru_kelas_XII/LKPD/index.html">📝 LKPD</a></div>
+</nav></aside>
+  <main class="content">
+    <div class="breadcrumb-wrap"><nav class="breadcrumb"><a href="../../index.html">Beranda</a> / <a href="../index.html">Kelas XII (Fase F)</a> / <a href="index.html">LKPD</a> / <span>LKPD 04 Arduino Motor</span></nav>
+     <button class="btn-print" onclick="window.print()" title="Cetak / Simpan PDF">🖨 Cetak PDF</button>
+   </div>
+    <div class="content-inner">
+    <h1 id="lkpd-motor-servo-motor-dc-dan-driver-l298n">LKPD - Motor Servo, Motor DC, dan Driver L298N</h1>
+<p><strong>Mata Pelajaran:</strong> Informatika<br />
+<strong>Kelas/Semester:</strong> XII / Ganjil<br />
+<strong>Materi Pokok:</strong> Bab 2 – Mikrokontroler – Motor Servo, Motor DC, Driver L298N<br />
+<strong>Alokasi Waktu:</strong> 5 JP</p>
+<h2 id="a-tujuan-pembelajaran">A. Tujuan Pembelajaran</h2>
+<ol>
+<li>Peserta didik mampu mengontrol sudut putar motor servo SG90 menggunakan sinyal PWM.</li>
+<li>Peserta didik mampu mengontrol kecepatan dan arah motor DC menggunakan driver L298N.</li>
+<li>Peserta didik mampu menggabungkan servo dan motor DC dalam satu proyek.</li>
+<li>Peserta didik memahami prinsip PWM (Pulse Width Modulation) pada kontrol motor.</li>
+</ol>
+<h2 id="b-alat-dan-bahan">B. Alat dan Bahan</h2>
+<ul>
+<li>1x Arduino Uno + kabel USB</li>
+<li>1x Breadboard</li>
+<li>1x Motor servo SG90 (atau MG995)</li>
+<li>1x Motor DC 3-6V</li>
+<li>1x Driver motor L298N</li>
+<li>1x Potensiometer 10k ohm (opsional)</li>
+<li>1x Baterai 9V atau power supply eksternal (untuk motor DC)</li>
+<li>Kabel jumper secukupnya</li>
+<li>PC/Laptop dengan Arduino IDE</li>
+</ul>
+<h2 id="c-langkah-kerja">C. Langkah Kerja</h2>
+<h3 id="bagian-1-mengenal-pwm-15-menit">Bagian 1: Mengenal PWM (15 menit)</h3>
+<p>PWM (Pulse Width Modulation) adalah teknik mengatur lebar pulsa untuk mengontrol daya.</p>
+<pre><code>PWM 0%   : ████____________________
+PWM 25%  : ████████________________
+PWM 50%  : ████████████____________
+PWM 75%  : ████████████████████____
+PWM 100% : █████████████████████████
+</code></pre>
+<p>Pada Arduino Uno, pin dengan simbol <code>~</code> mendukung PWM: <strong>3, 5, 6, 9, 10, 11</strong>.<br />
+Nilai PWM: 0 (mati) – 255 (maksimum).</p>
+<h3 id="bagian-2-motor-servo-sg90-60-menit">Bagian 2: Motor Servo SG90 (60 menit)</h3>
+<p><strong>Teori:</strong> Servo menerima sinyal PWM dengan periode 20 ms. Lebar pulsa 1–2 ms menentukan sudut 0°–180°.</p>
+<pre><code>0°   : ██__________________________   (pulsa 1 ms)
+90°  : ████________________________   (pulsa 1.5 ms)
+180° : ██████______________________   (pulsa 2 ms)
+</code></pre>
+<ol>
+<li>Buat rangkaian berikut:</li>
+</ol>
+<pre><code>Servo SG90:
+  Kabel coklat  → GND
+  Kabel merah   → +5V
+  Kabel orange  → Pin 9
+</code></pre>
+<p><strong>Diagram Breadboard:</strong></p>
+<pre><code>      +---------------------------+
+      |                           |
+      |  Arduino Uno              |
+      |                           |
+      |  Pin 9 ----[orange]----- Servo
+      |  +5V  ----[merah]------ Servo
+      |  GND  ----[coklat]----- Servo
+      +---------------------------+
+
+      [SG90]
+      Coklat (GND)  ┐
+      Merah (+5V)   ├── 3 kabel
+      Orange (Sinyal)┘
+</code></pre>
+<ol start="2">
+<li>Gunakan library <code>Servo.h</code> (bawaan Arduino IDE).</li>
+</ol>
+<pre><code class="language-c">#include &lt;Servo.h&gt;
+
+Servo myservo;
+int pos = 0;
+
+void setup() {
+  myservo.attach(9);
+  Serial.begin(9600);
+  Serial.println(&quot;Motor Servo Siap&quot;);
+}
+
+void loop() {
+  // Gerak dari 0 ke 180 derajat
+  for (pos = 0; pos &lt;= 180; pos += 1) {
+    myservo.write(pos);
+    delay(15);
+  }
+
+  // Gerak dari 180 ke 0 derajat
+  for (pos = 180; pos &gt;= 0; pos -= 1) {
+    myservo.write(pos);
+    delay(15);
+  }
+}
+</code></pre>
+<ol start="3">
+<li>Upload dan amati pergerakan servo.</li>
+<li><strong>Tantangan:</strong> Gunakan potensiometer di A0 untuk mengontrol sudut servo.</li>
+</ol>
+<pre><code class="language-c">#include &lt;Servo.h&gt;
+
+Servo myservo;
+int potPin = A0;
+int nilaiPot;
+int sudut;
+
+void setup() {
+  myservo.attach(9);
+}
+
+void loop() {
+  nilaiPot = analogRead(potPin);
+  sudut = map(nilaiPot, 0, 1023, 0, 180);
+  myservo.write(sudut);
+  delay(15);
+}
+</code></pre>
+<h3 id="bagian-3-motor-dc-dengan-driver-l298n-75-menit">Bagian 3: Motor DC dengan Driver L298N (75 menit)</h3>
+<p><strong>Teori:</strong> L298N adalah driver H-bridge yang memungkinkan kontrol arah dan kecepatan motor DC.</p>
+<p><strong>Pin L298N:</strong><br />
+- <code>ENA</code> → Enable/kecepatan (PWM)<br />
+- <code>IN1</code>, <code>IN2</code> → Kontrol arah<br />
+- <code>OUT1</code>, <code>OUT2</code> → Ke motor DC<br />
+- <code>+12V</code> → Power motor (baterai)<br />
+- <code>GND</code> → Ground bersama Arduino<br />
+- <code>+5V</code> → Output 5V (opsional)</p>
+<ol>
+<li>Buat rangkaian:</li>
+</ol>
+<pre><code>Arduino Uno          L298N              Motor DC
+-----------         -------            --------
+Pin 10     ------&gt; ENA (PWM)
+Pin 9      ------&gt; IN1
+Pin 8      ------&gt; IN2
+GND        ------&gt; GND
+                       OUT1 ------&gt; + Motor
+                       OUT2 ------&gt; - Motor
+                       +12V &lt;------ Baterai 9V (+)
+                       GND  &lt;------ Baterai 9V (-)
+</code></pre>
+<p><strong>Diagram Rangkaian:</strong></p>
+<pre><code>      +---------------------------+
+      |                           |
+      |  Arduino Uno              |
+      |  Pin 10 ---- ENA          |
+      |  Pin 9  ---- IN1          |   L298N
+      |  Pin 8  ---- IN2          |   +----+
+      |  GND    ---- GND          |   |    |
+      |                           |   +----+
+      +---------------------------+    |
+                                       | OUT1 ---- Motor DC (+)
+                                       | OUT2 ---- Motor DC (-)
+                                       |
+                                   Baterai 9V
+                                   (+)---- +12V
+                                   (-)---- GND
+</code></pre>
+<ol start="2">
+<li>Tulis program:</li>
+</ol>
+<pre><code class="language-c">// Pin kontrol L298N
+int enA = 10;  // PWM
+int in1 = 9;
+int in2 = 8;
+
+void setup() {
+  pinMode(enA, OUTPUT);
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+
+  Serial.begin(9600);
+  Serial.println(&quot;Driver Motor L298N Siap&quot;);
+}
+
+void loop() {
+  // Motor maju (kecepatan 50%)
+  Serial.println(&quot;Maju 50%&quot;);
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  analogWrite(enA, 128);
+  delay(3000);
+
+  // Motor berhenti
+  Serial.println(&quot;Berhenti&quot;);
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  analogWrite(enA, 0);
+  delay(2000);
+
+  // Motor mundur (kecepatan 75%)
+  Serial.println(&quot;Mundur 75%&quot;);
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  analogWrite(enA, 191);
+  delay(3000);
+
+  // Motor berhenti
+  Serial.println(&quot;Berhenti&quot;);
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  analogWrite(enA, 0);
+  delay(2000);
+
+  // Motor maju (kecepatan 100%)
+  Serial.println(&quot;Maju 100%&quot;);
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  analogWrite(enA, 255);
+  delay(3000);
+
+  // Motor berhenti
+  Serial.println(&quot;Berhenti&quot;);
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  analogWrite(enA, 0);
+  delay(2000);
+}
+</code></pre>
+<h3 id="bagian-4-kontrol-kecepatan-bertahap-30-menit">Bagian 4: Kontrol Kecepatan Bertahap (30 menit)</h3>
+<p>Buat program yang mengubah kecepatan motor DC secara bertahap dari 0 ke 255 lalu turun lagi:</p>
+<pre><code class="language-c">int enA = 10;
+int in1 = 9;
+int in2 = 8;
+
+void setup() {
+  pinMode(enA, OUTPUT);
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // Naikkan kecepatan
+  for (int speed = 0; speed &lt;= 255; speed += 5) {
+    analogWrite(enA, speed);
+    Serial.print(&quot;Kecepatan: &quot;);
+    Serial.println(speed);
+    delay(100);
+  }
+
+  // Turunkan kecepatan
+  for (int speed = 255; speed &gt;= 0; speed -= 5) {
+    analogWrite(enA, speed);
+    Serial.print(&quot;Kecepatan: &quot;);
+    Serial.println(speed);
+    delay(100);
+  }
+}
+</code></pre>
+<h3 id="bagian-5-proyek-gabungan-30-menit">Bagian 5: Proyek Gabungan (30 menit)</h3>
+<p>Gabungkan servo dan motor DC:<br />
+- Servo bergerak ke 0° → motor DC maju 3 detik<br />
+- Servo bergerak ke 90° → motor DC berhenti 2 detik<br />
+- Servo bergerak ke 180° → motor DC mundur 3 detik</p>
+<p>Tulis program sendiri berdasarkan kode dari bagian 2 dan 3.</p>
+<h2 id="d-tabel-hasildata-pengamatan">D. Tabel Hasil/Data Pengamatan</h2>
+<h3 id="data-servo">Data Servo</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Sudut (derajat)</th>
+<th>Nilai PWM (analogWrite)</th>
+<th>Lebar Pulsa (ms)</th>
+<th>Posisi Fisik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>-</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>45</td>
+<td>-</td>
+<td>1.25</td>
+<td></td>
+</tr>
+<tr>
+<td>90</td>
+<td>-</td>
+<td>1.5</td>
+<td></td>
+</tr>
+<tr>
+<td>135</td>
+<td>-</td>
+<td>1.75</td>
+<td></td>
+</tr>
+<tr>
+<td>180</td>
+<td>-</td>
+<td>2.0</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="data-motor-dc">Data Motor DC</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>IN1</th>
+<th>IN2</th>
+<th>ENA (PWM)</th>
+<th>Arah</th>
+<th>Kecepatan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LOW</td>
+<td>LOW</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>HIGH</td>
+<td>LOW</td>
+<td>128</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>HIGH</td>
+<td>LOW</td>
+<td>255</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>LOW</td>
+<td>HIGH</td>
+<td>128</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>LOW</td>
+<td>HIGH</td>
+<td>255</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="e-diskusi-dan-analisis">E. Diskusi dan Analisis</h2>
+<ol>
+<li>Apa perbedaan fungsi <code>digitalWrite()</code> dan <code>analogWrite()</code> pada Arduino? Pin mana saja yang mendukung <code>analogWrite()</code>?</li>
+<li>Pada motor servo, mengapa kita menggunakan <code>delay(15)</code> di dalam perulangan for? Apa yang terjadi jika delay dihilangkan?</li>
+<li>Jelaskan prinsip kerja H-bridge pada driver L298N! Bagaimana IN1 dan IN2 menentukan arah putaran motor?</li>
+<li>Jika motor DC tidak berputar padahal program sudah benar, apa saja kemungkinan penyebabnya? (sebutkan minimal 3)</li>
+<li>Pada proyek gabungan (Bagian 5), bagaimana cara memastikan servo dan motor DC bekerja secara berurutan tanpa konflik daya?</li>
+</ol>
+<h2 id="f-kesimpulan">F. Kesimpulan</h2>
+<p>Tulis kesimpulan mengenai prinsip PWM, kontrol servo dengan <code>Servo.h</code>, kontrol motor DC dengan driver L298N, dan pentingnya power supply terpisah untuk motor.</p>
+<h2 id="g-penilaian">G. Penilaian</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Skor (1-4)</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rangkaian servo</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program servo (sweep)</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Rangkaian L298N + motor DC</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program motor DC (maju/mundur)</td>
+<td>20%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Program kecepatan bertahap</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Proyek gabungan</td>
+<td>15%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+    </div>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☽</button>
+  <script src="../../js/app.js"></script>
+</body>
+</html>
