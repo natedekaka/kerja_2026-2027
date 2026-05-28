@@ -776,6 +776,7 @@ body {
 }
 
 @media print {
+  @page { margin: 1.5cm 2cm; size: A4; }
   .sidebar { display: none !important; }
   .content { margin-left: 0 !important; }
   .site-footer { display: none !important; }
