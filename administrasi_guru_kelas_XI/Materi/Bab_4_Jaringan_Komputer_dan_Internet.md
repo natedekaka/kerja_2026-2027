@@ -14,7 +14,7 @@
 
 ## 🎯 Tujuan Pembelajaran
 
-- **A.** Pengantar Jaringan & Topologi
+- **A.** Pengantar Jaringan, Topologi & IP Address
 - **B.** OSI Layer & Mekanisme Pertukaran Data
 - **C.** Cyber Security: Ancaman & Mitigasi
 - **D.** Tata Kelola Akses Data
@@ -25,14 +25,14 @@
 ```
                🌐 JARINGAN KOMPUTER DAN INTERNET
                      |
-                     ├── A. Pengantar Jaringan & Topologi
+                     ├── A. Pengantar Jaringan, Topologi & IP Address
                      ├── B. OSI Layer & Mekanisme Pertukaran Data
                      ├── C. Cyber Security: Ancaman & Mitigasi
                      ├── D. Tata Kelola Akses Data
                      └── E. Praktik Packet Tracer
 ```
 
-## A. Pengantar Jaringan & Topologi
+## A. Pengantar Jaringan, Topologi & IP Address
 
 ### 🌐 Pengantar Jaringan & Topologi
 Jaringan komputer adalah **dua atau lebih komputer yang terhubung** untuk berbagi data dan sumber daya.
@@ -68,17 +68,142 @@ STAR:        RING:         BUS:          MESH:
 
 > 💡 **Topologi Star** adalah yang paling umum karena jika satu kabel putus, komputer lain tidak terganggu.
 
+### 🔢 IP Address & Binary dalam Jaringan
+
+#### Apa Itu IP Address?
+**IP Address** (Internet Protocol address) adalah alamat unik setiap perangkat dalam jaringan. Ibarat **alamat rumah** — surat (data) bisa sampai karena tahu alamat tujuannya.
+
+> 🧩 **Analogi:** IP Address itu seperti **alamat rumah**. `192.168.1.1` = Jalan Merdeka No.1, `192.168.1.2` = Jalan Merdeka No.2. Tukang pos (router) tahu persis ke mana paket harus diantar.
+
+#### IPv4 — 32 Bit = 4 Oktet
+IP Address versi 4 (IPv4) terdiri dari **32 bit** yang dibagi jadi **4 oktet** (masing-masing 8 bit):
+
+```
+  Contoh: 192.168.1.10
+
+  Desimal:  192  .  168  .   1   .  10
+  Biner:  11000000 . 10101000 . 00000001 . 00001010
+           \______/   \______/   \______/   \______/
+           oktet 1    oktet 2    oktet 3    oktet 4
+             8 bit      8 bit      8 bit      8 bit
+                                    = 32 bit total
+```
+
+Setiap oktet bernilai **0–255** (karena 8 bit = 2⁸ = 256 kemungkinan).
+
+| Oktet | Biner | Desimal |
+|-------|-------|---------|
+| 1 | `11000000` | 192 |
+| 2 | `10101000` | 168 |
+| 3 | `00000001` | 1 |
+| 4 | `00001010` | 10 |
+
+#### 🔄 Konversi IP: Biner ↔ Desimal
+Cara konversi setiap oktet sama seperti yang dipelajari di Kelas X:
+
+```
+  11000000 = 128 + 64 + 0 + 0 + 0 + 0 + 0 + 0 = 192
+  10101000 = 128 + 0 + 32 + 0 + 8 + 0 + 0 + 0 = 168
+  00000001 = 0 + 0 + 0 + 0 + 0 + 0 + 0 + 1 = 1
+  00001010 = 0 + 0 + 0 + 0 + 0 + 0 + 1 + 0 + 0 = 10
+```
+
+> 💡 **Latihan:** Coba konversikan 172.16.20.5 ke biner!
+
+#### 🏠 Network ID & Host ID
+Setiap IP Address terbagi menjadi dua bagian:
+- **Network ID** — identitas jaringan (seperti nama kecamatan)
+- **Host ID** — identitas perangkat dalam jaringan (seperti nomor rumah)
+
+#### 🎭 Subnet Mask
+Subnet mask menentukan **batas antara Network ID dan Host ID**.
+
+```
+  IP:     192.168.1.10
+  Mask:   255.255.255.0 (/24)
+
+  Biner IP:   11000000.10101000.00000001.00001010
+  Biner Mask: 11111111.11111111.11111111.00000000
+                                         ↑
+               Network ID ──────────────┤ ├── Host ID
+
+  Network ID = 192.168.1.0   (host ID semua 0)
+  Broadcast  = 192.168.1.255 (host ID semua 1)
+  Host valid = 192.168.1.1 — 192.168.1.254
+```
+
+| Subnet Mask | CIDR | Jumlah Host |
+|-------------|------|-------------|
+| 255.0.0.0 | /8 | 16.777.214 |
+| 255.255.0.0 | /16 | 65.534 |
+| 255.255.255.0 | /24 | 254 |
+| 255.255.255.192 | /26 | 62 |
+| 255.255.255.224 | /27 | 30 |
+| 255.255.255.248 | /29 | 6 |
+
+> 💡 **Notasi CIDR:** `/24` artinya 24 bit pertama adalah Network ID (semua 1 di subnet mask).
+
+#### 🧮 Hitung Jumlah Host dengan Binary
+```
+  Subnet mask /24 = 11111111.11111111.11111111.00000000
+  Bit host = 8 (dari 32 - 24)
+  Jumlah host = 2⁸ - 2 = 254
+                 │     └ network & broadcast
+                 └ semua kemungkinan kombinasi bit host
+
+  Subnet mask /27 = 11111111.11111111.11111111.11100000
+  Bit host = 5 (dari 32 - 27)
+  Jumlah host = 2⁵ - 2 = 30
+```
+
+**Contoh perhitungan:**
+```
+  IP: 192.168.1.10 /24
+        ├── Network: 192.168.1.0
+        ├── Broadcast: 192.168.1.255
+        ├── Range: 192.168.1.1 — 192.168.1.254
+        └── Total perangkat: 254 host
+
+  IP: 10.0.0.1 /16
+        ├── Network: 10.0.0.0
+        ├── Broadcast: 10.0.255.255
+        ├── Range: 10.0.0.1 — 10.0.255.254
+        └── Total perangkat: 65.534 host
+```
+
+#### 🌐 Contoh Konfigurasi Jaringan Sekolah
+```
+  Lab Komputer SMA N 6 Cimahi
+  ┌───────────────────────────────────────────┐
+  │  Network: 192.168.50.0 /24               │
+  │  Gateway (Router): 192.168.50.1          │
+  │  DNS: 8.8.8.8                            │
+  │  Range host: 192.168.50.2 — 192.168.50.254 │
+  │                                          │
+  │  PC Guru 1: 192.168.50.10                │
+  │  PC Guru 2: 192.168.50.11                │
+  │  PC Siswa 1-30: 192.168.50.100-129       │
+  │  Server: 192.168.50.2                    │
+  │  Printer: 192.168.50.50                  │
+  └───────────────────────────────────────────┘
+```
+
 ### 🔍 Cek Pemahaman
 1. Jelaskan perbedaan antara LAN, MAN, dan WAN! Berikan contoh masing-masing!
 2. Gambarkan topologi Star dan Ring! Apa kelebihan dan kekurangan masing-masing?
 3. Apa fungsi Router, Switch, dan Access Point dalam sebuah jaringan?
+4. Konversikan IP `172.16.20.5` ke dalam bentuk biner!
+5. Sebuah jaringan menggunakan IP `192.168.10.0/24`. Berapa jumlah maksimal host yang bisa terhubung?
+6. Apa yang dimaksud dengan Network ID dan Broadcast Address? Jelaskan dengan contoh!
 
 ### 📋 Studi Kasus
-SMA Harapan Bangsa sedang membangun **laboratorium komputer baru** dengan 30 PC. Semua PC harus terhubung ke internet dan bisa saling berbagi data. Kepala sekolah meminta usulan desain jaringan yang efisien dan mudah dikelola.
+SMA Harapan Bangsa sedang membangun **laboratorium komputer baru** dengan 30 PC. Semua PC harus terhubung ke internet dan bisa saling berbagi data. Kepala sekolah meminta usulan desain jaringan yang efisien dan mudah dikelola. Sekolah memiliki alokasi IP `192.168.100.0/24`.
 
 **Analisis:**
 1. Topologi apa yang paling tepat untuk laboratorium tersebut? Jelaskan kelebihan dan kekurangannya!
 2. Perangkat jaringan apa saja yang dibutuhkan? Gambarkan skema jaringan sederhananya!
+3. Tentukan Network ID, Broadcast Address, dan range host yang valid untuk jaringan tersebut!
+4. Jika laboratorium tersebut hanya punya 30 PC, apakah subnet /24 efisien? Atau bisakah menggunakan subnet yang lebih kecil? Jelaskan!
 
 > 🤔 **Mari Renungkan:** Apa hal paling menarik yang kamu pelajari dari bagian ini?
 
@@ -326,6 +451,8 @@ Rancang jaringan komputer untuk 2 laboratorium sekolah menggunakan Cisco Packet 
 ## 📝 Rangkuman
 
 - Jaringan komputer dibagi menjadi **LAN** (lokal), **MAN** (kota), dan **WAN** (luas). Topologi yang paling umum adalah **Star** karena jika satu kabel putus yang lain tidak terganggu.
+- **IP Address** adalah alamat unik perangkat dalam jaringan. IPv4 terdiri dari 32 bit (4 oktet). Setiap oktet bernilai 0-255 dan bisa dikonversi ke/dari biner.
+- **Subnet Mask** menentukan batas Network ID dan Host ID. Notasi CIDR (/24, /16, /8) menunjukkan jumlah bit untuk Network ID.
 - **OSI Model** memiliki 7 layer: Physical, Data Link, Network, Transport, Session, Presentation, Application. Setiap layer membungkus data dengan header-nya (enkapsulasi).
 - **Cyber Security** melindungi sistem dari ancaman seperti Malware, Phishing, DDoS, Man-in-the-Middle, SQL Injection, dan Social Engineering dengan mitigasi seperti 2FA dan password manager.
 - **Tata kelola akses data** menggunakan model RBAC (Role-Based Access Control) dengan prinsip Least Privilege — beri akses seminimal mungkin sesuai peran.
@@ -418,6 +545,11 @@ Pelajari dasar-dasar cyber security melalui [Cisco CyberOps Associate](https://w
 - **Least Privilege**: Prinsip keamanan yang memberikan akses seminimal mungkin kepada pengguna.
 - **RBAC**: Role-Based Access Control — model kontrol akses berdasarkan peran pengguna dalam organisasi.
 - **Cisco Packet Tracer**: Software simulasi jaringan untuk merancang dan mengkonfigurasi jaringan tanpa alat fisik.
+- **IP Address**: Alamat unik perangkat dalam jaringan — IPv4 terdiri dari 32 bit (4 oktet) yang ditulis dalam format desimal bertitik.
+- **Subnet Mask**: Angka 32 bit yang membatasi Network ID dan Host ID dalam sebuah IP Address.
+- **CIDR**: Classless Inter-Domain Routing — notasi seperti `/24` yang menunjukkan jumlah bit Network ID.
+- **Network ID**: Bagian IP Address yang mengidentifikasi jaringan (alamat pertama dalam range).
+- **Broadcast Address**: Alamat khusus untuk mengirim data ke semua perangkat dalam jaringan (alamat terakhir dalam range).
 
 ---
 ## 📺 Sumber & Media Pembelajaran
@@ -427,5 +559,6 @@ Pelajari dasar-dasar cyber security melalui [Cisco CyberOps Associate](https://w
 | YouTube | Apa itu Jaringan Komputer? | `youtu.be/search?q=apa+itu+jaringan+komputer` | Penjelasan dasar jaringan komputer |
 | Simulasi | Cisco Packet Tracer — Tutorial | `youtu.be/search?q=packet+tracer+tutorial+indonesia` | Panduan praktik Packet Tracer |
 | YouTube | OSI Layer Dijelaskan | `youtu.be/search?q=OSI+layer+indonesia` | Penjelasan 7 layer OSI dengan analogi |
+| YouTube | Belajar IP Address & Subnetting | `youtu.be/search?q=belajar+ip+address+subnetting+dasar` | Tutorial IP address dan subnet mask |
 | Website | Cyber Security untuk Remaja | `youtu.be/search?q=cyber+security+dasar` | Tips keamanan digital untuk pelajar |
 | Website | Cisco Networking Academy | `https://www.netacad.com/` | Kursus jaringan gratis dari Cisco |

@@ -34,7 +34,7 @@
     <div class="content-inner">
     <h1 id="bab-4-sistem-komputer">⚙️ Bab 4: Sistem Komputer</h1>
 <blockquote>
-<p><strong>Semester Ganjil</strong> | <strong>Fase E</strong> | <strong>Kelas X</strong> | <strong>15 JP</strong></p>
+<p><strong>Semester Ganjil</strong> | <strong>Fase E</strong> | <strong>Kelas X</strong> | <strong>20 JP</strong></p>
 </blockquote>
 <hr />
 <h2 id="pemetaan-capaian-pembelajaran">📊 Pemetaan Capaian Pembelajaran</h2>
@@ -62,13 +62,15 @@
 <li><strong>A.</strong> Hardware: Komponen Fisik Komputer</li>
 <li><strong>B.</strong> Software: Perangkat Lunak Sistem dan Aplikasi</li>
 <li><strong>C.</strong> Sistem Operasi: Jembatan Pengguna dan Hardware</li>
+<li><strong>D.</strong> Sistem Bilangan Komputer (Biner, Desimal, Heksadesimal)</li>
 </ul>
 <h2 id="peta-konsep">🗺️ Peta Konsep</h2>
 <pre><code>               ⚙️ SISTEM KOMPUTER
                      |
                      ├── A. Hardware: Komponen Fisik Komputer
                      ├── B. Software: Perangkat Lunak Sistem dan Aplikasi
-                     └── C. Sistem Operasi: Jembatan Pengguna dan Hardware
+                     ├── C. Sistem Operasi: Jembatan Pengguna dan Hardware
+                     └── D. Sistem Bilangan Komputer (Biner, Desimal, Heksadesimal)
 </code></pre>
 <h2 id="a-hardware-komponen-fisik-komputer">A. Hardware: Komponen Fisik Komputer</h2>
 <h3 id="hardware-komponen-fisik-komputer">⚙️ Hardware: Komponen Fisik Komputer</h3>
@@ -399,7 +401,245 @@
 <p>🤔 <strong>Refleksi:</strong> OS apa yang kamu pakai di HP dan laptop? Sebutkan 3 kelebihan dan 3 kekurangan yang kamu rasakan!</p>
 <p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
 </blockquote>
-<hr />
+<h2 id="_1">&mdash;</h2>
+<h2 id="d-sistem-bilangan-komputer-biner-desimal-heksadesimal">D. Sistem Bilangan Komputer (Biner, Desimal, Heksadesimal)</h2>
+<h3 id="mengapa-biner">🔢 Mengapa Biner?</h3>
+<p>Komputer hanya mengenal <strong>dua keadaan</strong>: <strong>arus listrik menyala (1)</strong> dan <strong>arus listrik mati (0)</strong>. Inilah alasan mengapa komputer menggunakan sistem <strong>biner</strong> (basis 2).</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> Biner itu seperti <strong>saklar lampu</strong>. Saklar hanya punya dua posisi: ON (1) atau OFF (0). Dengan kombinasi banyak saklar, komputer bisa menyimpan angka, huruf, gambar, bahkan video!</p>
+</blockquote>
+<pre><code>  SAKLAR LAMPU →  1 = ON (listrik mengalir)
+                   0 = OFF (listrik terputus)
+
+  Contoh: Byte = 8 saklar
+  ┌───┬───┬───┬───┬───┬───┬───┬───┐
+  │ 1 │ 0 │ 1 │ 0 │ 1 │ 1 │ 0 │ 0 │  ← 1 byte (8 bit)
+  └───┴───┴───┴───┴───┴───┴───┴───┘
+  Bit ke-7 ...                        Bit ke-0
+</code></pre>
+<h3 id="d1-sistem-bilangan">D.1 Sistem Bilangan</h3>
+<p>Manusia biasa pakai <strong>desimal</strong> (basis 10: 0-9). Komputer pakai <strong>biner</strong> (basis 2: 0-1). Kadang kita pakai <strong>heksadesimal</strong> (basis 16: 0-9, A-F) untuk menulis biner lebih ringkas.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Sistem Bilangan</th>
+<th>Basis</th>
+<th>Angka yang Dipakai</th>
+<th>Contoh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Desimal</strong></td>
+<td>10</td>
+<td>0, 1, 2, 3, 4, 5, 6, 7, 8, 9</td>
+<td>255</td>
+</tr>
+<tr>
+<td><strong>Biner</strong></td>
+<td>2</td>
+<td>0, 1</td>
+<td>11111111</td>
+</tr>
+<tr>
+<td><strong>Heksadesimal</strong></td>
+<td>16</td>
+<td>0-9, A, B, C, D, E, F</td>
+<td>FF</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="d2-konversi-biner-desimal">D.2 Konversi Biner ↔ Desimal</h3>
+<h4 id="biner-ke-desimal">🖩 Biner ke Desimal</h4>
+<p>Setiap digit biner punya <strong>nilai tempat</strong> kelipatan 2:</p>
+<pre><code>  Biner:    1    0    1    0    1    1    0    0
+  Nilai:  2⁷  2⁶  2⁵  2⁴  2³  2²  2¹  2⁰
+          128   64   32   16   8    4   2    1
+          ─────────────────────────────────────────
+          128 + 0 + 32 + 0 + 8 + 4 + 0 + 0 = 172
+</code></pre>
+<blockquote>
+<p>💡 <strong>Tips cepat:</strong> Digit paling kanan = 1, lalu double setiap ke kiri: 1, 2, 4, 8, 16, 32, 64, 128&hellip;</p>
+</blockquote>
+<h4 id="desimal-ke-biner">🖩 Desimal ke Biner</h4>
+<p>Gunakan <strong>pembagian berturut-turut</strong>:</p>
+<pre><code>  172 : 2 = 86  sisa 0  ↑
+   86 : 2 = 43  sisa 0  │
+   43 : 2 = 21  sisa 1  │
+   21 : 2 = 10  sisa 1  │  Baca dari bawah ke atas
+   10 : 2 = 5   sisa 0  │  172 = 10101100
+    5 : 2 = 2   sisa 1  │
+    2 : 2 = 1   sisa 0  │
+    1 : 2 = 0   sisa 1  ↑
+</code></pre>
+<h4 id="tabel-konversi-cepat">📋 Tabel Konversi Cepat</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Desimal</th>
+<th>Biner (4 bit)</th>
+<th>Heksadesimal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0000</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0001</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0010</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0011</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0100</td>
+<td>4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>0101</td>
+<td>5</td>
+</tr>
+<tr>
+<td>6</td>
+<td>0110</td>
+<td>6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>0111</td>
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1000</td>
+<td>8</td>
+</tr>
+<tr>
+<td>9</td>
+<td>1001</td>
+<td>9</td>
+</tr>
+<tr>
+<td>10</td>
+<td>1010</td>
+<td>A</td>
+</tr>
+<tr>
+<td>11</td>
+<td>1011</td>
+<td>B</td>
+</tr>
+<tr>
+<td>12</td>
+<td>1100</td>
+<td>C</td>
+</tr>
+<tr>
+<td>13</td>
+<td>1101</td>
+<td>D</td>
+</tr>
+<tr>
+<td>14</td>
+<td>1110</td>
+<td>E</td>
+</tr>
+<tr>
+<td>15</td>
+<td>1111</td>
+<td>F</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="d3-aplikasi-biner-dalam-komputer">D.3 Aplikasi Biner dalam Komputer</h3>
+<h4 id="ascii-huruf-dalam-biner">📝 ASCII — Huruf dalam Biner</h4>
+<p>Setiap karakter dikodekan sebagai angka 0-255, yang dalam biner = 1 byte.</p>
+<pre><code>  H = 72 = 01001000
+  a = 97 = 01100001
+  l = 108 = 01101100
+  o = 111 = 01101111
+</code></pre>
+<h4 id="warna-rgb-warna-dalam-biner">🎨 Warna RGB — Warna dalam Biner</h4>
+<p>Setiap warna (Merah/Hijau/Biru) diwakili 1 byte (0-255).</p>
+<pre><code>  RGB(255, 255, 255) = Putih
+    11111111 : 11111111 : 11111111
+
+  RGB(0, 0, 0)       = Hitam
+    00000000 : 00000000 : 00000000
+
+  RGB(255, 0, 0)     = Merah
+    11111111 : 00000000 : 00000000
+</code></pre>
+<blockquote>
+<p>💡 Di HTML, warna RGB ditulis dalam heksadesimal: <code>#FF0000</code> = Merah, <code>#00FF00</code> = Hijau, <code>#0000FF</code> = Biru.</p>
+</blockquote>
+<h4 id="ukuran-data">📏 Ukuran Data</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Satuan</th>
+<th>Jumlah Byte</th>
+<th>Analogi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 bit</td>
+<td>0,125 byte</td>
+<td>1 saklar</td>
+</tr>
+<tr>
+<td>1 byte (B)</td>
+<td>8 bit</td>
+<td>1 karakter</td>
+</tr>
+<tr>
+<td>1 Kilobyte (KB)</td>
+<td>1.024 B</td>
+<td>1 halaman teks</td>
+</tr>
+<tr>
+<td>1 Megabyte (MB)</td>
+<td>1.024 KB</td>
+<td>1 lagu MP3 (3-5 menit)</td>
+</tr>
+<tr>
+<td>1 Gigabyte (GB)</td>
+<td>1.024 MB</td>
+<td>1 film HD (1,5 jam)</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="cek-pemahaman_3">🔍 Cek Pemahaman</h3>
+<ol>
+<li>Konversikan biner <code>11011010</code> ke desimal!</li>
+<li>Konversikan desimal <code>231</code> ke biner!</li>
+<li>Tuliskan huruf &ldquo;A&rdquo; (ASCII 65) dalam bentuk biner!</li>
+<li>Berapa byte yang dibutuhkan untuk menyimpan kata &ldquo;INFORMATIKA&rdquo;?</li>
+<li>Jika sebuah gambar punya 1 juta pixel dan setiap pixel butuh 3 byte (RGB), berapa MB ukuran gambarnya?</li>
+</ol>
+<h3 id="studi-kasus_3">📋 Studi Kasus</h3>
+<p>Seorang siswa sedang belajar representasi data. Ia menemukan bahwa laptopnya memiliki RAM 8 GB dan hard disk 512 GB. Ia ingin menyimpan sebuah foto berukuran 1920×1080 pixel dengan format RGB (3 byte per pixel).</p>
+<p><strong>Analisis:</strong><br />
+1. Hitung ukuran satu foto dalam MB!<br />
+2. Berapa banyak foto serupa yang bisa disimpan di hard disk?<br />
+3. Jelaskan mengapa kita menggunakan heksadesimal untuk menulis alamat memori, bukan biner!</p>
+<blockquote>
+<p>🤔 <strong>Mari Renungkan:</strong> Setiap angka, huruf, foto, video, dan game yang kamu lihat di layar sebenarnya hanyalah rangkaian 0 dan 1. Bagaimana perasaanmu mengetahui bahwa semua yang digital pada dasarnya hanya &ldquo;listrik ON/OFF&rdquo;?</p>
+</blockquote>
 <hr />
 <h2 id="proyek-mini-poster-anatomi-komputer">🏗️ Proyek Mini: Poster Anatomi Komputer 🖥️</h2>
 <p>Buat poster yang menampilkan komponen-komponen utama hardware komputer beserta fungsinya. Gambar atau ilustrasi komponen harus diberi label dan penjelasan singkat.</p>
@@ -422,6 +662,7 @@
 <li>Hardware terdiri dari komponen input, proses (CPU), output, storage (HDD/SSD), dan network — semuanya bekerja sama membentuk sistem komputer.</li>
 <li>Software dibagi menjadi sistem operasi (Windows, Linux), aplikasi (Word, Chrome), dan utility (antivirus).</li>
 <li>Sistem Operasi adalah jembatan antara pengguna, aplikasi, dan hardware — fungsi utamanya mengelola CPU, memori, I/O, dan file.</li>
+<li><strong>Sistem Bilangan Komputer:</strong> Komputer menggunakan <strong>biner (basis 2)</strong>. Manusia pakai <strong>desimal (basis 10)</strong>, dan <strong>heksadesimal (basis 16)</strong> untuk menulis biner lebih ringkas. Setiap teks, warna, suara, dan gambar hanyalah rangkaian <strong>0 dan 1</strong>.</li>
 </ul>
 <hr />
 <h2 id="latihan-soal">✍️ Latihan Soal</h2>
@@ -542,6 +783,11 @@
 <li><strong>Sistem Operasi</strong>: Software utama yang menjadi jembatan antara pengguna, aplikasi, dan hardware.</li>
 <li><strong>GUI (Graphical User Interface)</strong>: Antarmuka pengguna berbasis grafis — ikon, menu, dan jendela.</li>
 <li><strong>CLI (Command Line Interface)</strong>: Antarmuka pengguna berbasis teks — mengetik perintah.</li>
+<li><strong>Biner</strong>: Sistem bilangan basis 2 (0 dan 1) — bahasa mesin yang dipahami komputer.</li>
+<li><strong>Bit</strong>: Unit data terkecil dalam komputer (0 atau 1).</li>
+<li><strong>Byte</strong>: Kumpulan 8 bit — cukup untuk menyimpan 1 karakter.</li>
+<li><strong>Heksadesimal</strong>: Sistem bilangan basis 16 (0-9, A-F) — cara ringkas menulis biner.</li>
+<li><strong>ASCII</strong>: Standar pengkodean karakter 7-bit (0-127) — misal A=65, a=97.</li>
 </ul>
 <hr />
 <h2 id="sumber-media-pembelajaran">📺 Sumber &amp; Media Pembelajaran</h2>
@@ -578,6 +824,12 @@
 <td>Zenius — Sistem Komputer</td>
 <td><code>https://www.zenius.net/</code></td>
 <td>Materi dan latihan soal sistem komputer</td>
+</tr>
+<tr>
+<td>YouTube</td>
+<td>Animasi Biner — Kok Bisa?</td>
+<td><code>https://youtu.be/...search?q=binary+number+system+animasi</code></td>
+<td>Penjelasan sistem biner dengan animasi</td>
 </tr>
 <tr>
 <td>YouTube</td>

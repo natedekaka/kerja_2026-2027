@@ -55,7 +55,7 @@
 <hr />
 <h2 id="tujuan-pembelajaran">🎯 Tujuan Pembelajaran</h2>
 <ul>
-<li><strong>A.</strong> Pengantar Jaringan &amp; Topologi</li>
+<li><strong>A.</strong> Pengantar Jaringan, Topologi &amp; IP Address</li>
 <li><strong>B.</strong> OSI Layer &amp; Mekanisme Pertukaran Data</li>
 <li><strong>C.</strong> Cyber Security: Ancaman &amp; Mitigasi</li>
 <li><strong>D.</strong> Tata Kelola Akses Data</li>
@@ -64,13 +64,13 @@
 <h2 id="peta-konsep">🗺️ Peta Konsep</h2>
 <pre><code>               🌐 JARINGAN KOMPUTER DAN INTERNET
                      |
-                     ├── A. Pengantar Jaringan &amp; Topologi
+                     ├── A. Pengantar Jaringan, Topologi &amp; IP Address
                      ├── B. OSI Layer &amp; Mekanisme Pertukaran Data
                      ├── C. Cyber Security: Ancaman &amp; Mitigasi
                      ├── D. Tata Kelola Akses Data
                      └── E. Praktik Packet Tracer
 </code></pre>
-<h2 id="a-pengantar-jaringan-topologi">A. Pengantar Jaringan &amp; Topologi</h2>
+<h2 id="a-pengantar-jaringan-topologi-ip-address">A. Pengantar Jaringan, Topologi &amp; IP Address</h2>
 <h3 id="pengantar-jaringan-topologi">🌐 Pengantar Jaringan &amp; Topologi</h3>
 <p>Jaringan komputer adalah <strong>dua atau lebih komputer yang terhubung</strong> untuk berbagi data dan sumber daya.</p>
 <blockquote>
@@ -147,17 +147,182 @@
 <blockquote>
 <p>💡 <strong>Topologi Star</strong> adalah yang paling umum karena jika satu kabel putus, komputer lain tidak terganggu.</p>
 </blockquote>
+<h3 id="ip-address-binary-dalam-jaringan">🔢 IP Address &amp; Binary dalam Jaringan</h3>
+<h4 id="apa-itu-ip-address">Apa Itu IP Address?</h4>
+<p><strong>IP Address</strong> (Internet Protocol address) adalah alamat unik setiap perangkat dalam jaringan. Ibarat <strong>alamat rumah</strong> — surat (data) bisa sampai karena tahu alamat tujuannya.</p>
+<blockquote>
+<p>🧩 <strong>Analogi:</strong> IP Address itu seperti <strong>alamat rumah</strong>. <code>192.168.1.1</code> = Jalan Merdeka No.1, <code>192.168.1.2</code> = Jalan Merdeka No.2. Tukang pos (router) tahu persis ke mana paket harus diantar.</p>
+</blockquote>
+<h4 id="ipv4-32-bit-4-oktet">IPv4 — 32 Bit = 4 Oktet</h4>
+<p>IP Address versi 4 (IPv4) terdiri dari <strong>32 bit</strong> yang dibagi jadi <strong>4 oktet</strong> (masing-masing 8 bit):</p>
+<pre><code>  Contoh: 192.168.1.10
+
+  Desimal:  192  .  168  .   1   .  10
+  Biner:  11000000 . 10101000 . 00000001 . 00001010
+           \______/   \______/   \______/   \______/
+           oktet 1    oktet 2    oktet 3    oktet 4
+             8 bit      8 bit      8 bit      8 bit
+                                    = 32 bit total
+</code></pre>
+<p>Setiap oktet bernilai <strong>0–255</strong> (karena 8 bit = 2⁸ = 256 kemungkinan).</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Oktet</th>
+<th>Biner</th>
+<th>Desimal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>11000000</code></td>
+<td>192</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>10101000</code></td>
+<td>168</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>00000001</code></td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>00001010</code></td>
+<td>10</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="konversi-ip-biner-desimal">🔄 Konversi IP: Biner ↔ Desimal</h4>
+<p>Cara konversi setiap oktet sama seperti yang dipelajari di Kelas X:</p>
+<pre><code>  11000000 = 128 + 64 + 0 + 0 + 0 + 0 + 0 + 0 = 192
+  10101000 = 128 + 0 + 32 + 0 + 8 + 0 + 0 + 0 = 168
+  00000001 = 0 + 0 + 0 + 0 + 0 + 0 + 0 + 1 = 1
+  00001010 = 0 + 0 + 0 + 0 + 0 + 0 + 1 + 0 + 0 = 10
+</code></pre>
+<blockquote>
+<p>💡 <strong>Latihan:</strong> Coba konversikan 172.16.20.5 ke biner!</p>
+</blockquote>
+<h4 id="network-id-host-id">🏠 Network ID &amp; Host ID</h4>
+<p>Setiap IP Address terbagi menjadi dua bagian:<br />
+- <strong>Network ID</strong> — identitas jaringan (seperti nama kecamatan)<br />
+- <strong>Host ID</strong> — identitas perangkat dalam jaringan (seperti nomor rumah)</p>
+<h4 id="subnet-mask">🎭 Subnet Mask</h4>
+<p>Subnet mask menentukan <strong>batas antara Network ID dan Host ID</strong>.</p>
+<pre><code>  IP:     192.168.1.10
+  Mask:   255.255.255.0 (/24)
+
+  Biner IP:   11000000.10101000.00000001.00001010
+  Biner Mask: 11111111.11111111.11111111.00000000
+                                         ↑
+               Network ID ──────────────┤ ├── Host ID
+
+  Network ID = 192.168.1.0   (host ID semua 0)
+  Broadcast  = 192.168.1.255 (host ID semua 1)
+  Host valid = 192.168.1.1 — 192.168.1.254
+</code></pre>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Subnet Mask</th>
+<th>CIDR</th>
+<th>Jumlah Host</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>255.0.0.0</td>
+<td>/8</td>
+<td>16.777.214</td>
+</tr>
+<tr>
+<td>255.255.0.0</td>
+<td>/16</td>
+<td>65.534</td>
+</tr>
+<tr>
+<td>255.255.255.0</td>
+<td>/24</td>
+<td>254</td>
+</tr>
+<tr>
+<td>255.255.255.192</td>
+<td>/26</td>
+<td>62</td>
+</tr>
+<tr>
+<td>255.255.255.224</td>
+<td>/27</td>
+<td>30</td>
+</tr>
+<tr>
+<td>255.255.255.248</td>
+<td>/29</td>
+<td>6</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>💡 <strong>Notasi CIDR:</strong> <code>/24</code> artinya 24 bit pertama adalah Network ID (semua 1 di subnet mask).</p>
+</blockquote>
+<h4 id="hitung-jumlah-host-dengan-binary">🧮 Hitung Jumlah Host dengan Binary</h4>
+<pre><code>  Subnet mask /24 = 11111111.11111111.11111111.00000000
+  Bit host = 8 (dari 32 - 24)
+  Jumlah host = 2⁸ - 2 = 254
+                 │     └ network &amp; broadcast
+                 └ semua kemungkinan kombinasi bit host
+
+  Subnet mask /27 = 11111111.11111111.11111111.11100000
+  Bit host = 5 (dari 32 - 27)
+  Jumlah host = 2⁵ - 2 = 30
+</code></pre>
+<p><strong>Contoh perhitungan:</strong></p>
+<pre><code>  IP: 192.168.1.10 /24
+        ├── Network: 192.168.1.0
+        ├── Broadcast: 192.168.1.255
+        ├── Range: 192.168.1.1 — 192.168.1.254
+        └── Total perangkat: 254 host
+
+  IP: 10.0.0.1 /16
+        ├── Network: 10.0.0.0
+        ├── Broadcast: 10.0.255.255
+        ├── Range: 10.0.0.1 — 10.0.255.254
+        └── Total perangkat: 65.534 host
+</code></pre>
+<h4 id="contoh-konfigurasi-jaringan-sekolah">🌐 Contoh Konfigurasi Jaringan Sekolah</h4>
+<pre><code>  Lab Komputer SMA N 6 Cimahi
+  ┌───────────────────────────────────────────┐
+  │  Network: 192.168.50.0 /24               │
+  │  Gateway (Router): 192.168.50.1          │
+  │  DNS: 8.8.8.8                            │
+  │  Range host: 192.168.50.2 — 192.168.50.254 │
+  │                                          │
+  │  PC Guru 1: 192.168.50.10                │
+  │  PC Guru 2: 192.168.50.11                │
+  │  PC Siswa 1-30: 192.168.50.100-129       │
+  │  Server: 192.168.50.2                    │
+  │  Printer: 192.168.50.50                  │
+  └───────────────────────────────────────────┘
+</code></pre>
 <h3 id="cek-pemahaman">🔍 Cek Pemahaman</h3>
 <ol>
 <li>Jelaskan perbedaan antara LAN, MAN, dan WAN! Berikan contoh masing-masing!</li>
 <li>Gambarkan topologi Star dan Ring! Apa kelebihan dan kekurangan masing-masing?</li>
 <li>Apa fungsi Router, Switch, dan Access Point dalam sebuah jaringan?</li>
+<li>Konversikan IP <code>172.16.20.5</code> ke dalam bentuk biner!</li>
+<li>Sebuah jaringan menggunakan IP <code>192.168.10.0/24</code>. Berapa jumlah maksimal host yang bisa terhubung?</li>
+<li>Apa yang dimaksud dengan Network ID dan Broadcast Address? Jelaskan dengan contoh!</li>
 </ol>
 <h3 id="studi-kasus">📋 Studi Kasus</h3>
-<p>SMA Harapan Bangsa sedang membangun <strong>laboratorium komputer baru</strong> dengan 30 PC. Semua PC harus terhubung ke internet dan bisa saling berbagi data. Kepala sekolah meminta usulan desain jaringan yang efisien dan mudah dikelola.</p>
+<p>SMA Harapan Bangsa sedang membangun <strong>laboratorium komputer baru</strong> dengan 30 PC. Semua PC harus terhubung ke internet dan bisa saling berbagi data. Kepala sekolah meminta usulan desain jaringan yang efisien dan mudah dikelola. Sekolah memiliki alokasi IP <code>192.168.100.0/24</code>.</p>
 <p><strong>Analisis:</strong><br />
 1. Topologi apa yang paling tepat untuk laboratorium tersebut? Jelaskan kelebihan dan kekurangannya!<br />
-2. Perangkat jaringan apa saja yang dibutuhkan? Gambarkan skema jaringan sederhananya!</p>
+2. Perangkat jaringan apa saja yang dibutuhkan? Gambarkan skema jaringan sederhananya!<br />
+3. Tentukan Network ID, Broadcast Address, dan range host yang valid untuk jaringan tersebut!<br />
+4. Jika laboratorium tersebut hanya punya 30 PC, apakah subnet /24 efisien? Atau bisakah menggunakan subnet yang lebih kecil? Jelaskan!</p>
 <blockquote>
 <p>🤔 <strong>Mari Renungkan:</strong> Apa hal paling menarik yang kamu pelajari dari bagian ini?</p>
 </blockquote>
@@ -470,6 +635,8 @@
 <h2 id="rangkuman">📝 Rangkuman</h2>
 <ul>
 <li>Jaringan komputer dibagi menjadi <strong>LAN</strong> (lokal), <strong>MAN</strong> (kota), dan <strong>WAN</strong> (luas). Topologi yang paling umum adalah <strong>Star</strong> karena jika satu kabel putus yang lain tidak terganggu.</li>
+<li><strong>IP Address</strong> adalah alamat unik perangkat dalam jaringan. IPv4 terdiri dari 32 bit (4 oktet). Setiap oktet bernilai 0-255 dan bisa dikonversi ke/dari biner.</li>
+<li><strong>Subnet Mask</strong> menentukan batas Network ID dan Host ID. Notasi CIDR (/24, /16, /8) menunjukkan jumlah bit untuk Network ID.</li>
 <li><strong>OSI Model</strong> memiliki 7 layer: Physical, Data Link, Network, Transport, Session, Presentation, Application. Setiap layer membungkus data dengan header-nya (enkapsulasi).</li>
 <li><strong>Cyber Security</strong> melindungi sistem dari ancaman seperti Malware, Phishing, DDoS, Man-in-the-Middle, SQL Injection, dan Social Engineering dengan mitigasi seperti 2FA dan password manager.</li>
 <li><strong>Tata kelola akses data</strong> menggunakan model RBAC (Role-Based Access Control) dengan prinsip Least Privilege — beri akses seminimal mungkin sesuai peran.</li>
@@ -597,6 +764,11 @@
 <li><strong>Least Privilege</strong>: Prinsip keamanan yang memberikan akses seminimal mungkin kepada pengguna.</li>
 <li><strong>RBAC</strong>: Role-Based Access Control — model kontrol akses berdasarkan peran pengguna dalam organisasi.</li>
 <li><strong>Cisco Packet Tracer</strong>: Software simulasi jaringan untuk merancang dan mengkonfigurasi jaringan tanpa alat fisik.</li>
+<li><strong>IP Address</strong>: Alamat unik perangkat dalam jaringan — IPv4 terdiri dari 32 bit (4 oktet) yang ditulis dalam format desimal bertitik.</li>
+<li><strong>Subnet Mask</strong>: Angka 32 bit yang membatasi Network ID dan Host ID dalam sebuah IP Address.</li>
+<li><strong>CIDR</strong>: Classless Inter-Domain Routing — notasi seperti <code>/24</code> yang menunjukkan jumlah bit Network ID.</li>
+<li><strong>Network ID</strong>: Bagian IP Address yang mengidentifikasi jaringan (alamat pertama dalam range).</li>
+<li><strong>Broadcast Address</strong>: Alamat khusus untuk mengirim data ke semua perangkat dalam jaringan (alamat terakhir dalam range).</li>
 </ul>
 <hr />
 <h2 id="sumber-media-pembelajaran">📺 Sumber &amp; Media Pembelajaran</h2>
@@ -627,6 +799,12 @@
 <td>OSI Layer Dijelaskan</td>
 <td><code>youtu.be/search?q=OSI+layer+indonesia</code></td>
 <td>Penjelasan 7 layer OSI dengan analogi</td>
+</tr>
+<tr>
+<td>YouTube</td>
+<td>Belajar IP Address &amp; Subnetting</td>
+<td><code>youtu.be/search?q=belajar+ip+address+subnetting+dasar</code></td>
+<td>Tutorial IP address dan subnet mask</td>
 </tr>
 <tr>
 <td>Website</td>

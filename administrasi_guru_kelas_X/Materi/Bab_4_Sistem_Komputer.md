@@ -1,6 +1,6 @@
 # ⚙️ Bab 4: Sistem Komputer
 
-> **Semester Ganjil** | **Fase E** | **Kelas X** | **15 JP**
+> **Semester Ganjil** | **Fase E** | **Kelas X** | **20 JP**
 
 ---
 
@@ -18,6 +18,7 @@
 - **A.** Hardware: Komponen Fisik Komputer
 - **B.** Software: Perangkat Lunak Sistem dan Aplikasi
 - **C.** Sistem Operasi: Jembatan Pengguna dan Hardware
+- **D.** Sistem Bilangan Komputer (Biner, Desimal, Heksadesimal)
 
 ## 🗺️ Peta Konsep
 
@@ -26,7 +27,8 @@
                      |
                      ├── A. Hardware: Komponen Fisik Komputer
                      ├── B. Software: Perangkat Lunak Sistem dan Aplikasi
-                     └── C. Sistem Operasi: Jembatan Pengguna dan Hardware
+                     ├── C. Sistem Operasi: Jembatan Pengguna dan Hardware
+                     └── D. Sistem Bilangan Komputer (Biner, Desimal, Heksadesimal)
 ```
 
 ## A. Hardware: Komponen Fisik Komputer
@@ -267,8 +269,142 @@ Laptop seorang siswa tiba-tiba muncul layar biru (Blue Screen of Death) saat sed
 > 🤔 **Mari Renungkan:** Apa hal paling menarik yang kamu pelajari dari bagian ini?
 
 ---
+---
+
+## D. Sistem Bilangan Komputer (Biner, Desimal, Heksadesimal)
+
+### 🔢 Mengapa Biner?
+
+Komputer hanya mengenal **dua keadaan**: **arus listrik menyala (1)** dan **arus listrik mati (0)**. Inilah alasan mengapa komputer menggunakan sistem **biner** (basis 2).
+
+> 🧩 **Analogi:** Biner itu seperti **saklar lampu**. Saklar hanya punya dua posisi: ON (1) atau OFF (0). Dengan kombinasi banyak saklar, komputer bisa menyimpan angka, huruf, gambar, bahkan video!
+
+```
+  SAKLAR LAMPU →  1 = ON (listrik mengalir)
+                   0 = OFF (listrik terputus)
+
+  Contoh: Byte = 8 saklar
+  ┌───┬───┬───┬───┬───┬───┬───┬───┐
+  │ 1 │ 0 │ 1 │ 0 │ 1 │ 1 │ 0 │ 0 │  ← 1 byte (8 bit)
+  └───┴───┴───┴───┴───┴───┴───┴───┘
+  Bit ke-7 ...                        Bit ke-0
+```
+
+### D.1 Sistem Bilangan
+
+Manusia biasa pakai **desimal** (basis 10: 0-9). Komputer pakai **biner** (basis 2: 0-1). Kadang kita pakai **heksadesimal** (basis 16: 0-9, A-F) untuk menulis biner lebih ringkas.
+
+| Sistem Bilangan | Basis | Angka yang Dipakai | Contoh |
+|----------------|-------|-------------------|--------|
+| **Desimal** | 10 | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 | 255 |
+| **Biner** | 2 | 0, 1 | 11111111 |
+| **Heksadesimal** | 16 | 0-9, A, B, C, D, E, F | FF |
+
+### D.2 Konversi Biner ↔ Desimal
+
+#### 🖩 Biner ke Desimal
+Setiap digit biner punya **nilai tempat** kelipatan 2:
+
+```
+  Biner:    1    0    1    0    1    1    0    0
+  Nilai:  2⁷  2⁶  2⁵  2⁴  2³  2²  2¹  2⁰
+          128   64   32   16   8    4   2    1
+          ─────────────────────────────────────────
+          128 + 0 + 32 + 0 + 8 + 4 + 0 + 0 = 172
+```
+
+> 💡 **Tips cepat:** Digit paling kanan = 1, lalu double setiap ke kiri: 1, 2, 4, 8, 16, 32, 64, 128...
+
+#### 🖩 Desimal ke Biner
+Gunakan **pembagian berturut-turut**:
+
+```
+  172 : 2 = 86  sisa 0  ↑
+   86 : 2 = 43  sisa 0  │
+   43 : 2 = 21  sisa 1  │
+   21 : 2 = 10  sisa 1  │  Baca dari bawah ke atas
+   10 : 2 = 5   sisa 0  │  172 = 10101100
+    5 : 2 = 2   sisa 1  │
+    2 : 2 = 1   sisa 0  │
+    1 : 2 = 0   sisa 1  ↑
+```
+
+#### 📋 Tabel Konversi Cepat
+| Desimal | Biner (4 bit) | Heksadesimal |
+|---------|---------------|--------------|
+| 0 | 0000 | 0 |
+| 1 | 0001 | 1 |
+| 2 | 0010 | 2 |
+| 3 | 0011 | 3 |
+| 4 | 0100 | 4 |
+| 5 | 0101 | 5 |
+| 6 | 0110 | 6 |
+| 7 | 0111 | 7 |
+| 8 | 1000 | 8 |
+| 9 | 1001 | 9 |
+| 10 | 1010 | A |
+| 11 | 1011 | B |
+| 12 | 1100 | C |
+| 13 | 1101 | D |
+| 14 | 1110 | E |
+| 15 | 1111 | F |
+
+### D.3 Aplikasi Biner dalam Komputer
+
+#### 📝 ASCII — Huruf dalam Biner
+Setiap karakter dikodekan sebagai angka 0-255, yang dalam biner = 1 byte.
+
+```
+  H = 72 = 01001000
+  a = 97 = 01100001
+  l = 108 = 01101100
+  o = 111 = 01101111
+```
+
+#### 🎨 Warna RGB — Warna dalam Biner
+Setiap warna (Merah/Hijau/Biru) diwakili 1 byte (0-255).
+
+```
+  RGB(255, 255, 255) = Putih
+    11111111 : 11111111 : 11111111
+
+  RGB(0, 0, 0)       = Hitam
+    00000000 : 00000000 : 00000000
+
+  RGB(255, 0, 0)     = Merah
+    11111111 : 00000000 : 00000000
+```
+
+> 💡 Di HTML, warna RGB ditulis dalam heksadesimal: `#FF0000` = Merah, `#00FF00` = Hijau, `#0000FF` = Biru.
+
+#### 📏 Ukuran Data
+| Satuan | Jumlah Byte | Analogi |
+|--------|-------------|---------|
+| 1 bit | 0,125 byte | 1 saklar |
+| 1 byte (B) | 8 bit | 1 karakter |
+| 1 Kilobyte (KB) | 1.024 B | 1 halaman teks |
+| 1 Megabyte (MB) | 1.024 KB | 1 lagu MP3 (3-5 menit) |
+| 1 Gigabyte (GB) | 1.024 MB | 1 film HD (1,5 jam) |
+
+### 🔍 Cek Pemahaman
+1. Konversikan biner `11011010` ke desimal!
+2. Konversikan desimal `231` ke biner!
+3. Tuliskan huruf "A" (ASCII 65) dalam bentuk biner!
+4. Berapa byte yang dibutuhkan untuk menyimpan kata "INFORMATIKA"?
+5. Jika sebuah gambar punya 1 juta pixel dan setiap pixel butuh 3 byte (RGB), berapa MB ukuran gambarnya?
+
+### 📋 Studi Kasus
+Seorang siswa sedang belajar representasi data. Ia menemukan bahwa laptopnya memiliki RAM 8 GB dan hard disk 512 GB. Ia ingin menyimpan sebuah foto berukuran 1920×1080 pixel dengan format RGB (3 byte per pixel).
+
+**Analisis:**
+1. Hitung ukuran satu foto dalam MB!
+2. Berapa banyak foto serupa yang bisa disimpan di hard disk?
+3. Jelaskan mengapa kita menggunakan heksadesimal untuk menulis alamat memori, bukan biner!
+
+> 🤔 **Mari Renungkan:** Setiap angka, huruf, foto, video, dan game yang kamu lihat di layar sebenarnya hanyalah rangkaian 0 dan 1. Bagaimana perasaanmu mengetahui bahwa semua yang digital pada dasarnya hanya "listrik ON/OFF"?
 
 ---
+
 ## 🏗️ Proyek Mini: Poster Anatomi Komputer 🖥️
 
 Buat poster yang menampilkan komponen-komponen utama hardware komputer beserta fungsinya. Gambar atau ilustrasi komponen harus diberi label dan penjelasan singkat.
@@ -291,9 +427,10 @@ Buat poster yang menampilkan komponen-komponen utama hardware komputer beserta f
 
 ## 📝 Rangkuman
 
-- Hardware terdiri dari komponen input, proses (CPU), output, storage (HDD/SSD), dan network — semuanya bekerja sama membentuk sistem komputer.
-- Software dibagi menjadi sistem operasi (Windows, Linux), aplikasi (Word, Chrome), dan utility (antivirus).
-- Sistem Operasi adalah jembatan antara pengguna, aplikasi, dan hardware — fungsi utamanya mengelola CPU, memori, I/O, dan file.
+ - Hardware terdiri dari komponen input, proses (CPU), output, storage (HDD/SSD), dan network — semuanya bekerja sama membentuk sistem komputer.
+ - Software dibagi menjadi sistem operasi (Windows, Linux), aplikasi (Word, Chrome), dan utility (antivirus).
+ - Sistem Operasi adalah jembatan antara pengguna, aplikasi, dan hardware — fungsi utamanya mengelola CPU, memori, I/O, dan file.
+ - **Sistem Bilangan Komputer:** Komputer menggunakan **biner (basis 2)**. Manusia pakai **desimal (basis 10)**, dan **heksadesimal (basis 16)** untuk menulis biner lebih ringkas. Setiap teks, warna, suara, dan gambar hanyalah rangkaian **0 dan 1**.
 
 ---
 
@@ -375,13 +512,18 @@ Install Linux Ubuntu di VirtualBox atau coba live USB. Jelaskan perbedaan pengal
 
 ## 📖 Glosarium
 
-- **CPU (Central Processing Unit)**: Otak komputer yang menjalankan semua perintah dan proses.
-- **RAM (Random Access Memory)**: Memori sementara yang cepat tapi hilang saat komputer mati.
-- **Storage (HDD/SSD)**: Penyimpanan permanen untuk data dan file.
-- **Motherboard**: Papan sirkuit utama yang menghubungkan semua komponen komputer.
-- **Sistem Operasi**: Software utama yang menjadi jembatan antara pengguna, aplikasi, dan hardware.
-- **GUI (Graphical User Interface)**: Antarmuka pengguna berbasis grafis — ikon, menu, dan jendela.
-- **CLI (Command Line Interface)**: Antarmuka pengguna berbasis teks — mengetik perintah.
+ - **CPU (Central Processing Unit)**: Otak komputer yang menjalankan semua perintah dan proses.
+ - **RAM (Random Access Memory)**: Memori sementara yang cepat tapi hilang saat komputer mati.
+ - **Storage (HDD/SSD)**: Penyimpanan permanen untuk data dan file.
+ - **Motherboard**: Papan sirkuit utama yang menghubungkan semua komponen komputer.
+ - **Sistem Operasi**: Software utama yang menjadi jembatan antara pengguna, aplikasi, dan hardware.
+ - **GUI (Graphical User Interface)**: Antarmuka pengguna berbasis grafis — ikon, menu, dan jendela.
+ - **CLI (Command Line Interface)**: Antarmuka pengguna berbasis teks — mengetik perintah.
+ - **Biner**: Sistem bilangan basis 2 (0 dan 1) — bahasa mesin yang dipahami komputer.
+ - **Bit**: Unit data terkecil dalam komputer (0 atau 1).
+ - **Byte**: Kumpulan 8 bit — cukup untuk menyimpan 1 karakter.
+ - **Heksadesimal**: Sistem bilangan basis 16 (0-9, A-F) — cara ringkas menulis biner.
+ - **ASCII**: Standar pengkodean karakter 7-bit (0-127) — misal A=65, a=97.
 
 ---
 ## 📺 Sumber & Media Pembelajaran
@@ -392,4 +534,5 @@ Install Linux Ubuntu di VirtualBox atau coba live USB. Jelaskan perbedaan pengal
 | YouTube | Merakit PC untuk Pemula | `https://youtu.be/...search?q=merakit+PC+pemula+indonesia` | Tutorial merakit komputer oleh content creator IT Indonesia |
 | Simulasi | PhET Simulation — CPU | `https://phet.colorado.edu/in/simulations/` | Simulasi tentang sirkuit dan logika dasar |
 | Website | Zenius — Sistem Komputer | `https://www.zenius.net/` | Materi dan latihan soal sistem komputer |
+| YouTube | Animasi Biner — Kok Bisa? | `https://youtu.be/...search?q=binary+number+system+animasi` | Penjelasan sistem biner dengan animasi |
 | YouTube | Kelas IT — Sistem Operasi | `https://youtu.be/...search?q=kelas+IT+sistem+operasi` | Penjelasan fungsi dan jenis sistem operasi |
