@@ -808,7 +808,7 @@ body {
   .hero .sub { color: #666 !important; }
   .hero-icon { display: none !important; }
   .grade-card { break-inside: avoid; }
-  .content-inner { max-width: 100% !important; padding: 2cm !important; margin: 0 !important; }
+  .content-inner { max-width: 100% !important; padding: 2cm 2cm 0 2cm !important; margin: 0 !important; }
   body { background: #fff !important; color: #000 !important; font-size: 11pt; }
   a { color: #000 !important; text-decoration: underline; }
   h1, h2, h3, h4 { page-break-after: avoid; }
