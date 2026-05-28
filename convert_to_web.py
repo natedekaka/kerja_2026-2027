@@ -1498,10 +1498,12 @@ JS_CODE = r'''(() => {
     function closeSidebar() {
       sidebar.classList.remove('open');
       overlay.classList.remove('active');
+      hamburger.style.display = '';
     }
     hamburger.addEventListener('click', () => {
       sidebar.classList.toggle('open');
       overlay.classList.toggle('active');
+      hamburger.style.display = 'none';
     });
     overlay.addEventListener('click', closeSidebar);
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSidebar(); });
