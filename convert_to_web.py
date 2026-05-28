@@ -1373,7 +1373,7 @@ def generate_index():
     content.append('    <span class="label">Tahun Pelajaran</span><span class="value">2026/2027</span>')
     content.append('  </div>')
     content.append('  <p style="margin-top:1rem;font-size:0.82rem;color:var(--text-muted);border-top:1px solid var(--border);padding-top:0.75rem;">')
-    content.append('    Dokumen administrasi ini dikelola oleh MGMP Informatika SMA Negeri 6 Cimahi dan diperuntukkan bagi seluruh guru Informatika di lingkungan sekolah.')
+    content.append('    Dokumen administrasi ini dikelola oleh MGMP Informatika SMA Negeri 6 Cimahi dan diperuntukkan bagi seluruh guru Informatika di lingkungan sekolah. Untuk luar sekolah juga dipersilahkan.')
     content.append('  </p>')
     content.append('</div>')
 
