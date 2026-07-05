@@ -17,6 +17,8 @@
 | Pertemuan ke- | 3 (tiga) |
 | Kompetensi Awal | Peserta didik telah memahami konsep nilai, variabel, tipe data, input-output, dan struktur percabangan if-elif-else dalam Python |
 | Integrasi 8 Dimensi | Kreativitas, Penalaran Kritis, Kemandirian |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, laptop/komputer, Python IDLE atau Google Colab, papan tulis, spidol warna |
 | Target Peserta Didik | Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan) |
 | Model Pembelajaran | Demonstrasi interaktif, praktik coding, dan tantangan pemrograman (Gamification) |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 7, dokumentasi Python, W3Schools Python Loops, modul ajar guru |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Pemrograman adalah cara kita 'berbicara' dengan komputer dan menciptakan solusi digital untuk masalah nyata.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 1. Menjelaskan konsep perulangan (looping) dan perbedaan antara for loop dan while loop.
@@ -46,15 +56,15 @@ Perulangan, loop, iterasi, for, while, range(), nested loop, infinite loop, brea
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10' | Guru membuka kelas dan memantik: "Coba tulis angka 1 sampai 100 tanpa loop..." — siswa menyadari bahwa menulis manual tidak efisien. Guru mendemonstrasikan betapa repotnya tanpa loop. Guru menyampaikan TP dan manfaat perulangan. | Siswa mencoba membayangkan atau menulis beberapa angka. Siswa menyadari pentingnya loop. Siswa menyimak TP. | Proyektor, papan tulis |
-| **Inti — Sesi 1** | 15' | Guru menjelaskan for loop: for i in range(n) — analogi "antrian tiket: untuk setiap orang, lakukan X". Guru menjelaskan variasi range(start, stop, step). Guru memberikan contoh mencetak bilangan genap 2-20. | Siswa menyimak dan mencatat. Siswa menulis kode for loop pertama mereka. Siswa mencoba mengubah parameter range. | Python IDLE/Colab, slide materi |
-| **Inti — Sesi 2** | 15' | Guru menjelaskan while loop: while kondisi — analogi "isi galon sampai penuh". Guru menjelaskan risiko infinite loop dan cara menghindarinya. Guru demonstrasi program hitung mundur 10-1. | Siswa menyimak dan menulis kode while loop. Siswa sengaja membuat infinite loop lalu menghentikannya untuk memahami konsep. | Python IDLE/Colab, slide |
-| **Inti — Praktik 1** | 15' | Guru memberikan 3 tantangan for loop: (1) deret 1-n, (2) tabel perkalian 1-10, (3) jumlah deret 1+2+...+n. Guru berkeliling membantu. | Siswa menyelesaikan 3 tantangan for loop secara individu. Siswa menguji dengan berbagai nilai n. | LKPD, Python IDLE/Colab |
-| **Inti — Praktik 2** | 20' | Guru memberikan tantangan while loop: program tebak angka (komputer punya angka rahasia 1-100, user menebak sampai benar dengan petunjuk "lebih besar" atau "lebih kecil"). Guru memfasilitasi kompetisi. | Siswa membuat program tebak angka. Siswa saling mencoba program teman. Siswa yang selesai pertama mendapat apresiasi. | LKPD, Python IDLE/Colab |
-| **Inti — Nested Loop** | 10' | Guru menjelaskan nested loop dengan contoh pola bintang segitiga. Guru menunjukkan bagaimana outer loop mengontrol baris dan inner loop mengontrol kolom. | Siswa menulis nested loop untuk pola bintang. Siswa bereksperimen dengan pola berbeda (segitiga siku, segitiga sama sisi, persegi). | Python IDLE/Colab, papan tulis |
-| **Penutup** | 15' | Guru memberikan tugas: program mencetak bilangan prima dari 1-100 menggunakan loop. Guru menyimpulkan perbedaan for dan while. Guru menutup kelas. | Siswa mencatat tugas. Siswa membuat mindmap perbedaan for dan while. Siswa berdoa. | Papan tulis, buku catatan |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10' | Guru membuka kelas dan memantik: "Coba tulis angka 1 sampai 100 tanpa loop..." — siswa menyadari bahwa menulis manual tidak efisien. Guru mendemonstrasikan betapa repotnya tanpa loop. Guru menyampaikan TP dan manfaat perulangan. | Siswa mencoba membayangkan atau menulis beberapa angka. Siswa menyadari pentingnya loop. Siswa menyimak TP. | Proyektor, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Sesi 1** | 15' | Guru menjelaskan for loop: for i in range(n) — analogi "antrian tiket: untuk setiap orang, lakukan X". Guru menjelaskan variasi range(start, stop, step). Guru memberikan contoh mencetak bilangan genap 2-20. | Siswa menyimak dan mencatat. Siswa menulis kode for loop pertama mereka. Siswa mencoba mengubah parameter range. | Python IDLE/Colab, slide materi |
+| **MINING FULL** | **Eksplorasi** — Sesi 2** | 15' | Guru menjelaskan while loop: while kondisi — analogi "isi galon sampai penuh". Guru menjelaskan risiko infinite loop dan cara menghindarinya. Guru demonstrasi program hitung mundur 10-1. | Siswa menyimak dan menulis kode while loop. Siswa sengaja membuat infinite loop lalu menghentikannya untuk memahami konsep. | Python IDLE/Colab, slide |
+| **MINING FULL** | **Eksplorasi** — Praktik 1** | 15' | Guru memberikan 3 tantangan for loop: (1) deret 1-n, (2) tabel perkalian 1-10, (3) jumlah deret 1+2+...+n. Guru berkeliling membantu. | Siswa menyelesaikan 3 tantangan for loop secara individu. Siswa menguji dengan berbagai nilai n. | LKPD, Python IDLE/Colab |
+| **MINING FULL** | **Eksplorasi** — Praktik 2** | 20' | Guru memberikan tantangan while loop: program tebak angka (komputer punya angka rahasia 1-100, user menebak sampai benar dengan petunjuk "lebih besar" atau "lebih kecil"). Guru memfasilitasi kompetisi. | Siswa membuat program tebak angka. Siswa saling mencoba program teman. Siswa yang selesai pertama mendapat apresiasi. | LKPD, Python IDLE/Colab |
+| **MINING FULL** | **Eksplorasi** — Nested Loop** | 10' | Guru menjelaskan nested loop dengan contoh pola bintang segitiga. Guru menunjukkan bagaimana outer loop mengontrol baris dan inner loop mengontrol kolom. | Siswa menulis nested loop untuk pola bintang. Siswa bereksperimen dengan pola berbeda (segitiga siku, segitiga sama sisi, persegi). | Python IDLE/Colab, papan tulis |
+| **JOYFULL** | **Penutup Kreatif** | 15' | Guru memberikan tugas: program mencetak bilangan prima dari 1-100 menggunakan loop. Guru menyimpulkan perbedaan for dan while. Guru menutup kelas. | Siswa mencatat tugas. Siswa membuat mindmap perbedaan for dan while. Siswa berdoa. | Papan tulis, buku catatan |
 
 ### D. ASESMEN
 
@@ -76,7 +86,7 @@ Perulangan, loop, iterasi, for, while, range(), nested loop, infinite loop, brea
 
 #### D.4 Rubrik Penilaian Program Perulangan
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Penggunaan for loop** | Menggunakan for loop dengan range() yang tepat, variasi step, dan manipulasi string/number | For loop berfungsi dengan range() dasar | For loop berfungsi tetapi ada error minor | Tidak menggunakan atau for loop error |
 | **Penggunaan while loop** | While loop memiliki kondisi berhenti yang jelas, tidak ada infinite loop, menggunakan break/continue dengan tepat | While loop berfungsi dengan kondisi sederhana | While loop berfungsi tetapi ada risiko infinite loop | Tidak menggunakan atau while loop error |
 | **Nested loop** | Pola bintang sempurna dengan input dinamis, bisa membuat 2+ variasi pola | Pola bintang berfungsi dengan input statis | Nested loop berfungsi tetapi pola tidak sesuai | Tidak berhasil membuat nested loop |
@@ -188,6 +198,52 @@ Buat program yang mencetak semua bilangan prima dari 1 sampai 100. Petunjuk: gun
 - **Python Tutor (Loop Visualization)** — https://pythontutor.com/ — alat bantu visual untuk menunjukkan iterasi loop step-by-step kepada siswa
 
 ---
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 Mengetahui,  
 Kepala Sekolah

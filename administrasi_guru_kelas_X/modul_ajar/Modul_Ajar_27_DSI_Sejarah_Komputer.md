@@ -17,6 +17,8 @@
 | Pertemuan ke- | 7 (tujuh) |
 | Kompetensi Awal | Peserta didik telah menggunakan komputer/HP dalam kehidupan sehari-hari tetapi belum mengetahui sejarah dan evolusi teknologi komputasi secara mendalam |
 | Integrasi 8 Dimensi | Kewargaan, Kemandirian, Penalaran Kritis |
+| **Integrasi 7 KAIH** | Beribadah, Bermasyarakat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, papan tulis, spidol, kertas karton/poster, spidol warna, laptop/HP untuk riset, koneksi internet, aplikasi Canva (opsional) |
 | Target Peserta Didik | Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan) |
 | Model Pembelajaran | Cooperative Learning — Presentasi Kelompok + Diskusi |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 8, artikel wikipedia tentang sejarah komputer, video dokumenter ENIAC, situs museum komputer virtual |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Teknologi membawa dampak luas ke masyarakat — memahaminya membantu kita menjadi pengguna teknologi yang bertanggung jawab.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 1. Menjelaskan sejarah perkembangan komputer dari generasi ke generasi (generasi 1 sampai generasi 5).
@@ -46,13 +56,13 @@ Sejarah komputer, ENIAC, UNIVAC, tabung vakum, transistor, integrated circuit (I
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10' | Guru membuka kelas dengan pertanyaan pemantik: "Bayangkan hidup tanpa komputer, HP, internet — 50 tahun lalu. Siapa yang membuat semua ini mungkin?" Guru menampilkan foto komputer ENIAC (30 ton) dan membandingkannya dengan HP di tangan siswa. Guru menyampaikan TP. | Siswa merespons pertanyaan. Siswa mengamati foto ENIAC dan terkesima dengan ukurannya. Siswa menyimak TP. | Proyektor, foto ENIAC vs HP modern |
-| **Inti — Sesi 1** | 20' | Guru menjelaskan timeline 5 generasi komputer: Generasi 1 (1940-1956: tabung vakum, ENIAC, UNIVAC — ukuran raksasa, panas, boros listrik), Generasi 2 (1956-1963: transistor — lebih kecil, lebih dingin), Generasi 3 (1964-1971: IC — IBM 360), Generasi 4 (1971-sekarang: mikroprosesor, Intel 4004, PC, laptop), Generasi 5 (sekarang-masa depan: AI, cloud computing, quantum computing). | Siswa menyimak dan mencatat timeline. Siswa bertanya tentang detail spesifikasi komputer generasi awal. Siswa membuat catatan visual timeline di buku. | Slide timeline, papan tulis |
-| **Inti — Sesi 2** | 15' | Guru menjelaskan tokoh-tokoh penting: Charles Babbage (bapak komputer, analytical engine), Ada Lovelace (programmer pertama), Alan Turing (Turing machine, Enigma), John von Neumann (arsitektur von Neumann), Robert Noyce (ko-inventor IC), Bill Gates (Microsoft), Steve Jobs (Apple), Tim Berners-Lee (World Wide Web). Guru menceritakan kisah menarik setiap tokoh. | Siswa mencatat tokoh dan kontribusinya. Siswa memberikan reaksi terhadap kisah-kisah inspiratif. Siswa menanyakan tokoh favorit mereka. | Slide tokoh, foto/wajah tokoh |
-| **Inti — Aktivitas Kelompok** | 30' | Guru membagi kelas menjadi 5-8 kelompok. Setiap kelompok mendapat 1 generasi atau 1-2 tokoh. Tugas: buat poster infografis (kertas karton/Canva) yang mencakup fakta penting, tahun, tokoh, dan dampak. Waktu: 20 menit persiapan, 3 menit presentasi per kelompok. | Siswa berkelompok dan mendiskusikan pembagian tugas. Siswa meriset informasi tambahan via HP. Siswa membuat poster. Siswa mempresentasikan di depan kelas. | Kertas karton, spidol, HP, Canva |
-| **Penutup** | 15' | Guru memimpin refleksi: "Dari semua tokoh, siapa yang paling menginspirasi?" Guru memberikan tugas: riset 1 tokoh IT Indonesia dan kontribusinya (misal: Onno W. Purbo, Budi Rahardjo, I ketut Eddy Purnama, dll). Guru menutup kelas. | Siswa menjawab refleksi. Siswa mencatat tugas riset tokoh IT Indonesia. Siswa berdoa. | Buku catatan, papan tulis |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10' | Guru membuka kelas dengan pertanyaan pemantik: "Bayangkan hidup tanpa komputer, HP, internet — 50 tahun lalu. Siapa yang membuat semua ini mungkin?" Guru menampilkan foto komputer ENIAC (30 ton) dan membandingkannya dengan HP di tangan siswa. Guru menyampaikan TP. | Siswa merespons pertanyaan. Siswa mengamati foto ENIAC dan terkesima dengan ukurannya. Siswa menyimak TP. | Proyektor, foto ENIAC vs HP modern |
+| **MINING FULL** | **Eksplorasi** — Sesi 1** | 20' | Guru menjelaskan timeline 5 generasi komputer: Generasi 1 (1940-1956: tabung vakum, ENIAC, UNIVAC — ukuran raksasa, panas, boros listrik), Generasi 2 (1956-1963: transistor — lebih kecil, lebih dingin), Generasi 3 (1964-1971: IC — IBM 360), Generasi 4 (1971-sekarang: mikroprosesor, Intel 4004, PC, laptop), Generasi 5 (sekarang-masa depan: AI, cloud computing, quantum computing). | Siswa menyimak dan mencatat timeline. Siswa bertanya tentang detail spesifikasi komputer generasi awal. Siswa membuat catatan visual timeline di buku. | Slide timeline, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Sesi 2** | 15' | Guru menjelaskan tokoh-tokoh penting: Charles Babbage (bapak komputer, analytical engine), Ada Lovelace (programmer pertama), Alan Turing (Turing machine, Enigma), John von Neumann (arsitektur von Neumann), Robert Noyce (ko-inventor IC), Bill Gates (Microsoft), Steve Jobs (Apple), Tim Berners-Lee (World Wide Web). Guru menceritakan kisah menarik setiap tokoh. | Siswa mencatat tokoh dan kontribusinya. Siswa memberikan reaksi terhadap kisah-kisah inspiratif. Siswa menanyakan tokoh favorit mereka. | Slide tokoh, foto/wajah tokoh |
+| **MINING FULL** | **Eksplorasi** — Aktivitas Kelompok** | 30' | Guru membagi kelas menjadi 5-8 kelompok. Setiap kelompok mendapat 1 generasi atau 1-2 tokoh. Tugas: buat poster infografis (kertas karton/Canva) yang mencakup fakta penting, tahun, tokoh, dan dampak. Waktu: 20 menit persiapan, 3 menit presentasi per kelompok. | Siswa berkelompok dan mendiskusikan pembagian tugas. Siswa meriset informasi tambahan via HP. Siswa membuat poster. Siswa mempresentasikan di depan kelas. | Kertas karton, spidol, HP, Canva |
+| **JOYFULL** | **Penutup Kreatif** | 15' | Guru memimpin refleksi: "Dari semua tokoh, siapa yang paling menginspirasi?" Guru memberikan tugas: riset 1 tokoh IT Indonesia dan kontribusinya (misal: Onno W. Purbo, Budi Rahardjo, I ketut Eddy Purnama, dll). Guru menutup kelas. | Siswa menjawab refleksi. Siswa mencatat tugas riset tokoh IT Indonesia. Siswa berdoa. | Buku catatan, papan tulis |
 
 ### D. ASESMEN
 
@@ -74,7 +84,7 @@ Sejarah komputer, ENIAC, UNIVAC, tabung vakum, transistor, integrated circuit (I
 
 #### D.4 Rubrik Penilaian Poster Infografis dan Presentasi
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Konten sejarah** | Memuat generasi/tokoh dengan tahun, fakta, dan kontribusi lengkap, akurat, dan sumber jelas | Memuat informasi lengkap dengan 1-2 fakta kurang akurat | Informasi kurang lengkap, ada fakta keliru | Informasi tidak lengkap dan banyak kesalahan |
 | **Kreativitas visual** | Poster rapi, warna harmonis, layout menarik, mudah dibaca dari jarak 2 meter | Cukup rapi dan menarik | Kurang rapi, warna kurang sesuai | Tidak rapi, tidak ada upaya estetika |
 | **Presentasi** | Penjelasan jelas, percaya diri, kontak mata, menjawab pertanyaan dengan baik | Cukup jelas, sedikit gugup | Kurang jelas, banyak membaca poster | Tidak siap, membaca terus |
@@ -163,6 +173,52 @@ Tulis esai 1 paragraf yang mencakup: latar belakang, kontribusi, dan dampak kary
 - **Dokumenter "The Code" tentang sejarah pemrograman** — tersedia di platform streaming edukasi
 
 ---
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 Mengetahui,  
 Kepala Sekolah

@@ -86,6 +86,34 @@ yang dilaksanakan di luar jam tatap muka namun masih dalam lingkup kurikulum.
 
 ---
 
+## G. INTEGRASI 7 KEBIASAAN ANAK INDONESIA HEBAT (7 KAIH)
+
+Berdasarkan SEB 3 Menteri No. 1 Tahun 2025 dan SE No. 14 Tahun 2025:
+
+| # | Kebiasaan | Aktivitas Terintegrasi Informatika Kelas X | Waktu |
+|---|-----------|--------------------------------------------|-------|
+| 1 | **Bangun Pagi** | Kedisiplinan praktik lab, analisis data kehadiran | Harian |
+| 2 | **Beribadah** | Doa sebelum/sesudah pembelajaran, etika digital | Setiap pertemuan |
+| 3 | **Berolahraga** | Senam AIH, jeda ceria, ergonomi komputer | 2x/minggu |
+| 4 | **Makan Sehat & Bergizi** | Tabel gizi & visualisasi data makanan (Bab 3 & 6) | Semester 2 |
+| 5 | **Gemar Belajar** | Literasi digital 15 menit, eksplorasi Python mandiri | Setiap pertemuan |
+| 6 | **Bermasyarakat** | Proyek PLB: solusi TIK untuk masalah sekolah | Semester 2 |
+| 7 | **Tidur Cepat** | Edukasi screen time, proyek analisis data tidur | Semester 1 |
+
+## H. LEMBAR REFLEKSI (Deep Learning + 7 KAIH)
+
+| Pertanyaan | Jawaban |
+|---|---|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling seru dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku lakukan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+> **Catatan:** P5 tetap berjalan sebagai proyek tematik. 7 KAIH adalah pembiasaan harian. Deep Learning adalah pendekatan pembelajaran (Mindful, Meaningful, Joyful).
+
+---
+
 Mengetahui,  
 Kepala Sekolah
 

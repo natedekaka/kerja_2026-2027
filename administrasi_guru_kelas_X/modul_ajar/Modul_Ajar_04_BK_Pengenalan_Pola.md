@@ -17,6 +17,8 @@
 | Pertemuan ke- | 4 (Empat) |
 | Kompetensi Awal | Peserta didik telah memahami konsep dekomposisi (memecah masalah menjadi bagian kecil) pada pertemuan sebelumnya. Peserta didik secara alami sudah terbiasa mengenali pola dalam kehidupan sehari-hari (pola musim, pola belajar, pola perilaku) namun belum menyadarinya sebagai teknik berpikir komputasional. |
 | Integrasi 8 Dimensi | Penalaran Kritis, Kreativitas, Kolaborasi, Komunikasi, Kemandirian, Keimanan & Ketakwaan, Kewargaan, Kesehatan |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bermasyarakat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor, laptop guru, kartu gambar berisi objek/hewan/bentuk, amplop, kertas plano, spidol warna, lem, gunting, papan tulis, koneksi internet, slide presentasi |
 | Target Peserta Didik | Reguler (dengan diferensiasi) |
 | Model Pembelajaran | Discovery Learning |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 2, artikel contoh-contoh pola dalam data, video pengenalan pattern recognition dalam AI/ML, studi kasus klasifikasi gambar |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Dekomposisi, pengenalan pola, abstraksi, dan algoritma adalah fondasi berpikir komputasional yang digunakan sehari-hari — dari merencanakan liburan hingga memecahkan masalah kompleks di dunia kerja.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan
 1. Mengidentifikasi pola dari sekumpulan data visual, numerik, dan tekstual melalui kegiatan observasi.
@@ -43,14 +53,14 @@ Pola, pattern recognition, klasifikasi, data, fitur, generalisasi, machine learn
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | Guru membuka dengan salam dan doa. Apersepsi: menampilkan deret angka "2, 4, 6, 8, ?" dan gambar buah-buahan yang diacak — "Kok kalian bisa tebak? Karena kalian melihat pola!" Guru menyampaikan tujuan pembelajaran dan manfaat pattern recognition dalam kehidupan sehari-hari. | Siswa menjawab salam, berdoa, menjawab tebak-tebakan deret angka. Menyimak tujuan pembelajaran. | Slide presentasi, papan tulis |
-| **Inti — Eksplorasi Konsep** | 15 menit | Guru menjelaskan konsep pola: pola adalah susunan berulang yang teratur. Menampilkan contoh pola dalam berbagai konteks: (1) pola visual — motif batik, tekstur, simetri, (2) pola numerik — deret Fibonacci, bilangan genap/ganjil, (3) pola tekstual — kata berakhiran sama, sinonim, (4) pola data — grafik penjualan, pola cuaca. Guru menunjukkan bagaimana komputer menggunakan pattern recognition: klasifikasi gambar (kucing vs anjing), deteksi spam email, rekomendasi film di Netflix. | Siswa menyimak dan mencatat contoh pola. Mengajukan pertanyaan jika ada yang kurang jelas. | Slide presentasi, video singkat klasifikasi gambar |
-| **Inti — Praktik Kelompok** | 25 menit | Guru membagi kelas menjadi 6-8 kelompok. Setiap kelompok mendapat 1 amplop berisi 10-12 kartu bergambar (berbagai hewan, tumbuhan, benda, bentuk geometri). Tugas: (1) amati semua kartu, (2) temukan minimal 2 cara berbeda untuk mengelompokkan kartu tersebut, (3) tuliskan alasan pengelompokan di kertas plano. Guru berkeliling memfasilitasi diskusi. | Siswa berdiskusi dalam kelompok. Mengamati kartu, mencari pola, mengelompokkan berdasarkan kriteria tertentu (misal: berdasarkan warna, jumlah kaki, fungsi, habitat). Menulis hasil di kertas plano. | Amplop berisi kartu gambar, kertas plano, spidol warna |
-| **Inti — Presentasi** | 15 menit | Guru meminta 3-4 kelompok untuk presentasi (masing-masing 3 menit). Guru memberikan pertanyaan probing: "Mengapa kalian memilih kriteria itu?", "Apakah ada kriteria lain yang bisa dipakai?", "Apa kelemahan dari cara pengelompokan kalian?" | Perwakilan kelompok mempresentasikan hasil. Kelompok lain menanggapi, bertanya, dan membandingkan hasil. | Hasil di kertas plano |
-| **Inti — Penguatan** | 10 menit | Guru mengaitkan aktivitas dengan konsep AI dan Machine Learning: "Komputer belajar mengenali pola seperti kalian tadi — dari banyak contoh, komputer belajar membedakan kucing dan anjing." Guru menunjukkan demo singkat klasifikasi gambar menggunakan browser (Teachable Machine atau Google Lens). Guru menekankan bahwa pattern recognition adalah fondasi teknologi AI. | Siswa menyimak dan mencatat. Beberapa siswa diminta mencoba demo Teachable Machine. | Teachable Machine (machinelearningforkids.co.uk), proyektor |
-| **Penutup** | 15 menit | Guru memimpin refleksi: "Dimana lagi kalian melihat pola dalam kehidupan sehari-hari?" (jadwal piket, musim, pola makan, pola belajar). Guru memberikan tugas: cari 3 pola di lingkungan rumah dan dokumentasikan dalam foto/gambar. Doa dan salam penutup. | Siswa menjawab refleksi secara lisan. Mencatat tugas. Berdoa dan menjawab salam. | Lisan, buku catatan |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10 menit | Guru membuka dengan salam dan doa. Apersepsi: menampilkan deret angka "2, 4, 6, 8, ?" dan gambar buah-buahan yang diacak — "Kok kalian bisa tebak? Karena kalian melihat pola!" Guru menyampaikan tujuan pembelajaran dan manfaat pattern recognition dalam kehidupan sehari-hari. | Siswa menjawab salam, berdoa, menjawab tebak-tebakan deret angka. Menyimak tujuan pembelajaran. | Slide presentasi, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Eksplorasi Konsep** | 15 menit | Guru menjelaskan konsep pola: pola adalah susunan berulang yang teratur. Menampilkan contoh pola dalam berbagai konteks: (1) pola visual — motif batik, tekstur, simetri, (2) pola numerik — deret Fibonacci, bilangan genap/ganjil, (3) pola tekstual — kata berakhiran sama, sinonim, (4) pola data — grafik penjualan, pola cuaca. Guru menunjukkan bagaimana komputer menggunakan pattern recognition: klasifikasi gambar (kucing vs anjing), deteksi spam email, rekomendasi film di Netflix. | Siswa menyimak dan mencatat contoh pola. Mengajukan pertanyaan jika ada yang kurang jelas. | Slide presentasi, video singkat klasifikasi gambar |
+| **MINING FULL** | **Eksplorasi** — Praktik Kelompok** | 25 menit | Guru membagi kelas menjadi 6-8 kelompok. Setiap kelompok mendapat 1 amplop berisi 10-12 kartu bergambar (berbagai hewan, tumbuhan, benda, bentuk geometri). Tugas: (1) amati semua kartu, (2) temukan minimal 2 cara berbeda untuk mengelompokkan kartu tersebut, (3) tuliskan alasan pengelompokan di kertas plano. Guru berkeliling memfasilitasi diskusi. | Siswa berdiskusi dalam kelompok. Mengamati kartu, mencari pola, mengelompokkan berdasarkan kriteria tertentu (misal: berdasarkan warna, jumlah kaki, fungsi, habitat). Menulis hasil di kertas plano. | Amplop berisi kartu gambar, kertas plano, spidol warna |
+| **MINING FULL** | **Eksplorasi** — Presentasi** | 15 menit | Guru meminta 3-4 kelompok untuk presentasi (masing-masing 3 menit). Guru memberikan pertanyaan probing: "Mengapa kalian memilih kriteria itu?", "Apakah ada kriteria lain yang bisa dipakai?", "Apa kelemahan dari cara pengelompokan kalian?" | Perwakilan kelompok mempresentasikan hasil. Kelompok lain menanggapi, bertanya, dan membandingkan hasil. | Hasil di kertas plano |
+| **MINING FULL** | **Eksplorasi** — Penguatan** | 10 menit | Guru mengaitkan aktivitas dengan konsep AI dan Machine Learning: "Komputer belajar mengenali pola seperti kalian tadi — dari banyak contoh, komputer belajar membedakan kucing dan anjing." Guru menunjukkan demo singkat klasifikasi gambar menggunakan browser (Teachable Machine atau Google Lens). Guru menekankan bahwa pattern recognition adalah fondasi teknologi AI. | Siswa menyimak dan mencatat. Beberapa siswa diminta mencoba demo Teachable Machine. | Teachable Machine (machinelearningforkids.co.uk), proyektor |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | Guru memimpin refleksi: "Dimana lagi kalian melihat pola dalam kehidupan sehari-hari?" (jadwal piket, musim, pola makan, pola belajar). Guru memberikan tugas: cari 3 pola di lingkungan rumah dan dokumentasikan dalam foto/gambar. Doa dan salam penutup. | Siswa menjawab refleksi secara lisan. Mencatat tugas. Berdoa dan menjawab salam. | Lisan, buku catatan |
 
 ### D. ASESMEN
 
@@ -76,7 +86,7 @@ Pola, pattern recognition, klasifikasi, data, fitur, generalisasi, machine learn
 
 #### D.4 Rubrik Penilaian
 | Kriteria | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Identifikasi Pola | Menemukan ≥5 pola dengan variasi tinggi (visual, numerik, tekstual) | Menemukan 4 pola dengan variasi cukup | Menemukan 3 pola, semuanya sejenis | Menemukan <3 pola |
 | Klasifikasi & Alasan | Mengelompokkan dengan ≥3 kriteria berbeda, alasan logis dan terstruktur | Mengelompokkan dengan 2 kriteria, alasan cukup logis | Mengelompokkan dengan 1 kriteria, alasan kurang jelas | Tidak bisa mengelompokkan dengan alasan |
 | Presentasi | Presentasi jelas, terstruktur, menjawab pertanyaan dengan baik | Presentasi cukup jelas, menjawab sebagian pertanyaan | Presentasi kurang jelas, sulit menjawab pertanyaan | Tidak presentasi |
@@ -119,7 +129,7 @@ Ambil kartu dari amplop. Kelompokkan kartu-kartu tersebut dengan **2 cara berbed
 Perhatikan data penjualan es krim berikut:
 
 | Suhu (°C) | 20 | 22 | 25 | 28 | 30 | 32 | 35 |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|
 | Es Krim Terjual | 10 | 15 | 22 | 30 | 40 | 55 | 70 |
 
 Pertanyaan:

@@ -17,6 +17,8 @@
 | Pertemuan ke- | 6 (Keenam) |
 | Kompetensi Awal | Peserta didik telah menguasai dekomposisi, pattern recognition, dan abstraksi. Peserta didik secara intuitif sudah terbiasa mengikuti langkah-langkah dalam kehidupan sehari-hari (resep masakan, instruksi permainan) namun belum mampu merumuskannya secara terstruktur dalam bentuk algoritma, flowchart, atau pseudocode. |
 | Integrasi 8 Dimensi | Kreativitas, Kemandirian, Penalaran Kritis, Kolaborasi, Komunikasi, Keimanan & Ketakwaan, Kewargaan, Kesehatan |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bermasyarakat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor, laptop guru, spidol warna, papan tulis, kertas HVS, penggaris, sticky notes, contoh flowchart cetak, koneksi internet (untuk draw.io atau Flowgorithm), buku paket |
 | Target Peserta Didik | Reguler (dengan diferensiasi) |
 | Model Pembelajaran | Project Based Learning (PjBL) |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 2, video tutorial flowchart, template flowchart (draw.io), Flowgorithm (aplikasi desktop), contoh algoritma kehidupan sehari-hari |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Dekomposisi, pengenalan pola, abstraksi, dan algoritma adalah fondasi berpikir komputasional yang digunakan sehari-hari — dari merencanakan liburan hingga memecahkan masalah kompleks di dunia kerja.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan
 1. Menjelaskan pengertian algoritma sebagai urutan langkah logis untuk menyelesaikan masalah.
@@ -43,14 +53,14 @@ Algoritma, flowchart, pseudocode, simbol flowchart, sequence, selection, repetit
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | Guru membuka dengan salam, doa, dan cek kehadiran. Apersepsi: "Kalian sudah bisa dekomposisi, cari pola, dan abstraksi. Sekarang saatnya merangkai semuanya jadi algoritma!" Guru memberikan teka-teki: siswa diminta menyusun langkah "Menggosok gigi" secara urut — guru menulis semua usulan di papan, lalu mendiskusikan mana urutan yang paling logis. Guru menyampaikan tujuan. | Siswa menjawab salam, berdoa. Berpartisipasi dalam teka-teki menyusun langkah menggosok gigi. Menyadari bahwa urutan langkah sangat penting. Menyimak tujuan. | Papan tulis, spidol |
-| **Inti — Eksplorasi Konsep Algoritma** | 10 menit | Guru menjelaskan definisi algoritma: urutan langkah logis, jelas, terbatas, dan menghasilkan solusi. Guru menampilkan contoh algoritma dalam kehidupan: (1) resep masakan, (2) petunjuk penggunaan, (3) prosedur K3, (4) tutorial YouTube. Guru menekankan ciri algoritma baik: ada input, proses, output; setiap langkah tidak ambigu; berhenti setelah selesai. | Siswa menyimak, mencatat definisi, dan memberikan contoh algoritma lain dari kehidupan. | Slide presentasi, papan tulis |
-| **Inti — Pengenalan Flowchart** | 15 menit | Guru menjelaskan simbol-simbol flowchart satu per satu menggunakan slide: (1) Terminal — oval (start/stop), (2) Input/Output — jajar genjang, (3) Proses — persegi panjang, (4) Decision — belah ketupat, (5) Arrow — panah alur. Guru mendemonstrasikan flowchart sederhana "Menentukan bilangan genap/ganjil" langkah demi langkah di papan tulis. | Siswa mencatat simbol dan fungsinya. Mengikuti demo flowchart di buku catatan masing-masing. Mengajukan pertanyaan jika ada simbol yang kurang jelas. | Slide, papan tulis, spidol warna |
-| **Inti — Praktik Individu** | 20 menit | Guru memberikan 3 pilihan kasus (siswa pilih 1): (1) Konversi suhu Celcius ke Fahrenheit, (2) Menentukan diskon belanja (jika >100rb diskon 10%, jika >50rb diskon 5%, lainnya tidak diskon), (3) Algoritma membuat teh manis. Tugas: buat flowchart di kertas HVS. Guru berkeliling memberikan bantuan ke siswa yang kesulitan. | Siswa memilih 1 dari 3 kasus. Membuat flowchart di kertas HVS dengan pensil (agar bisa dihapus jika salah). Memanggil guru jika kesulitan. | Kertas HVS, pensil, penghapus, penggaris |
-| **Inti — Peer Review** | 10 menit | Guru meminta siswa menukarkan flowchart dengan teman di sebelah. Tugas reviewer: (1) trace alur dengan jari — apakah ada langkah yang terlewat? (2) apakah simbol yang digunakan tepat? (3) apakah ada percabangan yang tidak lengkap? Guru memberikan lembar peer review. | Siswa menukar flowchart. Menelusuri alur flowchart teman dengan teliti. Memberikan catatan di lembar peer review. | Lembar peer review, flowchart teman |
-| **Penutup** | 20 menit | Guru meminta 3 siswa menunjukkan hasil flowchart-nya melalui proyektor (atau ditempel di papan). Guru memberikan umpan balik umum. Penguatan: "Algoritma ada di mana-mana — mulai dari resep masakan, instruksi IKEA, hingga kode program yang menjalankan HP kalian." Guru memberikan tugas: buat pseudocode untuk "Cara membuat akun email baru" dengan langkah detail. Doa dan salam. | Siswa menunjukkan hasil, menyimak umpan balik, mencatat tugas. Berdoa dan menjawab salam. | Proyektor, papan tulis |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10 menit | Guru membuka dengan salam, doa, dan cek kehadiran. Apersepsi: "Kalian sudah bisa dekomposisi, cari pola, dan abstraksi. Sekarang saatnya merangkai semuanya jadi algoritma!" Guru memberikan teka-teki: siswa diminta menyusun langkah "Menggosok gigi" secara urut — guru menulis semua usulan di papan, lalu mendiskusikan mana urutan yang paling logis. Guru menyampaikan tujuan. | Siswa menjawab salam, berdoa. Berpartisipasi dalam teka-teki menyusun langkah menggosok gigi. Menyadari bahwa urutan langkah sangat penting. Menyimak tujuan. | Papan tulis, spidol |
+| **MINING FULL** | **Eksplorasi** — Eksplorasi Konsep Algoritma** | 10 menit | Guru menjelaskan definisi algoritma: urutan langkah logis, jelas, terbatas, dan menghasilkan solusi. Guru menampilkan contoh algoritma dalam kehidupan: (1) resep masakan, (2) petunjuk penggunaan, (3) prosedur K3, (4) tutorial YouTube. Guru menekankan ciri algoritma baik: ada input, proses, output; setiap langkah tidak ambigu; berhenti setelah selesai. | Siswa menyimak, mencatat definisi, dan memberikan contoh algoritma lain dari kehidupan. | Slide presentasi, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Pengenalan Flowchart** | 15 menit | Guru menjelaskan simbol-simbol flowchart satu per satu menggunakan slide: (1) Terminal — oval (start/stop), (2) Input/Output — jajar genjang, (3) Proses — persegi panjang, (4) Decision — belah ketupat, (5) Arrow — panah alur. Guru mendemonstrasikan flowchart sederhana "Menentukan bilangan genap/ganjil" langkah demi langkah di papan tulis. | Siswa mencatat simbol dan fungsinya. Mengikuti demo flowchart di buku catatan masing-masing. Mengajukan pertanyaan jika ada simbol yang kurang jelas. | Slide, papan tulis, spidol warna |
+| **MINING FULL** | **Eksplorasi** — Praktik Individu** | 20 menit | Guru memberikan 3 pilihan kasus (siswa pilih 1): (1) Konversi suhu Celcius ke Fahrenheit, (2) Menentukan diskon belanja (jika >100rb diskon 10%, jika >50rb diskon 5%, lainnya tidak diskon), (3) Algoritma membuat teh manis. Tugas: buat flowchart di kertas HVS. Guru berkeliling memberikan bantuan ke siswa yang kesulitan. | Siswa memilih 1 dari 3 kasus. Membuat flowchart di kertas HVS dengan pensil (agar bisa dihapus jika salah). Memanggil guru jika kesulitan. | Kertas HVS, pensil, penghapus, penggaris |
+| **MINING FULL** | **Eksplorasi** — Peer Review** | 10 menit | Guru meminta siswa menukarkan flowchart dengan teman di sebelah. Tugas reviewer: (1) trace alur dengan jari — apakah ada langkah yang terlewat? (2) apakah simbol yang digunakan tepat? (3) apakah ada percabangan yang tidak lengkap? Guru memberikan lembar peer review. | Siswa menukar flowchart. Menelusuri alur flowchart teman dengan teliti. Memberikan catatan di lembar peer review. | Lembar peer review, flowchart teman |
+| **JOYFULL** | **Penutup Kreatif** | 20 menit | Guru meminta 3 siswa menunjukkan hasil flowchart-nya melalui proyektor (atau ditempel di papan). Guru memberikan umpan balik umum. Penguatan: "Algoritma ada di mana-mana — mulai dari resep masakan, instruksi IKEA, hingga kode program yang menjalankan HP kalian." Guru memberikan tugas: buat pseudocode untuk "Cara membuat akun email baru" dengan langkah detail. Doa dan salam. | Siswa menunjukkan hasil, menyimak umpan balik, mencatat tugas. Berdoa dan menjawab salam. | Proyektor, papan tulis |
 
 ### D. ASESMEN
 
@@ -80,7 +90,7 @@ Algoritma, flowchart, pseudocode, simbol flowchart, sequence, selection, repetit
 
 #### D.4 Rubrik Penilaian
 | Kriteria | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Ketepatan Simbol Flowchart | Semua simbol sesuai standar, tidak ada kesalahan | Sebagian besar simbol tepat, 1-2 kesalahan minor | Beberapa simbol salah, alur masih bisa diikuti | Banyak simbol salah, alur tidak bisa diikuti |
 | Logika Algoritma | Alur logis, tidak ada langkah terlewat, menghasilkan output benar | Alur logis, 1 langkah minor terlewat, output benar | Ada langkah yang salah urut atau terlewat, output kurang tepat | Alur tidak logis, output salah |
 | Pseudocode | Pseudocode jelas, terstruktur, sesuai flowchart | Pseudocode cukup jelas, sesuai flowchart | Pseudocode ada namun kurang terstruktur | Tidak membuat pseudocode |

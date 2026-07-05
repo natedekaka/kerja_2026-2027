@@ -17,6 +17,8 @@
 | Pertemuan ke- | 17 |
 | Kompetensi Awal | Peserta didik telah memahami konsep enkripsi dan keamanan jaringan. Peserta didik juga terbiasa menggunakan aplikasi spreadsheet dan perangkat digital sehari-hari. |
 | Integrasi 8 Dimensi | Penalaran Kritis (membedakan data, informasi, pengetahuan, wisdom), Kreativitas (menyusun rekomendasi dari data), Keimanan & Bertakwa (kesadaran bahwa setiap jejak digital adalah amanah), Kemandirian (mengelola data pribadi dengan bijak) |
+| **Integrasi 7 KAIH** | Makan Sehat, Tidur Cepat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Komputer/lab, proyektor, spreadsheet (Excel/Google Sheets), set data mentah cetak, kertas plano & spidol, koneksi internet |
 | Target Peserta Didik | Reguler (dengan diferensiasi 3 tingkat) |
 | Model Pembelajaran | Diskusi + Studi Kasus |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kemendikbud Bab 6, artikel "Data-Information-Knowledge-Wisdom" dari sistem Informasi, studi kasus Gojek/Shopee recommendation engine |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Data adalah 'minyak baru' di era digital. Kemampuan menganalisis data membuka peluang karir dan membantu pengambilan keputusan yang lebih baik.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 
@@ -48,14 +58,14 @@ Data, informasi, pengetahuan, wisdom (kebijaksanaan), piramida DIKW, siklus peng
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Pagi ini suhu 28°C (data). Rasanya panas (informasi). Sebaiknya pakai baju tipis (pengetahuan). Saya akan bawa payung karena cuaca tidak menentu (wisdom)." — 4 level berbeda! 4) Apersepsi: data apa yang kalian hasilkan pagi ini? 5) Asesmen diagnostik: "Apa beda data sama informasi?" 6) Menyampaikan TP | 1) Menjawab salam dan berdoa. 2) Menyimak orientasi. 3) Memberikan contoh pengalaman pribadi terkait data. 4) Menjawab diagnostik. 5) Mencatat TP | Proyektor, slide orientasi, papan tulis |
-| **Inti — Eksplorasi Konsep** | 15 menit | 1) Menjelaskan piramida DIKW: Data (fakta mentah, simbol) → Informasi (data yang sudah diolah, punya konteks) → Pengetahuan (informasi + pengalaman + pola) → Wisdom (kemampuan mengambil keputusan tepat). 2) Memberikan contoh berantai: nilai 85 (data) → rata-rata kelas 78 (informasi) → siswa A unggul di matematika (pengetahuan) → sarankan ikut olimpiade (wisdom) | 1) Menyimak dan mencatat. 2) Menggambar piramida DIKW di buku catatan. 3) Memberikan contoh versi sendiri | Proyektor, slide DIKW |
-| **Inti — Aktivitas Kelompok** | 25 menit | 1) Membagi 5 kelompok. 2) Setiap kelompok mendapat 1 set data mentah berbeda: Kelompok 1: daftar nilai 10 siswa (nama, mapel, nilai). Kelompok 2: data pengunjung perpustakaan (hari, jumlah). Kelompok 3: data penjualan kantin (hari, menu, terjual). Kelompok 4: data suhu & cuaca 1 minggu. Kelompok 5: data tinggi & berat badan 10 siswa. 3) Tugas: (a) susun data rapi, (b) hitung ringkasan (rata-rata, total), (c) tarik 1 kesimpulan (pengetahuan), (d) beri 1 rekomendasi (wisdom). 4) Berkeliling membimbing | 1) Bergabung dengan kelompok. 2) Menerima data mentah. 3) Berdiskusi mengolah data. 4) Menulis di kertas plano: data → informasi → pengetahuan → wisdom. 5) Menyiapkan presentasi | Set data cetak, kertas plano, spidol, kalkulator/HP |
-| **Inti — Presentasi & Diskusi** | 15 menit | 1) Setiap kelompok presentasi 2 menit. 2) Guru memandu diskusi: "Apa perbedaan data kelompok 1 dan kelompok 3?" 3) Menjelaskan bahwa data yang berbeda menghasilkan jenis informasi yang berbeda. 4) Memperkenalkan siklus pengolahan data: Collection → Cleaning → Transformation → Analysis → Visualization → Interpretation | 1) Presentasi hasil kelompok. 2) Mendengarkan kelompok lain. 3) Berdiskusi. 4) Mencatat siklus pengolahan data | Hasil kerja kelompok, papan tulis |
-| **Inti — Studi Kasus** | 10 menit | 1) Menjelaskan: "Bagaimana Gojek/Shopee tahu rekomendasi yang tepat untuk kita?" 2) Menjelaskan alur: data klik + riwayat + lokasi → analisis → profil pengguna → rekomendasi personal. 3) Tanya: "Apa dampak positifnya? Dampak negatifnya?" (privacy vs personalisasi) | 1) Menyimak studi kasus. 2) Berdiskusi dampak positif & negatif rekomendasi personal. 3) Mengaitkan dengan pengalaman pribadi | Proyektor, slide Gojek/Shopee |
-| **Penutup** | 15 menit | 1) Refleksi: "Data apa yang kalian hasilkan hari ini? (jejak digital)" 2) Brainstorming: jejak digital apa yang kita tinggalkan setiap hari. 3) Tugas: bawa 1 data mentah ke pertemuan berikut (contoh: 1 minggu pengeluaran jajan, atau data apapun yang dikumpulkan sendiri). 4) Penguatan: analisis data adalah skill abad 21 yang sangat dicari. 5) Doa | 1) Refleksi. 2) Menyebutkan jejak digital. 3) Mencatat tugas. 4) Berdoa | Lembar refleksi |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Pagi ini suhu 28°C (data). Rasanya panas (informasi). Sebaiknya pakai baju tipis (pengetahuan). Saya akan bawa payung karena cuaca tidak menentu (wisdom)." — 4 level berbeda! 4) Apersepsi: data apa yang kalian hasilkan pagi ini? 5) Asesmen diagnostik: "Apa beda data sama informasi?" 6) Menyampaikan TP | 1) Menjawab salam dan berdoa. 2) Menyimak orientasi. 3) Memberikan contoh pengalaman pribadi terkait data. 4) Menjawab diagnostik. 5) Mencatat TP | Proyektor, slide orientasi, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Eksplorasi Konsep** | 15 menit | 1) Menjelaskan piramida DIKW: Data (fakta mentah, simbol) → Informasi (data yang sudah diolah, punya konteks) → Pengetahuan (informasi + pengalaman + pola) → Wisdom (kemampuan mengambil keputusan tepat). 2) Memberikan contoh berantai: nilai 85 (data) → rata-rata kelas 78 (informasi) → siswa A unggul di matematika (pengetahuan) → sarankan ikut olimpiade (wisdom) | 1) Menyimak dan mencatat. 2) Menggambar piramida DIKW di buku catatan. 3) Memberikan contoh versi sendiri | Proyektor, slide DIKW |
+| **MINING FULL** | **Eksplorasi** — Aktivitas Kelompok** | 25 menit | 1) Membagi 5 kelompok. 2) Setiap kelompok mendapat 1 set data mentah berbeda: Kelompok 1: daftar nilai 10 siswa (nama, mapel, nilai). Kelompok 2: data pengunjung perpustakaan (hari, jumlah). Kelompok 3: data penjualan kantin (hari, menu, terjual). Kelompok 4: data suhu & cuaca 1 minggu. Kelompok 5: data tinggi & berat badan 10 siswa. 3) Tugas: (a) susun data rapi, (b) hitung ringkasan (rata-rata, total), (c) tarik 1 kesimpulan (pengetahuan), (d) beri 1 rekomendasi (wisdom). 4) Berkeliling membimbing | 1) Bergabung dengan kelompok. 2) Menerima data mentah. 3) Berdiskusi mengolah data. 4) Menulis di kertas plano: data → informasi → pengetahuan → wisdom. 5) Menyiapkan presentasi | Set data cetak, kertas plano, spidol, kalkulator/HP |
+| **MINING FULL** | **Eksplorasi** — Presentasi & Diskusi** | 15 menit | 1) Setiap kelompok presentasi 2 menit. 2) Guru memandu diskusi: "Apa perbedaan data kelompok 1 dan kelompok 3?" 3) Menjelaskan bahwa data yang berbeda menghasilkan jenis informasi yang berbeda. 4) Memperkenalkan siklus pengolahan data: Collection → Cleaning → Transformation → Analysis → Visualization → Interpretation | 1) Presentasi hasil kelompok. 2) Mendengarkan kelompok lain. 3) Berdiskusi. 4) Mencatat siklus pengolahan data | Hasil kerja kelompok, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Studi Kasus** | 10 menit | 1) Menjelaskan: "Bagaimana Gojek/Shopee tahu rekomendasi yang tepat untuk kita?" 2) Menjelaskan alur: data klik + riwayat + lokasi → analisis → profil pengguna → rekomendasi personal. 3) Tanya: "Apa dampak positifnya? Dampak negatifnya?" (privacy vs personalisasi) | 1) Menyimak studi kasus. 2) Berdiskusi dampak positif & negatif rekomendasi personal. 3) Mengaitkan dengan pengalaman pribadi | Proyektor, slide Gojek/Shopee |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | 1) Refleksi: "Data apa yang kalian hasilkan hari ini? (jejak digital)" 2) Brainstorming: jejak digital apa yang kita tinggalkan setiap hari. 3) Tugas: bawa 1 data mentah ke pertemuan berikut (contoh: 1 minggu pengeluaran jajan, atau data apapun yang dikumpulkan sendiri). 4) Penguatan: analisis data adalah skill abad 21 yang sangat dicari. 5) Doa | 1) Refleksi. 2) Menyebutkan jejak digital. 3) Mencatat tugas. 4) Berdoa | Lembar refleksi |
 
 ### D. ASESMEN
 
@@ -78,7 +88,7 @@ Observasi selama aktivitas kelompok. Guru menilai: kemampuan bekerja sama, ketep
 #### D.4 Rubrik Penilaian
 
 | Aspek | SB = 4 (Sangat Baik) | B = 3 (Baik) | C = 2 (Cukup) | PB = 1 (Perlu Bimbingan) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Piramida DIKW | 4 level terdefinisi benar, contoh asli, hubungan logis | 4 level benar, contoh sesuai | 3 level benar | < 3 level |
 | Aktivitas Kelompok | Data diolah rapi, ringkasan tepat, rekomendasi logis | Data rapi, ringkasan tepat | Data rapi, ringkasan kurang tepat | Data tidak diolah |
 | Partisipasi | Aktif dalam diskusi, menyumbang ide, membantu anggota lain | Aktif dalam kelompok | Ikut mengerjakan | Pasif |

@@ -11,6 +11,10 @@
 | **Pertemuan ke-** | 40 |
 | **Tujuan Pembelajaran** | TP.6.4 (bagian 2) |
 | **Integrasi 8 Dimensi** | Kolaborasi, Kewargaan, Kreativitas |
+| **Integrasi 7 KAIH** | Makan Sehat, Olahraga |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
+| **Integrasi 7 KAIH** | Makan Sehat, Olahraga |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | **Sarana & Prasarana** | Komputer/lab, proyektor, koneksi internet, LKPD |
 | **Target Peserta Didik** | Reguler (tidak ada kesulitan belajar khusus) |
 | **Model Pembelajaran** | Tatap muka — Problem Based Learning / Project Based Learning |

@@ -17,6 +17,8 @@
 | Pertemuan ke- | 15 |
 | Kompetensi Awal | Peserta didik telah memahami konsep konektivitas internet, IP address, DNS, dan DHCP. Peserta didik juga telah menggunakan browser dan aplikasi sehari-hari. |
 | Integrasi 8 Dimensi | Keimanan & Bertakwa (menjaga amanah data diri sebagai tanggung jawab moral), Penalaran Kritis (membedakan enkripsi kuat vs lemah), Kemandirian (mengelola keamanan digital sendiri), Kolaborasi (simulasi enkripsi berpasangan) |
+| **Integrasi 7 KAIH** | Bermasyarakat, Gemar Belajar |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Komputer/lab, proyektor, browser, koneksi internet, kertas & pensil untuk simulasi Caesar cipher, contoh email phishing (simulasi), Windows Defender Firewall |
 | Target Peserta Didik | Reguler (dengan diferensiasi 3 tingkat) |
 | Model Pembelajaran | Praktik + Diskusi + Simulasi |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kemendikbud Bab 5, artikel "HTTPS vs HTTP" (Cloudflare), video "How Encryption Works" (Computerphile), situs UU ITE dan UU PDP |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Internet dan jaringan adalah infrastruktur modern — memahami cara kerjanya membuat kita lebih bijak dan aman dalam menggunakan teknologi.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 
@@ -49,14 +59,14 @@ Enkripsi, dekripsi, Caesar cipher, ciphertext, plaintext, kunci, HTTPS, SSL/TLS,
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: tunjukkan ikon gembok di browser — "Pernah lihat simbol ini? Tahu artinya?" 4) Apersepsi: tanya apakah siswa pernah membuka situs tanpa "https". 5) Asesmen diagnostik: 3 pertanyaan tentang keamanan online. 6) Menyampaikan TP dan indikator | 1) Menjawab salam dan berdoa. 2) Mengecek ikon gembok di browser masing-masing. 3) Berbagi pengalaman situs tanpa https. 4) Menjawab diagnostik. 5) Mencatat TP | Browser, proyektor, slide |
-| **Inti — Eksplorasi Konsep** | 15 menit | 1) Menjelaskan enkripsi: mengubah data agar tidak bisa dibaca pihak tak berwenang. Analogi: pesan rahasia masa perang. 2) Menjelaskan HTTPS vs HTTP — peran SSL/TLS. 3) Memperlihatkan sertifikat digital di browser (klik ikon gembok → detail). 4) Menjelaskan enkripsi simetris (satu kunci) vs asimetris (kunci publik & privat) | 1) Menyimak penjelasan. 2) Membuka sertifikat digital di browser. 3) Membaca detail sertifikat. 4) Mencatat perbedaan enkripsi simetris vs asimetris | Browser, proyektor, slide |
-| **Inti — Praktik Caesar Cipher** | 20 menit | 1) Menjelaskan Caesar cipher: geser setiap huruf sesuai kunci (shift). 2) Contoh: "HELLO" shift 3 → "KHOOR". 3) Memberikan 3 soal enkripsi dan 2 soal dekripsi. 4) Meminta siswa membuat pesan rahasia untuk teman sebangku. 5) Mengecek hasil dan membahas jika ada kesalahan | 1) Menyimak penjelasan. 2) Mengerjakan soal enkripsi. 3) Membuat pesan rahasia. 4) Bertukar dengan teman. 5) Mendekripsi pesan teman | LKPD, kertas, pensil, tabel alfabet |
-| **Inti — Demo Firewall** | 10 menit | 1) Membuka Windows Defender Firewall (atau yang setara). 2) Menunjukkan daftar aturan inbound & outbound. 3) Mendemonstrasikan memblokir aplikasi tertentu. 4) Menjelaskan kenapa firewall penting untuk keamanan | 1) Mengamati demo. 2) Membuka firewall di komputer sendiri. 3) Mencatat 2 aturan yang ada. 4) Bertanya jika ada yang kurang jelas | Komputer, Windows Firewall, proyektor |
-| **Inti — Simulasi Phishing** | 15 menit | 1) Menampilkan contoh email phishing di proyektor. 2) Meminta siswa mengidentifikasi ciri-ciri mencurigakan. 3) Membahas setiap ciri: alamat pengirim aneh, URL tipuan, urgensi palsu, lampiran mencurigakan, grammar buruk. 4) Tips: jangan klik link, cek URL, hubungi pengirim via saluran resmi | 1) Mengamati contoh email. 2) Mengidentifikasi ciri phishing. 3) Berdiskusi. 4) Mencatat 5 tips menghindari phishing | Proyektor, screenshot email phishing, LKPD |
-| **Penutup** | 15 menit | 1) Refleksi: "Bagaimana cara menjaga keamanan data kita saat online?" 2) Brainstorming 10 tips keamanan digital. 3) Penguatan: enkripsi adalah fondasi keamanan digital. 4) Tugas: buka pengaturan privasi 3 aplikasi di HP — catat izin yang diminta. 5) Doa | 1) Refleksi. 2) Menyumbang tips keamanan. 3) Mencatat tugas. 4) Berdoa | Papan tulis, lembar refleksi |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: tunjukkan ikon gembok di browser — "Pernah lihat simbol ini? Tahu artinya?" 4) Apersepsi: tanya apakah siswa pernah membuka situs tanpa "https". 5) Asesmen diagnostik: 3 pertanyaan tentang keamanan online. 6) Menyampaikan TP dan indikator | 1) Menjawab salam dan berdoa. 2) Mengecek ikon gembok di browser masing-masing. 3) Berbagi pengalaman situs tanpa https. 4) Menjawab diagnostik. 5) Mencatat TP | Browser, proyektor, slide |
+| **MINING FULL** | **Eksplorasi** — Eksplorasi Konsep** | 15 menit | 1) Menjelaskan enkripsi: mengubah data agar tidak bisa dibaca pihak tak berwenang. Analogi: pesan rahasia masa perang. 2) Menjelaskan HTTPS vs HTTP — peran SSL/TLS. 3) Memperlihatkan sertifikat digital di browser (klik ikon gembok → detail). 4) Menjelaskan enkripsi simetris (satu kunci) vs asimetris (kunci publik & privat) | 1) Menyimak penjelasan. 2) Membuka sertifikat digital di browser. 3) Membaca detail sertifikat. 4) Mencatat perbedaan enkripsi simetris vs asimetris | Browser, proyektor, slide |
+| **MINING FULL** | **Eksplorasi** — Praktik Caesar Cipher** | 20 menit | 1) Menjelaskan Caesar cipher: geser setiap huruf sesuai kunci (shift). 2) Contoh: "HELLO" shift 3 → "KHOOR". 3) Memberikan 3 soal enkripsi dan 2 soal dekripsi. 4) Meminta siswa membuat pesan rahasia untuk teman sebangku. 5) Mengecek hasil dan membahas jika ada kesalahan | 1) Menyimak penjelasan. 2) Mengerjakan soal enkripsi. 3) Membuat pesan rahasia. 4) Bertukar dengan teman. 5) Mendekripsi pesan teman | LKPD, kertas, pensil, tabel alfabet |
+| **MINING FULL** | **Eksplorasi** — Demo Firewall** | 10 menit | 1) Membuka Windows Defender Firewall (atau yang setara). 2) Menunjukkan daftar aturan inbound & outbound. 3) Mendemonstrasikan memblokir aplikasi tertentu. 4) Menjelaskan kenapa firewall penting untuk keamanan | 1) Mengamati demo. 2) Membuka firewall di komputer sendiri. 3) Mencatat 2 aturan yang ada. 4) Bertanya jika ada yang kurang jelas | Komputer, Windows Firewall, proyektor |
+| **MINING FULL** | **Eksplorasi** — Simulasi Phishing** | 15 menit | 1) Menampilkan contoh email phishing di proyektor. 2) Meminta siswa mengidentifikasi ciri-ciri mencurigakan. 3) Membahas setiap ciri: alamat pengirim aneh, URL tipuan, urgensi palsu, lampiran mencurigakan, grammar buruk. 4) Tips: jangan klik link, cek URL, hubungi pengirim via saluran resmi | 1) Mengamati contoh email. 2) Mengidentifikasi ciri phishing. 3) Berdiskusi. 4) Mencatat 5 tips menghindari phishing | Proyektor, screenshot email phishing, LKPD |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | 1) Refleksi: "Bagaimana cara menjaga keamanan data kita saat online?" 2) Brainstorming 10 tips keamanan digital. 3) Penguatan: enkripsi adalah fondasi keamanan digital. 4) Tugas: buka pengaturan privasi 3 aplikasi di HP — catat izin yang diminta. 5) Doa | 1) Refleksi. 2) Menyumbang tips keamanan. 3) Mencatat tugas. 4) Berdoa | Papan tulis, lembar refleksi |
 
 ### D. ASESMEN
 
@@ -79,7 +89,7 @@ Observasi saat simulasi Caesar cipher dan identifikasi phishing. Guru menilai pe
 #### D.4 Rubrik Penilaian
 
 | Aspek | SB = 4 (Sangat Baik) | B = 3 (Baik) | C = 2 (Cukup) | PB = 1 (Perlu Bimbingan) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Caesar cipher | 5 soal benar semua, membuat pesan sendiri untuk teman | 4 soal benar | 3 soal benar | < 3 soal benar |
 | Identifikasi phishing | Menemukan 5 ciri, memberi alasan tiap ciri | Menemukan 4 ciri | Menemukan 3 ciri | < 3 ciri |
 | Partisipasi diskusi | Aktif menyumbang ide dan bertanya | Menyumbang 2 ide | Menyumbang 1 ide | Pasif |

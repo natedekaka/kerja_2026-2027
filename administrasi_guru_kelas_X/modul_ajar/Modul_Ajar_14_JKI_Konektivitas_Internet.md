@@ -17,6 +17,8 @@
 | Pertemuan ke- | 14 |
 | Kompetensi Awal | Peserta didik telah memahami jenis jaringan dan topologi (LAN/MAN/WAN) serta perangkat jaringan pada pertemuan sebelumnya. |
 | Integrasi 8 Dimensi | Kemandirian (praktik konfigurasi IP mandiri), Kolaborasi (kerja sama dalam praktik kelompok), Penalaran Kritis (menganalisis penyebab internet lemot), Keimanan & Bertakwa (memanfaatkan teknologi untuk kebaikan) |
+| **Integrasi 7 KAIH** | Bermasyarakat, Gemar Belajar |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Komputer/lab dengan koneksi internet, akses command prompt/terminal, proyektor, koneksi WiFi, aplikasi speedtest.net, Google DNS (8.8.8.8) |
 | Target Peserta Didik | Reguler (dengan diferensiasi 3 tingkat) |
 | Model Pembelajaran | Praktik Langsung |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kemendikbud Bab 5, dokumentasi ipconfig/ifconfig, artikel "How DNS Works" (Cloudflare), situs speedtest.net |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Internet dan jaringan adalah infrastruktur modern — memahami cara kerjanya membuat kita lebih bijak dan aman dalam menggunakan teknologi.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 
@@ -49,14 +59,14 @@ IP address, subnet mask, gateway, DNS (Domain Name System), DHCP (Dynamic Host C
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Kalian connect WiFi setiap hari — tapi apa yang sebenarnya terjadi di balik layar?" 4) Apersepsi: tanya siswa apakah tahu IP address HP mereka. 5) Asesmen diagnostik: 3 pertanyaan tentang koneksi internet. 6) Menyampaikan TP | 1) Menjawab salam dan berdoa. 2) Menyimak orientasi. 3) Mengecek IP HP (jika bisa). 4) Menjawab diagnostik. 5) Mencatat TP | Proyektor, HP siswa, slide orientasi |
-| **Inti — Eksplorasi Konsep** | 15 menit | 1) Menjelaskan analogi: IP address = alamat rumah, DNS = buku telepon (menerjemahkan nama domain ke IP), DHCP = resepsionis yang memberi alamat otomatis. 2) Menjelaskan subnet mask (pembatas lingkungan), gateway (pintu keluar ke internet). 3) Mendemonstrasikan perintah ipconfig di CMD | 1) Menyimak dan mencatat analogi. 2) Menggambar analogi di buku catatan. 3) Mengamati demonstrasi | Proyektor, slide analogi, command prompt |
-| **Inti — Praktik 1: Cek Konfigurasi IP** | 15 menit | 1) Membimbing siswa membuka CMD/Terminal. 2) Memandu mengetik perintah ipconfig (Windows) atau ifconfig (Linux/macOS). 3) Meminta siswa mencari: IP address, subnet mask, default gateway, DNS server. 4) Meminta siswa mencatat di LKPD | 1) Membuka CMD/Terminal. 2) Mengetik ipconfig/ifconfig. 3) Membaca output dan mencatat 4 parameter. 4) Membandingkan dengan teman sebangku | Komputer, command prompt, LKPD |
-| **Inti — Praktik 2: Ping & Tracert** | 15 menit | 1) Menjelaskan perintah ping (uji koneksi ke host, ukur waktu respon). 2) Memandu: ping google.com — lihat reply time & packet loss. 3) Menjelaskan perintah tracert/traceroute (lihat jalur data). 4) Memandu: tracert google.com — catat jumlah hop. 5) Mendiskusikan: mengapa hop berpengaruh pada kecepatan | 1) Mengetik ping google.com. 2) Mencatat reply time dan packet loss. 3) Mengetik tracert google.com. 4) Menghitung jumlah hop. 5) Mendiskusikan hubungan hop dengan kecepatan | Komputer, command prompt, LKPD |
-| **Inti — Praktik 3: Setting IP & DNS** | 20 menit | 1) Menjelaskan perbedaan IP statis (tetap) vs dinamis (DHCP — otomatis berubah). 2) Memandu mengganti DNS ke Google DNS (8.8.8.8 dan 8.8.4.4) di Network Settings. 3) Meminta siswa membuka situs sebelum dan sesudah ganti DNS — bandingkan kecepatan loading. 4) Memandu mengembalikan ke DNS otomatis | 1) Menyimak penjelasan. 2) Mengganti DNS ke 8.8.8.8. 3) Membuka situs dan membandingkan loading. 4) Mengembalikan ke DNS otomatis | Komputer, Network Settings, stopwatch HP |
-| **Penutup** | 10 menit | 1) Diskusi: "Kenapa kadang internet lemot?" — brainstrom faktor: bandwidth terbatas, banyak pengguna, jarak ke server, gangguan sinyal. 2) Refleksi: "Apa hal baru yang kalian pelajari hari ini?" 3) Tugas: cek speedtest di rumah, screenshot hasil, laporkan. 4) Doa | 1) Berdiskusi faktor internet lemot. 2) Refleksi pembelajaran. 3) Mencatat tugas speedtest. 4) Berdoa | Papan tulis, lembar refleksi |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Kalian connect WiFi setiap hari — tapi apa yang sebenarnya terjadi di balik layar?" 4) Apersepsi: tanya siswa apakah tahu IP address HP mereka. 5) Asesmen diagnostik: 3 pertanyaan tentang koneksi internet. 6) Menyampaikan TP | 1) Menjawab salam dan berdoa. 2) Menyimak orientasi. 3) Mengecek IP HP (jika bisa). 4) Menjawab diagnostik. 5) Mencatat TP | Proyektor, HP siswa, slide orientasi |
+| **MINING FULL** | **Eksplorasi** — Eksplorasi Konsep** | 15 menit | 1) Menjelaskan analogi: IP address = alamat rumah, DNS = buku telepon (menerjemahkan nama domain ke IP), DHCP = resepsionis yang memberi alamat otomatis. 2) Menjelaskan subnet mask (pembatas lingkungan), gateway (pintu keluar ke internet). 3) Mendemonstrasikan perintah ipconfig di CMD | 1) Menyimak dan mencatat analogi. 2) Menggambar analogi di buku catatan. 3) Mengamati demonstrasi | Proyektor, slide analogi, command prompt |
+| **MINING FULL** | **Eksplorasi** — Praktik 1: Cek Konfigurasi IP** | 15 menit | 1) Membimbing siswa membuka CMD/Terminal. 2) Memandu mengetik perintah ipconfig (Windows) atau ifconfig (Linux/macOS). 3) Meminta siswa mencari: IP address, subnet mask, default gateway, DNS server. 4) Meminta siswa mencatat di LKPD | 1) Membuka CMD/Terminal. 2) Mengetik ipconfig/ifconfig. 3) Membaca output dan mencatat 4 parameter. 4) Membandingkan dengan teman sebangku | Komputer, command prompt, LKPD |
+| **MINING FULL** | **Eksplorasi** — Praktik 2: Ping & Tracert** | 15 menit | 1) Menjelaskan perintah ping (uji koneksi ke host, ukur waktu respon). 2) Memandu: ping google.com — lihat reply time & packet loss. 3) Menjelaskan perintah tracert/traceroute (lihat jalur data). 4) Memandu: tracert google.com — catat jumlah hop. 5) Mendiskusikan: mengapa hop berpengaruh pada kecepatan | 1) Mengetik ping google.com. 2) Mencatat reply time dan packet loss. 3) Mengetik tracert google.com. 4) Menghitung jumlah hop. 5) Mendiskusikan hubungan hop dengan kecepatan | Komputer, command prompt, LKPD |
+| **MINING FULL** | **Eksplorasi** — Praktik 3: Setting IP & DNS** | 20 menit | 1) Menjelaskan perbedaan IP statis (tetap) vs dinamis (DHCP — otomatis berubah). 2) Memandu mengganti DNS ke Google DNS (8.8.8.8 dan 8.8.4.4) di Network Settings. 3) Meminta siswa membuka situs sebelum dan sesudah ganti DNS — bandingkan kecepatan loading. 4) Memandu mengembalikan ke DNS otomatis | 1) Menyimak penjelasan. 2) Mengganti DNS ke 8.8.8.8. 3) Membuka situs dan membandingkan loading. 4) Mengembalikan ke DNS otomatis | Komputer, Network Settings, stopwatch HP |
+| **JOYFULL** | **Penutup Kreatif** | 10 menit | 1) Diskusi: "Kenapa kadang internet lemot?" — brainstrom faktor: bandwidth terbatas, banyak pengguna, jarak ke server, gangguan sinyal. 2) Refleksi: "Apa hal baru yang kalian pelajari hari ini?" 3) Tugas: cek speedtest di rumah, screenshot hasil, laporkan. 4) Doa | 1) Berdiskusi faktor internet lemot. 2) Refleksi pembelajaran. 3) Mencatat tugas speedtest. 4) Berdoa | Papan tulis, lembar refleksi |
 
 ### D. ASESMEN
 
@@ -78,7 +88,7 @@ Ceklist praktik: guru berkeliling dan menandai siswa yang berhasil menjalankan s
 #### D.4 Rubrik Penilaian
 
 | Aspek | SB = 4 (Sangat Baik) | B = 3 (Baik) | C = 2 (Cukup) | PB = 1 (Perlu Bimbingan) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Praktik ipconfig | Menemukan 4 parameter benar, mencatat lengkap | Menemukan 3 parameter | Menemukan 2 parameter | < 2 atau tidak bisa menjalankan |
 | Praktik ping & tracert | Ping berhasil + tracert ≥ 8 hop + analisis latency | Ping berhasil + tracret 5-7 hop | Ping berhasil + tracert < 5 hop | Ping gagal |
 | Praktik ganti DNS | Berhasil ganti, membandingkan, menjelaskan perbedaan | Berhasil ganti, ada perbandingan | Berhasil ganti, tanpa perbandingan | Tidak berhasil |

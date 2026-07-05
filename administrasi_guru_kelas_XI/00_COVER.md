@@ -49,7 +49,23 @@
 
 ---
 
-> **Profil Lulusan 8 Dimensi** (Kemendikdasmen, 2025) — P5 resmi diintegrasikan ke dalam pembelajaran mendalam (deep learning) sebagai program kokurikuler.
+### Gerakan 7 Kebiasaan Anak Indonesia Hebat (7 KAIH)
+
+Berdasarkan **SEB 3 Menteri No. 1 Tahun 2025** dan **SE No. 14 Tahun 2025**:
+
+| # | Kebiasaan | Integrasi dalam Informatika Kelas XI |
+|---|-----------|---------------------------------------|
+| 1 | **Bangun Pagi** | Disiplin waktu, tracking progres coding harian |
+| 2 | **Beribadah** | Doa sebelum praktik, etika dalam AI & hacking |
+| 3 | **Berolahraga** | Senam AIH, jeda ceria untuk kesehatan mata & postur |
+| 4 | **Makan Sehat & Bergizi** | Analisis gizi dengan Python (Bab 6 — Analisis Data) |
+| 5 | **Gemar Belajar** | Literasi digital, lateral reading, riset mandiri |
+| 6 | **Bermasyarakat** | Proyek aplikasi mobile & AI untuk komunitas |
+| 7 | **Tidur Cepat** | Edukasi manajemen screen time, pengingat berbasis app |
+
+---
+> **Profil Lulusan 8 Dimensi** (Permendikdasmen No. 13/2025) — 8 kompetensi kokurikuler yang diperkuat melalui pendekatan **Deep Learning** (Mindful, Meaningful, Joyful).  
+> **P5** tetap berjalan sebagai proyek tematik terintegrasi, diperkuat dengan **Gerakan 7 KAIH** sebagai pembiasaan karakter harian.
 
 ---
 

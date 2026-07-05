@@ -18,6 +18,10 @@
 | Pertemuan ke- | 2 (dari 20 pertemuan semester 1) |
 | **Kompetensi Awal** | Peserta didik telah memahami ruang lingkup Informatika kelas 10 |
 | **Integrasi 8 Dimensi** | Penalaran Kritis, Kemandirian |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bermasyarakat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bermasyarakat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | **Sarana & Prasarana** | Papan tulis, spidol, proyektor, laptop, LKPD (cetak/digital), koneksi internet |
 | **Target Peserta Didik** | Reguler (tidak ada kesulitan belajar khusus) |
 | **Model Pembelajaran** | Problem Based Learning (PBL) |
@@ -27,6 +31,14 @@
 ---
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Dekomposisi, pengenalan pola, abstraksi, dan algoritma adalah fondasi berpikir komputasional yang digunakan sehari-hari — dari merencanakan liburan hingga memecahkan masalah kompleks di dunia kerja.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan
 Melalui kegiatan diskusi dan studi kasus, peserta didik mampu:
@@ -44,29 +56,30 @@ Dekomposisi, sub-masalah, kompleksitas, hierarki masalah, dekomposisi fungsional
 
 ---
 
-### C. KEGIATAN PEMBELAJARAN
+### C. KEGIATAN PEMBELAJARAN (Deep Learning: Mindful → Mining → Joyful)
 
 #### Pertemuan ke-2 (2 JP)
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | | | |
-| 1. Orientasi | | Memberi salam, mengecek kehadiran, menanyakan kabar | Menjawab salam & merespon | — |
-| 2. Apersepsi | | "Coba bayangkan kalian diminta membuat website sekolah dari nol. Rasanya overwhelmed? Kenapa?" | Berdiskusi & memberikan pendapat | Papan tulis |
-| 3. Motivasi | | "Hari ini kita akan belajar trik agar masalah sebesar apapun terasa ringan: dekomposisi!" | Mendengarkan & merespon | — |
-| 4. Tujuan | | Menyampaikan TP.1.1 dan indikator keberhasilan | Mencatat tujuan | Proyektor/PPT |
-| 5. Asesmen Diagnostik | | Pertanyaan: "Apa yang kalian lakukan saat menghadapi PR yang sulit?" | Menjawab secara lisan | — |
-| **Inti** | 65 menit | | | |
-| **Orientasi Masalah** | 10' | Menyajikan kasus: "Kamu menjadi ketua panitia acara pensi sekolah. Ada 3 bulan persiapan." | Membaca & memahami kasus | LKPD, proyektor |
-| **Organisasi Belajar** | 10' | Membagi siswa ke dalam kelompok heterogen (3-4 orang) | Berkelompok sesuai arahan | — |
-| **Penyelidikan** | 20' | Membimbing setiap kelompok untuk: (1) Mengidentifikasi semua aspek pensi, (2) Memecah menjadi sub-masalah, (3) Membuat diagram dekomposisi | Berdiskusi: menulis sub-masalah, mengelompokkan, membuat diagram | LKPD, kertas plano, spidol |
-| **Pengembangan & Presentasi** | 15' | Meminta 2-3 kelompok mempresentasikan hasil | Presentasi & menanggapi | Hasil diskusi |
-| **Analisis & Evaluasi** | 10' | Memberikan umpan balik dan menguatkan konsep dekomposisi | Mencatat masukan & menyempurnakan | — |
-| **Penutup** | 15 menit | | | |
-| 1. Refleksi | | "Apa yang paling kalian pahami tentang dekomposisi hari ini?" | Menulis/berbagi refleksi | Jurnal refleksi |
-| 2. Penguatan | | Menyimpulkan: dekomposisi = memecah masalah besar → kecil → selesaikan satu per satu | Mencatat kesimpulan | Papan tulis |
-| 3. Tindak Lanjut | | Tugas individu: dekomposisi masalah "Merencanakan liburan akhir tahun" minimal 4 sub-masalah | Mencatat tugas | LKPD |
-| 4. Doa & Salam | | Menutup dengan doa & salam | Berdoa & menjawab salam | — |
+| Fase DL | **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|--------------|
+| **MINDFULL** | **Pemanasan** | **15 menit** | | | |
+| | 1. Orientasi & Doa | | Memberi salam, doa bersama (7 KAIH: Beribadah), mengecek kehadiran | Menjawab salam, berdoa, merespon | — |
+| | 2. Apersepsi & Pertanyaan Pemantik | | "Coba bayangkan kalian diminta membuat website sekolah dari nol. Rasanya overwhelmed? Kenapa?" | Berdiskusi & memberikan pendapat | Papan tulis |
+| | 3. Motivasi | | "Hari ini kita akan belajar trik agar masalah sebesar apapun terasa ringan: dekomposisi!" | Mendengarkan & merespon | — |
+| | 4. Tujuan | | Menyampaikan TP.1.1 dan indikator keberhasilan | Mencatat tujuan | Proyektor/PPT |
+| | 5. Asesmen Diagnostik | | "Apa yang kalian lakukan saat menghadapi PR yang sulit?" | Menjawab secara lisan | — |
+| **MINING FULL** | **Eksplorasi** | **60 menit** | | | |
+| | Orientasi Masalah | | Menyajikan kasus nyata: "Kamu menjadi ketua panitia acara pensi sekolah. Ada 3 bulan persiapan." | Membaca & memahami kasus | LKPD, proyektor |
+| | Organisasi Belajar | | Membagi kelompok heterogen (3-4 orang), pembagian peran | Berkelompok sesuai arahan | — |
+| | Penyelidikan Mendalam | | Membimbing setiap kelompok: (1) Identifikasi semua aspek, (2) Dekomposisi sub-masalah, (3) Diagram pohon | Diskusi aktif: menulis, mengelompokkan, membuat diagram | LKPD, kertas plano, spidol |
+| | Pengembangan & Berbagi | | Meminta 2-3 kelompok presentasi hasil, kelompok lain menanggapi | Presentasi, tanya jawab, memberi masukan | Hasil diskusi |
+| | Analisis & Evaluasi | | Memberi umpan balik, menguatkan konsep dekomposisi | Mencatat masukan, menyempurnakan | — |
+| **JOYFULL** | **Penutup Kreatif** | **15 menit** | | | |
+| | Refleksi Mindful | | "Apa yang paling kalian pahami tentang dekomposisi hari ini?" | Menulis/berbagi refleksi | Jurnal refleksi |
+| | Penguatan Konsep | | Menyimpulkan: dekomposisi = memecah masalah besar → kecil → selesaikan satu per satu | Mencatat kesimpulan | Papan tulis |
+| | Tindak Lanjut | | Tugas: dekomposisi masalah "Merencanakan liburan akhir tahun" minimal 4 sub-masalah | Mencatat tugas | LKPD |
+| | 7 KAIH Refleksi | | "Kebiasaan baik apa yang kamu praktikkan hari ini?" | Mengisi jurnal 7 KAIH | Jurnal harian |
+| | Doa & Salam | | Menutup dengan doa & salam | Berdoa & menjawab salam | — |
 
 ---
 
@@ -92,7 +105,7 @@ Dekomposisi, sub-masalah, kompleksitas, hierarki masalah, dekomposisi fungsional
 #### D.4 Rubrik Penilaian Tugas Dekomposisi
 
 | Kriteria | Sangat Baik (4) | Baik (3) | Cukup (2) | Perlu Bimbingan (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Ketepatan Dekomposisi** | Masalah dipecah secara logis & hierarkis (≥4 sub-masalah, ≥12 detail) | Masalah dipecah cukup logis (≥3 sub-masalah) | Masalah dipecah namun kurang logis | Tidak memecah masalah |
 | **Kelengkapan** | Semua aspek masalah tercakup | Sebagian besar aspek tercakup | Hanya beberapa aspek | Tidak lengkap |
 | **Visualisasi** | Diagram pohon rapi, jelas, mudah dibaca | Diagram cukup rapi | Diagram ada namun berantakan | Tidak ada diagram |
@@ -135,15 +148,28 @@ Kamu adalah ketua panitia acara **Pensi Sekolah** yang akan dilaksanakan 3 bulan
 
 ---
 
-### F. REFLEKSI GURU (Diisi setelah pembelajaran)
+### F. REFLEKSI PEMBELAJARAN
+
+#### Refleksi Guru (Diisi setelah pembelajaran)
 
 | Aspek | Catatan |
 |---|---|
 | Apakah siswa aktif berdiskusi? | |
 | Apakah ada siswa yang kesulitan? | |
+| Apakah pendekatan Mindful → Mining → Joyful berjalan efektif? | |
 | Apakah waktu cukup? | |
 | Apa yang perlu diperbaiki? | |
 | Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa (Deep Learning + 7 KAIH)
+
+| Pertanyaan | Jawaban |
+|---|---|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling seru dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 ---
 
@@ -157,6 +183,52 @@ Kamu adalah ketua panitia acara **Pensi Sekolah** yang akan dilaksanakan 3 bulan
 - Menulis makalah → riset, outline, draft, revisi
 
 ---
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 Mengetahui,  
 Kepala Sekolah

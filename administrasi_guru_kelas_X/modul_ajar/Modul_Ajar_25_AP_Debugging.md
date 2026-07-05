@@ -17,6 +17,8 @@
 | Pertemuan ke- | 5 (lima) |
 | Kompetensi Awal | Peserta didik telah mampu menulis program Python dengan variabel, percabangan, perulangan, dan fungsi |
 | Integrasi 8 Dimensi | Kemandirian, Penalaran Kritis, Kreativitas |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, laptop/komputer, Python IDLE atau Google Colab, papan tulis, kertas soal error, timer untuk lomba debugging |
 | Target Peserta Didik | Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan) |
 | Model Pembelajaran | Problem Based Learning, Gamification (Lomba Debugging) |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 7, dokumentasi Python — Errors and Exceptions, Python Tutor, modul ajar guru |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Pemrograman adalah cara kita 'berbicara' dengan komputer dan menciptakan solusi digital untuk masalah nyata.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 1. Mengidentifikasi dan membedakan jenis-jenis error dalam Python: SyntaxError, NameError, TypeError, ValueError, IndexError, ZeroDivisionError, dan LogicError.
@@ -46,15 +56,15 @@ Debugging, error handling, SyntaxError, NameError, TypeError, ValueError, IndexE
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10' | Guru membuka kelas, mengecek kehadiran. Guru memantik: "Program tidak pernah benar di percobaan pertama. Debugging adalah skill paling penting seorang programmer!" Guru menyampaikan TP. | Siswa merespons. Siswa berbagi pengalaman pernah mengalami error saat coding. Siswa menyimak TP. | Proyektor, slide pembuka |
-| **Inti — Sesi 1** | 20' | Guru menjelaskan 7 jenis error Python dengan contoh kode langsung: SyntaxError (lupa titik dua), NameError (variabel belum didefinisikan), TypeError (operasi tipe beda), ValueError (input salah), IndexError (indeks di luar range), ZeroDivisionError (pembagian nol), LogicError (program jalan tapi hasil salah). | Siswa menulis setiap contoh error di komputer. Siswa mengamati pesan error yang muncul. Siswa mencatat ciri-ciri setiap jenis error. | Python IDLE/Colab, slide 7 jenis error |
-| **Inti — Sesi 2** | 10' | Guru mengajarkan cara membaca error message (traceback): "Error message adalah teman, bukan musuh." Guru menunjukkan bagaimana traceback menunjukkan file, baris, dan jenis error. | Siswa membaca traceback dan mengidentifikasi informasi penting (file, line number, exception type, error message). | Proyektor, kode error |
-| **Inti — Praktik 1** | 20' | Guru memberikan kode yang mengandung 5 error. Siswa mencari dan memperbaiki satu per satu. Guru berkeliling memberikan petunjuk tanpa memberi jawaban langsung. | Siswa mengidentifikasi dan memperbaiki setiap error. Siswa menuliskan jenis error dan perbaikannya di LKPD. | LKPD soal error, Python IDLE/Colab |
-| **Inti — Praktik 2** | 15' | Guru menjelaskan try-except-finally: program tetap jalan meskipun error. Guru memberi contoh program pembagian dengan try-except ZeroDivisionError dan ValueError. | Siswa menulis program dengan try-except. Siswa menguji program dengan input normal dan error. | Python IDLE/Colab, slide try-except |
-| **Inti — Lomba Debugging** | 10' | Guru memberikan 3 kode error secara bertahap. Siapa paling cepat perbaiki semua error? Guru memfasilitasi dan memberikan apresiasi. | Siswa berlomba memperbaiki error. Siswa pertama yang selesai mendapat apresiasi. | Soal lomba di proyektor |
-| **Penutup** | 15' | Guru memberikan tugas: buat program sendiri lalu "tanamkan" 3 error — tukar dengan teman untuk diperbaiki. Guru menyimpulkan jenis-jenis error dan pentingnya debugging. | Siswa mencatat tugas. Siswa membuat kesimpulan tentang debugging. Siswa berdoa. | Papan tulis, buku catatan |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10' | Guru membuka kelas, mengecek kehadiran. Guru memantik: "Program tidak pernah benar di percobaan pertama. Debugging adalah skill paling penting seorang programmer!" Guru menyampaikan TP. | Siswa merespons. Siswa berbagi pengalaman pernah mengalami error saat coding. Siswa menyimak TP. | Proyektor, slide pembuka |
+| **MINING FULL** | **Eksplorasi** — Sesi 1** | 20' | Guru menjelaskan 7 jenis error Python dengan contoh kode langsung: SyntaxError (lupa titik dua), NameError (variabel belum didefinisikan), TypeError (operasi tipe beda), ValueError (input salah), IndexError (indeks di luar range), ZeroDivisionError (pembagian nol), LogicError (program jalan tapi hasil salah). | Siswa menulis setiap contoh error di komputer. Siswa mengamati pesan error yang muncul. Siswa mencatat ciri-ciri setiap jenis error. | Python IDLE/Colab, slide 7 jenis error |
+| **MINING FULL** | **Eksplorasi** — Sesi 2** | 10' | Guru mengajarkan cara membaca error message (traceback): "Error message adalah teman, bukan musuh." Guru menunjukkan bagaimana traceback menunjukkan file, baris, dan jenis error. | Siswa membaca traceback dan mengidentifikasi informasi penting (file, line number, exception type, error message). | Proyektor, kode error |
+| **MINING FULL** | **Eksplorasi** — Praktik 1** | 20' | Guru memberikan kode yang mengandung 5 error. Siswa mencari dan memperbaiki satu per satu. Guru berkeliling memberikan petunjuk tanpa memberi jawaban langsung. | Siswa mengidentifikasi dan memperbaiki setiap error. Siswa menuliskan jenis error dan perbaikannya di LKPD. | LKPD soal error, Python IDLE/Colab |
+| **MINING FULL** | **Eksplorasi** — Praktik 2** | 15' | Guru menjelaskan try-except-finally: program tetap jalan meskipun error. Guru memberi contoh program pembagian dengan try-except ZeroDivisionError dan ValueError. | Siswa menulis program dengan try-except. Siswa menguji program dengan input normal dan error. | Python IDLE/Colab, slide try-except |
+| **MINING FULL** | **Eksplorasi** — Lomba Debugging** | 10' | Guru memberikan 3 kode error secara bertahap. Siapa paling cepat perbaiki semua error? Guru memfasilitasi dan memberikan apresiasi. | Siswa berlomba memperbaiki error. Siswa pertama yang selesai mendapat apresiasi. | Soal lomba di proyektor |
+| **JOYFULL** | **Penutup Kreatif** | 15' | Guru memberikan tugas: buat program sendiri lalu "tanamkan" 3 error — tukar dengan teman untuk diperbaiki. Guru menyimpulkan jenis-jenis error dan pentingnya debugging. | Siswa mencatat tugas. Siswa membuat kesimpulan tentang debugging. Siswa berdoa. | Papan tulis, buku catatan |
 
 ### D. ASESMEN
 
@@ -76,7 +86,7 @@ Debugging, error handling, SyntaxError, NameError, TypeError, ValueError, IndexE
 
 #### D.4 Rubrik Penilaian Debugging dan Error Handling
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Identifikasi error** | Mengidentifikasi semua jenis error dengan tepat beserta penyebabnya | Mengidentifikasi 4 dari 5 error dengan tepat | Mengidentifikasi 3 dari 5 error | Mengidentifikasi kurang dari 3 error |
 | **Perbaikan error** | Semua error diperbaiki dengan solusi yang tepat dan efisien | 4 error diperbaiki dengan benar | 3 error diperbaiki dengan benar | Kurang dari 3 error diperbaiki |
 | **Error handling (try-except)** | Menggunakan try-except untuk 3+ jenis error, ada finally, dan pesan error informatif | Try-except untuk 2 jenis error | Try-except hanya untuk 1 jenis error | Tidak menggunakan try-except |

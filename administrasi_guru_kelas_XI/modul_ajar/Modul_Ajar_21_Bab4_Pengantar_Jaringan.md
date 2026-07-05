@@ -11,6 +11,10 @@
 | **Pertemuan ke-** | 21 |
 | **Tujuan Pembelajaran** | TP.4.1 |
 | **Integrasi 8 Dimensi** | Penalaran Kritis |
+| **Integrasi 7 KAIH** | Bermasyarakat, Tidur Cepat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
+| **Integrasi 7 KAIH** | Bermasyarakat, Tidur Cepat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | **Sarana & Prasarana** | Komputer/lab, proyektor, koneksi internet, LKPD |
 | **Target Peserta Didik** | Reguler (tidak ada kesulitan belajar khusus) |
 | **Model Pembelajaran** | Tatap muka — Problem Based Learning / Project Based Learning |

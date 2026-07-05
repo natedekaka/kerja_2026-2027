@@ -17,6 +17,8 @@
 | Pertemuan ke- | 9 (sembilan) |
 | Kompetensi Awal | Peserta didik telah menggunakan TIK dalam kehidupan sehari-hari (HP, internet, medsos) dan telah memahami sejarah komputer serta lisensi/HAKI |
 | Integrasi 8 Dimensi | Penalaran Kritis, Kewargaan, Kemandirian |
+| **Integrasi 7 KAIH** | Makan Sehat, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, papan tulis, spidol, laptop, koneksi internet, HP, timer debat, LKPD, card/sticky notes untuk voting |
 | Target Peserta Didik | Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan) |
 | Model Pembelajaran | Debat Terstruktur (Active Learning) |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 8, artikel berita dampak TIK, data We Are Social — Digital Indonesia, dokumenter dampak media sosial (The Social Dilemma), modul ajar guru |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Kemampuan mengolah kata, angka, dan presentasi secara terintegrasi adalah skill esensial di dunia perkantoran dan akademik modern.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 1. Mengidentifikasi dampak positif dan negatif TIK di berbagai bidang (ekonomi, sosial, lingkungan, pendidikan).
@@ -46,14 +56,14 @@ Dampak TIK, media sosial, cyberbullying, FOMO (Fear of Missing Out), e-waste, di
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10' | Guru membuka kelas dengan pertanyaan: "Sebutkan 1 dampak positif dan 1 dampak negatif HP buat kalian!" — guru menulis jawaban di papan tulis. Guru menyampaikan TP. | Siswa menyebutkan dampak positif (komunikasi, belajar online) dan negatif (kecanduan, cyberbullying). Siswa menyimak TP. | Papan tulis, spidol |
-| **Inti — Sesi 1** | 20' | Guru menjelaskan dampak TIK di 4 bidang: (1) Ekonomi — e-commerce (Tokopedia, Shopee), digital marketing, peluang freelancer; (2) Sosial — medsos, cyberbullying (kasus: bullying di Twitter/Instagram), FOMO, kecanduan gadget; (3) Lingkungan — e-waste (sampah elektronik B3), paperless (penghematan kertas); (4) Pendidikan — LMS (Google Classroom, Moodle), akses informasi global. | Siswa menyimak dan mencatat. Siswa memberikan contoh nyata yang mereka alami atau lihat. Siswa menambahkan dampak lain yang tidak disebutkan guru. | Slide dampak TIK, papan tulis |
-| **Inti — Debat Terstruktur** | 30' | Guru membagi kelas menjadi 2 tim besar: Tim Pro (media sosial lebih banyak dampak positif) dan Tim Kontra (media sosial lebih banyak dampak negatif). Aturan: setiap tim 3 menit argumen pembuka, 2 menit rebuttal (tanggapan argumen lawan), 2 menit kesimpulan. Guru menjadi moderator dan timer. | Tim Pro: menyiapkan 3 argumen (dengan data/contoh). Tim Kontra: menyiapkan 3 argumen. Perwakilan tim menyampaikan argumen secara bergiliran. Siswa lain mencatat argumen lawan. | Timer, microphone (jika ada), papan skor |
-| **Inti — Refleksi Debat** | 10' | Guru memimpin refleksi: "Apa yang kalian pelajari dari kedua sisi argumen? Adakah yang berubah pendapat?" Guru mengaitkan dengan pentingnya literasi digital dan berpikir kritis. | Siswa menyampaikan pendapat tentang proses debat. Siswa menyadari bahwa setiap isu memiliki dua sisi. Siswa merefleksikan penggunaan medsos mereka sendiri. | Papan tulis |
-| **Inti — Sesi 4** | 10' | Guru menjelaskan profesi IT: Software Engineer (coding, pengembangan aplikasi), Data Scientist (analisis data, machine learning), UI/UX Designer (desain antarmuka), Network Engineer (infrastruktur jaringan), Cybersecurity Analyst (keamanan siber). Guru menyebutkan perkiraan gaji dan skill yang dibutuhkan. | Siswa menyimak. Siswa bertanya tentang prospek karir IT. Siswa mengidentifikasi profesi yang sesuai minat mereka. | Slide profesi IT |
-| **Penutup** | 10' | Guru memberikan tugas: esai 3 paragraf "Dampak TIK yang Paling Berpengaruh di Hidupku" yang memuat argumen pro-kontra. Guru menyimpulkan materi. Guru menutup kelas. | Siswa mencatat tugas. Siswa menyimpulkan bahwa TIK memiliki dua sisi yang harus disikapi bijak. Siswa berdoa. | Buku catatan |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10' | Guru membuka kelas dengan pertanyaan: "Sebutkan 1 dampak positif dan 1 dampak negatif HP buat kalian!" — guru menulis jawaban di papan tulis. Guru menyampaikan TP. | Siswa menyebutkan dampak positif (komunikasi, belajar online) dan negatif (kecanduan, cyberbullying). Siswa menyimak TP. | Papan tulis, spidol |
+| **MINING FULL** | **Eksplorasi** — Sesi 1** | 20' | Guru menjelaskan dampak TIK di 4 bidang: (1) Ekonomi — e-commerce (Tokopedia, Shopee), digital marketing, peluang freelancer; (2) Sosial — medsos, cyberbullying (kasus: bullying di Twitter/Instagram), FOMO, kecanduan gadget; (3) Lingkungan — e-waste (sampah elektronik B3), paperless (penghematan kertas); (4) Pendidikan — LMS (Google Classroom, Moodle), akses informasi global. | Siswa menyimak dan mencatat. Siswa memberikan contoh nyata yang mereka alami atau lihat. Siswa menambahkan dampak lain yang tidak disebutkan guru. | Slide dampak TIK, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Debat Terstruktur** | 30' | Guru membagi kelas menjadi 2 tim besar: Tim Pro (media sosial lebih banyak dampak positif) dan Tim Kontra (media sosial lebih banyak dampak negatif). Aturan: setiap tim 3 menit argumen pembuka, 2 menit rebuttal (tanggapan argumen lawan), 2 menit kesimpulan. Guru menjadi moderator dan timer. | Tim Pro: menyiapkan 3 argumen (dengan data/contoh). Tim Kontra: menyiapkan 3 argumen. Perwakilan tim menyampaikan argumen secara bergiliran. Siswa lain mencatat argumen lawan. | Timer, microphone (jika ada), papan skor |
+| **MINING FULL** | **Eksplorasi** — Refleksi Debat** | 10' | Guru memimpin refleksi: "Apa yang kalian pelajari dari kedua sisi argumen? Adakah yang berubah pendapat?" Guru mengaitkan dengan pentingnya literasi digital dan berpikir kritis. | Siswa menyampaikan pendapat tentang proses debat. Siswa menyadari bahwa setiap isu memiliki dua sisi. Siswa merefleksikan penggunaan medsos mereka sendiri. | Papan tulis |
+| **MINING FULL** | **Eksplorasi** — Sesi 4** | 10' | Guru menjelaskan profesi IT: Software Engineer (coding, pengembangan aplikasi), Data Scientist (analisis data, machine learning), UI/UX Designer (desain antarmuka), Network Engineer (infrastruktur jaringan), Cybersecurity Analyst (keamanan siber). Guru menyebutkan perkiraan gaji dan skill yang dibutuhkan. | Siswa menyimak. Siswa bertanya tentang prospek karir IT. Siswa mengidentifikasi profesi yang sesuai minat mereka. | Slide profesi IT |
+| **JOYFULL** | **Penutup Kreatif** | 10' | Guru memberikan tugas: esai 3 paragraf "Dampak TIK yang Paling Berpengaruh di Hidupku" yang memuat argumen pro-kontra. Guru menyimpulkan materi. Guru menutup kelas. | Siswa mencatat tugas. Siswa menyimpulkan bahwa TIK memiliki dua sisi yang harus disikapi bijak. Siswa berdoa. | Buku catatan |
 
 ### D. ASESMEN
 
@@ -75,7 +85,7 @@ Dampak TIK, media sosial, cyberbullying, FOMO (Fear of Missing Out), e-waste, di
 
 #### D.4 Rubrik Penilaian Debat dan Esai
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Argumen (debat)** | Argumen jelas, logis, didukung data/fakta, dan relevan dengan topik | Argumen jelas dan logis, kurang data pendukung | Argumen kurang terstruktur, sedikit melenceng | Argumen tidak logis atau tidak relevan |
 | **Rebuttal (debat)** | Menanggapi argumen lawan dengan tepat, membantah secara logis tanpa emosi | Menanggapi tetapi kurang tepat sasaran | Kesulitan menanggapi | Tidak mampu menanggapi |
 | **Kerja sama tim (debat)** | Semua anggota berkontribusi, ada pembagian peran yang jelas | Sebagian besar anggota aktif | Hanya 2-3 anggota yang aktif | Hanya 1 anggota yang bicara |
@@ -155,6 +165,52 @@ Struktur:
 - **Buku "Digital Minimalism" oleh Cal Newport** — tentang penggunaan teknologi yang bijak dan produktif
 
 ---
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 Mengetahui,  
 Kepala Sekolah

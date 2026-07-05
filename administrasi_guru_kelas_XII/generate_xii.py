@@ -204,6 +204,29 @@ def cover():
 ---
 
 {dimensi_tabel()}
+
+---
+
+### Gerakan 7 Kebiasaan Anak Indonesia Hebat (7 KAIH)
+
+Berdasarkan **SEB 3 Menteri No. 1 Tahun 2025** dan **SE No. 14 Tahun 2025**:
+
+| # | Kebiasaan | Integrasi dalam Informatika Kelas XII |
+|---|-----------|----------------------------------------|
+| 1 | **Bangun Pagi** | Disiplin waktu praktik lab, tracking proyek IoT |
+| 2 | **Beribadah** | Doa sebelum praktik, etika dalam AI & cyber security |
+| 3 | **Berolahraga** | Senam AIH, ergonomi coding |
+| 4 | **Makan Sehat & Bergizi** | Analisis data gizi dengan C/Python (proyek lintas bidang) |
+| 5 | **Gemar Belajar** | Literasi digital lanjut, eksplorasi AI/ML |
+| 6 | **Bermasyarakat** | Proyek IoT & Arduino untuk masalah nyata sekolah |
+| 7 | **Tidur Cepat** | Edukasi manajemen waktu, screen time tracker |
+
+---
+**Kebijakan Terkait:**
+- **Deep Learning** (Permendikdasmen No. 13/2025) — pendekatan mindful, meaningful, joyful
+- **Profil Lulusan 8 Dimensi** — kompetensi kokurikuler terintegrasi
+- **7 KAIH** (SEB 3 Menteri No. 1/2025) — pembiasaan karakter harian
+- **P5** tetap berjalan sebagai proyek tematik, diperkuat Deep Learning & 7KAIH
 """
 
 
@@ -527,6 +550,24 @@ def kokurikuler():
 | Simulasi Keamanan Jaringan | Praktik lab | 5 JP | Penalaran Kritis, Kolaborasi |
 | Debat Dampak Media Sosial | Debat kelas | 3 JP | Penalaran Kritis, Komunikasi, Kewargaan |
 | Pameran Proyek Lintas Bidang | Presentasi publik | 5 JP | Kreativitas, Komunikasi, Kolaborasi |
+
+---
+
+## Integrasi 7 Kebiasaan Anak Indonesia Hebat (7 KAIH)
+
+Berdasarkan **SEB 3 Menteri No. 1/2025** & **SE No. 14/2025**:
+
+| # | Kebiasaan | Aktivitas Terintegrasi | Waktu |
+|---|-----------|------------------------|-------|
+| 1 | **Bangun Pagi** | Disiplin praktik lab, tracking progres IoT | Harian |
+| 2 | **Beribadah** | Doa bersama, etika dalam AI & cybersecurity | Setiap pertemuan |
+| 3 | **Berolahraga** | Senam AIH, jeda ceria sela coding | 2x/minggu |
+| 4 | **Makan Sehat** | Analisis data gizi (proyek lintas bidang) | Semester 2 |
+| 5 | **Gemar Belajar** | Eksplorasi AI/ML, literasi digital lanjut | Setiap pertemuan |
+| 6 | **Bermasyarakat** | IoT/Arduino untuk solusi nyata sekolah | Semester 2 |
+| 7 | **Tidur Cepat** | Edukasi screen time, manajemen waktu | Semester 1 |
+
+**Catatan:** P5 tetap jalan sebagai proyek tematik. 7KAIH adalah pembiasaan harian. Deep Learning (Mindful, Mining, Joyful) adalah pendekatan pembelajaran.
 """
 
 
@@ -739,59 +780,64 @@ def generate_modul_ajar(bab_id, bab_data, pertemuan, total_pertemuan, sub_judul,
 
     if is_proyek:
         kegiatan = f"""
-**Pendahuluan (20 menit)**
-1. Guru membuka pelajaran, doa, dan presensi
-2. Apersepsi: mengaitkan proyek dengan permasalahan nyata di lingkungan sekitar
-3. Motivasi: pentingnya solusi berbasis informatika untuk kehidupan sehari-hari
-4. Guru menyampaikan TP dan skenario pembelajaran proyek
+### Tahap 1: MINDFULL (Pemanasan Berkesadaran) — 20 menit
+1. Guru membuka pelajaran dengan salam, doa bersama (7 KAIH: Beribadah), dan presensi
+2. Apersepsi: "Masalah nyata apa di sekitarmu yang bisa diselesaikan dengan teknologi?"
+3. Pertanyaan pemantik: "Apa yang akan terjadi jika masalah ini tidak diselesaikan?"
+4. Guru menyampaikan TP, indikator, dan skenario pembelajaran proyek
 
-**Inti (175 menit) — Model PjBL (Project Based Learning)**
+### Tahap 2: MINING FULL (Eksplorasi Mendalam) — 175 menit
+**Model PjBL (Project Based Learning):**
 1. **Penentuan Pertanyaan Mendasar** (20 menit): Peserta didik mengidentifikasi masalah dan menentukan topik proyek
 2. **Mendesain Perencanaan Proyek** (30 menit): Kelompok menyusun rencana kerja, jadwal, dan pembagian tugas
 3. **Menyusun Jadwal** (15 menit): Membuat timeline penyelesaian proyek
-4. **Memonitor Kemajuan Proyek** (60 menit): Peserta didik mengerjakan proyek, guru memfasilitasi dan memonitor
+4. **Memonitor Kemajuan Proyek** (60 menit): Peserta didik mengerjakan proyek, guru memfasilitasi
 5. **Menguji Hasil** (30 menit): Pengujian awal prototipe dan dokumentasi
-6. **Evaluasi Pengalaman** (20 menit): Refleksi proses dan kendala yang dihadapi
+6. **Evaluasi Pengalaman** (20 menit): Diskusi kendala dan solusi
 
-**Penutup (30 menit)**
-1. Peserta didik mempresentasikan perkembangan proyek
-2. Guru memberikan umpan balik dan penguatan
-3. Menyepakati target penyelesaian proyek untuk pertemuan berikutnya
-4. Refleksi pembelajaran hari ini
-5. Doa dan penutup
+### Tahap 3: JOYFULL (Penutup Kreatif & Reflektif) — 30 menit
+1. Peserta didik mempresentasikan perkembangan proyek secara kreatif
+2. Guru memberikan umpan balik positif dan penguatan
+3. Menyepakati target penyelesaian proyek berikutnya
+4. Refleksi Deep Learning: "Apa yang bermakna hari ini?" + 7 KAIH: "Kebiasaan baik apa yang dipraktikkan?"
+5. Doa bersama dan penutup
 """
     elif is_praktik:
         kegiatan = f"""
-**Pendahuluan (20 menit)**
-1. Guru membuka pelajaran, doa, dan presensi
+### Tahap 1: MINDFULL (Pemanasan Berkesadaran) — 20 menit
+1. Guru membuka dengan salam, doa bersama (7 KAIH: Beribadah), presensi
 2. Apersepsi: mengingatkan kembali materi teori yang mendasari praktik
-3. Demonstrasi singkat langkah-langkah praktik oleh guru
-4. Guru menyampaikan tujuan praktik dan prosedur keselamatan kerja
-5. Pembagian kelompok dan alat/bahan praktik
+3. Pertanyaan pemantik: "Apa yang terjadi jika langkah ini dilewati?"
+4. Demonstrasi singkat langkah praktik oleh guru
+5. Guru menyampaikan tujuan praktik dan prosedur keselamatan kerja
+6. Pembagian kelompok dan alat/bahan praktik
 
-**Inti (175 menit) — Model PBL (Problem Based Learning) + Discovery Learning**
-1. **Orientasi pada Masalah** (15 menit): Guru menyajikan skenario masalah yang relevan
+### Tahap 2: MINING FULL (Eksplorasi Mendalam) — 175 menit
+**Model PBL (Problem Based Learning) + Discovery Learning:**
+1. **Orientasi pada Masalah** (15 menit): Guru menyajikan skenario masalah relevan
 2. **Mengorganisasi Belajar** (20 menit): Peserta didik membaca modul/buku petunjuk praktik
-3. **Membimbing Penyelidikan** (60 menit): Peserta didik melakukan praktik secara berkelompok, guru memfasilitasi
-4. **Mengembangkan dan Menyajikan Hasil** (40 menit): Setiap kelompok mencatat hasil dan menyiapkan presentasi singkat
-5. **Menganalisis dan Mengevaluasi** (40 menit): Presentasi hasil, diskusi, dan umpan balik
+3. **Membimbing Penyelidikan** (60 menit): Praktik berkelompok, guru memfasilitasi
+4. **Mengembangkan dan Menyajikan Hasil** (40 menit): Setiap kelompok mencatat hasil & menyiapkan presentasi
+5. **Menganalisis dan Mengevaluasi** (40 menit): Presentasi hasil, diskusi, umpan balik
 
-**Penutup (30 menit)**
-1. Guru memberikan penguatan dan koreksi terhadap hasil praktik
-2. Menyimpulkan hasil praktik dan keterkaitan dengan konsep
-3. Tugas: membuat laporan praktik
-4. Refleksi pembelajaran hari ini
-5. Doa dan penutup
+### Tahap 3: JOYFULL (Penutup Kreatif & Reflektif) — 30 menit
+1. Jeda ceria (7 KAIH: Berolahraga) — peregangan sela coding
+2. Guru memberikan penguatan positif dan koreksi terhadap hasil praktik
+3. Menyimpulkan hasil praktik dan keterkaitan dengan konsep
+4. Tugas: membuat laporan praktik
+5. Refleksi Deep Learning: "Apa yang bermakna hari ini?" + 7 KAIH: "Kebiasaan baik apa yang dipraktikkan?"
+6. Doa bersama dan penutup
 """
     else:
         kegiatan = f"""
-**Pendahuluan (20 menit)**
-1. Guru membuka pelajaran dengan salam, doa, dan presensi
-2. Apersepsi: mengaitkan materi dengan pengalaman peserta didik atau materi sebelumnya
+### Tahap 1: MINDFULL (Pemanasan Berkesadaran) — 20 menit
+1. Guru membuka dengan salam, doa bersama (7 KAIH: Beribadah), presensi
+2. Apersepsi: mengaitkan materi dengan pengalaman peserta didik
 3. Pertanyaan pemantik untuk membangkitkan rasa ingin tahu
 4. Guru menyampaikan tujuan pembelajaran dan skenario kegiatan
 
-**Inti (175 menit) — Model Discovery Learning + Cooperative Learning**
+### Tahap 2: MINING FULL (Eksplorasi Mendalam) — 175 menit
+**Model Discovery Learning + Cooperative Learning:**
 1. **Stimulation** (20 menit): Peserta didik mengamati tayangan/gambar/artikel terkait materi
 2. **Problem Statement** (25 menit): Guru memberikan pertanyaan-pertanyaan kunci
 3. **Data Collection** (50 menit): Peserta didik mengumpulkan informasi dari buku dan sumber digital
@@ -799,12 +845,13 @@ def generate_modul_ajar(bab_id, bab_data, pertemuan, total_pertemuan, sub_judul,
 5. **Verification** (20 menit): Verifikasi hasil diskusi dengan referensi dan bimbingan guru
 6. **Generalization** (20 menit): Menarik kesimpulan bersama
 
-**Penutup (30 menit)**
-1. Guru bersama peserta didik menyimpulkan materi
-2. Evaluasi formatif (kuis/pertanyaan lisan)
-3. Tugas mandiri untuk pertemuan berikutnya
-4. Refleksi pembelajaran
-5. Doa dan penutup
+### Tahap 3: JOYFULL (Penutup Kreatif & Reflektif) — 30 menit
+1. Game kuis singkat / teka-teki silang konsep
+2. Guru bersama peserta didik menyimpulkan materi secara interaktif
+3. Evaluasi formatif (kuis/pertanyaan lisan)
+4. Tugas mandiri untuk pertemuan berikutnya
+5. Refleksi Deep Learning: "Apa yang paling bermakna hari ini?" + 7 KAIH: "Kebiasaan baik apa yang dipraktikkan?"
+6. Doa bersama dan penutup
 """
 
     # Assessment
@@ -926,7 +973,21 @@ semester: {semester}
 ## D. PRASYARAT PENGETAHUAN
 {prasyarat}
 
-## E. PROFIL LULUSAN 8 DIMENSI (DEEP LEARNING)
+## E. PEMAHAMAN BERMAKNA (MEANINGFUL)
+{{
+"Keterkaitan materi ini dengan kehidupan nyata, misalnya bagaimana {sub_judul.lower()} digunakan dalam teknologi sehari-hari."
+if not is_proyek else
+"Proyek ini memberikan pengalaman langsung dalam menyelesaikan masalah nyata menggunakan teknologi informatika."
+}}
+
+## F. PERTANYAAN PEMANTIK (MINDFUL)
+{{
+"Apa yang terjadi jika...?"
+if not is_proyek else
+"Masalah apa yang bisa diselesaikan dengan teknologi yang akan kita buat?"
+}}
+
+## G. PROFIL LULUSAN 8 DIMENSI (DEEP LEARNING)
 **Dimensi yang Dikembangkan:** {dimensi_fokus}
 
 | Dimensi | Aktivitas Pembelajaran |
@@ -936,7 +997,20 @@ semester: {semester}
 | Kolaborasi | Kerja sama dalam diskusi/praktik kelompok |
 | Kemandirian | Mengerjakan tugas dan eksplorasi mandiri |
 
-## F. SARANA DAN PRASARANA
+## G1. INTEGRASI 7 KEBIASAAN ANAK INDONESIA HEBAT (7 KAIH)
+Berdasarkan SEB 3 Menteri No. 1/2025:
+
+| # | Kebiasaan | Aktivitas Terintegrasi |
+|---|-----------|------------------------|
+| 1 | **Bangun Pagi** | Disiplin waktu praktik |
+| 2 | **Beribadah** | Doa bersama, etika digital |
+| 3 | **Berolahraga** | Jeda ceria sela coding |
+| 4 | **Makan Sehat** | Analisis data gizi (Bab proyek) |
+| 5 | **Gemar Belajar** | Eksplorasi mandiri materi |
+| 6 | **Bermasyarakat** | Proyek untuk komunitas |
+| 7 | **Tidur Cepat** | Edukasi screen time |
+
+## H. SARANA DAN PRASARANA
 | Alat/Bahan | Spesifikasi | Keterangan |
 |------------|-------------|------------|
 | Komputer/Laptop | OS minimal Windows 10 / Linux / macOS | 1 per 2-3 siswa |
@@ -948,17 +1022,17 @@ semester: {semester}
 {'| Simulator (opsional) | Wokwi / Tinkercad | Alternatif praktik virtual |' if bab_id in ['2','3'] else ''}
 {'| Perangkat Jaringan | Router/Switch, Kabel LAN | Untuk praktik jaringan |' if bab_id == '4' else ''}
 
-## G. MODEL DAN METODE PEMBELAJARAN
+## I. MODEL DAN METODE PEMBELAJARAN
 | Aspek | Pendekatan |
 |-------|-----------|
 | Model Pembelajaran | {'Project Based Learning (PjBL)' if is_proyek else 'Problem Based Learning + Discovery Learning' if is_praktik else 'Discovery Learning + Cooperative Learning'} |
 | Metode | {'Proyek, presentasi, diskusi, demonstrasi' if is_proyek else 'Praktik, diskusi, demonstrasi, tanya jawab' if is_praktik else 'Diskusi, tanya jawab, penugasan, presentasi'} |
 | Pendekatan | Student-Centered Learning (Saintifik) |
 
-## H. KEGIATAN PEMBELAJARAN
+## J. KEGIATAN PEMBELAJARAN (DEEP LEARNING: MINDFUL → MINING → JOYFUL)
 {kegiatan}
 
-## I. PENILAIAN PEMBELAJARAN
+## K. PENILAIAN PEMBELAJARAN
 ### 1. Teknik Penilaian
 {assessment}
 
@@ -987,7 +1061,7 @@ semester: {semester}
 | Hasil | Berhasil, rapi, sesuai tujuan | Berhasil, cukup rapi | Kurang berhasil | Tidak berhasil |
 | Laporan | Lengkap, sistematis, analitis | Lengkap, sistematis | Kurang lengkap | Tidak membuat laporan |
 
-## J. REMEDIAL DAN PENGAYAAN
+## L. REMEDIAL DAN PENGAYAAN
 ### Remedial
 - Pembelajaran ulang/ bimbingan perorangan bagi peserta didik yang belum mencapai KKTP (nilai < 78)
 - Tugas tambahan terstruktur
@@ -996,11 +1070,30 @@ semester: {semester}
 - Eksplorasi mandiri topik lanjutan
 - Proyek pengembangan tambahan bagi peserta didik yang telah mencapai nilai > 89
 
-## K. GLOSARIUM
+## M. GLOSARIUM
 {glos}
 
-## L. DAFTAR PUSTAKA
+## N. DAFTAR PUSTAKA
 {dapus}
+
+## O. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful → Mining → Joyful berjalan efektif? | |
+| Apakah siswa aktif dan antusias? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+
+### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk hidupku? | |
+| **Joyful:** Hal paling menyenangkan hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku lakukan? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 ---
 

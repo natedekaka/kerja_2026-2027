@@ -17,6 +17,8 @@
 | Pertemuan ke- | 13 |
 | Kompetensi Awal | Peserta didik telah memahami konsep dasar sistem komputer dan mampu menggunakan perangkat lunak perkantoran. Peserta didik juga sudah menggunakan internet sehari-hari. |
 | Integrasi 8 Dimensi | Penalaran Kritis (menganalisis kelebihan & kekurangan topologi), Kolaborasi (simulasi topologi dengan tali rapia), Kemandirian (identifikasi perangkat secara mandiri), Kreativitas (menggambar topologi jaringan) |
+| **Integrasi 7 KAIH** | Bermasyarakat, Gemar Belajar |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Komputer/laptop, proyektor, kabel/tali rapia untuk simulasi topologi, kartu nama perangkat, perangkat jaringan di lab sekolah (router, switch, modem, access point), kertas gambar |
 | Target Peserta Didik | Reguler (dengan diferensiasi 3 tingkat) |
 | Model Pembelajaran | Simulasi Fisik + Diskusi + Praktik Identifikasi |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kemendikbud Bab 5, artikel perangkat jaringan dari Cisco Networking Academy, video animasi topologi jaringan |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Internet dan jaringan adalah infrastruktur modern — memahami cara kerjanya membuat kita lebih bijak dan aman dalam menggunakan teknologi.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 
@@ -48,13 +58,13 @@ LAN, MAN, WAN, internet, router, switch, modem, access point, repeater, topologi
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Internet mati 1 hari — apa yang terjadi?" — diskusi dampak hilangnya konektivitas. 4) Apersepsi: siapa yang punya WiFi di rumah? Bagaimana internet sampai ke HP kalian? 5) Asesmen diagnostik: tanya perbedaan WiFi dan internet. 6) Menyampaikan TP dan indikator | 1) Menjawab salam dan berdoa. 2) Berdiskusi dampak internet mati. 3) Menjawab pertanyaan apersepsi. 4) Menjawab pertanyaan diagnostik. 5) Mencatat TP | Proyektor, slide pertanyaan, papan tulis |
-| **Inti — Eksplorasi Konsep** | 20 menit | 1) Menjelaskan jenis jaringan: LAN (kantor/sekolah), MAN (antar kota), WAN (antar negara), internet (global). 2) Menjelaskan perangkat jaringan: router (menghubungkan jaringan berbeda), switch (menghubungkan perangkat dalam LAN), modem (ISP ke rumah), access point (WiFi), repeater (memperkuat sinyal). 3) Menampilkan gambar setiap perangkat | 1) Menyimak dan mencatat. 2) Menggambar sketsa setiap perangkat di buku catatan. 3) Mengajukan pertanyaan | Slide gambar perangkat, proyektor |
-| **Inti — Simulasi Topologi** | 25 menit | 1) Memilih 6 siswa menjadi node jaringan. 2) Memberi tali rapia sebagai kabel. 3) Memandu pembentukan 4 topologi secara bergiliran: Star (semua ke pusat), Bus (satu jalur), Ring (melingkar), Mesh (semua ke semua). 4) Setiap selesai, tanya siswa: "Apa kelebihan dan kekurangan topologi ini?" 5) Meminta siswa lain mencatat di tabel yang disediakan | 1) 6 siswa menjadi node. 2) Memegang tali rapia dan membentuk topologi. 3) Menjawab pertanyaan kelebihan & kekurangan. 4) Siswa lain mengisi tabel pengamatan topologi | Tali rapia, kartu nama node, tabel LKPD |
-| **Inti — Praktik Identifikasi** | 15 menit | 1) Membawa siswa ke ruang server/lab. 2) Menunjukkan perangkat nyata: router, switch, modem, access point. 3) Meminta siswa mencatat: merek, model, jumlah port, fungsi. 4) Mendampingi siswa berfoto perangkat untuk dokumentasi | 1) Mengamati perangkat di lab. 2) Mencatat identifikasi di LKPD. 3) Berfoto perangkat sebagai dokumentasi | Perangkat jaringan nyata, LKPD, HP untuk dokumentasi |
-| **Penutup** | 15 menit | 1) Kuis cepat: tunjuk gambar topologi — siswa tebak. 2) Penguatan materi. 3) Refleksi: "Topologi apa yang paling cocok untuk sekolah kita? Kenapa?" 4) Tugas: gambar topologi jaringan di rumah/sekolah. 5) Doa | 1) Menjawab kuis tebak topologi. 2) Menyimak penguatan. 3) Refleksi. 4) Mencatat tugas. 5) Berdoa | Gambar topologi, lembar refleksi |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Internet mati 1 hari — apa yang terjadi?" — diskusi dampak hilangnya konektivitas. 4) Apersepsi: siapa yang punya WiFi di rumah? Bagaimana internet sampai ke HP kalian? 5) Asesmen diagnostik: tanya perbedaan WiFi dan internet. 6) Menyampaikan TP dan indikator | 1) Menjawab salam dan berdoa. 2) Berdiskusi dampak internet mati. 3) Menjawab pertanyaan apersepsi. 4) Menjawab pertanyaan diagnostik. 5) Mencatat TP | Proyektor, slide pertanyaan, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Eksplorasi Konsep** | 20 menit | 1) Menjelaskan jenis jaringan: LAN (kantor/sekolah), MAN (antar kota), WAN (antar negara), internet (global). 2) Menjelaskan perangkat jaringan: router (menghubungkan jaringan berbeda), switch (menghubungkan perangkat dalam LAN), modem (ISP ke rumah), access point (WiFi), repeater (memperkuat sinyal). 3) Menampilkan gambar setiap perangkat | 1) Menyimak dan mencatat. 2) Menggambar sketsa setiap perangkat di buku catatan. 3) Mengajukan pertanyaan | Slide gambar perangkat, proyektor |
+| **MINING FULL** | **Eksplorasi** — Simulasi Topologi** | 25 menit | 1) Memilih 6 siswa menjadi node jaringan. 2) Memberi tali rapia sebagai kabel. 3) Memandu pembentukan 4 topologi secara bergiliran: Star (semua ke pusat), Bus (satu jalur), Ring (melingkar), Mesh (semua ke semua). 4) Setiap selesai, tanya siswa: "Apa kelebihan dan kekurangan topologi ini?" 5) Meminta siswa lain mencatat di tabel yang disediakan | 1) 6 siswa menjadi node. 2) Memegang tali rapia dan membentuk topologi. 3) Menjawab pertanyaan kelebihan & kekurangan. 4) Siswa lain mengisi tabel pengamatan topologi | Tali rapia, kartu nama node, tabel LKPD |
+| **MINING FULL** | **Eksplorasi** — Praktik Identifikasi** | 15 menit | 1) Membawa siswa ke ruang server/lab. 2) Menunjukkan perangkat nyata: router, switch, modem, access point. 3) Meminta siswa mencatat: merek, model, jumlah port, fungsi. 4) Mendampingi siswa berfoto perangkat untuk dokumentasi | 1) Mengamati perangkat di lab. 2) Mencatat identifikasi di LKPD. 3) Berfoto perangkat sebagai dokumentasi | Perangkat jaringan nyata, LKPD, HP untuk dokumentasi |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | 1) Kuis cepat: tunjuk gambar topologi — siswa tebak. 2) Penguatan materi. 3) Refleksi: "Topologi apa yang paling cocok untuk sekolah kita? Kenapa?" 4) Tugas: gambar topologi jaringan di rumah/sekolah. 5) Doa | 1) Menjawab kuis tebak topologi. 2) Menyimak penguatan. 3) Refleksi. 4) Mencatat tugas. 5) Berdoa | Gambar topologi, lembar refleksi |
 
 ### D. ASESMEN
 
@@ -76,7 +86,7 @@ Observasi selama simulasi topologi dan partisipasi diskusi. Guru menilai kemampu
 #### D.4 Rubrik Penilaian
 
 | Aspek | SB = 4 (Sangat Baik) | B = 3 (Baik) | C = 2 (Cukup) | PB = 1 (Perlu Bimbingan) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Identifikasi Perangkat | 5 perangkat teridentifikasi dengan benar + fungsi + foto | 4 perangkat benar + fungsi | 3 perangkat benar | < 3 perangkat |
 | Simulasi Topologi | Aktif berpartisipasi, membantu teman membentuk topologi, menjawab kelebihan/kekurangan | Berpartisipasi, mampu menjawab 2 pertanyaan | Berpartisipasi namun pasif | Tidak berpartisipasi |
 | Gambar Topologi | Simbol rapi, ada label, jalur jelas, sesuai kondisi nyata | Simbol cukup rapi, ada label | Gambar ada tapi kurang rapi | Tidak mengumpulkan |
@@ -94,7 +104,7 @@ Nama: _____________ Kelas: _____________ Tanggal: _____________
 **Tabel Perbandingan Topologi:**
 
 | Topologi | Jumlah Kabel | Kelebihan | Kekurangan | Cocok untuk |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Star | ________ | ________ | ________ | ________ |
 | Bus | ________ | ________ | ________ | ________ |
 | Ring | ________ | ________ | ________ | ________ |
@@ -103,7 +113,7 @@ Nama: _____________ Kelas: _____________ Tanggal: _____________
 **Identifikasi Perangkat di Lab:**
 
 | No | Nama Perangkat | Merek/Model | Jumlah Port | Fungsi |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 1 | ________ | ________ | ________ | ________ |
 | 2 | ________ | ________ | ________ | ________ |
 | 3 | ________ | ________ | ________ | ________ |

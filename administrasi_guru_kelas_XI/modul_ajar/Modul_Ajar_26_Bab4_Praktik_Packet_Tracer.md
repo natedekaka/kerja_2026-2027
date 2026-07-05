@@ -11,6 +11,10 @@
 | **Pertemuan ke-** | 26 |
 | **Tujuan Pembelajaran** | TP.4.3, TP.4.5 |
 | **Integrasi 8 Dimensi** | Kolaborasi, Kemandirian |
+| **Integrasi 7 KAIH** | Bermasyarakat, Tidur Cepat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
+| **Integrasi 7 KAIH** | Bermasyarakat, Tidur Cepat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | **Sarana & Prasarana** | Komputer/lab, proyektor, koneksi internet, LKPD |
 | **Target Peserta Didik** | Reguler (tidak ada kesulitan belajar khusus) |
 | **Model Pembelajaran** | Tatap muka — Problem Based Learning / Project Based Learning |

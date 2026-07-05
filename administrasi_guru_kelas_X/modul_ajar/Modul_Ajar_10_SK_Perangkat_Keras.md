@@ -17,6 +17,8 @@
 | Pertemuan ke- | 10 (Kesepuluh) |
 | Kompetensi Awal | Peserta didik sehari-hari menggunakan komputer/laptop/HP namun sebagian besar belum pernah melihat komponen di dalam casing komputer. Peserta didik mungkin tahu istilah "processor" dan "RAM" tetapi belum memahami fungsi dan cara kerja masing-masing komponen secara teknis. |
 | Integrasi 8 Dimensi | Kemandirian, Penalaran Kritis, Kreativitas, Kolaborasi, Komunikasi, Keimanan & Ketakwaan, Kewargaan, Kesehatan |
+| **Integrasi 7 KAIH** | Beribadah, Berolahraga |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | PC desktop yang sudah dibuka casingnya (minimal 1 untuk demonstrasi), obeng, komponen HW lepas (RAM, HDD, SSD, prosesor bekas — jika ada), poster/anatomi komputer, aplikasi simulasi (PC Building Simulator atau https://pcpartpicker.com), proyektor, video virtual tour komponen PC, kertas plano, spidol warna |
 | Target Peserta Didik | Reguler (dengan diferensiasi) |
 | Model Pembelajaran | Discovery Learning (Hands-on) |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 4, video "Inside a Computer" (YouTube), artikel komponen PC (Tirto.id, Kompas Tekno), situs PC Part Picker, spesifikasi komputer di toko online (Tokopedia, Shopee) |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Memahami bagaimana komputer bekerja dari dalam membantu kita merawat perangkat, memilih spesifikasi yang tepat, dan memecahkan masalah teknis sehari-hari.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan
 1. Mengidentifikasi komponen-komponen utama perangkat keras komputer (CPU, RAM, motherboard, storage, PSU, GPU) secara visual.
@@ -43,14 +53,14 @@ Hardware, CPU, processor, RAM, motherboard, HDD, SSD, NVMe, GPU, VGA, PSU, power
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | Guru membuka dengan salam dan doa. Apersepsi: "Pernah lihat dalamnya komputer?" — guru menunjukkan PC yang sudah terbuka casingnya. "Hari ini kita bongkar!" Guru menyampaikan tujuan dan pentingnya memahami hardware: (1) bisa merawat sendiri, (2) tahu spesifikasi saat beli laptop, (3) dasar untuk troubleshooting. Guru memberikan safety briefing: (1) cabut kabel listrik, (2) pegang komponen di tepi, (3) hindari sentuhan langsung di chip. | Siswa menjawab salam, berdoa. Melihat PC terbuka dengan antusias. Menyimak safety briefing. | PC terbuka, proyektor |
-| **Inti — Eksplorasi Komponen** | 25 menit | Guru menjelaskan komponen satu per satu sambil menunjukkan fisiknya: (1) Motherboard — papan sirkuit utama, tempat semua komponen terpasang, (2) CPU/Processor — "otak" komputer, contoh Intel i5 dan AMD Ryzen, (3) RAM — memori sementara, ukuran 4GB/8GB/16GB, (4) HDD vs SSD — HDD piringan magnetik (murah, lambat), SSD chip (mahal, cepat), NVMe (lebih cepat), (5) GPU — untuk grafis, (6) PSU — adaptor daya, (7) Casing — pelindung dan sirkulasi udara. Guru menunjukkan alur data: Input (keyboard/mouse) → CPU → RAM → Storage → Output (monitor). | Siswa mengamati komponen fisik. Mencatat fungsi masing-masing. Beberapa siswa maju untuk memegang komponen dengan hati-hati. Membuat catatan alur data. | Komponen fisik HW, slide, papan tulis |
-| **Inti — Praktik Hands-on** | 15 menit | Jika ada PC bongkar: siswa bergiliran (2-3 per kelompok) mengidentifikasi komponen di PC nyata — menyusun diagram koneksi antar komponen di kertas. Jika tidak ada: guru menayangkan video virtual tour dan menggunakan aplikasi PC Building Simulator untuk menunjukkan bagaimana komponen dipasang. | Siswa secara bergiliran mengidentifikasi komponen di PC nyata. Menyusun diagram alur data dan koneksi. | PC nyata / video simulasi, kertas diagram |
-| **Inti — Studi Kasus Kelompok** | 15 menit | Guru membagi kelas menjadi 5-6 kelompok. Studi kasus: "Tentukan spesifikasi PC untuk kebutuhan berikut!" (setiap kelompok dapat 1 kasus berbeda): (A) PC gaming — prioritas GPU, (B) PC desain grafis — prioritas RAM+GPU, (C) PC coding + programming — prioritas CPU+RAM, (D) PC office — prioritas harga terjangkau, (E) PC server sekolah — prioritas storage+RAM, (F) Laptop pelajar — mobilitas+baterai. Setiap kelompok menentukan 5 komponen utama dan alasannya. | Setiap kelompok berdiskusi dan menentukan spesifikasi PC sesuai kasus. Mencatat di kertas plano: nama komponen, spesifikasi, harga (estimasi), alasan memilih. | Kertas plano, spidol, akses internet (untuk cek harga) |
-| **Inti — Presentasi Kasus** | 10 menit | Guru meminta 3 kelompok presentasi (masing-masing 2 menit). Guru memberikan koreksi dan masukan. Guru menekankan: "Tidak ada spesifikasi yang salah — yang penting sesuai kebutuhan dan anggaran." | Perwakilan kelompok presentasi. Kelompok lain menanggapi. | Kertas plano hasil diskusi |
-| **Penutup** | 15 menit | Guru mengadakan kuis cepat "Tebak Komponen" — menampilkan gambar komponen di slide, siswa menulis jawaban di kertas (beregu). Guru memberikan penguatan: "Memahami hardware membuat kalian lebih bijak memilih dan merawat perangkat." Tugas: buat spesifikasi PC impian dengan anggaran Rp10 juta (cari harga nyata di toko online). Doa dan salam. | Siswa mengikuti kuis cepat. Menyimak penguatan. Mencatat tugas. Berdoa dan salam. | Slide kuis, kertas jawaban |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10 menit | Guru membuka dengan salam dan doa. Apersepsi: "Pernah lihat dalamnya komputer?" — guru menunjukkan PC yang sudah terbuka casingnya. "Hari ini kita bongkar!" Guru menyampaikan tujuan dan pentingnya memahami hardware: (1) bisa merawat sendiri, (2) tahu spesifikasi saat beli laptop, (3) dasar untuk troubleshooting. Guru memberikan safety briefing: (1) cabut kabel listrik, (2) pegang komponen di tepi, (3) hindari sentuhan langsung di chip. | Siswa menjawab salam, berdoa. Melihat PC terbuka dengan antusias. Menyimak safety briefing. | PC terbuka, proyektor |
+| **MINING FULL** | **Eksplorasi** — Eksplorasi Komponen** | 25 menit | Guru menjelaskan komponen satu per satu sambil menunjukkan fisiknya: (1) Motherboard — papan sirkuit utama, tempat semua komponen terpasang, (2) CPU/Processor — "otak" komputer, contoh Intel i5 dan AMD Ryzen, (3) RAM — memori sementara, ukuran 4GB/8GB/16GB, (4) HDD vs SSD — HDD piringan magnetik (murah, lambat), SSD chip (mahal, cepat), NVMe (lebih cepat), (5) GPU — untuk grafis, (6) PSU — adaptor daya, (7) Casing — pelindung dan sirkulasi udara. Guru menunjukkan alur data: Input (keyboard/mouse) → CPU → RAM → Storage → Output (monitor). | Siswa mengamati komponen fisik. Mencatat fungsi masing-masing. Beberapa siswa maju untuk memegang komponen dengan hati-hati. Membuat catatan alur data. | Komponen fisik HW, slide, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Praktik Hands-on** | 15 menit | Jika ada PC bongkar: siswa bergiliran (2-3 per kelompok) mengidentifikasi komponen di PC nyata — menyusun diagram koneksi antar komponen di kertas. Jika tidak ada: guru menayangkan video virtual tour dan menggunakan aplikasi PC Building Simulator untuk menunjukkan bagaimana komponen dipasang. | Siswa secara bergiliran mengidentifikasi komponen di PC nyata. Menyusun diagram alur data dan koneksi. | PC nyata / video simulasi, kertas diagram |
+| **MINING FULL** | **Eksplorasi** — Studi Kasus Kelompok** | 15 menit | Guru membagi kelas menjadi 5-6 kelompok. Studi kasus: "Tentukan spesifikasi PC untuk kebutuhan berikut!" (setiap kelompok dapat 1 kasus berbeda): (A) PC gaming — prioritas GPU, (B) PC desain grafis — prioritas RAM+GPU, (C) PC coding + programming — prioritas CPU+RAM, (D) PC office — prioritas harga terjangkau, (E) PC server sekolah — prioritas storage+RAM, (F) Laptop pelajar — mobilitas+baterai. Setiap kelompok menentukan 5 komponen utama dan alasannya. | Setiap kelompok berdiskusi dan menentukan spesifikasi PC sesuai kasus. Mencatat di kertas plano: nama komponen, spesifikasi, harga (estimasi), alasan memilih. | Kertas plano, spidol, akses internet (untuk cek harga) |
+| **MINING FULL** | **Eksplorasi** — Presentasi Kasus** | 10 menit | Guru meminta 3 kelompok presentasi (masing-masing 2 menit). Guru memberikan koreksi dan masukan. Guru menekankan: "Tidak ada spesifikasi yang salah — yang penting sesuai kebutuhan dan anggaran." | Perwakilan kelompok presentasi. Kelompok lain menanggapi. | Kertas plano hasil diskusi |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | Guru mengadakan kuis cepat "Tebak Komponen" — menampilkan gambar komponen di slide, siswa menulis jawaban di kertas (beregu). Guru memberikan penguatan: "Memahami hardware membuat kalian lebih bijak memilih dan merawat perangkat." Tugas: buat spesifikasi PC impian dengan anggaran Rp10 juta (cari harga nyata di toko online). Doa dan salam. | Siswa mengikuti kuis cepat. Menyimak penguatan. Mencatat tugas. Berdoa dan salam. | Slide kuis, kertas jawaban |
 
 ### D. ASESMEN
 
@@ -81,7 +91,7 @@ Hardware, CPU, processor, RAM, motherboard, HDD, SSD, NVMe, GPU, VGA, PSU, power
 
 #### D.4 Rubrik Penilaian
 | Kriteria | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Identifikasi Komponen | ≥7 komponen + fungsi detail | 6 komponen + fungsi benar | 4-5 komponen | <4 komponen |
 | Diagram Alur Data | Lengkap, alur benar, rapi | Lengkap, alur benar | Ada, alur kurang | Tidak ada |
 | Proposal Spesifikasi | 5 komponen + harga nyata + alasan | 5 komponen + harga nyata | 4 komponen | <4 komponen |

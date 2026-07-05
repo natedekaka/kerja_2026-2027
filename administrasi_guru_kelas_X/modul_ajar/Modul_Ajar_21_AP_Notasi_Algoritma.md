@@ -17,6 +17,8 @@
 | Pertemuan ke- | 1 (satu) |
 | Kompetensi Awal | Peserta didik telah memahami konsep dasar algoritma (langkah-langkah logis untuk menyelesaikan masalah) pada elemen BK di fase sebelumnya |
 | Integrasi 8 Dimensi | Penalaran Kritis, Kreativitas, Kemandirian |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, papan tulis, spidol, laptop/komputer, Python IDLE atau Replit, kertas HVS untuk flowchart, aplikasi draw.io atau Canva |
 | Target Peserta Didik | Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan) |
 | Model Pembelajaran | Demonstrasi interaktif dan praktik mandiri (Cooperative Learning) |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 7, modul ajar guru, video tutorial notasi algoritma, contoh pseudocode dari soal-soal OSN |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Pemrograman adalah cara kita 'berbicara' dengan komputer dan menciptakan solusi digital untuk masalah nyata.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 1. Menjelaskan pengertian dan fungsi notasi algoritma (pseudocode dan flowchart) dalam pengembangan program.
@@ -46,14 +56,14 @@ Pseudocode, flowchart, algoritma, notasi algoritma, terminal, decision, input/ou
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10' | Guru membuka kelas, menyapa, mengecek kehadiran. Guru mengajukan pertanyaan pemantik: "Kita sudah belajar algoritma di BK. Sekarang bagaimana cara menuliskannya secara baku?" Guru menyampaikan TP dan skenario pembelajaran. | Siswa merespons sapaan guru. Siswa menjawab pertanyaan pemantik berdasarkan pengetahuan awal. Siswa menyimak penjelasan tujuan pembelajaran. | Papan tulis, proyektor, slide pembuka |
-| **Inti — Sesi 1** | 15' | Guru menjelaskan pengertian pseudocode, aturan penulisan (case insensitive, indentasi, kata kunci baku: INPUT, OUTPUT, IF, FOR, WHILE). Guru memberikan contoh pseudocode untuk kasus "menjumlahkan dua bilangan". | Siswa menyimak dan mencatat. Siswa bertanya jika ada yang kurang dipahami. Siswa mengidentifikasi kata kunci yang digunakan dalam contoh. | Slide materi, papan tulis |
-| **Inti — Sesi 2** | 10' | Guru mereview simbol-simbol flowchart dan menunjukkan koneksi antara pseudocode dan flowchart. Guru menjelaskan bahwa setiap pseudocode memiliki padanan flowchart. | Siswa menyimak dan mencatat simbol-simbol penting. Siswa secara bergantian menyebutkan nama simbol yang ditunjuk guru. | Slide simbol flowchart, spidol warna |
-| **Inti — Praktik 1** | 15' | Guru memberikan soal: flowchart "bilangan genap/ganjil" (yang sudah dibuat di elemen BK). Guru meminta siswa mengonversi ke pseudocode. Guru berkeliling membimbing siswa yang kesulitan. | Siswa mengerjakan konversi flowchart ke pseudocode secara individu. Siswa bertanya jika mengalami kesulitan. Siswa mempresentasikan hasil di papan tulis secara sukarela. | LKPD, kertas, pulpen |
-| **Inti — Praktik 2** | 25' | Guru memberikan studi kasus "menentukan diskon belanja": jika total belanja > 100.000 diskon 10%, jika > 200.000 diskon 20%, selain itu tidak dapat diskon. Guru meminta siswa membuat pseudocode dan flowchart secara lengkap. Guru memfasilitasi diskusi hasil. | Siswa mengerjakan studi kasus secara mandiri. Siswa menulis pseudocode terlebih dahulu, kemudian menggambar flowchart. Siswa membandingkan hasil dengan teman sebangku untuk validasi. | LKPD, kertas grafik untuk flowchart, pulpen |
-| **Penutup** | 15' | Guru memberikan tugas: buat pseudocode dan flowchart untuk "menentukan akar persamaan kuadrat" (diberikan rumus diskriminan). Guru menyimpulkan materi hari ini. Guru menutup kelas dengan doa. | Siswa mencatat tugas. Siswa menyimpulkan pembelajaran hari ini. Siswa berdoa bersama. | Papan tulis, buku catatan |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10' | Guru membuka kelas, menyapa, mengecek kehadiran. Guru mengajukan pertanyaan pemantik: "Kita sudah belajar algoritma di BK. Sekarang bagaimana cara menuliskannya secara baku?" Guru menyampaikan TP dan skenario pembelajaran. | Siswa merespons sapaan guru. Siswa menjawab pertanyaan pemantik berdasarkan pengetahuan awal. Siswa menyimak penjelasan tujuan pembelajaran. | Papan tulis, proyektor, slide pembuka |
+| **MINING FULL** | **Eksplorasi** — Sesi 1** | 15' | Guru menjelaskan pengertian pseudocode, aturan penulisan (case insensitive, indentasi, kata kunci baku: INPUT, OUTPUT, IF, FOR, WHILE). Guru memberikan contoh pseudocode untuk kasus "menjumlahkan dua bilangan". | Siswa menyimak dan mencatat. Siswa bertanya jika ada yang kurang dipahami. Siswa mengidentifikasi kata kunci yang digunakan dalam contoh. | Slide materi, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Sesi 2** | 10' | Guru mereview simbol-simbol flowchart dan menunjukkan koneksi antara pseudocode dan flowchart. Guru menjelaskan bahwa setiap pseudocode memiliki padanan flowchart. | Siswa menyimak dan mencatat simbol-simbol penting. Siswa secara bergantian menyebutkan nama simbol yang ditunjuk guru. | Slide simbol flowchart, spidol warna |
+| **MINING FULL** | **Eksplorasi** — Praktik 1** | 15' | Guru memberikan soal: flowchart "bilangan genap/ganjil" (yang sudah dibuat di elemen BK). Guru meminta siswa mengonversi ke pseudocode. Guru berkeliling membimbing siswa yang kesulitan. | Siswa mengerjakan konversi flowchart ke pseudocode secara individu. Siswa bertanya jika mengalami kesulitan. Siswa mempresentasikan hasil di papan tulis secara sukarela. | LKPD, kertas, pulpen |
+| **MINING FULL** | **Eksplorasi** — Praktik 2** | 25' | Guru memberikan studi kasus "menentukan diskon belanja": jika total belanja > 100.000 diskon 10%, jika > 200.000 diskon 20%, selain itu tidak dapat diskon. Guru meminta siswa membuat pseudocode dan flowchart secara lengkap. Guru memfasilitasi diskusi hasil. | Siswa mengerjakan studi kasus secara mandiri. Siswa menulis pseudocode terlebih dahulu, kemudian menggambar flowchart. Siswa membandingkan hasil dengan teman sebangku untuk validasi. | LKPD, kertas grafik untuk flowchart, pulpen |
+| **JOYFULL** | **Penutup Kreatif** | 15' | Guru memberikan tugas: buat pseudocode dan flowchart untuk "menentukan akar persamaan kuadrat" (diberikan rumus diskriminan). Guru menyimpulkan materi hari ini. Guru menutup kelas dengan doa. | Siswa mencatat tugas. Siswa menyimpulkan pembelajaran hari ini. Siswa berdoa bersama. | Papan tulis, buku catatan |
 
 ### D. ASESMEN
 
@@ -75,7 +85,7 @@ Pseudocode, flowchart, algoritma, notasi algoritma, terminal, decision, input/ou
 
 #### D.4 Rubrik Penilaian Produk Pseudocode & Flowchart
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Ketepatan pseudocode** | Pseudocode sesuai logika masalah, indentasi rapi, menggunakan kata kunci baku secara konsisten | Pseudocode sesuai logika dengan 1-2 kesalahan minor dalam kata kunci atau indentasi | Pseudocode kurang sesuai logika, indentasi tidak konsisten, beberapa kata kunci tidak tepat | Pseudocode tidak sesuai logika, tanpa indentasi, tidak menggunakan kata kunci baku |
 | **Ketepatan flowchart** | Semua simbol tepat, alur logis, tidak ada cabang yang menggantung, rapi | Sebagian besar simbol tepat, 1-2 simbol kurang tepat, alur logis | Beberapa simbol salah, alur kurang logis, terdapat cabang yang menggantung | Simbol tidak tepat, alur tidak logis, tidak selesai |
 | **Konversi pseudocode-flowchart** | Keduanya konsisten sempurna — setiap blok pseudocode memiliki padanan flowchart | Konsisten dengan 1-2 perbedaan minor | Kurang konsisten — terdapat bagian pseudocode yang tidak ada di flowchart atau sebaliknya | Tidak konsisten — pseudocode dan flowchart berbeda secara signifikan |
@@ -157,6 +167,52 @@ Buatlah pseudocode dan flowchart untuk program "kalkulator akar persamaan kuadra
 - **Panduan Penulisan Algoritma dengan Pseudocode** — Sumber: https://www.cs.cmu.edu/~pseudocode-guide (dapat diakses guru untuk memperdalam materi)
 
 ---
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 Mengetahui,  
 Kepala Sekolah

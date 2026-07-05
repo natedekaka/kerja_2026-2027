@@ -8,110 +8,28 @@
 
 ## A. JADWAL PENGGUNAAN LAB KOMPUTER
 
-### Informasi Lab
+### Semester 1 (Ganjil)
 
-| Item | Detail |
-|------|--------|
-| Laboratorium | Lab 1 & Lab 2 (2 lab) |
-| Kapasitas per Lab | 20–25 komputer |
-| Jam Operasional | Senin–Jumat: JP 1–10 (07.00–16.30) |
-| Kapasitas per Minggu | 2 lab × 10 JP/hari × 5 hari = **100 JP/minggu** |
+| Hari | Jam ke- | Waktu | Kelas | Mata Pelajaran | Guru | Aplikasi yang Digunakan |
+|---|---|---|---|---|---|---|
+| **Senin** | 1–2 | 07.00–08.30 | | | | |
+| | 3–4 | 08.30–10.00 | | | | |
+| | 5–6 | 10.30–12.00 | | | | |
+| | 7–8 | 12.30–14.00 | | INFORMATIKA X | ______ | ______ |
+| **Selasa** | 1–2 | 07.00–08.30 | | | | |
+| | 3–4 | 08.30–10.00 | | | | |
+| | 5–6 | 10.30–12.00 | | INFORMATIKA X | ______ | ______ |
+| | 7–8 | 12.30–14.00 | | | | |
+| **Rabu** | ... | | | | | |
+| **Kamis** | ... | | | INFORMATIKA X | ______ | ______ |
+| **Jumat** | ... | | | | | |
+| **Sabtu** | — | — | — | — | — | — |
 
-### Sistem Rotasi 2 Mingguan
+### Semester 2 (Genap)
 
-Kelas XI (12 rombel) dan XII (11 rombel) dibagi menjadi **2 Grup** — bergantian lab tiap minggu:
-
-```
-MINGGU A:                   MINGGU B:
-┌─ LAB ─┐  ┌─ KELAS ─┐     ┌─ LAB ─┐  ┌─ KELAS ─┐
-│ XI-A  │  │ XI-B    │     │ XI-B  │  │ XI-A    │
-│ XII-A │  │ XII-B   │     │ XII-B │  │ XII-A   │
-│ X     │  │         │     │ X     │  │         │
-└───────┘  └─────────┘     └───────┘  └─────────┘
-```
-
-- **Kelas X** (11 rombel, 2 JP/minggu): Lab **setiap minggu** (hari Kamis & Jumat)
-- **Kelas XI** (12 rombel, 5 JP/minggu): Lab bergantian — **XI-A** (Minggu A), **XI-B** (Minggu B)
-- **Kelas XII** (11 rombel, 5 JP/minggu): Lab bergantian — **XII-A** (Minggu A), **XII-B** (Minggu B)
-
-> **Ketika tidak lab → pembelajaran teori di kelas masing-masing**
-
-### Pembagian Grup
-
-| Grup | Kelas XI (6 kelas) | Kelas XII (5-6 kelas) |
-|------|-------------------|-----------------------|
-| **A** (Lab Minggu A) | XI.1 – XI.6 | XII.1 – XII.5 (5 kelas) |
-| **B** (Lab Minggu B) | XI.7 – XI.12 | XII.6 – XII.11 (6 kelas) |
-
-### Pembagian Guru (MGMP Informatika)
-
-| No | Guru | Kelas X | Kelas XI | Kelas XII | Total JP |
-|----|------|---------|----------|-----------|----------|
-| 1 | Raden Hana Amalia, ST. | — | — | XII.1–XII.5 | 25 JP |
-| 2 | Lingga Oktaviani, S.Kom. | — | — | XII.6–XII.10 | 25 JP |
-| 3 | Daniarsyah, S.Kom. | X.1, X.2 | XI.1–XI.3 | XII.11 | 24 JP |
-| 4 | Razzib Zabbal Noor, S.Kom. | X.3, X.4 | XI.4–XI.7 | — | 24 JP |
-| 5 | Edi Kusnadi, M.Pd. | X.5, X.6, X.7 | XI.8–XI.10 | — | 21 JP |
-| 6 | Muharima Rasyid Noor, S.St. | X.8–X.11 | XI.11–XI.12 | — | 18 JP |
-| | **Total** | **22 JP** | **60 JP** | **55 JP** | **137 JP** |
-
----
-
-### MINGGU A — (XI-A + XII-A di Lab)
-
-| Hari | JP ke- | Waktu | Lab 1 | Lab 2 |
-|------|--------|-------|-------|-------|
-| **Senin** | 1–5 | 07.00–11.15 | XI.1 (Daniarsyah) | XI.2 (Daniarsyah) |
-| | 6–10 | 12.15–16.30 | XII.1 (Raden Hana Amalia) | XII.2 (Raden Hana Amalia) |
-| **Selasa** | 1–5 | 07.00–11.15 | XI.3 (Daniarsyah) | XI.4 (Razzib Z.) |
-| | 6–10 | 12.15–16.30 | XII.3 (Raden Hana Amalia) | XII.4 (Raden Hana Amalia) |
-| **Rabu** | 1–5 | 07.00–11.15 | XI.5 (Razzib Z.) | XI.6 (Razzib Z.) |
-| | 6–10 | 12.15–16.30 | XII.5 (Raden Hana Amalia) | — |
-| **Kamis** | 1–2 | 07.00–08.30 | **X.1** (Daniarsyah) | **X.3** (Razzib Z.) |
-| | 3–4 | 08.30–10.00 | **X.2** (Daniarsyah) | **X.4** (Razzib Z.) |
-| | 5–6 | 10.30–12.00 | **X.5** (Edi Kusnadi) | **X.7** (Edi Kusnadi) |
-| | 7–8 | 12.30–14.00 | **X.6** (Edi Kusnadi) | **X.8** (Muharima R.) |
-| **Jumat** | 1–2 | 07.00–08.30 | **X.9** (Muharima R.) | — |
-| | 3–4 | 08.30–10.00 | **X.10** (Muharima R.) | — |
-| | 5–6 | 10.30–12.00 | **X.11** (Muharima R.) | — |
-
-### MINGGU B — (XI-B + XII-B di Lab)
-
-| Hari | JP ke- | Waktu | Lab 1 | Lab 2 |
-|------|--------|-------|-------|-------|
-| **Senin** | 1–5 | 07.00–11.15 | XI.7 (Razzib Z.) | XI.8 (Edi Kusnadi) |
-| | 6–10 | 12.15–16.30 | XII.6 (Lingga O.) | XII.7 (Lingga O.) |
-| **Selasa** | 1–5 | 07.00–11.15 | XI.9 (Edi Kusnadi) | XI.10 (Edi Kusnadi) |
-| | 6–10 | 12.15–16.30 | XII.8 (Lingga O.) | XII.9 (Lingga O.) |
-| **Rabu** | 1–5 | 07.00–11.15 | XI.11 (Muharima R.) | XI.12 (Muharima R.) |
-| | 6–10 | 12.15–16.30 | XII.10 (Lingga O.) | XII.11 (Daniarsyah) |
-| **Kamis** | 1–2 | 07.00–08.30 | **X.1** (Daniarsyah) | **X.3** (Razzib Z.) |
-| | 3–4 | 08.30–10.00 | **X.2** (Daniarsyah) | **X.4** (Razzib Z.) |
-| | 5–6 | 10.30–12.00 | **X.5** (Edi Kusnadi) | **X.7** (Edi Kusnadi) |
-| | 7–8 | 12.30–14.00 | **X.6** (Edi Kusnadi) | **X.8** (Muharima R.) |
-| **Jumat** | 1–2 | 07.00–08.30 | **X.9** (Muharima R.) | — |
-| | 3–4 | 08.30–10.00 | **X.10** (Muharima R.) | — |
-| | 5–6 | 10.30–12.00 | **X.11** (Muharima R.) | — |
-
-> **Kelas X (bold)** — jadwal **sama setiap minggu** (tidak berotasi). Lab untuk praktik Scratch, pengolahan data, dan presentasi.
-
-### Jadwal Lab Kelas X per Minggu
-
-| Hari | Jam ke- | Kelas | Guru | Aplikasi |
-|------|---------|-------|------|----------|
-| Kamis | 1–2 | X.1 | Daniarsyah, S.Kom. | Scratch / Spreadsheet / Canva |
-| Kamis | 3–4 | X.2 | Daniarsyah, S.Kom. | Scratch / Spreadsheet / Canva |
-| Kamis | 5–6 | X.5 | Edi Kusnadi, M.Pd. | Scratch / Spreadsheet / Canva |
-| Kamis | 7–8 | X.6 | Edi Kusnadi, M.Pd. | Scratch / Spreadsheet / Canva |
-| Kamis | 1–2 | X.3 | Razzib Zabbal Noor, S.Kom. | Scratch / Spreadsheet / Canva |
-| Kamis | 3–4 | X.4 | Razzib Zabbal Noor, S.Kom. | Scratch / Spreadsheet / Canva |
-| Kamis | 5–6 | X.7 | Edi Kusnadi, M.Pd. | Scratch / Spreadsheet / Canva |
-| Kamis | 7–8 | X.8 | Muharima Rasyid Noor, S.St. | Scratch / Spreadsheet / Canva |
-| Jumat | 1–2 | X.9 | Muharima Rasyid Noor, S.St. | Scratch / Spreadsheet / Canva |
-| Jumat | 3–4 | X.10 | Muharima Rasyid Noor, S.St. | Scratch / Spreadsheet / Canva |
-| Jumat | 5–6 | X.11 | Muharima Rasyid Noor, S.St. | Scratch / Spreadsheet / Canva |
-
-> **Catatan:** 2 JP (1 × 45 menit × 2) per minggu. Sisa waktu lab tidak terpakai dapat digunakan untuk remedial, pengayaan, atau kegiatan mandiri.
+| Hari | Jam ke- | Waktu | Kelas | Mata Pelajaran | Guru | Aplikasi yang Digunakan |
+|---|---|---|---|---|---|---|
+| *(sama formatnya, sesuaikan jadwal)* | | | | | | |
 
 ---
 
@@ -228,7 +146,7 @@ _________________________
 
 Guru Mata Pelajaran / Kepala Lab,
 
-Raden Hana Amalia, ST.
-NIP. ................................
+Daniarsyah, S.Kom.
+NIP. 198004052022211004
 
 _________________________

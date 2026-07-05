@@ -17,6 +17,8 @@
 | Pertemuan ke- | 2 (dua) |
 | Kompetensi Awal | Peserta didik telah memahami konsep notasi algoritma (pseudocode dan flowchart) dan telah menulis program sederhana di Python (input, output, variabel, tipe data) |
 | Integrasi 8 Dimensi | Kreativitas, Penalaran Kritis, Kemandirian |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, laptop/komputer, Python IDLE atau Google Colab/Replit, koneksi internet, papan tulis |
 | Target Peserta Didik | Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan) |
 | Model Pembelajaran | Demonstrasi interaktif dan praktik coding (Pair Programming) |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 7, dokumentasi Python resmi (docs.python.org), tutorial W3Schools Python, modul ajar guru |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Pemrograman adalah cara kita 'berbicara' dengan komputer dan menciptakan solusi digital untuk masalah nyata.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 1. Menjelaskan konsep percabangan (decision-making) dalam pemrograman dan analoginya dalam kehidupan sehari-hari.
@@ -46,15 +56,15 @@ Percabangan, if, else, elif, nested if, kondisi boolean, operator perbandingan (
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10' | Guru membuka kelas, mengecek kehadiran. Guru memantik dengan pertanyaan: "Program yang cuma jalan lurus tidak berguna. Program pintar harus bisa mengambil keputusan — bagaimana caranya?" Guru mereview program input-output sederhana. | Siswa merespons dan menjawab pertanyaan guru. Siswa mengingat kembali cara menulis program input-output di Python. | Proyektor, slide pembuka |
-| **Inti — Sesi 1** | 15' | Guru menjelaskan konsep percabangan if, if-else, if-elif-else, dan nested if dengan analogi lampu lalu lintas (if merah → stop, if hijau → jalan, if kuning → hati-hati). Guru menuliskan sintaks dasar di papan tulis disertai contoh. | Siswa menyimak, mencatat sintaks, dan mengajukan pertanyaan. Siswa secara bergantian menyebutkan analogi percabangan lain dari kehidupan sehari-hari. | Papan tulis, slide sintaks Python |
-| **Inti — Sesi 2** | 15' | Guru melakukan demo coding: program lulus/tidak lulus. Guru menulis kode if nilai >= 75: print("Lulus") else: print("Tidak lulus") sambil siswa menulis ulang di komputer masing-masing (code along). | Siswa menulis kode yang didemokan guru. Siswa mencoba mengubah nilai input dan mengamati perubahan output. | Python IDLE/Colab, proyektor |
-| **Inti — Praktik 1** | 15' | Guru memberikan tugas: buat program penentu kelulusan dengan tiga kategori (lulus >= 75, remidi 60-74, tidak lulus < 60). Guru berkeliling membantu siswa yang kesulitan. | Siswa menulis program penentu kelulusan secara berpasangan. Siswa menguji program dengan nilai 80, 65, dan 50. | LKPD, Python IDLE/Colab |
-| **Inti — Praktik 2** | 20' | Guru memberikan studi kasus "Kalkulator Sederhana": program menerima 2 angka dan pilihan operasi (+, -, *, /) menggunakan if-elif-else. Guru menekankan penanganan pembagian dengan nol. | Siswa membuat kalkulator sederhana secara mandiri. Siswa menguji setiap operasi dan mencatat hasil. Siswa mempresentasikan kode di depan kelas. | LKPD, Python IDLE/Colab |
-| **Inti — Sesi 3** | 10' | Guru memberikan kode yang mengandung 5 error (indentasi, missing colon, salah operator, typo variabel) — siswa berlomba mencari dan memperbaiki error (error hunting). | Siswa mencari dan memperbaiki error secara individu. Siswa yang pertama menemukan semua error mendapat apresiasi. | Kode error di proyektor, Python IDLE |
-| **Penutup** | 15' | Guru memberikan tugas: program "tiket bioskop" — input umur (anak < 13, dewasa 13-59, lansia >= 60) dengan harga tiket berbeda. Guru menyimpulkan materi dan menutup kelas. | Siswa mencatat tugas. Siswa menyimpulkan 3 hal penting tentang percabangan. Siswa berdoa. | Papan tulis, buku catatan |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10' | Guru membuka kelas, mengecek kehadiran. Guru memantik dengan pertanyaan: "Program yang cuma jalan lurus tidak berguna. Program pintar harus bisa mengambil keputusan — bagaimana caranya?" Guru mereview program input-output sederhana. | Siswa merespons dan menjawab pertanyaan guru. Siswa mengingat kembali cara menulis program input-output di Python. | Proyektor, slide pembuka |
+| **MINING FULL** | **Eksplorasi** — Sesi 1** | 15' | Guru menjelaskan konsep percabangan if, if-else, if-elif-else, dan nested if dengan analogi lampu lalu lintas (if merah → stop, if hijau → jalan, if kuning → hati-hati). Guru menuliskan sintaks dasar di papan tulis disertai contoh. | Siswa menyimak, mencatat sintaks, dan mengajukan pertanyaan. Siswa secara bergantian menyebutkan analogi percabangan lain dari kehidupan sehari-hari. | Papan tulis, slide sintaks Python |
+| **MINING FULL** | **Eksplorasi** — Sesi 2** | 15' | Guru melakukan demo coding: program lulus/tidak lulus. Guru menulis kode if nilai >= 75: print("Lulus") else: print("Tidak lulus") sambil siswa menulis ulang di komputer masing-masing (code along). | Siswa menulis kode yang didemokan guru. Siswa mencoba mengubah nilai input dan mengamati perubahan output. | Python IDLE/Colab, proyektor |
+| **MINING FULL** | **Eksplorasi** — Praktik 1** | 15' | Guru memberikan tugas: buat program penentu kelulusan dengan tiga kategori (lulus >= 75, remidi 60-74, tidak lulus < 60). Guru berkeliling membantu siswa yang kesulitan. | Siswa menulis program penentu kelulusan secara berpasangan. Siswa menguji program dengan nilai 80, 65, dan 50. | LKPD, Python IDLE/Colab |
+| **MINING FULL** | **Eksplorasi** — Praktik 2** | 20' | Guru memberikan studi kasus "Kalkulator Sederhana": program menerima 2 angka dan pilihan operasi (+, -, *, /) menggunakan if-elif-else. Guru menekankan penanganan pembagian dengan nol. | Siswa membuat kalkulator sederhana secara mandiri. Siswa menguji setiap operasi dan mencatat hasil. Siswa mempresentasikan kode di depan kelas. | LKPD, Python IDLE/Colab |
+| **MINING FULL** | **Eksplorasi** — Sesi 3** | 10' | Guru memberikan kode yang mengandung 5 error (indentasi, missing colon, salah operator, typo variabel) — siswa berlomba mencari dan memperbaiki error (error hunting). | Siswa mencari dan memperbaiki error secara individu. Siswa yang pertama menemukan semua error mendapat apresiasi. | Kode error di proyektor, Python IDLE |
+| **JOYFULL** | **Penutup Kreatif** | 15' | Guru memberikan tugas: program "tiket bioskop" — input umur (anak < 13, dewasa 13-59, lansia >= 60) dengan harga tiket berbeda. Guru menyimpulkan materi dan menutup kelas. | Siswa mencatat tugas. Siswa menyimpulkan 3 hal penting tentang percabangan. Siswa berdoa. | Papan tulis, buku catatan |
 
 ### D. ASESMEN
 
@@ -76,7 +86,7 @@ Percabangan, if, else, elif, nested if, kondisi boolean, operator perbandingan (
 
 #### D.4 Rubrik Penilaian Program Percabangan
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Struktur percabangan** | Menggunakan minimal 3 jenis struktur (if, if-else, if-elif-else) dengan benar | Menggunakan 2 jenis struktur dengan benar | Hanya menggunakan if-else, struktur kurang bervariasi | Hanya menggunakan if tanpa else |
 | **Sintaks dan indentasi** | Tidak ada error sintaks, indentasi rapi dan konsisten (4 spasi) | 1 error sintaks minor, indentasi sebagian rapi | 2 error sintaks, indentasi tidak rapi | Banyak error sintaks, tidak ada indentasi |
 | **Fungsionalitas** | Semua fitur berjalan sesuai spesifikasi dan telah diuji dengan 3 skenario | Sebagian besar fitur berjalan, 1 fitur tidak berfungsi | Beberapa fitur tidak berfungsi | Program tidak dapat dijalankan |

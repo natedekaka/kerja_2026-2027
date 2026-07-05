@@ -17,6 +17,8 @@
 | Pertemuan ke- | 9 (Kesembilan) |
 | Kompetensi Awal | Peserta didik telah menguasai fitur lanjut pengolah kata (Modul 07) dan presentasi interaktif (Modul 08). Peserta didik juga sudah pernah menggunakan spreadsheet untuk membuat tabel sederhana pada jenjang sebelumnya. Namun, peserta didik belum pernah mengintegrasikan ketiga aplikasi tersebut secara simultan dalam satu alur kerja. |
 | Integrasi 8 Dimensi | Kreativitas, Kemandirian, Penalaran Kritis, Kolaborasi, Komunikasi, Keimanan & Ketakwaan, Kewargaan, Kesehatan |
+| **Integrasi 7 KAIH** | Makan Sehat, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Laboratorium komputer (1 PC per siswa), MS Office (Word, Excel, PowerPoint) atau Google Workspace (Docs, Sheets, Slides), data contoh penjualan (file .xlsx), proyektor, koneksi internet, modul integrasi cetak |
 | Target Peserta Didik | Reguler (dengan diferensiasi) |
 | Model Pembelajaran | Project Based Learning (PjBL) |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 3, tutorial YouTube "Integrasi Office", artikel tentang embedding vs linking, contoh studi kasus laporan keuangan OSIS |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Kemampuan mengolah kata, angka, dan presentasi secara terintegrasi adalah skill esensial di dunia perkantoran dan akademik modern.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan
 1. Menjelaskan perbedaan antara embedding dan linking objek antar aplikasi.
@@ -43,14 +53,14 @@ Integrasi, embedding, linking, OLE (Object Linking and Embedding), data source, 
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | Guru membuka dengan salam dan doa. Apersepsi: "Kita sudah belajar Word, Excel, PowerPoint sendiri-sendiri. Hari ini kita gabungkan!" Guru menunjukkan contoh nyata: laporan keuangan OSIS — data di Excel, laporan narasi di Word, presentasi di PowerPoint. "Biasanya kalau ada perubahan data, kalian harus edit satu per satu? Sekarang kita buat agar cukup edit di Excel, Word dan PPT ikut berubah otomatis." Guru menyampaikan tujuan. | Siswa menjawab salam, berdoa. Menyimak contoh integrasi. Menyadari manfaat integrasi untuk efisiensi kerja. | Proyektor, contoh dokumen terintegrasi |
-| **Inti — Konsep Embed vs Link** | 10 menit | Guru menjelaskan perbedaan embedding dan linking dengan analogi: "Embed seperti memfotokopi — sekali ditempel, tidak terhubung dengan aslinya. Link seperti membuat pintu — perubahan di asli akan terlihat di salinan." Guru mendemonstrasikan dengan chart Excel: (1) Copy → Paste (biasa) = embedding, (2) Copy → Paste Special → Paste Link = linking, (3) Copy → Paste Special → Embed (biasa). Guru menampilkan perbedaan saat data Excel diubah — yang link ikut berubah, yang embed tidak. | Siswa membuka Excel dan Word. Mencoba copy-paste chart dengan mode yang berbeda. Mengamati perbedaan saat data diubah. | Excel, Word, proyektor |
-| **Inti — Praktik Integrasi Excel ke Word** | 15 menit | Guru memberikan data penjualan 5 produk selama 6 bulan di Excel. Tugas: (1) buat chart (column/bar) dari data tersebut, (2) copy chart dan paste link ke Word, (3) buat tabel rekap di Excel, copy paste ke Word dengan format, (4) atur agar tabel dan chart bisa di-update otomatis. Guru mendemonstrasikan cara update: klik kanan → Update Link, atau cukup buka file Word dan akan muncul prompt update. | Siswa membuat chart di Excel. Copy chart ke Word menggunakan Paste Special → Paste Link. Membuat tabel rekap dan mem-paste ke Word. Mengubah data Excel dan melihat update otomatis di Word. | Data penjualan.xlsx, Word |
-| **Inti — Integrasi Excel ke PowerPoint** | 10 menit | Guru mendemonstrasikan: (1) copy chart dari Excel, (2) paste ke PowerPoint dengan opsi "Use Destination Theme & Link Data", (3) mengatur ukuran dan posisi chart di slide, (4) timpa data langsung di chart PowerPoint (jika perlu), (5) demo update: ubah data Excel → PowerPoint minta update. Guru menekankan: "Ini penting untuk presentasi bisnis — data real-time!" | Siswa membuka PowerPoint. Mem-paste link chart dari Excel. Mengatur tata letak. Mengubah data Excel dan melihat update. | Excel, PowerPoint |
-| **Inti — Proyek Mini Integrasi** | 25 menit | Guru memberikan proyek mini: "Buat laporan lengkap dari 1 set data!" Langkah: (1) Data — buat data sederhana di Excel (5 baris, 3 kolom — misal data nilai siswa), (2) Olah — buat chart dan tabel rekap di Excel, (3) Laporan — buat dokumen Word berisi narasi + tabel + chart (linked), (4) Presentasi — buat PPT 3 slide berisi ringkasan + chart (linked). Guru berkeliling membantu. | Siswa mengerjakan proyek mini. Membuat data, chart, laporan Word, dan presentasi PowerPoint yang saling terintegrasi. | Excel, Word, PowerPoint |
-| **Penutup** | 15 menit | Guru meminta 2-3 siswa menunjukkan hasil proyek. Memeriksa apakah integrasi berfungsi (ubah data → semua update). Refleksi: "Apa manfaat integrasi aplikasi dalam kehidupan?" (efisiensi, akurasi, profesionalisme). Guru memberikan tugas: buat laporan keuangan pribadi (pengeluaran 1 minggu) dalam format data → laporan → presentasi. Doa dan salam. | 2-3 siswa presentasi. Menjawab refleksi. Mencatat tugas. Berdoa dan salam. | Proyektor, hasil proyek siswa |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10 menit | Guru membuka dengan salam dan doa. Apersepsi: "Kita sudah belajar Word, Excel, PowerPoint sendiri-sendiri. Hari ini kita gabungkan!" Guru menunjukkan contoh nyata: laporan keuangan OSIS — data di Excel, laporan narasi di Word, presentasi di PowerPoint. "Biasanya kalau ada perubahan data, kalian harus edit satu per satu? Sekarang kita buat agar cukup edit di Excel, Word dan PPT ikut berubah otomatis." Guru menyampaikan tujuan. | Siswa menjawab salam, berdoa. Menyimak contoh integrasi. Menyadari manfaat integrasi untuk efisiensi kerja. | Proyektor, contoh dokumen terintegrasi |
+| **MINING FULL** | **Eksplorasi** — Konsep Embed vs Link** | 10 menit | Guru menjelaskan perbedaan embedding dan linking dengan analogi: "Embed seperti memfotokopi — sekali ditempel, tidak terhubung dengan aslinya. Link seperti membuat pintu — perubahan di asli akan terlihat di salinan." Guru mendemonstrasikan dengan chart Excel: (1) Copy → Paste (biasa) = embedding, (2) Copy → Paste Special → Paste Link = linking, (3) Copy → Paste Special → Embed (biasa). Guru menampilkan perbedaan saat data Excel diubah — yang link ikut berubah, yang embed tidak. | Siswa membuka Excel dan Word. Mencoba copy-paste chart dengan mode yang berbeda. Mengamati perbedaan saat data diubah. | Excel, Word, proyektor |
+| **MINING FULL** | **Eksplorasi** — Praktik Integrasi Excel ke Word** | 15 menit | Guru memberikan data penjualan 5 produk selama 6 bulan di Excel. Tugas: (1) buat chart (column/bar) dari data tersebut, (2) copy chart dan paste link ke Word, (3) buat tabel rekap di Excel, copy paste ke Word dengan format, (4) atur agar tabel dan chart bisa di-update otomatis. Guru mendemonstrasikan cara update: klik kanan → Update Link, atau cukup buka file Word dan akan muncul prompt update. | Siswa membuat chart di Excel. Copy chart ke Word menggunakan Paste Special → Paste Link. Membuat tabel rekap dan mem-paste ke Word. Mengubah data Excel dan melihat update otomatis di Word. | Data penjualan.xlsx, Word |
+| **MINING FULL** | **Eksplorasi** — Integrasi Excel ke PowerPoint** | 10 menit | Guru mendemonstrasikan: (1) copy chart dari Excel, (2) paste ke PowerPoint dengan opsi "Use Destination Theme & Link Data", (3) mengatur ukuran dan posisi chart di slide, (4) timpa data langsung di chart PowerPoint (jika perlu), (5) demo update: ubah data Excel → PowerPoint minta update. Guru menekankan: "Ini penting untuk presentasi bisnis — data real-time!" | Siswa membuka PowerPoint. Mem-paste link chart dari Excel. Mengatur tata letak. Mengubah data Excel dan melihat update. | Excel, PowerPoint |
+| **MINING FULL** | **Eksplorasi** — Proyek Mini Integrasi** | 25 menit | Guru memberikan proyek mini: "Buat laporan lengkap dari 1 set data!" Langkah: (1) Data — buat data sederhana di Excel (5 baris, 3 kolom — misal data nilai siswa), (2) Olah — buat chart dan tabel rekap di Excel, (3) Laporan — buat dokumen Word berisi narasi + tabel + chart (linked), (4) Presentasi — buat PPT 3 slide berisi ringkasan + chart (linked). Guru berkeliling membantu. | Siswa mengerjakan proyek mini. Membuat data, chart, laporan Word, dan presentasi PowerPoint yang saling terintegrasi. | Excel, Word, PowerPoint |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | Guru meminta 2-3 siswa menunjukkan hasil proyek. Memeriksa apakah integrasi berfungsi (ubah data → semua update). Refleksi: "Apa manfaat integrasi aplikasi dalam kehidupan?" (efisiensi, akurasi, profesionalisme). Guru memberikan tugas: buat laporan keuangan pribadi (pengeluaran 1 minggu) dalam format data → laporan → presentasi. Doa dan salam. | 2-3 siswa presentasi. Menjawab refleksi. Mencatat tugas. Berdoa dan salam. | Proyektor, hasil proyek siswa |
 
 ### D. ASESMEN
 
@@ -80,7 +90,7 @@ Integrasi, embedding, linking, OLE (Object Linking and Embedding), data source, 
 
 #### D.4 Rubrik Penilaian
 | Kriteria | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Data & Chart Excel | Data rapi, chart tepat, profesional | Data rapi, chart tepat | Data ada, chart kurang | Tidak rapi |
 | Laporan Word | Narasi + tabel + chart linked, rapi | Narasi + chart linked | Hanya narasi/tabel | Tidak selesai |
 | Presentasi PPT | 3 slide + chart linked, desain ok | 3 slide + chart | 2 slide | Tidak selesai |
@@ -119,7 +129,7 @@ Tentukan apakah situasi berikut sebaiknya menggunakan Embed atau Link!
 **Data Nilai Siswa:**
 
 | No | Nama | Nilai UTS | Nilai UAS | Rata-rata |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 1 | Andi | 80 | 85 | 82.5 |
 | 2 | Siti | 90 | 92 | 91 |
 | 3 | Budi | 70 | 75 | 72.5 |

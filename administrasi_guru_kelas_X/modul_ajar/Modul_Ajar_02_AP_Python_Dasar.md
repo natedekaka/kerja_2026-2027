@@ -18,6 +18,8 @@
 | Pertemuan ke- | 6 (dari 20 pertemuan semester 2) |
 | **Kompetensi Awal** | Peserta didik telah memahami notasi algoritma (pseudocode & flowchart) dari pertemuan sebelumnya (TP.7.1) |
 | **Integrasi 8 Dimensi** | Kemandirian, Kreativitas, Penalaran Kritis |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | **Sarana & Prasarana** | Komputer/laptop (1 siswa/1 PC atau 2 siswa/1 PC), Proyektor, Python IDLE atau Replit (akses internet), LKPD digital |
 | **Target Peserta Didik** | Reguler (dengan diferensiasi) |
 | **Model Pembelajaran** | Project Based Learning (PjBL) — tahap demonstrasi & praktik |
@@ -27,6 +29,14 @@
 ---
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Pemrograman adalah cara kita 'berbicara' dengan komputer dan menciptakan solusi digital untuk masalah nyata.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan
 Melalui kegiatan demonstrasi dan praktik langsung, peserta didik mampu:
@@ -49,20 +59,20 @@ Python, variabel, tipe data, integer, float, string, boolean, input(), print(), 
 
 #### Pertemuan ke-6 (2 JP)
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | | | |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10 menit | | | |
 | 1. Orientasi | | Salam, doa, absensi | Merespon | — |
 | 2. Apersepsi | | "Minggu lalu kita bikin flowchart. Sekarang kita akan wujudkan flowchart itu jadi program beneran!" | Mengingat kembali flowchart | — |
 | 3. Motivasi | | Demo: program "Kalkulator Sederhana" yang berfungsi langsung — "Ini yang akan kalian buat hari ini" | Tertarik & antusias | Proyektor |
 | 4. Tujuan | | Menjelaskan TP.7.2 dan indikator | Mencatat tujuan | Proyektor/PPT |
 | 5. Asesmen Diagnostik | | "Siapa yang sudah pernah menulis kode Python sebelumnya?" & "Apa itu variabel?" | Menjawab (tunjukkan tangan/jawab) | Mentimeter/ lisan |
-| **Inti** | 65 menit | | | |
+| **MINING FULL** | **Eksplorasi**** | 65 menit | | | |
 | **Eksplorasi Konsep** | 15' | Menjelaskan & mendemonstrasikan: 1) Variabel = wadah data 2) Tipe data: int, float, str, bool 3) Cara cek tipe: type() 4) Aturan penamaan variabel | Memperhatikan, mencatat, mencoba di komputer masing-masing | Proyektor + Python IDLE/Replit |
 | **Praktik Terbimbing** | 20' | "Ikuti langkah demi langkah": 1) Buat variabel nama = "Andi" 2) Buat variabel umur = 16 3) Tampilkan dengan print() 4) Tambah input() 5) Konversi tipe data (casting) | Mengetik kode bersama, mencoba variasi sendiri | Komputer, LKPD |
 | **Praktik Mandiri** | 20' | Memberikan 3 tantangan kode (diferensiasi): Mudah: Program sapa pengguna Sedang: Program konversi suhu Sulit: Program menghitung luas & keliling lingkaran | Mengerjakan sesuai kemampuan | LKPD, Komputer |
 | **Presentasi Hasil** | 10' | Meminta 2-3 siswa mendemonstrasikan programnya & membahas error yang muncul | Demonstrasi & diskusi | Proyektor |
-| **Penutup** | 15 menit | | | |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | | | |
 | 1. Refleksi | | "Apa error yang paling sering muncul? Bagaimana cara mengatasinya?" | Berbagi pengalaman error & solusi | — |
 | 2. Penguatan | | Merangkum: variabel → menyimpan data, tipe data → jenis data, I/O → komunikasi program-user | Mencatat rangkuman | — |
 | 3. Tindak Lanjut | | Tugas: buat program profil diri (nama, umur, kelas, hobi) dengan input dan output rapi | Mencatat tugas | Google Classroom |
@@ -93,7 +103,7 @@ Python, variabel, tipe data, integer, float, string, boolean, input(), print(), 
 #### D.4 Rubrik Penilaian Program Python
 
 | Kriteria | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Variabel** | 4+ variabel dengan nama deskriptif | 3 variabel, nama sesuai konvensi | 2 variabel | <2 variabel |
 | **Tipe Data** | Menggunakan 4 tipe data (int, float, str, bool) | 3 tipe data | 2 tipe data | 1 tipe data |
 | **Input/Output** | Input & output format rapi, user-friendly | Input & output berfungsi | Hanya output | Tidak ada I/O |
@@ -186,6 +196,52 @@ Buat program yang menginput jari-jari lingkaran lalu mengoutput luas. Rumus: L =
 - **Strategi Debugging:** Ajarkan siswa membaca error message — ini keterampilan paling penting dalam coding!
 
 ---
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 Mengetahui,  
 Kepala Sekolah

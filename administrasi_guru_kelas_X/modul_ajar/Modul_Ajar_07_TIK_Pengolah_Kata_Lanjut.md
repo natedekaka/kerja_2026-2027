@@ -17,6 +17,8 @@
 | Pertemuan ke- | 7 (Ketujuh) |
 | Kompetensi Awal | Peserta didik sudah terbiasa mengetik dan menggunakan fungsi dasar pengolah kata (bold, italic, font, alignment, bullet, numbering) dari jenjang sebelumnya. Peserta didik belum pernah menggunakan fitur lanjut seperti mail merge, daftar isi otomatis, section break, dan daftar pustaka. |
 | Integrasi 8 Dimensi | Kemandirian, Kreativitas, Penalaran Kritis, Kolaborasi, Komunikasi, Keimanan & Ketakwaan, Kewargaan, Kesehatan |
+| **Integrasi 7 KAIH** | Makan Sehat, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Laboratorium komputer (1 PC per siswa), MS Word 2019/365 atau Google Docs, data Excel untuk mail merge (nama, alamat, dll), proyektor, contoh dokumen formal (makalah, surat undangan), koneksi internet, modul panduan cetak |
 | Target Peserta Didik | Reguler (dengan diferensiasi) |
 | Model Pembelajaran | Demonstrasi + Praktik Langsung |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 3, MS Word 2019 Help Center, tutorial YouTube fitur Word, artikel tentang mail merge, template organisasi siswa (OSIS) |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Kemampuan mengolah kata, angka, dan presentasi secara terintegrasi adalah skill esensial di dunia perkantoran dan akademik modern.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan
 1. Menggunakan heading styles untuk membuat daftar isi otomatis pada dokumen.
@@ -43,14 +53,14 @@ Heading styles, daftar isi otomatis, mail merge, data source, field, header, foo
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | Guru membuka dengan salam dan doa. Menampilkan dua dokumen: (1) dokumen biasa tanpa format, (2) dokumen formal dengan daftar isi otomatis, header, daftar pustaka. "Dokumen mana yang lebih profesional? Hari ini kalian akan bisa membuat dokumen seperti yang kedua!" Guru menyampaikan tujuan dan relevansi: keterampilan ini akan berguna untuk membuat makalah, proposal, laporan PKL, dan surat resmi. | Siswa menjawab salam, berdoa. Membandingkan dua dokumen. Menyimak tujuan dan contoh penggunaan. | Proyektor, dua contoh dokumen, slide presentasi |
-| **Inti — Demonstrasi Heading & Daftar Isi** | 15 menit | Guru mendemonstrasikan secara langsung di MS Word proyektor: (1) heading styles (Heading 1, 2, 3) — bedakan level judul, (2) membuat daftar isi otomatis (References → Table of Contents), (3) meng-update daftar isi saat konten berubah, (4) page break dan section break (next page, continuous). Guru memberikan tips: gunakan Navigation Pane untuk melihat struktur dokumen. | Siswa mengikuti demonstrasi di komputer masing-masing. Mempraktikkan heading styles di dokumen baru. Membuat daftar isi sederhana. | MS Word, proyektor, komputer siswa |
-| **Inti — Header, Footer, Footnote** | 15 menit | Guru mendemonstrasikan: (1) header/footer — insert nomor halaman, tanggal, judul dokumen, (2) membedakan header ganjil-genap untuk buku, (3) footnote (Insert Footnote) untuk catatan kaki, (4) endnote untuk daftar pustaka di akhir dokumen. Siswa diminta membuat 3 footnote tentang definisi istilah Informatika. | Siswa membuat header dengan nama dan kelas, footer dengan nomor halaman. Menambahkan 3 footnote pada dokumen. | MS Word, proyektor |
-| **Inti — Mail Merge** | 15 menit | Guru mendemonstrasikan mail merge: (1) persiapan data source (Excel: nama, alamat, No. HP, acara), (2) dokumen utama (surat undangan), (3) insert merge field (menempatkan field di posisi yang tepat), (4) preview hasil (tombol Preview Results), (5) finish & merge (print atau edit individual). Guru menekankan: "Bayangkan OSIS ingin undang 100 orang — pakai mail merge selesai 5 menit!" | Siswa membuka file Excel yang sudah disiapkan. Membuat surat undangan. Memasukkan merge field. Melakukan preview dan merge. | Data Excel (nama_siswa.xlsx), MS Word, proyektor |
-| **Inti — Daftar Pustaka** | 10 menit | Guru mendemonstrasikan: (1) References → Insert Citation → Add New Source (buku, jurnal, website), (2) memilih style (APA, MLA, Chicago — fokus APA), (3) membuat Bibliography di akhir dokumen, (4) meng-update saat ada sumber baru. | Siswa menambahkan 3 sumber (buku, artikel web, jurnal) ke dokumen. Membuat daftar pustaka otomatis. | MS Word, proyektor |
-| **Penutup** | 10 menit | Guru menampilkan checklist fitur yang harus ada di dokumen siswa. Memeriksa hasil beberapa siswa. Refleksi: "Fitur mana yang paling berguna untuk kalian?" (daftar isi vs mail merge vs lainnya). Guru memberikan tugas: buat makalah 5 halaman tentang "Perkembangan Teknologi Informasi" dengan format lengkap (daftar isi, header, footnote, daftar pustaka). Doa dan salam. | Siswa mengecek dokumen sendiri. Menjawab refleksi. Mencatat tugas. Berdoa dan salam. | Proyektor, checklist fitur |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10 menit | Guru membuka dengan salam dan doa. Menampilkan dua dokumen: (1) dokumen biasa tanpa format, (2) dokumen formal dengan daftar isi otomatis, header, daftar pustaka. "Dokumen mana yang lebih profesional? Hari ini kalian akan bisa membuat dokumen seperti yang kedua!" Guru menyampaikan tujuan dan relevansi: keterampilan ini akan berguna untuk membuat makalah, proposal, laporan PKL, dan surat resmi. | Siswa menjawab salam, berdoa. Membandingkan dua dokumen. Menyimak tujuan dan contoh penggunaan. | Proyektor, dua contoh dokumen, slide presentasi |
+| **MINING FULL** | **Eksplorasi** — Demonstrasi Heading & Daftar Isi** | 15 menit | Guru mendemonstrasikan secara langsung di MS Word proyektor: (1) heading styles (Heading 1, 2, 3) — bedakan level judul, (2) membuat daftar isi otomatis (References → Table of Contents), (3) meng-update daftar isi saat konten berubah, (4) page break dan section break (next page, continuous). Guru memberikan tips: gunakan Navigation Pane untuk melihat struktur dokumen. | Siswa mengikuti demonstrasi di komputer masing-masing. Mempraktikkan heading styles di dokumen baru. Membuat daftar isi sederhana. | MS Word, proyektor, komputer siswa |
+| **MINING FULL** | **Eksplorasi** — Header, Footer, Footnote** | 15 menit | Guru mendemonstrasikan: (1) header/footer — insert nomor halaman, tanggal, judul dokumen, (2) membedakan header ganjil-genap untuk buku, (3) footnote (Insert Footnote) untuk catatan kaki, (4) endnote untuk daftar pustaka di akhir dokumen. Siswa diminta membuat 3 footnote tentang definisi istilah Informatika. | Siswa membuat header dengan nama dan kelas, footer dengan nomor halaman. Menambahkan 3 footnote pada dokumen. | MS Word, proyektor |
+| **MINING FULL** | **Eksplorasi** — Mail Merge** | 15 menit | Guru mendemonstrasikan mail merge: (1) persiapan data source (Excel: nama, alamat, No. HP, acara), (2) dokumen utama (surat undangan), (3) insert merge field (menempatkan field di posisi yang tepat), (4) preview hasil (tombol Preview Results), (5) finish & merge (print atau edit individual). Guru menekankan: "Bayangkan OSIS ingin undang 100 orang — pakai mail merge selesai 5 menit!" | Siswa membuka file Excel yang sudah disiapkan. Membuat surat undangan. Memasukkan merge field. Melakukan preview dan merge. | Data Excel (nama_siswa.xlsx), MS Word, proyektor |
+| **MINING FULL** | **Eksplorasi** — Daftar Pustaka** | 10 menit | Guru mendemonstrasikan: (1) References → Insert Citation → Add New Source (buku, jurnal, website), (2) memilih style (APA, MLA, Chicago — fokus APA), (3) membuat Bibliography di akhir dokumen, (4) meng-update saat ada sumber baru. | Siswa menambahkan 3 sumber (buku, artikel web, jurnal) ke dokumen. Membuat daftar pustaka otomatis. | MS Word, proyektor |
+| **JOYFULL** | **Penutup Kreatif** | 10 menit | Guru menampilkan checklist fitur yang harus ada di dokumen siswa. Memeriksa hasil beberapa siswa. Refleksi: "Fitur mana yang paling berguna untuk kalian?" (daftar isi vs mail merge vs lainnya). Guru memberikan tugas: buat makalah 5 halaman tentang "Perkembangan Teknologi Informasi" dengan format lengkap (daftar isi, header, footnote, daftar pustaka). Doa dan salam. | Siswa mengecek dokumen sendiri. Menjawab refleksi. Mencatat tugas. Berdoa dan salam. | Proyektor, checklist fitur |
 
 ### D. ASESMEN
 
@@ -81,7 +91,7 @@ Heading styles, daftar isi otomatis, mail merge, data source, field, header, foo
 
 #### D.4 Rubrik Penilaian
 | Kriteria | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Daftar Isi | Otomatis, rapi, bisa di-update | Otomatis, rapi | Manual/konsisten | Tidak ada |
 | Mail Merge | 3 surat benar, rapi | 3 surat, minor error | 2 surat | Tidak selesai |
 | Header/Footer | Lengkap + section break + footnote | Header + footer | Sebagian | Tidak ada |
@@ -92,7 +102,7 @@ Heading styles, daftar isi otomatis, mail merge, data source, field, header, foo
 Buat surat undangan rapat OSIS dengan data berikut menggunakan mail merge!
 
 | No | Nama | Jabatan | Tanggal | Tempat |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 1 | Andi Pratama | Ketua OSIS | 15 Jan 2026 | Aula |
 | 2 | Siti Rahma | Sekretaris | 15 Jan 2026 | Aula |
 | 3 | Budi Hartono | Bendahara | 15 Jan 2026 | Aula |

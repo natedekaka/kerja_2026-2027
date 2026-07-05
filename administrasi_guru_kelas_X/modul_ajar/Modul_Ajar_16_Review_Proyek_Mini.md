@@ -17,6 +17,8 @@
 | Pertemuan ke- | 16 |
 | Kompetensi Awal | Peserta didik telah menyelesaikan seluruh materi semester 1: Berpikir Komputasional (BK), Teknologi Informasi & Komunikasi (TIK), Sistem Komputer (SK), dan Jaringan Komputer & Internet (JKI). |
 | Integrasi 8 Dimensi | Kolaborasi (kerja kelompok mind map & proyek), Kreativitas (solusi digital inovatif), Penalaran Kritis (review dan analisis materi), Kemandirian (tanggung jawab tugas proyek), Keimanan & Bertakwa (menggunakan teknologi untuk kemaslahatan sekolah) |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bermasyarakat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Komputer/lab, proyektor, kertas plano & spidol warna, aplikasi Kahoot/Quizizz, akses internet, Canva/Google Slides untuk presentasi |
 | Target Peserta Didik | Reguler (dengan diferensiasi peran dalam kelompok) |
 | Model Pembelajaran | Project Based Learning (PjBL) + Gamifikasi |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kemendikbud Bab 1-5, catatan siswa selama semester 1, materi slide dari pertemuan 1-15 |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Materi ini terhubung langsung dengan kehidupan sehari-hari dan keterampilan abad 21.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 
@@ -48,21 +58,21 @@ Review, dekomposisi, pengenalan pola, abstraksi, algoritma, sistem komputer, jar
 
 ### C. KEGIATAN PEMBELAJARAN — PERTEMUAN 1 (REVIEW)
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Kita sudah belajar 15 pertemuan — sekarang kita lihat seberapa paham kalian!" 4) Menyampaikan agenda pertemuan 1 (review) dan pertemuan 2 (proyek mini). 5) Membagi kelompok (4-5 siswa) | 1) Menjawab salam dan berdoa. 2) Menyimak agenda. 3) Bergabung dengan kelompok masing-masing | Proyektor, slide agenda |
-| **Inti — Kuis Interaktif** | 30 menit | 1) Membuka Kahoot/Quizizz yang sudah disiapkan (20 soal). 2) Soal meliputi: BK (dekomposisi, pola), TIK (aplikasi, etika digital), SK (booting, hardware), JKI (topologi, enkripsi). 3) Memandu jalannya kuis. 4) Setelah selesai, menampilkan leaderboard. 5) Membahas soal yang paling banyak salah — klarifikasi miskonsepsi | 1) Membuka Kahoot/Quizizz di HP/komputer. 2) Mengerjakan 20 soal. 3) Melihat leaderboard. 4) Menyimak pembahasan soal yang salah. 5) Mencatat koreksi | HP/komputer, Kahoot/Quizizz, proyektor |
-| **Inti — Mind Map** | 35 menit | 1) Membagikan kertas plano ke setiap kelompok. 2) Meminta setiap kelompok membuat peta konsep semester 1 — hubungkan 4 elemen. 3) Berkeliling memberikan bimbingan. 4) Mengingatkan untuk menambahkan contoh konkret setiap konsep. 5) Memberi waktu 25 menit kerja + 10 menit persiapan presentasi | 1) Membuka catatan semester 1. 2) Berdiskusi menentukan struktur mind map. 3) Menggambar di kertas plano. 4) Menambahkan contoh dan hubungan. 5) Menyiapkan presentasi | Kertas plano, spidol warna, catatan siswa |
-| **Penutup** | 15 menit | 1) 2-3 kelompok mempresentasikan mind map (masing-masing 3 menit). 2) Guru memberi umpan balik dan klarifikasi miskonsepsi yang tersisa. 3) Penguatan: "Kalian sudah menguasai 4 elemen — besok kita terapkan dalam proyek!" 4) Doa penutup | 1) Presentasi mind map. 2) Menyimak umpan balik. 3) Mencatat miskonsepsi yang diklarifikasi. 4) Berdoa | Mind map yang sudah jadi |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Kita sudah belajar 15 pertemuan — sekarang kita lihat seberapa paham kalian!" 4) Menyampaikan agenda pertemuan 1 (review) dan pertemuan 2 (proyek mini). 5) Membagi kelompok (4-5 siswa) | 1) Menjawab salam dan berdoa. 2) Menyimak agenda. 3) Bergabung dengan kelompok masing-masing | Proyektor, slide agenda |
+| **MINING FULL** | **Eksplorasi** — Kuis Interaktif** | 30 menit | 1) Membuka Kahoot/Quizizz yang sudah disiapkan (20 soal). 2) Soal meliputi: BK (dekomposisi, pola), TIK (aplikasi, etika digital), SK (booting, hardware), JKI (topologi, enkripsi). 3) Memandu jalannya kuis. 4) Setelah selesai, menampilkan leaderboard. 5) Membahas soal yang paling banyak salah — klarifikasi miskonsepsi | 1) Membuka Kahoot/Quizizz di HP/komputer. 2) Mengerjakan 20 soal. 3) Melihat leaderboard. 4) Menyimak pembahasan soal yang salah. 5) Mencatat koreksi | HP/komputer, Kahoot/Quizizz, proyektor |
+| **MINING FULL** | **Eksplorasi** — Mind Map** | 35 menit | 1) Membagikan kertas plano ke setiap kelompok. 2) Meminta setiap kelompok membuat peta konsep semester 1 — hubungkan 4 elemen. 3) Berkeliling memberikan bimbingan. 4) Mengingatkan untuk menambahkan contoh konkret setiap konsep. 5) Memberi waktu 25 menit kerja + 10 menit persiapan presentasi | 1) Membuka catatan semester 1. 2) Berdiskusi menentukan struktur mind map. 3) Menggambar di kertas plano. 4) Menambahkan contoh dan hubungan. 5) Menyiapkan presentasi | Kertas plano, spidol warna, catatan siswa |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | 1) 2-3 kelompok mempresentasikan mind map (masing-masing 3 menit). 2) Guru memberi umpan balik dan klarifikasi miskonsepsi yang tersisa. 3) Penguatan: "Kalian sudah menguasai 4 elemen — besok kita terapkan dalam proyek!" 4) Doa penutup | 1) Presentasi mind map. 2) Menyimak umpan balik. 3) Mencatat miskonsepsi yang diklarifikasi. 4) Berdoa | Mind map yang sudah jadi |
 
 ### C. KEGIATAN PEMBELAJARAN — PERTEMUAN 2 (PROYEK MINI)
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Tantangan hari ini — sekolah ingin menghemat kertas. Buat solusi digital!" 4) Menjelaskan rubrik proyek. 5) Mengingatkan untuk menerapkan: BK (dekomposisi masalah), TIK (alat presentasi), SK/JKI (pertimbangan teknis) | 1) Menjawab salam dan berdoa. 2) Menyimak tantangan. 3) Memahami rubrik. 4) Berdiskusi dalam kelompok | Proyektor, rubrik proyek, slide tantangan |
-| **Inti — Kerja Proyek** | 60 menit | 1) Memandu dekomposisi masalah: "Apa saja sumber pemborosan kertas di sekolah?" (tugas, surat, pengumuman). 2) Memfasilitasi ide solusi: sistem pengumpulan tugas online, papan pengumuman digital, e-library, sistem surat digital. 3) Membimbing kelompok memilih 1 solusi terbaik. 4) Mendampingi pembuatan prototype: presentasi/poster digital/video. 5) Memastikan setiap anggota punya peran | 1) Mendekomposisi masalah pemborosan kertas. 2) Brainstorming ide solusi. 3) Memilih 1 solusi terbaik. 4) Membuat prototype solusi digital. 5) Membagi peran: desainer, konten, presenter, teknisi | Komputer, Canva/Google Slides, akses internet |
-| **Inti — Presentasi** | 30 menit | 1) Setiap kelompok presentasi 3 menit. 2) 2 menit tanya jawab. 3) Guru memberikan umpan balik. 4) Fokus penilaian: relevansi solusi, kreativitas, penerapan konsep informatika | 1) Presentasi solusi. 2) Menjawab pertanyaan. 3) Memberi masukan ke kelompok lain. 4) Mencatat umpan balik | Proyektor, produk digital |
-| **Penutup** | 15 menit | 1) Pengumuman kelompok dengan solusi terbaik. 2) Refleksi: "Apa tantangan terbesar dalam proyek ini?" 3) Penguatan: keterampilan ini akan berguna di proyek semester 2. 4) Doa penutup | 1) Menyimak pengumuman. 2) Refleksi. 3) Berdoa | Lembar refleksi |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Tantangan hari ini — sekolah ingin menghemat kertas. Buat solusi digital!" 4) Menjelaskan rubrik proyek. 5) Mengingatkan untuk menerapkan: BK (dekomposisi masalah), TIK (alat presentasi), SK/JKI (pertimbangan teknis) | 1) Menjawab salam dan berdoa. 2) Menyimak tantangan. 3) Memahami rubrik. 4) Berdiskusi dalam kelompok | Proyektor, rubrik proyek, slide tantangan |
+| **MINING FULL** | **Eksplorasi** — Kerja Proyek** | 60 menit | 1) Memandu dekomposisi masalah: "Apa saja sumber pemborosan kertas di sekolah?" (tugas, surat, pengumuman). 2) Memfasilitasi ide solusi: sistem pengumpulan tugas online, papan pengumuman digital, e-library, sistem surat digital. 3) Membimbing kelompok memilih 1 solusi terbaik. 4) Mendampingi pembuatan prototype: presentasi/poster digital/video. 5) Memastikan setiap anggota punya peran | 1) Mendekomposisi masalah pemborosan kertas. 2) Brainstorming ide solusi. 3) Memilih 1 solusi terbaik. 4) Membuat prototype solusi digital. 5) Membagi peran: desainer, konten, presenter, teknisi | Komputer, Canva/Google Slides, akses internet |
+| **MINING FULL** | **Eksplorasi** — Presentasi** | 30 menit | 1) Setiap kelompok presentasi 3 menit. 2) 2 menit tanya jawab. 3) Guru memberikan umpan balik. 4) Fokus penilaian: relevansi solusi, kreativitas, penerapan konsep informatika | 1) Presentasi solusi. 2) Menjawab pertanyaan. 3) Memberi masukan ke kelompok lain. 4) Mencatat umpan balik | Proyektor, produk digital |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | 1) Pengumuman kelompok dengan solusi terbaik. 2) Refleksi: "Apa tantangan terbesar dalam proyek ini?" 3) Penguatan: keterampilan ini akan berguna di proyek semester 2. 4) Doa penutup | 1) Menyimak pengumuman. 2) Refleksi. 3) Berdoa | Lembar refleksi |
 
 ### D. ASESMEN
 
@@ -83,7 +93,7 @@ Observasi selama pembuatan mind map dan kerja proyek. Guru mencatat kemampuan ko
 #### D.4 Rubrik Penilaian Proyek Mini
 
 | Aspek | SB = 4 (Sangat Baik) | B = 3 (Baik) | C = 2 (Cukup) | PB = 1 (Perlu Bimbingan) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Penerapan BK | Dekomposisi masalah jelas, pola teridentifikasi, solusi terstruktur | Dekomposisi jelas, solusi terstruktur | Dekomposisi ada tapi kurang jelas | Tanpa dekomposisi |
 | Kualitas Produk | Digital, profesional, siap pakai, inovatif | Digital, rapi, fungsional | Digital tapi kurang rapi | Tidak digital / asal-asalan |
 | Presentasi | Semua anggota bicara, jelas, menjawab pertanyaan dengan baik | Semua anggota bicara, cukup jelas | 2-3 anggota bicara | 1 anggota bicara / tidak jelas |

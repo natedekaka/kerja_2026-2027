@@ -17,6 +17,8 @@
 | Pertemuan ke- | 10 (sepuluh) — pertemuan final |
 | Kompetensi Awal | Peserta didik telah menyelesaikan proyek lintas bidang secara berkelompok dan siap mempresentasikan hasil akhir |
 | Integrasi 8 Dimensi | Kolaborasi, Kreativitas, Kemandirian, Kewargaan |
+| **Integrasi 7 KAIH** | Semua 7 KAIH |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, laptop/komputer, sound system (jika perlu), koneksi internet, ruang kelas dengan pengaturan stan (untuk pameran), timer, lembar penilaian rubrik, lembar refleksi, sertifikat penghargaan |
 | Target Peserta Didik | Reguler (semua kelompok presentasi dengan durasi yang disesuaikan) |
 | Model Pembelajaran | Project Based Learning — Pameran/Presentasi Akhir |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 9, panduan presentasi efektif, template slide presentasi, contoh video presentasi proyek |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Proyek lintas bidang melatih kita menerapkan semua elemen informatika untuk menyelesaikan masalah nyata di sekitar kita.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 1. Menyajikan produk hasil proyek lintas bidang secara sistematis mencakup masalah, solusi, proses pengembangan, dan manfaat.
@@ -46,14 +56,14 @@ Presentasi, pameran, demonstrasi produk, pitching, tanya jawab, peer review, fee
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10' | Guru membuka kelas dengan semangat: "Hari ini adalah puncak karya kalian! Tunjukkan yang terbaik!" Guru mengecek kesiapan perangkat (proyektor, laptop, sound). Guru mengingatkan rubrik penilaian dan aturan presentasi. Guru mengatur urutan presentasi atau posisi stan. | Siswa menyiapkan laptop, slide, dan alat peraga. Siswa melakukan cek perangkat. Siswa mengambil posisi sesuai urutan/stan. | Proyektor, laptop, timer, rubrik |
-| **Inti — Opsi A (Pameran)** | 55' | **Jika format pameran:** Guru menata ruang dengan stan kelompok. Guru berkeliling ke setiap stan menilai produk, presentasi, dokumentasi, dan kerja sama. Guru memastikan setiap kelompok mendapat giliran presentasi ke guru. | Setiap kelompok menata stan. Kelompok yang tidak sedang dinilai guru saling mengunjungi stan lain dan memberikan feedback. Perwakilan kelompok menjelaskan produk kepada pengunjung stan. | Stan kelompok, poster produk, laptop demo |
-| **Inti — Opsi B (Presentasi)** | 55' | **Jika format presentasi:** Guru memanggil kelompok secara bergiliran. Setiap kelompok mendapat 5 menit presentasi + 2 menit tanya jawab. Guru menilai menggunakan rubrik. Guru memfasilitasi sesi tanya jawab. | Kelompok presentasi: 5 menit menyampaikan materi. Audiens: menyimak dan menyiapkan pertanyaan. Setelah presentasi, audiens bertanya (2 menit). | Proyektor, slide, timer, mic |
-| **Inti — Penilaian** | 10' | Guru mengumumkan waktu tersisa untuk presentasi terakhir. Guru mengumpulkan lembar penilaian peer feedback. Guru menghitung nilai sementara. | Semua kelompok menyelesaikan sesi. Siswa mengisi lembar peer feedback untuk kelompok lain. | Lembar peer feedback |
-| **Inti — Pengumuman** | 5' | Guru mengumumkan 3 proyek terbaik berdasarkan akumulasi nilai (produk + presentasi + dokumentasi + kerja sama). Guru memberikan penghargaan sederhana (sertifikat/tepuk tangan). | Siswa bersorak dan memberi apresiasi. Perwakilan kelompok pemenang maju ke depan. | Sertifikat/hadiah |
-| **Penutup** | 10' | Guru memimpin refleksi: "Apa yang paling berkesan? Skill baru apa yang didapat? Apa yang akan dilakukan berbeda?" Guru membagikan lembar refleksi individu. Guru menutup dengan doa dan ucapan terima kasih. | Siswa mengisi lembar refleksi. Beberapa siswa menyampaikan kesan secara lisan. Siswa berdoa. | Lembar refleksi individu |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10' | Guru membuka kelas dengan semangat: "Hari ini adalah puncak karya kalian! Tunjukkan yang terbaik!" Guru mengecek kesiapan perangkat (proyektor, laptop, sound). Guru mengingatkan rubrik penilaian dan aturan presentasi. Guru mengatur urutan presentasi atau posisi stan. | Siswa menyiapkan laptop, slide, dan alat peraga. Siswa melakukan cek perangkat. Siswa mengambil posisi sesuai urutan/stan. | Proyektor, laptop, timer, rubrik |
+| **MINING FULL** | **Eksplorasi** — Opsi A (Pameran)** | 55' | **Jika format pameran:** Guru menata ruang dengan stan kelompok. Guru berkeliling ke setiap stan menilai produk, presentasi, dokumentasi, dan kerja sama. Guru memastikan setiap kelompok mendapat giliran presentasi ke guru. | Setiap kelompok menata stan. Kelompok yang tidak sedang dinilai guru saling mengunjungi stan lain dan memberikan feedback. Perwakilan kelompok menjelaskan produk kepada pengunjung stan. | Stan kelompok, poster produk, laptop demo |
+| **MINING FULL** | **Eksplorasi** — Opsi B (Presentasi)** | 55' | **Jika format presentasi:** Guru memanggil kelompok secara bergiliran. Setiap kelompok mendapat 5 menit presentasi + 2 menit tanya jawab. Guru menilai menggunakan rubrik. Guru memfasilitasi sesi tanya jawab. | Kelompok presentasi: 5 menit menyampaikan materi. Audiens: menyimak dan menyiapkan pertanyaan. Setelah presentasi, audiens bertanya (2 menit). | Proyektor, slide, timer, mic |
+| **MINING FULL** | **Eksplorasi** — Penilaian** | 10' | Guru mengumumkan waktu tersisa untuk presentasi terakhir. Guru mengumpulkan lembar penilaian peer feedback. Guru menghitung nilai sementara. | Semua kelompok menyelesaikan sesi. Siswa mengisi lembar peer feedback untuk kelompok lain. | Lembar peer feedback |
+| **MINING FULL** | **Eksplorasi** — Pengumuman** | 5' | Guru mengumumkan 3 proyek terbaik berdasarkan akumulasi nilai (produk + presentasi + dokumentasi + kerja sama). Guru memberikan penghargaan sederhana (sertifikat/tepuk tangan). | Siswa bersorak dan memberi apresiasi. Perwakilan kelompok pemenang maju ke depan. | Sertifikat/hadiah |
+| **JOYFULL** | **Penutup Kreatif** | 10' | Guru memimpin refleksi: "Apa yang paling berkesan? Skill baru apa yang didapat? Apa yang akan dilakukan berbeda?" Guru membagikan lembar refleksi individu. Guru menutup dengan doa dan ucapan terima kasih. | Siswa mengisi lembar refleksi. Beberapa siswa menyampaikan kesan secara lisan. Siswa berdoa. | Lembar refleksi individu |
 
 ### D. ASESMEN
 
@@ -76,7 +86,7 @@ Presentasi, pameran, demonstrasi produk, pitching, tanya jawab, peer review, fee
 
 #### D.4 Rubrik Penilaian Presentasi Proyek
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Penyampaian (30%)** | Jelas, percaya diri, kontak mata, intonasi variatif, interaktif dengan audiens | Cukup jelas, sedikit gugup, ada kontak mata | Kurang jelas, banyak membaca slide, gugup | Tidak siap, membaca terus, tidak percaya diri |
 | **Konten presentasi (30%)** | Mencakup 4 aspek: masalah, solusi, proses pengembangan, dan manfaat — disampaikan secara runtut | Mencakup 3 aspek | Mencakup 2 aspek | Hanya 1 aspek |
 | **Visual/Media (20%)** | Slide/alat peraga menarik, informatif, tidak penuh teks, mendukung penjelasan | Cukup menarik, sedikit terlalu banyak teks | Kurang rapi, font terlalu kecil, gambar tidak relevan | Tidak ada visual, atau visual tidak mendukung |
@@ -84,7 +94,7 @@ Presentasi, pameran, demonstrasi produk, pitching, tanya jawab, peer review, fee
 
 #### D.5 Rubrik Penilaian Produk Proyek
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Fungsionalitas** | Produk berfungsi penuh, stabil, sesuai spesifikasi | Berfungsi dengan 1-2 bug minor | Beberapa fitur tidak berfungsi | Tidak berfungsi sama sekali |
 | **Inovasi/kreativitas** | Solusi orisinal, ada fitur unik di luar ekspektasi | Cukup kreatif dengan 1 fitur tambahan | Sesuai spesifikasi standar | Kurang dari spesifikasi minimal |
 | **Dokumentasi/kode** | Dokumentasi lengkap, kode rapi, ada komentar | Dokumentasi ada, kode cukup rapi | Dokumentasi minim | Tidak ada dokumentasi |
@@ -172,6 +182,52 @@ Feedback untuk kelompok 3: _________________________________________
 - **"Drive: The Surprising Truth About What Motivates Us" oleh Daniel H. Pink** — tentang motivasi intrinsik yang relevan untuk refleksi siswa setelah menyelesaikan proyek
 
 ---
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 Mengetahui,  
 Kepala Sekolah

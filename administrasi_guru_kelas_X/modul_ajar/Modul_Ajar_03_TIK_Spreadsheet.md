@@ -18,6 +18,8 @@
 | Pertemuan ke- | 7 (dari 20 pertemuan semester 1) |
 | **Kompetensi Awal** | Peserta didik telah menguasai fitur dasar pengolah kata dari pertemuan sebelumnya |
 | **Integrasi 8 Dimensi** | Penalaran Kritis, Kreativitas, Kemandirian |
+| **Integrasi 7 KAIH** | Makan Sehat, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | **Sarana & Prasarana** | Komputer/laptop, Microsoft Excel atau Google Sheets, proyektor, data sampel (file nilai siswa), LKPD digital |
 | **Target Peserta Didik** | Reguler |
 | **Model Pembelajaran** | Discovery Learning berbasis praktik |
@@ -27,6 +29,14 @@
 ---
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Kemampuan mengolah kata, angka, dan presentasi secara terintegrasi adalah skill esensial di dunia perkantoran dan akademik modern.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan
 Melalui eksplorasi dan praktik langsung, peserta didik mampu:
@@ -49,20 +59,20 @@ Spreadsheet, formula, fungsi, SUM, AVERAGE, VLOOKUP, IF, COUNTIF, grafik, pivot 
 
 #### Pertemuan ke-7 (2 JP)
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | | | |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10 menit | | | |
 | 1. Orientasi | | Salam, doa, absensi | Merespon | — |
 | 2. Apersepsi | | "Kalau kalian diminta merekap nilai 100 siswa dan menentukan lulus/tidak secara manual, berapa lama?" | Menjawab & membayangkan kesulitannya | — |
 | 3. Motivasi | | "Dengan spreadsheet, tugas itu selesai dalam 5 menit. Bahkan bisa otomatis!" | Tertarik | Proyektor |
 | 4. Tujuan | | Menjelaskan TP.2.2 dan relevansinya (pengelolaan data di dunia kerja) | Mencatat tujuan | Proyektor |
 | 5. Asesmen Diagnostik | | "Siapa yang sudah pernah pakai Excel/Sheets? Fungsi apa yang pernah dipakai?" | Angkat tangan & menyebutkan | Mentimeter |
-| **Inti** | 65 menit | | | |
+| **MINING FULL** | **Eksplorasi**** | 65 menit | | | |
 | **Eksplorasi 1: Formula & Fungsi** | 20' | Menyajikan data nilai siswa. Mendemonstrasikan: 1) SUM (total nilai) 2) AVERAGE (rata-rata) 3) MAX & MIN 4) COUNT & COUNTA 5) IF (lulus/tidak) 6) VLOOKUP (konversi nilai huruf) | Mengikuti demo di spreadsheet masing-masing, mencoba variasi sendiri | File data nilai, Proyektor, Komputer |
 | **Eksplorasi 2: Grafik & Visualisasi** | 20' | Mendemonstrasikan: 1) Memilih data 2) Insert chart 3) Memilih jenis grafik (bar, pie, line) 4) Format grafik (judul, label, warna) | Membuat 2 jenis grafik dari data yang sama | Spreadsheet, data |
 | **Praktik Mandiri** | 15' | Memberi tugas: selesaikan "Kasus: Laporan Penjualan" — hitung total, rata-rata, tentukan bonus (IF), buat grafik | Mengerjakan tugas individu | LKPD, file tugas |
 | **Review Hasil** | 10' | Membahas 2-3 hasil pekerjaan siswa, mengoreksi error formula | Menunjukkan hasil & belajar dari error | Proyektor |
-| **Penutup** | 15 menit | | | |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | | | |
 | 1. Refleksi | | "Fungsi mana yang paling sulit? Bagaimana cara mengingatnya?" | Diskusi & berbagi tips | — |
 | 2. Penguatan | | Merangkum: formula → hitung manual, fungsi → hitung otomatis, grafik → visualisasi data | Mencatat rangkuman | — |
 | 3. Tindak Lanjut | | Tugas: buat laporan data sederhana (data olahraga/film/musik favorit kelas) dengan fungsi & grafik | Mencatat tugas | Google Classroom |
@@ -93,7 +103,7 @@ Spreadsheet, formula, fungsi, SUM, AVERAGE, VLOOKUP, IF, COUNTIF, grafik, pivot 
 #### D.4 Rubrik Penilaian
 
 | Kriteria | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Formula & Fungsi** | 5+ fungsi digunakan dengan benar | 3-4 fungsi benar | 2 fungsi benar | <2 fungsi |
 | **Grafik** | 2 grafik, jenis tepat, format rapi | 2 grafik, format cukup | 1 grafik | Tidak ada |
 | **Kerapian Data** | Tabel rapi, header jelas, format konsisten | Cukup rapi | Berantakan | Tidak terstruktur |
@@ -108,7 +118,7 @@ Spreadsheet, formula, fungsi, SUM, AVERAGE, VLOOKUP, IF, COUNTIF, grafik, pivot 
 
 #### Bagian A: Buat Data Berikut
 | Kode Produk | Nama Produk | Harga Satuan | Jumlah Terjual | Total |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | BRG-001 | Buku Tulis | 5.000 | 150 | |
 | BRG-002 | Pensil | 2.000 | 200 | |
 | BRG-003 | Penghapus | 3.000 | 80 | |
@@ -160,6 +170,52 @@ Buat 2 jenis grafik dari data di atas:
 - **Perbedaan:** @ (Google Sheets) vs = (Excel) untuk fungsi array — sesuaikan dengan platform yang digunakan
 
 ---
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 Mengetahui,  
 Kepala Sekolah

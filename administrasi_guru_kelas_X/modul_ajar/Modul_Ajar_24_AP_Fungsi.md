@@ -17,6 +17,8 @@
 | Pertemuan ke- | 4 (empat) |
 | Kompetensi Awal | Peserta didik telah memahami variabel, tipe data, percabangan (if-elif-else), dan perulangan (for, while) dalam Python |
 | Integrasi 8 Dimensi | Kreativitas, Kemandirian, Penalaran Kritis |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, laptop/komputer, Python IDLE atau Google Colab, papan tulis, spidol, koneksi internet |
 | Target Peserta Didik | Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan) |
 | Model Pembelajaran | Demonstrasi interaktif, praktik coding modular, dan code review |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 7, dokumentasi Python — Functions, W3Schools Python Functions, modul ajar guru |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Pemrograman adalah cara kita 'berbicara' dengan komputer dan menciptakan solusi digital untuk masalah nyata.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 1. Menjelaskan konsep fungsi sebagai blok kode yang dapat digunakan kembali (reusable) dalam pemrograman modular.
@@ -46,14 +56,14 @@ Fungsi, prosedur, def, parameter, argumen, return value, variabel lokal, variabe
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10' | Guru membuka kelas dan memantik: "Bayangkan menulis kalkulator — semua kode di satu blok panjang. Ribet kalau error atau mau dipakai ulang. Fungsi solusinya!" Guru menyampaikan TP. | Siswa merespons dan memberikan pendapat tentang pentingnya kode rapi. Siswa menyimak TP. | Proyektor, slide pembuka |
-| **Inti — Sesi 1** | 20' | Guru menjelaskan konsep fungsi: def nama_fungsi(parameter): — definisi, parameter, return value, scope variabel (lokal vs global). Guru mendemonstrasikan fungsi luas_persegi(panjang, lebar) dan memanggilnya berulang dengan nilai berbeda. | Siswa menyimak dan mencatat. Siswa menulis fungsi sederhana. Siswa bereksperimen memanggil fungsi dengan argumen berbeda. | Python IDLE/Colab, slide fungsi |
-| **Inti — Sesi 2** | 10' | Guru melakukan demo: fungsi menghitung luas lingkaran, segitiga, dan persegi. Guru menunjukkan penggunaan docstring dan return. Guru menjelaskan perbedaan fungsi yang mengembalikan nilai vs prosedur yang hanya mencetak. | Siswa menulis kode bersama guru. Siswa mencoba memanggil fungsi tanpa return dan mengamati hasil None. | Python IDLE/Colab |
-| **Inti — Praktik 1** | 20' | Guru memberikan tugas: buat fungsi hitung_luas_lingkaran(r), hitung_luas_segitiga(a,t), hitung_luas_persegi(s). Panggil semua dalam program utama dengan input dari user. Guru berkeliling membantu. | Siswa membuat 3 fungsi luas bangun datar. Siswa menulis program utama yang memanggil ketiga fungsi. Siswa menguji dengan berbagai input. | LKPD, Python IDLE/Colab |
-| **Inti — Praktik 2** | 15' | Guru memberikan studi kasus kalkulator modular: setiap operasi jadi fungsi sendiri (tambah(), kurang(), kali(), bagi()) → menu memanggil fungsi sesuai pilihan. Guru menekankan pentingnya fungsi bagi() yang menangani pembagian nol. | Siswa membuat program kalkulator modular. Setiap operasi ditulis sebagai fungsi terpisah. Program utama hanya berisi menu dan pemanggilan fungsi. | LKPD, Python IDLE/Colab |
-| **Penutup** | 15' | Guru melakukan refleksi: "Apa keuntungan program modular?" Guru memberikan tugas: buat program konversi suhu (C→F, C→K, F→C, F→K, K→C, K→F) dengan fungsi. Guru menutup kelas. | Siswa menjawab pertanyaan refleksi. Siswa mencatat tugas. Siswa menyimpulkan manfaat fungsi. Siswa berdoa. | Papan tulis, buku catatan |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10' | Guru membuka kelas dan memantik: "Bayangkan menulis kalkulator — semua kode di satu blok panjang. Ribet kalau error atau mau dipakai ulang. Fungsi solusinya!" Guru menyampaikan TP. | Siswa merespons dan memberikan pendapat tentang pentingnya kode rapi. Siswa menyimak TP. | Proyektor, slide pembuka |
+| **MINING FULL** | **Eksplorasi** — Sesi 1** | 20' | Guru menjelaskan konsep fungsi: def nama_fungsi(parameter): — definisi, parameter, return value, scope variabel (lokal vs global). Guru mendemonstrasikan fungsi luas_persegi(panjang, lebar) dan memanggilnya berulang dengan nilai berbeda. | Siswa menyimak dan mencatat. Siswa menulis fungsi sederhana. Siswa bereksperimen memanggil fungsi dengan argumen berbeda. | Python IDLE/Colab, slide fungsi |
+| **MINING FULL** | **Eksplorasi** — Sesi 2** | 10' | Guru melakukan demo: fungsi menghitung luas lingkaran, segitiga, dan persegi. Guru menunjukkan penggunaan docstring dan return. Guru menjelaskan perbedaan fungsi yang mengembalikan nilai vs prosedur yang hanya mencetak. | Siswa menulis kode bersama guru. Siswa mencoba memanggil fungsi tanpa return dan mengamati hasil None. | Python IDLE/Colab |
+| **MINING FULL** | **Eksplorasi** — Praktik 1** | 20' | Guru memberikan tugas: buat fungsi hitung_luas_lingkaran(r), hitung_luas_segitiga(a,t), hitung_luas_persegi(s). Panggil semua dalam program utama dengan input dari user. Guru berkeliling membantu. | Siswa membuat 3 fungsi luas bangun datar. Siswa menulis program utama yang memanggil ketiga fungsi. Siswa menguji dengan berbagai input. | LKPD, Python IDLE/Colab |
+| **MINING FULL** | **Eksplorasi** — Praktik 2** | 15' | Guru memberikan studi kasus kalkulator modular: setiap operasi jadi fungsi sendiri (tambah(), kurang(), kali(), bagi()) → menu memanggil fungsi sesuai pilihan. Guru menekankan pentingnya fungsi bagi() yang menangani pembagian nol. | Siswa membuat program kalkulator modular. Setiap operasi ditulis sebagai fungsi terpisah. Program utama hanya berisi menu dan pemanggilan fungsi. | LKPD, Python IDLE/Colab |
+| **JOYFULL** | **Penutup Kreatif** | 15' | Guru melakukan refleksi: "Apa keuntungan program modular?" Guru memberikan tugas: buat program konversi suhu (C→F, C→K, F→C, F→K, K→C, K→F) dengan fungsi. Guru menutup kelas. | Siswa menjawab pertanyaan refleksi. Siswa mencatat tugas. Siswa menyimpulkan manfaat fungsi. Siswa berdoa. | Papan tulis, buku catatan |
 
 ### D. ASESMEN
 
@@ -75,7 +85,7 @@ Fungsi, prosedur, def, parameter, argumen, return value, variabel lokal, variabe
 
 #### D.4 Rubrik Penilaian Program Modular
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Definisi fungsi** | Semua fungsi memiliki definisi lengkap (def, parameter, return, docstring) | Fungsi memiliki parameter dan return, tanpa docstring | Fungsi didefinisikan tetapi ada parameter yang tidak digunakan | Fungsi tidak didefinisikan dengan benar atau tidak ada |
 | **Penggunaan return** | Semua fungsi mengembalikan nilai (return) yang digunakan oleh pemanggil | Sebagian besar fungsi menggunakan return | Hanya 1-2 fungsi yang menggunakan return | Tidak ada fungsi yang menggunakan return |
 | **Modularitas** | Program terstruktur dengan fungsi-fungsi independen yang dapat dipanggil ulang | Fungsi-fungsi cukup independen dengan sedikit ketergantungan | Fungsi masih tercampur dengan kode utama | Semua kode dalam satu blok tanpa fungsi |

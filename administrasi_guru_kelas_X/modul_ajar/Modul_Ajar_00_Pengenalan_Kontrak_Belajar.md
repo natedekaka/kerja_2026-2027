@@ -18,6 +18,8 @@
 | Pertemuan ke- | 1 (Pertama) |
 | Kompetensi Awal | Peserta didik belum memiliki pengalaman belajar Informatika secara formal di jenjang SMP (Informatika merupakan mata pelajaran baru bagi sebagian besar siswa) |
 | Integrasi 8 Dimensi | Keimanan & Ketakwaan, Kemandirian, Penalaran Kritis, Komunikasi, Kolaborasi, Kewargaan, Kreativitas, Kesehatan |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bermasyarakat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, laptop guru, slide presentasi, sticky notes berwarna, kertas kontrak belajar, spidol, papan tulis, speaker aktif, koneksi internet |
 | Target Peserta Didik | Reguler (dengan diferensiasi) |
 | Model Pembelajaran | Diskusi Interaktif |
@@ -25,6 +27,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 1, artikel tentang ruang lingkup Informatika, video pengenalan profesi IT, Kurikulum Merdeka Fase E |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Materi ini terhubung langsung dengan kehidupan sehari-hari dan keterampilan abad 21.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan
 1. Menjelaskan tujuan dan ruang lingkup mata pelajaran Informatika kelas X melalui diskusi kelas.
@@ -44,14 +54,14 @@ Informatika, elemen, kontrak belajar, norma digital, etika digital, ruang lingku
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 15 menit | Guru membuka salam, berdoa, mengecek kehadiran. Melakukan ice breaking "Tebak Profesi IT" — menampilkan gambar programmer, network engineer, data analyst, cybersecurity analyst. Memberikan pretest diagnostik lisan (5 pertanyaan: "Apa itu Informatika?", "Pernah coding?", "Apa fungsi komputer?", "Sebutkan contoh software", "Apa itu internet?"). Menyampaikan tujuan pertemuan. | Siswa menjawab salam, berdoa, merespons ice breaking dengan menebak profesi. Menjawab pretest secara lisan. Menyimak tujuan pembelajaran. | Slide gambar profesi IT, papan tulis, buku catatan |
-| **Inti — Eksplorasi** | 20 menit | Guru memaparkan ruang lingkup Informatika kelas X: 8 elemen (BK, TIK, SK, JKI, AD, AP, DSI, PLB). Menjelaskan keterkaitan antar elemen dan relevansinya dengan kehidupan sehari-hari. Memberikan contoh konkret: cara berpikir komputasional digunakan dalam menyusun jadwal, TIK digunakan untuk membuat laporan, SK untuk memahami cara kerja komputer. | Siswa menyimak, mencatat, dan mengajukan pertanyaan. Mencatat 8 elemen di buku catatan masing-masing. | Slide presentasi, buku paket, papan tulis |
-| **Inti — Brainstorming** | 15 menit | Guru membagikan sticky notes dan meminta siswa menuliskan: (1) harapan dari pelajaran Informatika, (2) kekhawatiran/ketakutan. Sticky notes ditempel di papan tulis dan dibahas bersama. Guru mengelompokkan harapan serupa. | Siswa menulis harapan dan kekhawatiran di sticky notes. Menempelkan dan mempresentasikan secara sukarela. | Sticky notes 2 warna, spidol, papan tulis |
-| **Inti — Kontrak Belajar** | 20 menit | Guru memimpin diskusi penyusunan kontrak belajar: aturan kehadiran (minimal 90%), ketepatan pengumpulan tugas (toleransi 1 hari), penggunaan HP/laptop (hanya untuk keperluan belajar), sanksi pelanggaran (teguran lisan → tugas tambahan → konferensi orang tua), norma digital (tidak menyebar konten negatif, menjaga privasi). Guru menuliskan kesepakatan di papan tulis. | Siswa berdiskusi, mengusulkan aturan, menyetujui poin demi poin. Mencatat kesepakatan di buku catatan. | Papan tulis, spidol, kertas kontrak belajar cetak |
-| **Inti — Penandatanganan** | 5 menit | Guru mencetak kontrak belajar yang sudah disepakati dan membagikan ke seluruh siswa untuk ditandatangani. Kontrak ditandatangani di atas materai (jika memungkinkan) dan disimpan dalam portofolio kelas. | Siswa menandatangani kontrak belajar. Satu salinan untuk siswa, satu untuk guru. | Kertas kontrak belajar, pulpen, materai |
-| **Penutup** | 15 menit | Guru meminta 3-4 siswa menyampaikan refleksi "Satu hal yang paling menarik dari Informatika menurutku...". Guru memberikan penguatan: "Informatika bukan hanya coding — ini tentang cara berpikir dan menyelesaikan masalah." Menyampaikan sekilas materi pertemuan berikutnya. Doa dan salam penutup. | Siswa menyampaikan refleksi secara lisan. Menyimak penguatan. Berdoa dan menjawab salam. | Lisan |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 15 menit | Guru membuka salam, berdoa, mengecek kehadiran. Melakukan ice breaking "Tebak Profesi IT" — menampilkan gambar programmer, network engineer, data analyst, cybersecurity analyst. Memberikan pretest diagnostik lisan (5 pertanyaan: "Apa itu Informatika?", "Pernah coding?", "Apa fungsi komputer?", "Sebutkan contoh software", "Apa itu internet?"). Menyampaikan tujuan pertemuan. | Siswa menjawab salam, berdoa, merespons ice breaking dengan menebak profesi. Menjawab pretest secara lisan. Menyimak tujuan pembelajaran. | Slide gambar profesi IT, papan tulis, buku catatan |
+| **MINING FULL** | **Eksplorasi** — Eksplorasi** | 20 menit | Guru memaparkan ruang lingkup Informatika kelas X: 8 elemen (BK, TIK, SK, JKI, AD, AP, DSI, PLB). Menjelaskan keterkaitan antar elemen dan relevansinya dengan kehidupan sehari-hari. Memberikan contoh konkret: cara berpikir komputasional digunakan dalam menyusun jadwal, TIK digunakan untuk membuat laporan, SK untuk memahami cara kerja komputer. | Siswa menyimak, mencatat, dan mengajukan pertanyaan. Mencatat 8 elemen di buku catatan masing-masing. | Slide presentasi, buku paket, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Brainstorming** | 15 menit | Guru membagikan sticky notes dan meminta siswa menuliskan: (1) harapan dari pelajaran Informatika, (2) kekhawatiran/ketakutan. Sticky notes ditempel di papan tulis dan dibahas bersama. Guru mengelompokkan harapan serupa. | Siswa menulis harapan dan kekhawatiran di sticky notes. Menempelkan dan mempresentasikan secara sukarela. | Sticky notes 2 warna, spidol, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Kontrak Belajar** | 20 menit | Guru memimpin diskusi penyusunan kontrak belajar: aturan kehadiran (minimal 90%), ketepatan pengumpulan tugas (toleransi 1 hari), penggunaan HP/laptop (hanya untuk keperluan belajar), sanksi pelanggaran (teguran lisan → tugas tambahan → konferensi orang tua), norma digital (tidak menyebar konten negatif, menjaga privasi). Guru menuliskan kesepakatan di papan tulis. | Siswa berdiskusi, mengusulkan aturan, menyetujui poin demi poin. Mencatat kesepakatan di buku catatan. | Papan tulis, spidol, kertas kontrak belajar cetak |
+| **MINING FULL** | **Eksplorasi** — Penandatanganan** | 5 menit | Guru mencetak kontrak belajar yang sudah disepakati dan membagikan ke seluruh siswa untuk ditandatangani. Kontrak ditandatangani di atas materai (jika memungkinkan) dan disimpan dalam portofolio kelas. | Siswa menandatangani kontrak belajar. Satu salinan untuk siswa, satu untuk guru. | Kertas kontrak belajar, pulpen, materai |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | Guru meminta 3-4 siswa menyampaikan refleksi "Satu hal yang paling menarik dari Informatika menurutku...". Guru memberikan penguatan: "Informatika bukan hanya coding — ini tentang cara berpikir dan menyelesaikan masalah." Menyampaikan sekilas materi pertemuan berikutnya. Doa dan salam penutup. | Siswa menyampaikan refleksi secara lisan. Menyimak penguatan. Berdoa dan menjawab salam. | Lisan |
 
 ### D. ASESMEN
 
@@ -77,7 +87,7 @@ Tidak ada asesmen sumatif pada pertemuan pertama. Pertemuan ini bersifat orienta
 
 #### D.4 Rubrik Penilaian
 | Kriteria | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Partisipasi Diskusi | Aktif menyampaikan ide >3 kali, relevan, dan santun | Aktif 2-3 kali dengan ide relevan | Aktif 1 kali atau pasif | Tidak berpartisipasi sama sekali |
 | Pemahaman Elemen Informatika | Menyebutkan 7-8 elemen dengan deskripsi benar | Menyebutkan 5-6 elemen dengan deskripsi benar | Menyebutkan 3-4 elemen | Menyebutkan <3 elemen |
 | Refleksi | Refleksi mendalam, spesifik, dan terstruktur | Refleksi cukup jelas dan spesifik | Refleksi ada namun masih umum | Tidak memberikan refleksi |
@@ -105,7 +115,7 @@ Tidak ada asesmen sumatif pada pertemuan pertama. Pertemuan ini bersifat orienta
 **LKPD 0.2 — KONTRAK BELAJARKU**
 
 | No | Aturan | Setuju | Tidak Setuju | Usulan Alternatif |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 1 | Hadir tepat waktu (maksimal telat 5 menit) | | | |
 | 2 | Mengumpulkan tugas tepat waktu | | | |
 | 3 | HP hanya digunakan untuk keperluan belajar | | | |

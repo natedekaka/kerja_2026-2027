@@ -14,7 +14,7 @@ Repositori ini berisi seluruh dokumen administrasi pembelajaran Informatika untu
 | **XI** | F | 5 JP | Informatika untuk SMA/MA Kelas XI (Edisi Revisi) — 6 Bab |
 | **XII** | F | 5 JP | Informatika untuk SMA/MA Kelas XII (Budi Permana dkk.) — 6 Bab |
 
-Total **197 file**, **~44.000 baris** dokumen siap pakai.
+Total **217 file**, **~38.500 baris** dokumen siap pakai.
 
 ---
 
@@ -39,6 +39,8 @@ kerja_2026-2027/
 │   ├── 10_PROGRAM_REMEDIAL_PENGAYAAN.md
 │   ├── 11_INVENTARIS_LAB.md
 │   ├── 12_JADWAL_LAB_BUKU_PRAKTIK.md
+│   ├── 13_7KAIH.md                     # Program pembiasaan 7 KAIH
+│   ├── PANDUAN_7KAIH_DEEP_LEARNING.md  # Panduan integrasi
 │   ├── generate_x.py                   # Generator dokumen admin
 │   ├── Materi/
 │   │   ├── Bab_1_Informatika_dan_Keterampilan_Generik.md
@@ -73,7 +75,7 @@ kerja_2026-2027/
 
 ## 📋 Dokumen per Kelas
 
-### Root Dokumen (16 file per kelas)
+### Root Dokumen (18 file per kelas)
 
 | # | File | Deskripsi |
 |---|------|-----------|
@@ -93,40 +95,39 @@ kerja_2026-2027/
 | 10 | `REMEDIAL` | Program Remedial & Pengayaan |
 | 11 | `INVENTARIS_LAB` | Inventaris Laboratorium Komputer |
 | 12 | `JADWAL_LAB` | Jadwal Lab & Buku Praktik |
+| 13 | `7KAIH` | Program Pembiasaan 7 Kebiasaan Anak Indonesia Hebat |
+| 14 | `PANDUAN_7KAIH_DEEP_LEARNING` | Panduan integrasi 7KAIH + Deep Learning |
 
 ### Modul Ajar
 
-| Kelas | Jumlah Modul | Pembagian |
-|-------|:-----------:|-----------|
-| X | 33 | 00 (pengenalan) + 1-32 (Bab 1-9) |
-| XI | 40 | 01-40 (Bab 1-6) |
-| XII | 40 | 1.01-6.08 (Bab 1-6) |
+| Kelas | Jumlah Modul | Pembagian | Catatan |
+|-------|:-----------:|-----------|---------|
+| X | 32 | 00 (pengenalan) + 01-32 (Bab 1-9) | Statis, diupdate via `update_modul_ajar.py` |
+| XI | 40 | 01-40 (Bab 1-6) | Statis, diupdate via `update_modul_ajar.py` |
+| XII | 36 | 1.01-6.08 (Bab 1-6) | Digenerate oleh `generate_xii.py` |
 
 Setiap kelas juga dilengkapi:
 - **PTS Ganjil** — Penilaian Tengah Semester
 - **PAT Genap** — Penilaian Akhir Tahun
 - **Review Semester 1** — Review Bab ganjil
 - **Review Semester 2** — Review Bab genap
+- **13_7KAIH.md** — Program pembiasaan 7 KAIH per kelas
+- **PANDUAN_7KAIH_DEEP_LEARNING.md** — Panduan integrasi 7KAIH + Deep Learning
 
 ---
 
 ## 🚀 Generator Script
 
-Setiap kelas memiliki generator Python untuk membuat ulang dokumen root administrasi:
+Setiap kelas memiliki generator Python untuk membuat ulang dokumen root administrasi dan dokumen terkait:
 
 ```bash
-# Kelas X
-cd administrasi_guru_kelas_X
-python3 generate_x.py
-
-# Kelas XI
-cd administrasi_guru_kelas_XI
-python3 generate_xi.py
-
-# Kelas XII
-cd administrasi_guru_kelas_XII
-python3 generate_xii.py
+# Generate root dokumen (16 file) + 13_7KAIH.md + PANDUAN_7KAIH_DEEP_LEARNING.md
+cd administrasi_guru_kelas_X && python3 generate_x.py
+cd administrasi_guru_kelas_XI && python3 generate_xi.py
+cd administrasi_guru_kelas_XII && python3 generate_xii.py
 ```
+
+> **Catatan:** `generate_xii.py` juga menghasilkan 36 modul ajar kelas XII dengan format Deep Learning + 7KAIH.
 
 Generator materi juga tersedia di masing-masing folder `Materi/`:
 
@@ -135,13 +136,26 @@ cd administrasi_guru_kelas_X/Materi
 python3 generate_materi_x.py
 ```
 
-> **Catatan:** Modul ajar bersifat statis (.md) dan tidak dihasilkan dari script — diedit langsung.
+### Script Pendukung
+
+```bash
+# Batch-update semua modul ajar kelas X dan XI ke format Deep Learning + 7KAIH
+python3 update_modul_ajar.py
+
+# Build web statis (229 halaman HTML)
+python3 convert_to_web.py
+```
+
+> **Catatan:** Modul ajar kelas X dan XI bersifat statis (.md) — diedit langsung atau diupdate batch via `update_modul_ajar.py`. Modul ajar kelas XII dihasilkan otomatis oleh `generate_xii.py`.
 
 ---
 
 ## 🎯 Fitur
 
-- **8 Dimensi Profil Lulusan** — menggantikan P5 (Profil Pelajar Pancasila) sesuai kebijakan Deep Learning 2025/2026
+- **8 Dimensi Profil Lulusan** — kompetensi kokurikuler sesuai Permendikdasmen No. 13/2025 (P5 tetap berjalan sebagai proyek tematik, diperkuat pendekatan Deep Learning)
+- **7 KAIH (7 Kebiasaan Anak Indonesia Hebat)** — pembiasaan karakter harian (SEB 3 Menteri No. 1/2025 + SE No. 14/2025) terintegrasi di setiap modul ajar + program khusus `13_7KAIH.md`
+- **Panduan Integrasi** — `PANDUAN_7KAIH_DEEP_LEARNING.md` di setiap kelas + `docs/` sebagai referensi guru
+- **Pendekatan Deep Learning** — Mindful → Mining → Joyful sebagai metode pembelajaran di setiap modul ajar
 - **Konten menarik** — dilengkapi analogi, diagram ASCII, contoh nyata, dan studi kasus
 - **Rubrik 4 level** — deskripsi konkret untuk setiap level pencapaian
 - **LKPD original** — soal dan tugas relevan, spesifik per topik
@@ -159,6 +173,8 @@ https://natedekaka.github.io/kerja_2026-2027/
 ```
 
 Fitur: dark mode, search, animasi, back-to-top, mobile hamburger, progress bar, tim MGMP.
+
+> **Build ulang:** `python3 convert_to_web.py` — menghasilkan **229 halaman HTML** dari seluruh file `.md` (termasuk `13_7KAIH.md` dan `PANDUAN_7KAIH_DEEP_LEARNING.md`).
 
 ---
 

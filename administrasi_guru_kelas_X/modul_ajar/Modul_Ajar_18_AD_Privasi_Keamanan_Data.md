@@ -17,6 +17,8 @@
 | Pertemuan ke- | 18 |
 | Kompetensi Awal | Peserta didik telah memahami perbedaan data, informasi, dan pengetahuan (DIKW). Peserta didik juga telah membawa data mentah untuk diolah pada pertemuan sebelumnya. |
 | Integrasi 8 Dimensi | Keimanan & Bertakwa (menjaga data pribadi sebagai amanah dan tanggung jawab moral), Penalaran Kritis (menganalisis kebocoran data dan UU PDP), Kemandirian (mengelola privasi digital sendiri), Kolaborasi (simulasi keputusan izin aplikasi) |
+| **Integrasi 7 KAIH** | Makan Sehat, Tidur Cepat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Komputer/lab, proyektor, screenshot permintaan izin aplikasi, artikel berita kebocoran data di Indonesia, HP siswa untuk cek izin aplikasi, lembar audit |
 | Target Peserta Didik | Reguler (dengan diferensiasi 3 tingkat) |
 | Model Pembelajaran | Studi Kasus + Diskusi + Simulasi |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kemendikbud Bab 6, UU PDP No. 27/2022, berita kebocoran data Indonesia (Tokopedia 2020, BPJS 2021), artikel "Privasi Digital" dari ICT Watch |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Data adalah 'minyak baru' di era digital. Kemampuan menganalisis data membuka peluang karir dan membantu pengambilan keputusan yang lebih baik.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 
@@ -49,15 +59,15 @@ Data pribadi, data sensitif, kebocoran data, UU PDP, privasi digital, izin aplik
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Pernah dapat SMS spam? Atau tiba-tiba ditawari produk yang baru kalian cari?" — itu karena data kalian bocor. 4) Apersepsi: "Data apa saja di HP kalian yang menurut kalian berharga?" 5) Asesmen diagnostik: 3 pertanyaan tentang privasi. 6) Menyampaikan TP dan indikator | 1) Menjawab salam dan berdoa. 2) Berbagi pengalaman dapat spam. 3) Menyebutkan data berharga di HP. 4) Menjawab diagnostik. 5) Mencatat TP | Proyektor, slide, papan tulis |
-| **Inti — Jenis Data Pribadi** | 10 menit | 1) Menjelaskan klasifikasi data pribadi: Umum (nama, alamat, email, no HP, tempat tanggal lahir) vs Spesifik/Sensitif (KTP, data medis, biometrik, finansial, politik, keyakinan). 2) Tanya: "Kenapa data sensitif lebih dilindungi?" 3) Diskusi: "Data apa yang kalian upload ke media sosial?" | 1) Menyimak dan mencatat. 2) Berdiskusi data sensitif. 3) Refleksi data yang pernah diupload ke medsos | Proyektor, slide klasifikasi data |
-| **Inti — Studi Kasus Kebocoran** | 20 menit | 1) Menampilkan berita kebocoran data di Indonesia: Tokopedia (2020, 91 juta data bocor — nama, email, password hash), BPJS Kesehatan (2021, 279 juta data — termasuk data sensitif). 2) Analisis bersama: apa yang bocor? bagaimana cara bocornya? apa dampaknya bagi korban? 3) Meminta siswa berdiskusi dalam kelompok: "Apa pelajaran dari kasus ini?" 4) Menghubungkan dengan konsep tanggung jawab moral: data pasien BPJS adalah data sensitif yang seharusnya dijaga ketat | 1) Membaca berita kebocoran. 2) Berdiskusi dampak kebocoran. 3) Mencatat analisis. 4) Berdiskusi pelajaran dari kasus | Artikel berita, proyektor, LKPD |
-| **Inti — UU PDP** | 10 menit | 1) Memperkenalkan UU PDP No. 27/2022 tentang Perlindungan Data Pribadi. 2) Menjelaskan hak pemilik data: hak tahu, hak akses, hak perbaiki, hak hapus, hak tarik consent, hak gugat. 3) Menjelaskan kewajiban pengelola data: menjaga kerahasiaan, lapor kebocoran, batas waktu simpan. 4) Sanksi: pidana penjara maksimal 6 tahun dan/atau denda maksimal Rp 6 miliar | 1) Menyimak dan mencatat. 2) Membaca poin-poin UU PDP. 3) Bertanya jika ada yang kurang jelas | Slide UU PDP, dokumen ringkasan UU |
-| **Inti — Simulasi Izin Aplikasi** | 15 menit | 1) Menampilkan screenshot permintaan izin aplikasi (5 skenario). 2) Skenario 1: aplikasi kamera minta izin kamera — wajar/tidak? Skenario 2: aplikasi senter minta izin kontak — wajar? Skenario 3: game minta izin lokasi — wajar? Skenario 4: aplikasi cuaca minta izin lokasi — wajar? Skenario 5: aplikasi edit foto minta izin microphone — wajar? 3) Meminta siswa voting dengan tangan. 4) Membahas setiap skenario dan alasannya | 1) Mengamati setiap skenario. 2) Voting wajar/tidak wajar. 3) Menjelaskan alasan keputusan. 4) Mencatat keputusan di LKPD | Proyektor, screenshot izin aplikasi, LKPD |
-| **Inti — Tips Proteksi** | 10 menit | 1) Menjelaskan 5 tips proteksi data: (a) Gunakan password manager, (b) Aktifkan 2FA di akun penting, (c) Jangan klik link sembarangan, (d) Cek izin aplikasi secara berkala, (e) Gunakan VPN di WiFi publik. 2) Demo: menampilkan aplikasi password manager (Bitwarden). 3) Demo: cara mengaktifkan 2FA di Google/Gmail | 1) Menyimak dan mencatat. 2) Mengamati demo. 3) Bertanya jika ada yang kurang jelas | Proyektor, demo aplikasi |
-| **Penutup** | 15 menit | 1) Refleksi: "Data pribadi apa yang paling berharga yang kamu miliki?" 2) Tugas: audit 3 aplikasi di HP — buka Settings → Apps → pilih aplikasi → lihat izin yang diminta → catat mana wajar dan mana yang mencurigakan. 3) Penguatan: menjaga data pribadi adalah bentuk menjaga amanah. 4) Doa | 1) Refleksi. 2) Mencatat tugas audit. 3) Berdoa | Lembar refleksi, HP siswa |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Pernah dapat SMS spam? Atau tiba-tiba ditawari produk yang baru kalian cari?" — itu karena data kalian bocor. 4) Apersepsi: "Data apa saja di HP kalian yang menurut kalian berharga?" 5) Asesmen diagnostik: 3 pertanyaan tentang privasi. 6) Menyampaikan TP dan indikator | 1) Menjawab salam dan berdoa. 2) Berbagi pengalaman dapat spam. 3) Menyebutkan data berharga di HP. 4) Menjawab diagnostik. 5) Mencatat TP | Proyektor, slide, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Jenis Data Pribadi** | 10 menit | 1) Menjelaskan klasifikasi data pribadi: Umum (nama, alamat, email, no HP, tempat tanggal lahir) vs Spesifik/Sensitif (KTP, data medis, biometrik, finansial, politik, keyakinan). 2) Tanya: "Kenapa data sensitif lebih dilindungi?" 3) Diskusi: "Data apa yang kalian upload ke media sosial?" | 1) Menyimak dan mencatat. 2) Berdiskusi data sensitif. 3) Refleksi data yang pernah diupload ke medsos | Proyektor, slide klasifikasi data |
+| **MINING FULL** | **Eksplorasi** — Studi Kasus Kebocoran** | 20 menit | 1) Menampilkan berita kebocoran data di Indonesia: Tokopedia (2020, 91 juta data bocor — nama, email, password hash), BPJS Kesehatan (2021, 279 juta data — termasuk data sensitif). 2) Analisis bersama: apa yang bocor? bagaimana cara bocornya? apa dampaknya bagi korban? 3) Meminta siswa berdiskusi dalam kelompok: "Apa pelajaran dari kasus ini?" 4) Menghubungkan dengan konsep tanggung jawab moral: data pasien BPJS adalah data sensitif yang seharusnya dijaga ketat | 1) Membaca berita kebocoran. 2) Berdiskusi dampak kebocoran. 3) Mencatat analisis. 4) Berdiskusi pelajaran dari kasus | Artikel berita, proyektor, LKPD |
+| **MINING FULL** | **Eksplorasi** — UU PDP** | 10 menit | 1) Memperkenalkan UU PDP No. 27/2022 tentang Perlindungan Data Pribadi. 2) Menjelaskan hak pemilik data: hak tahu, hak akses, hak perbaiki, hak hapus, hak tarik consent, hak gugat. 3) Menjelaskan kewajiban pengelola data: menjaga kerahasiaan, lapor kebocoran, batas waktu simpan. 4) Sanksi: pidana penjara maksimal 6 tahun dan/atau denda maksimal Rp 6 miliar | 1) Menyimak dan mencatat. 2) Membaca poin-poin UU PDP. 3) Bertanya jika ada yang kurang jelas | Slide UU PDP, dokumen ringkasan UU |
+| **MINING FULL** | **Eksplorasi** — Simulasi Izin Aplikasi** | 15 menit | 1) Menampilkan screenshot permintaan izin aplikasi (5 skenario). 2) Skenario 1: aplikasi kamera minta izin kamera — wajar/tidak? Skenario 2: aplikasi senter minta izin kontak — wajar? Skenario 3: game minta izin lokasi — wajar? Skenario 4: aplikasi cuaca minta izin lokasi — wajar? Skenario 5: aplikasi edit foto minta izin microphone — wajar? 3) Meminta siswa voting dengan tangan. 4) Membahas setiap skenario dan alasannya | 1) Mengamati setiap skenario. 2) Voting wajar/tidak wajar. 3) Menjelaskan alasan keputusan. 4) Mencatat keputusan di LKPD | Proyektor, screenshot izin aplikasi, LKPD |
+| **MINING FULL** | **Eksplorasi** — Tips Proteksi** | 10 menit | 1) Menjelaskan 5 tips proteksi data: (a) Gunakan password manager, (b) Aktifkan 2FA di akun penting, (c) Jangan klik link sembarangan, (d) Cek izin aplikasi secara berkala, (e) Gunakan VPN di WiFi publik. 2) Demo: menampilkan aplikasi password manager (Bitwarden). 3) Demo: cara mengaktifkan 2FA di Google/Gmail | 1) Menyimak dan mencatat. 2) Mengamati demo. 3) Bertanya jika ada yang kurang jelas | Proyektor, demo aplikasi |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | 1) Refleksi: "Data pribadi apa yang paling berharga yang kamu miliki?" 2) Tugas: audit 3 aplikasi di HP — buka Settings → Apps → pilih aplikasi → lihat izin yang diminta → catat mana wajar dan mana yang mencurigakan. 3) Penguatan: menjaga data pribadi adalah bentuk menjaga amanah. 4) Doa | 1) Refleksi. 2) Mencatat tugas audit. 3) Berdoa | Lembar refleksi, HP siswa |
 
 ### D. ASESMEN
 
@@ -80,7 +90,7 @@ Observasi saat simulasi izin aplikasi dan diskusi kasus kebocoran. Voting keakti
 #### D.4 Rubrik Penilaian
 
 | Aspek | SB = 4 (Sangat Baik) | B = 3 (Baik) | C = 2 (Cukup) | PB = 1 (Perlu Bimbingan) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Analisis kebocoran data | Penyebab + dampak + pelajaran teridentifikasi dengan analisis mendalam | 3 aspek teridentifikasi | 2 aspek | < 2 aspek |
 | Simulasi izin aplikasi | 5 keputusan tepat + alasan logis | 4 keputusan tepat | 3 keputusan tepat | < 3 |
 | Audit izin aplikasi | 3 aplikasi lengkap + analisis izin wajar/tidak wajar + rekomendasi | 3 aplikasi diaudit, tercatat | 2 aplikasi | Tidak mengumpulkan |
@@ -114,7 +124,7 @@ Nama Kasus: ________
 **Bagian C: Simulasi Izin Aplikasi**
 
 | No | Aplikasi | Izin Diminta | Wajar/Tidak | Alasan |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 1 | Kamera | Kamera | ________ | ________ |
 | 2 | Senter | Kontak | ________ | ________ |
 | 3 | Game | Lokasi | ________ | ________ |

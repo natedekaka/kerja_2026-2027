@@ -6,12 +6,16 @@
 
 ### A. LATAR BELAKANG
 
-Berdasarkan kebijakan Kemendikdasmen tahun 2025, **P5 (Projek Penguatan Profil Pelajar Pancasila) resmi dihapus** dan digantikan dengan konsep **Profil Lulusan 8 Dimensi**. Perubahan ini berlaku mulai tahun ajaran 2025/2026, sehingga untuk TP 2026/2027 telah sepenuhnya menggunakan kerangka baru.
+Berdasarkan kebijakan Kemendikdasmen melalui **Permendikdasmen No. 13 Tahun 2025**, pendekatan **Pembelajaran Mendalam (Deep Learning)** diperkuat sebagai metode pembelajaran di seluruh jenjang. **P5 (Projek Penguatan Profil Pelajar Pancasila)** tetap berjalan sebagai proyek tematik, diperkuat dengan:
+
+1. **8 Dimensi Profil Lulusan** — kompetensi kokurikuler yang terintegrasi dalam setiap mata pelajaran
+2. **Gerakan 7 Kebiasaan Anak Indonesia Hebat (7 KAIH)** — pembiasaan karakter harian (SEB 3 Menteri No. 1/2025)
+3. **Pendekatan Deep Learning** — Mindful, Meaningful, Joyful melalui olah pikir, olah hati, olah rasa, dan olah raga
 
 **Perubahan utama:**
-- P5 dulunya merupakan kegiatan projek kokurikuler yang berdiri sendiri
-- Kini **8 Dimensi Profil Lulusan** terintegrasi penuh ke dalam **deep learning** di setiap mata pelajaran
-- Tidak ada alokasi jam khusus projek — seluruh jam digunakan untuk pembelajaran bermakna
+- P5 tetap berjalan sebagai proyek tematik, bukan dihapus
+- **8 Dimensi Profil Lulusan** menjadi kerangka kompetensi kokurikuler
+- **7 KAIH** sebagai program pembiasaan harian yang melengkapi P5
 - Pendekatan deep learning: **mindful, meaningful, joyful** melalui pikir, hati, rasa, dan raga
 
 ---
@@ -62,29 +66,34 @@ Setiap modul ajar mengintegrasikan **3 pilar deep learning**:
 
 **Skala:** 4 = Sangat Berkembang | 3 = Berkembang | 2 = Mulai Berkembang | 1 = Belum Terlihat
 
-### F. LEMBAR REFLEKSI SISWA
+### F. INTEGRASI 7 KEBIASAAN ANAK INDONESIA HEBAT (7 KAIH)
+
+| # | Kebiasaan | Aktivitas Terintegrasi | Waktu |
+|---|-----------|------------------------|-------|
+| 1 | **Bangun Pagi** | Presensi tepat waktu sebelum praktik lab | Setiap hari |
+| 2 | **Beribadah** | Doa bersama sebelum KBM, etika digital Islami | Setiap pertemuan |
+| 3 | **Berolahraga** | Senam AIH, jeda ceria peregangan sela coding | 2x/minggu |
+| 4 | **Makan Sehat & Bergizi** | Projek analisis gizi dengan Python (Bab 6) | Semester 2 |
+| 5 | **Gemar Belajar** | Literasi digital 15 menit, riset lateral reading | Setiap pertemuan |
+| 6 | **Bermasyarakat** | Projek aplikasi mobile/AI untuk komunitas | Semester 2 |
+| 7 | **Tidur Cepat** | Kampanye screen time, manajemen waktu digital | Semester 1 |
+
+### G. LEMBAR REFLEKSI SISWA (Deep Learning + 7 KAIH)
 
 | Pertanyaan | Jawaban |
 |---|---|
 | **Mindful:** Apa yang aku pelajari hari ini? | |
 | **Meaningful:** Bagaimana ini terhubung dengan kehidupan nyata? | |
 | **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
-| **Dimensi:** Dimensi mana yang paling berkembang pada diriku? | |
+| **Kebiasaan 7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang paling berkembang? | |
 
 ---
 
-> **Catatan:** Tidak diperlukan modul projek terpisah — seluruh dimensi dikembangkan melalui aktivitas yang sudah dirancang di modul ajar.
+> **Catatan:**
+> - **P5** tetap berjalan sebagai proyek tematik per semester (terintegrasi dalam modul ajar)
+> - **7 KAIH** adalah pembiasaan harian — bukan proyek, tetapi budaya sekolah setiap hari
+> - **8 Dimensi Profil Lulusan** dikembangkan melalui aktivitas yang sudah dirancang di modul ajar
+> - **Pendekatan Deep Learning** (Mindful, Mining, Joyful) diterapkan di setiap kegiatan pembelajaran
 
 ---
-
-Mengetahui,  
-Kepala Sekolah
-
-_________________________
-
-Guru Mata Pelajaran,
-
-Daniarsyah, S.Kom.
-NIP. 198004052022211004
-
-_________________________

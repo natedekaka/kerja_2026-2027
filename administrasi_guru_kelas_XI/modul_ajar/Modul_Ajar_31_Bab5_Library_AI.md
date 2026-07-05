@@ -11,6 +11,10 @@
 | **Pertemuan ke-** | 31 |
 | **Tujuan Pembelajaran** | TP.5.3 |
 | **Integrasi 8 Dimensi** | Penalaran Kritis, Kreativitas |
+| **Integrasi 7 KAIH** | Gemar Belajar, Makan Sehat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
+| **Integrasi 7 KAIH** | Gemar Belajar, Makan Sehat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | **Sarana & Prasarana** | Komputer/lab, proyektor, koneksi internet, LKPD |
 | **Target Peserta Didik** | Reguler (tidak ada kesulitan belajar khusus) |
 | **Model Pembelajaran** | Tatap muka — Problem Based Learning / Project Based Learning |

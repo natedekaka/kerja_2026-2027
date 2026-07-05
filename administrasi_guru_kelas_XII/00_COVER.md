@@ -52,3 +52,26 @@
 | Kesehatan | Pola hidup sehat jasmani dan rohani |
 | Komunikasi | Komunikatif dan efektif dalam menyampaikan gagasan |
 
+
+---
+
+### Gerakan 7 Kebiasaan Anak Indonesia Hebat (7 KAIH)
+
+Berdasarkan **SEB 3 Menteri No. 1 Tahun 2025** dan **SE No. 14 Tahun 2025**:
+
+| # | Kebiasaan | Integrasi dalam Informatika Kelas XII |
+|---|-----------|----------------------------------------|
+| 1 | **Bangun Pagi** | Disiplin waktu praktik lab, tracking proyek IoT |
+| 2 | **Beribadah** | Doa sebelum praktik, etika dalam AI & cyber security |
+| 3 | **Berolahraga** | Senam AIH, ergonomi coding |
+| 4 | **Makan Sehat & Bergizi** | Analisis data gizi dengan C/Python (proyek lintas bidang) |
+| 5 | **Gemar Belajar** | Literasi digital lanjut, eksplorasi AI/ML |
+| 6 | **Bermasyarakat** | Proyek IoT & Arduino untuk masalah nyata sekolah |
+| 7 | **Tidur Cepat** | Edukasi manajemen waktu, screen time tracker |
+
+---
+**Kebijakan Terkait:**
+- **Deep Learning** (Permendikdasmen No. 13/2025) — pendekatan mindful, meaningful, joyful
+- **Profil Lulusan 8 Dimensi** — kompetensi kokurikuler terintegrasi
+- **7 KAIH** (SEB 3 Menteri No. 1/2025) — pembiasaan karakter harian
+- **P5** tetap berjalan sebagai proyek tematik, diperkuat Deep Learning & 7KAIH

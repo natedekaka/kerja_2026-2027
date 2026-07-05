@@ -17,6 +17,8 @@
 | Pertemuan ke- | 8 (delapan) |
 | Kompetensi Awal | Peserta didik telah menggunakan berbagai perangkat lunak (Windows, MS Office, browser, game) tetapi belum memahami klasifikasi lisensi dan aspek legalitasnya |
 | Integrasi 8 Dimensi | Keimanan & Ketakwaan, Penalaran Kritis, Kewargaan |
+| **Integrasi 7 KAIH** | Beribadah, Bermasyarakat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, laptop/komputer, koneksi internet, papan tulis, spidol, LKPD, contoh kontrak lisensi software |
 | Target Peserta Didik | Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan) |
 | Model Pembelajaran | Studi Kasus + Diskusi + Analisis |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 8, website Open Source Initiative (opensource.org), Creative Commons (creativecommons.org), UU Hak Cipta No. 28 Tahun 2014, modul ajar guru |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Teknologi membawa dampak luas ke masyarakat — memahaminya membantu kita menjadi pengguna teknologi yang bertanggung jawab.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 1. Menjelaskan pengertian HAKI (Hak Atas Kekayaan Intelektual) dan kaitannya dengan hak cipta perangkat lunak.
@@ -46,14 +56,14 @@ HAKI, hak cipta, lisensi, proprietary, open source, free software, MIT license, 
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10' | Guru membuka kelas dengan pertanyaan: "Beli buku bajakan vs original — bedanya apa? Kenapa software MS Office mahal? Ada yang pernah download software bajakan?" Guru menyampaikan TP. | Siswa merespons. Beberapa siswa mungkin mengakui pernah menggunakan software bajakan. Siswa diajak berpikir kritis tanpa dihakimi. | Proyektor, slide pembuka |
-| **Inti — Sesi 1** | 10' | Guru menjelaskan HAKI: hak moral (mencantumkan nama pencipta) dan hak ekonomi (mendapatkan royalty). Guru menjelaskan UU Hak Cipta No. 28 Tahun 2014: ciptaan dilindungi selama 50 tahun setelah pencipta meninggal. | Siswa menyimak dan mencatat. Siswa bertanya tentang batasan hak cipta di Indonesia. | Slide UU Hak Cipta, papan tulis |
-| **Inti — Sesi 2** | 15' | Guru menjelaskan lisensi proprietary (contoh: Windows, MS Office, Adobe Photoshop, WinRAR) — pengguna membayar lisensi, source code tertutup, tidak boleh dimodifikasi. Guru menjelaskan lisensi open source (contoh: Linux, Python, VS Code, Firefox, Android AOSP) — source code terbuka, boleh dimodifikasi, didistribusikan ulang. | Siswa menyimak dan mencatat perbedaan. Siswa menyebutkan software yang mereka ketahui dan mengklasifikasikan proprietary vs open source. | Slide perbandingan lisensi |
-| **Inti — Sesi 3** | 20' | Guru menjelaskan jenis open source: MIT (sangat bebas, bisa dijadikan proprietary — contoh: React, Node.js), GPL (wajib open source turunan — contoh: Linux kernel, WordPress), Apache (seperti MIT dengan klausa paten — contoh: Android, Kubernetes), BSD (bebas seperti MIT — contoh: FreeBSD, Nginx), Creative Commons (CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC0 — untuk karya non-software). | Siswa mencatat jenis lisensi dan contohnya. Siswa mengerjakan klasifikasi di LKPD. | Slide jenis lisensi, LKPD |
-| **Inti — Studi Kasus** | 20' | Guru memberikan studi kasus: "Seorang developer Indonesia membuat aplikasi belajar mengaji untuk Android. Ia ingin aplikasinya digunakan luas tetapi tidak ingin dikomersialisasi oleh pihak lain. Lisensi apa yang tepat?" Siswa berdiskusi dalam kelompok dan mempresentasikan keputusan. | Siswa berdiskusi dalam kelompok (4-5 orang). Siswa menganalisis kebutuhan developer. Siswa memilih lisensi dan menyiapkan argumen. Presentasi 2 menit per kelompok. | LKPD studi kasus, HP untuk riset |
-| **Penutup** | 15' | Guru memimpin refleksi: "Apakah kalian pernah melanggar HAKI? (software bajakan, download lagu ilegal, screenshot konten berbayar) — apa solusinya?" Guru memberikan tugas: cek lisensi 5 software di komputer kalian. Guru menutup kelas. | Siswa menjawab refleksi dengan jujur. Siswa berdiskusi tentang alternatif legal (software gratis, open source, gratis untuk pelajar). Siswa mencatat tugas. | Papan tulis, buku catatan |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10' | Guru membuka kelas dengan pertanyaan: "Beli buku bajakan vs original — bedanya apa? Kenapa software MS Office mahal? Ada yang pernah download software bajakan?" Guru menyampaikan TP. | Siswa merespons. Beberapa siswa mungkin mengakui pernah menggunakan software bajakan. Siswa diajak berpikir kritis tanpa dihakimi. | Proyektor, slide pembuka |
+| **MINING FULL** | **Eksplorasi** — Sesi 1** | 10' | Guru menjelaskan HAKI: hak moral (mencantumkan nama pencipta) dan hak ekonomi (mendapatkan royalty). Guru menjelaskan UU Hak Cipta No. 28 Tahun 2014: ciptaan dilindungi selama 50 tahun setelah pencipta meninggal. | Siswa menyimak dan mencatat. Siswa bertanya tentang batasan hak cipta di Indonesia. | Slide UU Hak Cipta, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Sesi 2** | 15' | Guru menjelaskan lisensi proprietary (contoh: Windows, MS Office, Adobe Photoshop, WinRAR) — pengguna membayar lisensi, source code tertutup, tidak boleh dimodifikasi. Guru menjelaskan lisensi open source (contoh: Linux, Python, VS Code, Firefox, Android AOSP) — source code terbuka, boleh dimodifikasi, didistribusikan ulang. | Siswa menyimak dan mencatat perbedaan. Siswa menyebutkan software yang mereka ketahui dan mengklasifikasikan proprietary vs open source. | Slide perbandingan lisensi |
+| **MINING FULL** | **Eksplorasi** — Sesi 3** | 20' | Guru menjelaskan jenis open source: MIT (sangat bebas, bisa dijadikan proprietary — contoh: React, Node.js), GPL (wajib open source turunan — contoh: Linux kernel, WordPress), Apache (seperti MIT dengan klausa paten — contoh: Android, Kubernetes), BSD (bebas seperti MIT — contoh: FreeBSD, Nginx), Creative Commons (CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC0 — untuk karya non-software). | Siswa mencatat jenis lisensi dan contohnya. Siswa mengerjakan klasifikasi di LKPD. | Slide jenis lisensi, LKPD |
+| **MINING FULL** | **Eksplorasi** — Studi Kasus** | 20' | Guru memberikan studi kasus: "Seorang developer Indonesia membuat aplikasi belajar mengaji untuk Android. Ia ingin aplikasinya digunakan luas tetapi tidak ingin dikomersialisasi oleh pihak lain. Lisensi apa yang tepat?" Siswa berdiskusi dalam kelompok dan mempresentasikan keputusan. | Siswa berdiskusi dalam kelompok (4-5 orang). Siswa menganalisis kebutuhan developer. Siswa memilih lisensi dan menyiapkan argumen. Presentasi 2 menit per kelompok. | LKPD studi kasus, HP untuk riset |
+| **JOYFULL** | **Penutup Kreatif** | 15' | Guru memimpin refleksi: "Apakah kalian pernah melanggar HAKI? (software bajakan, download lagu ilegal, screenshot konten berbayar) — apa solusinya?" Guru memberikan tugas: cek lisensi 5 software di komputer kalian. Guru menutup kelas. | Siswa menjawab refleksi dengan jujur. Siswa berdiskusi tentang alternatif legal (software gratis, open source, gratis untuk pelajar). Siswa mencatat tugas. | Papan tulis, buku catatan |
 
 ### D. ASESMEN
 
@@ -76,7 +86,7 @@ HAKI, hak cipta, lisensi, proprietary, open source, free software, MIT license, 
 
 #### D.4 Rubrik Penilaian Analisis Lisensi
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Pemahaman jenis lisensi** | Menguasai semua perbedaan (MIT, GPL, Apache, BSD, CC) dengan contoh riil | Menguasai perbedaan 4 jenis lisensi | Menguasai perbedaan 3 jenis lisensi | Hanya menguasai 1-2 jenis lisensi |
 | **Klasifikasi software** | Mengklasifikasikan 5+ software dengan tepat ke proprietary/open source | 4 software tepat | 3 software tepat | Kurang dari 3 tepat |
 | **Analisis studi kasus** | Memilih lisensi tepat dengan 3+ argumen logis dan menyebutkan implikasi | Memilih lisensi tepat dengan 2 argumen | Memilih lisensi tepat tanpa argumen kuat | Memilih lisensi salah |
@@ -116,7 +126,7 @@ Klasifikasikan software berikut ke dalam Proprietary atau Open Source!
 
 #### E.2 Tabel Perbedaan Lisensi Open Source
 | Lisensi | Bebas Digunakan | Wajib Open Source | Dapat Dikomersialkan | Contoh Software |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | MIT | Ya | Tidak | Ya | React, Node.js |
 | GPL | Ya | Ya | Ya | Linux, WordPress |
 | Apache | Ya | Tidak | Ya | Android, Kubernetes |
@@ -159,6 +169,52 @@ Klasifikasikan software berikut ke dalam Proprietary atau Open Source!
 - **GNU Operating System — Various Licenses and Comments** — https://www.gnu.org/licenses/license-list.html — daftar lisensi dari perspektif GNU
 
 ---
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 Mengetahui,  
 Kepala Sekolah

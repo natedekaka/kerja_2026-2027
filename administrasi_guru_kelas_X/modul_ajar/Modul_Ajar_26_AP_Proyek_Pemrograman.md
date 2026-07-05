@@ -17,6 +17,8 @@
 | Pertemuan ke- | 6 (enam) |
 | Kompetensi Awal | Peserta didik telah menguasai variabel, percabangan, perulangan, fungsi, dan debugging Python |
 | Integrasi 8 Dimensi | Kreativitas, Kemandirian, Penalaran Kritis, Kolaborasi |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bangun Pagi |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor/LCD, laptop/komputer, Python IDLE atau Google Colab/Replit, koneksi internet, LKPD proyek, rubrik penilaian |
 | Target Peserta Didik | Reguler (dengan diferensiasi untuk peserta didik yang membutuhkan bimbingan dan percepatan) |
 | Model Pembelajaran | Project Based Learning (PjBL) |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 7, dokumentasi Python, contoh proyek Python untuk pemula (GitHub), modul ajar guru |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Pemrograman adalah cara kita 'berbicara' dengan komputer dan menciptakan solusi digital untuk masalah nyata.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 1. Merencanakan pengembangan program dengan menentukan fitur, membuat pseudocode, dan merancang struktur fungsi-fungsi yang dibutuhkan.
@@ -46,15 +56,15 @@ Proyek pemrograman, software development lifecycle, perencanaan, implementasi, p
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10' | Guru membuka kelas dan memberikan motivasi: "Hari ini kalian jadi programmer sungguhan — buat program dari awal sampai jadi!" Guru menyampaikan TP dan rubrik penilaian proyek. | Siswa merespons. Siswa menyimak TP dan rubrik. Siswa bersiap memilih proyek. | Proyektor, slide rubrik |
-| **Inti — Pemilihan Proyek** | 5' | Guru menyajikan 3 opsi proyek: (A) Program pengelolaan daftar tugas/todo list, (B) Program kalkulator BMI + kategori kesehatan, (C) Program data nilai siswa. Guru menjelaskan setiap opsi. | Siswa memilih 1 dari 3 proyek. Siswa boleh bekerja individu atau berpasangan. | Slide 3 opsi proyek |
-| **Inti — Perencanaan** | 15' | Guru membimbing siswa menulis rencana: fitur-fitur, pseudocode, daftar fungsi yang dibutuhkan. Guru memberikan template perencanaan di LKPD. | Siswa menulis rencana proyek di LKPD. Siswa mendiskusikan dengan pasangan (jika berpasangan). | LKPD perencanaan proyek |
-| **Inti — Implementasi** | 30' | Guru memfasilitasi sesi coding. Guru berkeliling memberikan bantuan teknis dan bertanya progress. Guru mengingatkan tentang struktur kode yang rapi dan komentar. | Siswa menulis kode Python. Siswa mengimplementasikan fitur satu per satu. Siswa melakukan debugging mandiri saat menemui error. | Python IDLE/Colab, LKPD |
-| **Inti — Pengujian** | 10' | Guru memberikan instruksi pengujian: uji program dengan 3 skenario (input normal, input batas, input error). Guru memberikan format tabel pengujian. | Siswa menguji program dengan berbagai input. Siswa mencatat hasil pengujian di tabel. Siswa memperbaiki error yang ditemukan. | LKPD tabel pengujian |
-| **Inti — Peer Review** | 5' | Guru mengatur sesi tukar program dengan teman. Guru memberikan panduan peer review: cari 1 kelebihan dan 1 saran perbaikan. | Siswa bertukar program dengan teman. Siswa mencoba program teman dan memberikan masukan. | Program pasangan |
-| **Penutup** | 15' | Guru mengumumkan: program dikumpulkan + demo 2 terbaik di pertemuan berikut. Guru memberikan lembar refleksi individu. Guru menutup kelas. | Siswa mengumpulkan program. Siswa mengisi lembar refleksi. Siswa berdoa. | Lembar refleksi, Google Classroom |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10' | Guru membuka kelas dan memberikan motivasi: "Hari ini kalian jadi programmer sungguhan — buat program dari awal sampai jadi!" Guru menyampaikan TP dan rubrik penilaian proyek. | Siswa merespons. Siswa menyimak TP dan rubrik. Siswa bersiap memilih proyek. | Proyektor, slide rubrik |
+| **MINING FULL** | **Eksplorasi** — Pemilihan Proyek** | 5' | Guru menyajikan 3 opsi proyek: (A) Program pengelolaan daftar tugas/todo list, (B) Program kalkulator BMI + kategori kesehatan, (C) Program data nilai siswa. Guru menjelaskan setiap opsi. | Siswa memilih 1 dari 3 proyek. Siswa boleh bekerja individu atau berpasangan. | Slide 3 opsi proyek |
+| **MINING FULL** | **Eksplorasi** — Perencanaan** | 15' | Guru membimbing siswa menulis rencana: fitur-fitur, pseudocode, daftar fungsi yang dibutuhkan. Guru memberikan template perencanaan di LKPD. | Siswa menulis rencana proyek di LKPD. Siswa mendiskusikan dengan pasangan (jika berpasangan). | LKPD perencanaan proyek |
+| **MINING FULL** | **Eksplorasi** — Implementasi** | 30' | Guru memfasilitasi sesi coding. Guru berkeliling memberikan bantuan teknis dan bertanya progress. Guru mengingatkan tentang struktur kode yang rapi dan komentar. | Siswa menulis kode Python. Siswa mengimplementasikan fitur satu per satu. Siswa melakukan debugging mandiri saat menemui error. | Python IDLE/Colab, LKPD |
+| **MINING FULL** | **Eksplorasi** — Pengujian** | 10' | Guru memberikan instruksi pengujian: uji program dengan 3 skenario (input normal, input batas, input error). Guru memberikan format tabel pengujian. | Siswa menguji program dengan berbagai input. Siswa mencatat hasil pengujian di tabel. Siswa memperbaiki error yang ditemukan. | LKPD tabel pengujian |
+| **MINING FULL** | **Eksplorasi** — Peer Review** | 5' | Guru mengatur sesi tukar program dengan teman. Guru memberikan panduan peer review: cari 1 kelebihan dan 1 saran perbaikan. | Siswa bertukar program dengan teman. Siswa mencoba program teman dan memberikan masukan. | Program pasangan |
+| **JOYFULL** | **Penutup Kreatif** | 15' | Guru mengumumkan: program dikumpulkan + demo 2 terbaik di pertemuan berikut. Guru memberikan lembar refleksi individu. Guru menutup kelas. | Siswa mengumpulkan program. Siswa mengisi lembar refleksi. Siswa berdoa. | Lembar refleksi, Google Classroom |
 
 ### D. ASESMEN
 
@@ -77,7 +87,7 @@ Proyek pemrograman, software development lifecycle, perencanaan, implementasi, p
 
 #### D.4 Rubrik Penilaian Proyek Pemrograman
 | Aspek | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Fungsionalitas (40%)** | Semua fitur berjalan sempurna, program stabil tidak crash | Sebagian besar fitur berjalan, 1 fitur minor tidak berfungsi | Beberapa fitur berjalan, ada bug signifikan | Program tidak dapat dijalankan |
 | **Struktur kode (30%)** | Kode terstruktur dengan fungsi-fungsi yang jelas, variabel bermakna, ada komentar | Kode terstruktur dengan fungsi, beberapa variabel kurang bermakna | Kode kurang terstruktur, banyak kode di main, sedikit komentar | Kode tidak terstruktur, semua dalam satu blok, tanpa komentar |
 | **Dokumentasi (15%)** | Ada perencanaan, pseudocode, tabel pengujian, dan refleksi lengkap | Ada perencanaan dan pengujian, tanpa refleksi | Ada perencanaan saja | Tidak ada dokumentasi |
@@ -85,7 +95,7 @@ Proyek pemrograman, software development lifecycle, perencanaan, implementasi, p
 
 #### D.5 Tabel Pengujian Program
 | Skenario | Input | Output yang Diharapkan | Output Aktual | Status |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Normal | | | | |
 | Batas (Edge Case) | | | | |
 | Error | | | | |
@@ -149,7 +159,7 @@ Fitur minimal:
 
 #### E.3 Tabel Pengujian
 | Skenario | Input | Output Diharapkan | Output Aktual | Perbaikan |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 1. Normal | | | | |
 | 2. Batas | | | | |
 | 3. Error | | | | |
@@ -188,6 +198,52 @@ Saran perbaikan:
 - **"How to Design Programs" oleh Felleisen, Findler, Flatt, Krishnamurthi** — pendekatan sistematis dalam merancang program (cocok untuk guru yang ingin mendalami pedagogi pemrograman)
 
 ---
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
+
+
+---
+
+### G. REFLEKSI PEMBELAJARAN (DEEP LEARNING + 7 KAIH)
+
+#### Refleksi Guru:
+| Aspek | Catatan |
+|-------|---------|
+| Apakah pendekatan Mindful \u2192 Mining \u2192 Joyful berjalan efektif? | |
+| Apakah siswa aktif berpartisipasi? | |
+| Apakah integrasi 7 KAIH terlaksana? | |
+| Apa yang perlu diperbaiki? | |
+| Tindak lanjut: remedial/pengayaan? | |
+
+#### Refleksi Siswa:
+| Pertanyaan | Jawaban |
+|------------|---------|
+| **Mindful:** Apa yang aku pelajari hari ini? | |
+| **Meaningful:** Bagaimana ini berguna untuk kehidupanku? | |
+| **Joyful:** Hal paling menyenangkan dari pembelajaran hari ini? | |
+| **7 KAIH:** Kebiasaan baik apa yang aku praktikkan hari ini? | |
+| **Dimensi:** Dimensi Profil Lulusan mana yang terasah? | |
 
 Mengetahui,  
 Kepala Sekolah

@@ -17,6 +17,8 @@
 | Pertemuan ke- | 19 |
 | Kompetensi Awal | Peserta didik telah memahami konsep data, informasi, pengetahuan (DIKW) dan privasi data. Peserta didik telah membawa data mentah (1 minggu pengeluaran jajan atau data pilihan sendiri) dari pertemuan sebelumnya. |
 | Integrasi 8 Dimensi | Kemandirian (mengelola data sendiri), Kreativitas (menyajikan data hasil olahan), Penalaran Kritis (memutuskan metode pembersihan dan transformasi), Kolaborasi (polling kelas dan kerja kelompok) |
+| **Integrasi 7 KAIH** | Makan Sehat, Tidur Cepat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Komputer/lab dengan Google Sheets/Excel, akses internet, Google Forms, data mentah bawaan siswa, proyektor, koneksi internet |
 | Target Peserta Didik | Reguler (dengan diferensiasi 3 tingkat) |
 | Model Pembelajaran | Praktik Langsung |
@@ -25,6 +27,14 @@
 | Pertemuan ke- | 19 |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Data adalah 'minyak baru' di era digital. Kemampuan menganalisis data membuka peluang karir dan membantu pengambilan keputusan yang lebih baik.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan Pembelajaran
 
@@ -49,14 +59,14 @@ Google Forms, data collection, data cleaning, deduplication, missing values, dat
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Minggu lalu kalian disuruh bawa data mentah — sekarang kita olah bersama!" 4) Mengecek siapa yang sudah membawa data. 5) Bagi yang belum bawa: data polling kelas akan digunakan sebagai alternatif. 6) Apersepsi: "Setelah data terkumpul, apa langkah selanjutnya?" 7) Menyampaikan TP | 1) Menjawab salam dan berdoa. 2) Menunjukkan data yang dibawa. 3) Menyimak alternatif. 4) Menjawab apersepsi. 5) Mencatat TP | Proyektor, data siswa, slide |
-| **Inti — Pengumpulan Data** | 20 menit | 1) Mendemonstrasikan membuat Google Forms: judul, deskripsi, pertanyaan. 2) Membimbing siswa membuat form untuk polling kelas — topik pilihan: hobi, warna favorit, makanan favorit, jam belajar per hari, transportasi ke sekolah. 3) Tipe pertanyaan: multiple choice, checkbox, short answer, linear scale. 4) Setelah form jadi, membagikan link ke kelas. 5) Semua siswa mengisi form teman sekelas | 1) Membuat Google Forms. 2) Menambahkan 5 pertanyaan dengan tipe variatif. 3) Mengirim link form ke teman. 4) Mengisi form teman. 5) Melihat data masuk di Sheets | Google Forms, Google Sheets, komputer, HP |
-| **Inti — Pembersihan Data** | 15 menit | 1) Membuka tab Responses → Link to Sheets. 2) Menjelaskan 3 masalah umum data: (a) Duplikat — baris yang sama dua kali, (b) Format tidak konsisten — ada "Senin" dan "senin", (c) Missing values — ada sel kosong. 3) Mendemonstrasikan: Data → Data cleanup → Remove duplicates. 4) Mendemonstrasikan: =UPPER() / =LOWER() / =PROPER() untuk merapikan teks. 5) Mendemonstrasikan: =COUNTIF() untuk cek missing values | 1) Membuka Sheets. 2) Menghapus duplikat. 3) Merapikan format teks dengan formula. 4) Mengecek missing values. 5) Mencatat jumlah data valid | Google Sheets, proyektor |
-| **Inti — Transformasi Data** | 20 menit | 1) Sorting: urutkan data berdasarkan kolom tertentu (A-Z, Z-A). 2) Filter: tampilkan hanya data dengan kondisi tertentu (misal: hobi = olahraga). 3) Grouping: gunakan Pivot Table untuk mengelompokkan frekuensi — berapa siswa suka warna merah? Berapa hobi olahraga? 4) Formula: =COUNTIF, =SUMIF, =AVERAGE untuk meringkas data. 5) Membuat kolom baru dengan formula: misal konversi jam belajar ke kategori (ringan/sedang/berat) | 1) Mempraktikkan sorting. 2) Mengaktifkan filter dan menyaring data. 3) Membuat Pivot Table sederhana. 4) Menggunakan formula COUNTIF, SUMIF. 5) Membuat kolom baru | Google Sheets, proyektor, panduan formula |
-| **Inti — Ekspor & Impor** | 10 menit | 1) Mendemonstrasikan ekspor data: File → Download → Comma Separated Values (.CSV). 2) Membuka file CSV di Notepad — lihat perbedaan format dengan Sheets. 3) Mendemonstrasikan impor data CSV ke Sheets: File → Import → Upload → CSV. 4) Menjelaskan kapan menggunakan CSV (transfer data antar aplikasi) dan kapan PDF (laporan final) | 1) Mengekspor data ke CSV. 2) Membuka CSV di Notepad. 3) Mengimpor CSV baru ke Sheets. 4) Menyimpan sebagai PDF | Google Sheets, CSV, Notepad |
-| **Penutup** | 10 menit | 1) Refleksi: "Mana yang paling tidak enak — ngumpulin, bersihin, atau ngolah data?" 2) Diskusi singkat: kenapa data cleaning adalah tahap paling memakan waktu di dunia nyata (data scientist menghabiskan 60-80% waktu untuk cleaning). 3) Penguatan: siklus yang sudah dipraktekkan hari ini adalah fondasi analisis data. 4) Doa | 1) Refleksi dan diskusi. 2) Menyimak penguatan. 3) Berdoa | Lembar refleksi |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 15 menit | 1) Salam dan doa. 2) Cek kehadiran. 3) Orientasi: "Minggu lalu kalian disuruh bawa data mentah — sekarang kita olah bersama!" 4) Mengecek siapa yang sudah membawa data. 5) Bagi yang belum bawa: data polling kelas akan digunakan sebagai alternatif. 6) Apersepsi: "Setelah data terkumpul, apa langkah selanjutnya?" 7) Menyampaikan TP | 1) Menjawab salam dan berdoa. 2) Menunjukkan data yang dibawa. 3) Menyimak alternatif. 4) Menjawab apersepsi. 5) Mencatat TP | Proyektor, data siswa, slide |
+| **MINING FULL** | **Eksplorasi** — Pengumpulan Data** | 20 menit | 1) Mendemonstrasikan membuat Google Forms: judul, deskripsi, pertanyaan. 2) Membimbing siswa membuat form untuk polling kelas — topik pilihan: hobi, warna favorit, makanan favorit, jam belajar per hari, transportasi ke sekolah. 3) Tipe pertanyaan: multiple choice, checkbox, short answer, linear scale. 4) Setelah form jadi, membagikan link ke kelas. 5) Semua siswa mengisi form teman sekelas | 1) Membuat Google Forms. 2) Menambahkan 5 pertanyaan dengan tipe variatif. 3) Mengirim link form ke teman. 4) Mengisi form teman. 5) Melihat data masuk di Sheets | Google Forms, Google Sheets, komputer, HP |
+| **MINING FULL** | **Eksplorasi** — Pembersihan Data** | 15 menit | 1) Membuka tab Responses → Link to Sheets. 2) Menjelaskan 3 masalah umum data: (a) Duplikat — baris yang sama dua kali, (b) Format tidak konsisten — ada "Senin" dan "senin", (c) Missing values — ada sel kosong. 3) Mendemonstrasikan: Data → Data cleanup → Remove duplicates. 4) Mendemonstrasikan: =UPPER() / =LOWER() / =PROPER() untuk merapikan teks. 5) Mendemonstrasikan: =COUNTIF() untuk cek missing values | 1) Membuka Sheets. 2) Menghapus duplikat. 3) Merapikan format teks dengan formula. 4) Mengecek missing values. 5) Mencatat jumlah data valid | Google Sheets, proyektor |
+| **MINING FULL** | **Eksplorasi** — Transformasi Data** | 20 menit | 1) Sorting: urutkan data berdasarkan kolom tertentu (A-Z, Z-A). 2) Filter: tampilkan hanya data dengan kondisi tertentu (misal: hobi = olahraga). 3) Grouping: gunakan Pivot Table untuk mengelompokkan frekuensi — berapa siswa suka warna merah? Berapa hobi olahraga? 4) Formula: =COUNTIF, =SUMIF, =AVERAGE untuk meringkas data. 5) Membuat kolom baru dengan formula: misal konversi jam belajar ke kategori (ringan/sedang/berat) | 1) Mempraktikkan sorting. 2) Mengaktifkan filter dan menyaring data. 3) Membuat Pivot Table sederhana. 4) Menggunakan formula COUNTIF, SUMIF. 5) Membuat kolom baru | Google Sheets, proyektor, panduan formula |
+| **MINING FULL** | **Eksplorasi** — Ekspor & Impor** | 10 menit | 1) Mendemonstrasikan ekspor data: File → Download → Comma Separated Values (.CSV). 2) Membuka file CSV di Notepad — lihat perbedaan format dengan Sheets. 3) Mendemonstrasikan impor data CSV ke Sheets: File → Import → Upload → CSV. 4) Menjelaskan kapan menggunakan CSV (transfer data antar aplikasi) dan kapan PDF (laporan final) | 1) Mengekspor data ke CSV. 2) Membuka CSV di Notepad. 3) Mengimpor CSV baru ke Sheets. 4) Menyimpan sebagai PDF | Google Sheets, CSV, Notepad |
+| **JOYFULL** | **Penutup Kreatif** | 10 menit | 1) Refleksi: "Mana yang paling tidak enak — ngumpulin, bersihin, atau ngolah data?" 2) Diskusi singkat: kenapa data cleaning adalah tahap paling memakan waktu di dunia nyata (data scientist menghabiskan 60-80% waktu untuk cleaning). 3) Penguatan: siklus yang sudah dipraktekkan hari ini adalah fondasi analisis data. 4) Doa | 1) Refleksi dan diskusi. 2) Menyimak penguatan. 3) Berdoa | Lembar refleksi |
 
 ### D. ASESMEN
 
@@ -79,7 +89,7 @@ Ceklist keterampilan: guru memantau dan menandai siswa yang berhasil melakukan s
 #### D.4 Rubrik Penilaian
 
 | Aspek | SB = 4 (Sangat Baik) | B = 3 (Baik) | C = 2 (Cukup) | PB = 1 (Perlu Bimbingan) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Membuat Google Forms | 5+ pertanyaan, 3+ tipe, rapi, link berfungsi | 5 pertanyaan, 2 tipe | 3-4 pertanyaan | < 3 pertanyaan |
 | Pembersihan Data | Duplikat terhapus, format rapi, missing values teratasi | Duplikat terhapus, format rapi | Duplikat terhapus | Tidak dibersihkan |
 | Transformasi (Sort, Filter, Group) | Sorting + filter + pivot table + 2 formula | Sorting + filter + pivot table | Sorting + filter | Hanya sorting |

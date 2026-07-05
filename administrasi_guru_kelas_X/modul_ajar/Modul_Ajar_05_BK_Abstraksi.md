@@ -17,6 +17,8 @@
 | Pertemuan ke- | 5 (Lima) |
 | Kompetensi Awal | Peserta didik telah memahami dekomposisi (memecah masalah) dan pattern recognition (mengenali pola). Peserta didik secara alami sudah terbiasa meringkas cerita atau penjelasan, namun belum memahami abstraksi sebagai teknik berpikir komputasional formal. |
 | Integrasi 8 Dimensi | Penalaran Kritis, Kreativitas, Komunikasi, Kemandirian, Kolaborasi, Keimanan & Ketakwaan, Kewargaan, Kesehatan |
+| **Integrasi 7 KAIH** | Gemar Belajar, Bermasyarakat |
+| **Pendekatan Deep Learning** | Mindful → Mining → Joyful |
 | Sarana & Prasarana | Proyektor, laptop guru, artikel/cerita cetak (masing-masing siswa mendapat kopian), kertas plano, spidol warna, sticky notes, papan tulis, koneksi internet |
 | Target Peserta Didik | Reguler (dengan diferensiasi) |
 | Model Pembelajaran | Problem Based Learning (PBL) |
@@ -24,6 +26,14 @@
 | Sumber Belajar | Buku Informatika Kelas X Bab 2, artikel berita dari Kompas/Detik, cerita pendek, diagram fishbone, video tentang abstraksi dalam pemrograman |
 
 ### B. TUJUAN PEMBELAJARAN
+### B.1 PEMAHAMAN BERMAKNA (MEANINGFUL)
+Dekomposisi, pengenalan pola, abstraksi, dan algoritma adalah fondasi berpikir komputasional yang digunakan sehari-hari — dari merencanakan liburan hingga memecahkan masalah kompleks di dunia kerja.
+
+
+### B.2 PERTANYAAN PEMANTIK (MINDFUL)
+1. Apa yang akan terjadi jika...?
+2. Bagaimana konsep ini terhubung dengan kehidupan sehari-harimu?
+3. Mengapa materi ini penting untuk dipelajari?
 
 #### B.1 Tujuan
 1. Membedakan informasi esensial dan non-esensial dari suatu permasalahan atau bacaan.
@@ -43,14 +53,14 @@ Abstraksi, esensial, non-esensial, generalisasi, penyederhanaan, detail, relevan
 
 ### C. KEGIATAN PEMBELAJARAN
 
-| Tahap | Waktu | Aktivitas Guru | Aktivitas Siswa | Media/Sumber |
-|---|---|---|---|---|
-| **Pendahuluan** | 10 menit | Guru membuka dengan salam dan doa. Apersepsi: "Kalian diminta menjelaskan cara membuat nasi goreng ke teman yang belum pernah lihat dapur. Apakah kalian perlu menjelaskan warna panci, merek kompor, atau posisi lemari?" — siswa menjawab. "Nah, yang kalian lakukan itu namanya ABSTRAKSI — ambil informasi penting saja!" Guru menyampaikan tujuan pembelajaran. | Siswa menjawab salam, berdoa, merespons pertanyaan apersepsi. Menyimak tujuan pembelajaran. Memberikan pendapat tentang informasi yang penting dan tidak penting. | Slide presentasi, papan tulis |
-| **Inti — Eksplorasi Konsep** | 15 menit | Guru menjelaskan konsep abstraksi: (1) Definisi — menyederhanakan masalah dengan fokus pada informasi relevan, (2) Analogi — peta jalan: peta tidak perlu menampilkan setiap rumah, cukup jalan utama, (3) Abstraksi dalam komputasi — Class, Object, Interface dalam pemrograman, (4) Contoh abstraksi dalam kehidupan: denah sekolah, ringkasan buku, iklan produk. Guru memberikan contoh konkret: teks deskripsi panjang tentang rumah — siswa diminta menyebutkan informasi esensial vs non-esensial. | Siswa menyimak, mencatat, dan menjawab pertanyaan. Membedakan informasi esensial vs non-esensial dari contoh yang diberikan guru. | Slide presentasi, papan tulis |
-| **Inti — Praktik Individu** | 15 menit | Guru membagikan teks deskripsi (1 paragraf, sekitar 100-150 kata) ke setiap siswa. Tugas: (1) baca teks dengan saksama, (2) garis bawahi informasi esensial, (3) tulis ringkasan 1 kalimat yang menangkap inti cerita. Guru berkeliling memeriksa hasil individu. | Setiap siswa membaca teks, menggarisbawahi informasi esensial, dan menulis ringkasan 1 kalimat. | Teks deskripsi cetak, pulpen, penggaris |
-| **Inti — Praktik Kelompok** | 20 menit | Guru membagi kelas menjadi 6-8 kelompok. Setiap kelompok mendapat 1 deskripsi masalah kompleks (kasus berbeda per kelompok). Tugas: (1) identifikasi akar masalah, (2) buang informasi tidak relevan, (3) buat diagram fishbone yang menunjukkan penyebab esensial, (4) tulis solusi dalam 3 langkah singkat. Kelompok mengerjakan di kertas plano. | Siswa berdiskusi dalam kelompok. Membaca kasus, menganalisis, mengidentifikasi informasi esensial, membuat diagram fishbone di kertas plano. | Kertas plano, spidol, kartu kasus |
-| **Inti — Diskusi & Banding** | 15 menit | Guru meminta 3-4 kelompok menempelkan hasil di papan tulis. Guru memimpin diskusi: "Bandingkan hasil kelompok A dan B — keduanya punya abstraksi berbeda, tapi apakah tetap sampai pada solusi yang sama? Kenapa bisa berbeda?" Guru menekankan bahwa abstraksi yang baik mempertahankan esensi tanpa kehilangan informasi kritis. | Perwakilan kelompok menempelkan hasil. Siswa membandingkan dan memberikan tanggapan. Menyadari bahwa abstraksi bisa berbeda namun tetap valid. | Hasil diagram fishbone di papan tulis |
-| **Penutup** | 15 menit | Guru memberikan penguatan: "Abstraksi membantu kita tidak tenggelam dalam detail — baik saat belajar, bekerja, maupun memprogram." Guru memberikan tugas: ambil 1 artikel berita dari koran/online, abstraksi menjadi 5 poin esensial. Refleksi: "Apa yang paling sulit dari abstraksi?" Doa dan salam. | Siswa menyimak, mencatat tugas, menyampaikan refleksi. Berdoa dan menjawab salam. | Buku catatan |
+| **Fase DL** | **Tahap** | **Waktu** | **Aktivitas Guru** | **Aktivitas Siswa** | **Media/Sumber** |
+|---|---|---|---|---|---|
+| **MINDFULL** | **Pemanasan** | 10 menit | Guru membuka dengan salam dan doa. Apersepsi: "Kalian diminta menjelaskan cara membuat nasi goreng ke teman yang belum pernah lihat dapur. Apakah kalian perlu menjelaskan warna panci, merek kompor, atau posisi lemari?" — siswa menjawab. "Nah, yang kalian lakukan itu namanya ABSTRAKSI — ambil informasi penting saja!" Guru menyampaikan tujuan pembelajaran. | Siswa menjawab salam, berdoa, merespons pertanyaan apersepsi. Menyimak tujuan pembelajaran. Memberikan pendapat tentang informasi yang penting dan tidak penting. | Slide presentasi, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Eksplorasi Konsep** | 15 menit | Guru menjelaskan konsep abstraksi: (1) Definisi — menyederhanakan masalah dengan fokus pada informasi relevan, (2) Analogi — peta jalan: peta tidak perlu menampilkan setiap rumah, cukup jalan utama, (3) Abstraksi dalam komputasi — Class, Object, Interface dalam pemrograman, (4) Contoh abstraksi dalam kehidupan: denah sekolah, ringkasan buku, iklan produk. Guru memberikan contoh konkret: teks deskripsi panjang tentang rumah — siswa diminta menyebutkan informasi esensial vs non-esensial. | Siswa menyimak, mencatat, dan menjawab pertanyaan. Membedakan informasi esensial vs non-esensial dari contoh yang diberikan guru. | Slide presentasi, papan tulis |
+| **MINING FULL** | **Eksplorasi** — Praktik Individu** | 15 menit | Guru membagikan teks deskripsi (1 paragraf, sekitar 100-150 kata) ke setiap siswa. Tugas: (1) baca teks dengan saksama, (2) garis bawahi informasi esensial, (3) tulis ringkasan 1 kalimat yang menangkap inti cerita. Guru berkeliling memeriksa hasil individu. | Setiap siswa membaca teks, menggarisbawahi informasi esensial, dan menulis ringkasan 1 kalimat. | Teks deskripsi cetak, pulpen, penggaris |
+| **MINING FULL** | **Eksplorasi** — Praktik Kelompok** | 20 menit | Guru membagi kelas menjadi 6-8 kelompok. Setiap kelompok mendapat 1 deskripsi masalah kompleks (kasus berbeda per kelompok). Tugas: (1) identifikasi akar masalah, (2) buang informasi tidak relevan, (3) buat diagram fishbone yang menunjukkan penyebab esensial, (4) tulis solusi dalam 3 langkah singkat. Kelompok mengerjakan di kertas plano. | Siswa berdiskusi dalam kelompok. Membaca kasus, menganalisis, mengidentifikasi informasi esensial, membuat diagram fishbone di kertas plano. | Kertas plano, spidol, kartu kasus |
+| **MINING FULL** | **Eksplorasi** — Diskusi & Banding** | 15 menit | Guru meminta 3-4 kelompok menempelkan hasil di papan tulis. Guru memimpin diskusi: "Bandingkan hasil kelompok A dan B — keduanya punya abstraksi berbeda, tapi apakah tetap sampai pada solusi yang sama? Kenapa bisa berbeda?" Guru menekankan bahwa abstraksi yang baik mempertahankan esensi tanpa kehilangan informasi kritis. | Perwakilan kelompok menempelkan hasil. Siswa membandingkan dan memberikan tanggapan. Menyadari bahwa abstraksi bisa berbeda namun tetap valid. | Hasil diagram fishbone di papan tulis |
+| **JOYFULL** | **Penutup Kreatif** | 15 menit | Guru memberikan penguatan: "Abstraksi membantu kita tidak tenggelam dalam detail — baik saat belajar, bekerja, maupun memprogram." Guru memberikan tugas: ambil 1 artikel berita dari koran/online, abstraksi menjadi 5 poin esensial. Refleksi: "Apa yang paling sulit dari abstraksi?" Doa dan salam. | Siswa menyimak, mencatat tugas, menyampaikan refleksi. Berdoa dan menjawab salam. | Buku catatan |
 
 ### D. ASESMEN
 
@@ -81,7 +91,7 @@ Abstraksi, esensial, non-esensial, generalisasi, penyederhanaan, detail, relevan
 
 #### D.4 Rubrik Penilaian
 | Kriteria | SB (4) | B (3) | C (2) | PB (1) |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Ketepatan Abstraksi | Semua esensi tertangkap, ringkasan sangat akurat | Sebagian besar esensi tertangkap, ringkasan cukup akurat | Beberapa esensi hilang, ringkasan kurang tepat | Esensi utama hilang, ringkasan salah |
 | Identifikasi Esensial vs Non-Esensial | 5 esensial + 3 non-esensial, alasan logis | 4 esensial + 2 non-esensial, alasan cukup | 3 esensial + 1 non-esensial, alasan kurang | <3 esensial, tidak ada alasan |
 | Diagram Fishbone | Struktur tepat, hierarki penyebab jelas, rapi | Struktur cukup tepat, hierarki cukup jelas | Struktur kurang rapi, hierarki membingungkan | Tidak membuat diagram |

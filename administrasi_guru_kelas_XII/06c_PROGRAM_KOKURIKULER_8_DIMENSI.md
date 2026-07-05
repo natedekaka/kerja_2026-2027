@@ -24,3 +24,21 @@
 | Simulasi Keamanan Jaringan | Praktik lab | 5 JP | Penalaran Kritis, Kolaborasi |
 | Debat Dampak Media Sosial | Debat kelas | 3 JP | Penalaran Kritis, Komunikasi, Kewargaan |
 | Pameran Proyek Lintas Bidang | Presentasi publik | 5 JP | Kreativitas, Komunikasi, Kolaborasi |
+
+---
+
+## Integrasi 7 Kebiasaan Anak Indonesia Hebat (7 KAIH)
+
+Berdasarkan **SEB 3 Menteri No. 1/2025** & **SE No. 14/2025**:
+
+| # | Kebiasaan | Aktivitas Terintegrasi | Waktu |
+|---|-----------|------------------------|-------|
+| 1 | **Bangun Pagi** | Disiplin praktik lab, tracking progres IoT | Harian |
+| 2 | **Beribadah** | Doa bersama, etika dalam AI & cybersecurity | Setiap pertemuan |
+| 3 | **Berolahraga** | Senam AIH, jeda ceria sela coding | 2x/minggu |
+| 4 | **Makan Sehat** | Analisis data gizi (proyek lintas bidang) | Semester 2 |
+| 5 | **Gemar Belajar** | Eksplorasi AI/ML, literasi digital lanjut | Setiap pertemuan |
+| 6 | **Bermasyarakat** | IoT/Arduino untuk solusi nyata sekolah | Semester 2 |
+| 7 | **Tidur Cepat** | Edukasi screen time, manajemen waktu | Semester 1 |
+
+**Catatan:** P5 tetap jalan sebagai proyek tematik. 7KAIH adalah pembiasaan harian. Deep Learning (Mindful, Mining, Joyful) adalah pendekatan pembelajaran.

@@ -75,5 +75,8 @@
 ---
 
 > Dokumen ini disusun untuk Tahun Pelajaran 2026/2027  
-> Berdasarkan Capaian Pembelajaran Kurikulum Merdeka serta  
-> **Profil Lulusan 8 Dimensi** (Kemendikdasmen, 2025) — 8 Dimensi Profil Lulusan diintegrasikan ke dalam pembelajaran mendalam (deep learning) sebagai program kokurikuler.
+> Berdasarkan Capaian Pembelajaran Kurikulum Merdeka,  
+> **Profil Lulusan 8 Dimensi** (Permendikdasmen No. 13/2025),  
+> **Gerakan 7 Kebiasaan Anak Indonesia Hebat** (SEB 3 Menteri No. 1/2025),  
+> serta **Pendekatan Pembelajaran Mendalam (Deep Learning)** — Mindful, Meaningful, Joyful —  
+> yang diintegrasikan ke dalam setiap modul ajar dan kegiatan kokurikuler.
