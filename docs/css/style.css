@@ -753,11 +753,6 @@ body {
   .signature-block { flex-direction: column; gap: 2.5rem; }
 }
 
-@media print {
-  .signature-block { page-break-inside: avoid; }
-  .sig-space { height: 3rem; }
-}
-
 /* ═══ PRINT BUTTON ═══ */
 .btn-print {
   display: inline-flex;
@@ -782,8 +777,23 @@ body {
 @page { margin: 2cm; size: A4; }
 
 @media print {
+  /* ── reset layout ── */
+  html, body {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  /* ── hide UI ── */
   .sidebar { display: none !important; }
-  .content { margin-left: 0 !important; padding: 0 !important; }
   .site-footer { display: none !important; }
   .breadcrumb-wrap { display: none !important; }
   .hamburger { display: none !important; }
@@ -798,29 +808,85 @@ body {
   .identity-section { display: none !important; }
   .teacher-grid-wrap { display: none !important; }
   .grade-grid { display: none !important; }
-  .hero { background: none !important; color: #000 !important; border: 1px solid #ccc !important; padding: 0.5rem !important; }
+  .hero-icon { display: none !important; }
+
+  /* ── hero sederhana ── */
+  .hero {
+    background: none !important;
+    color: #000 !important;
+    border: 1px solid #ccc !important;
+    padding: 0.5rem !important;
+  }
   .hero h1 { color: #000 !important; font-size: 14pt !important; }
   .hero p { color: #333 !important; font-size: 11pt !important; }
   .hero .sub { color: #666 !important; }
-  .hero-icon { display: none !important; }
-  .grade-card { break-inside: avoid; }
-  .content-inner {
+
+  /* ── main content ── */
+  .content {
+    display: block !important;
+    width: 100% !important;
     max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex: none !important;
+  }
+  .content-inner {
+    display: block !important;
+    max-width: 100% !important;
+    width: 100% !important;
     padding: 1cm 1.5cm !important;
     margin: 0 !important;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
+    box-sizing: border-box !important;
   }
-  body { background: #fff !important; color: #000 !important; font-size: 11pt; }
+
+  /* ── typography ── */
   a { color: #000 !important; text-decoration: underline; }
   h1, h2, h3, h4 { page-break-after: avoid; }
-  table { font-size: 9pt; table-layout: fixed; width: 100%; }
-  th, td { word-break: break-word; overflow-wrap: break-word; }
-  .table-wrap { overflow: visible !important; width: 100%; }
-  pre, code { font-size: 8pt; white-space: pre-wrap; word-break: break-word; }
+
+  /* ── tables ── */
+  .table-wrap {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: visible !important;
+  }
+  table {
+    font-size: 9pt;
+    width: 100%;
+    max-width: 100% !important;
+    border-collapse: collapse;
+  }
+  th, td {
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    hyphens: auto;
+    white-space: normal !important;
+  }
+  tr { page-break-inside: avoid; }
+
+  /* ── code ── */
+  pre, code {
+    font-size: 8pt;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* ── images ── */
   img { max-width: 100% !important; page-break-inside: avoid; }
+
+  /* ── keep together ── */
+  .grade-card { break-inside: avoid; }
   .cat-card, .stat-card, .teacher-card { break-inside: avoid; }
-  p, li, div { overflow-wrap: break-word; word-wrap: break-word; }
+  .signature-block { page-break-inside: avoid; }
+  .sig-space { height: 3rem; }
+
+  /* ── text wrapping safety ── */
+  p, li, div, span, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
 }
 
 /* ═══ ANIMATIONS ═══ */
