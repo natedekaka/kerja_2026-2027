@@ -798,7 +798,7 @@ body {
   border-color: var(--primary);
 }
 
-@page { margin: 0; size: A4; }
+@page { margin: 2cm; size: A4; }
 
 @media print {
   .sidebar { display: none !important; }
@@ -825,7 +825,7 @@ body {
   .grade-card { break-inside: avoid; }
   .content-inner {
     max-width: 100% !important;
-    padding: 2cm !important;
+    padding: 1cm 1.5cm !important;
     margin: 0 !important;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
@@ -833,10 +833,13 @@ body {
   body { background: #fff !important; color: #000 !important; font-size: 11pt; }
   a { color: #000 !important; text-decoration: underline; }
   h1, h2, h3, h4 { page-break-after: avoid; }
-  table { font-size: 9pt; }
+  table { font-size: 9pt; table-layout: fixed; width: 100%; }
+  th, td { word-break: break-word; overflow-wrap: break-word; }
+  .table-wrap { overflow: visible !important; width: 100%; }
   pre, code { font-size: 8pt; white-space: pre-wrap; word-break: break-word; }
   img { max-width: 100% !important; page-break-inside: avoid; }
   .cat-card, .stat-card, .teacher-card { break-inside: avoid; }
+  p, li, div { overflow-wrap: break-word; word-wrap: break-word; }
 }
 
 /* ═══ ANIMATIONS ═══ */
